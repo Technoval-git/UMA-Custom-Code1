@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="Z472BD8A2E74CAE732890C0B71888849" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>ZVSSCTGPROC</ID>
+     <TITLE Transl="true">1</TITLE>
+     <CATALOG_ID>/UI2/FLPD_CATALOG</CATALOG_ID>
+     <LAYOUT>{&quot;order&quot;:[&quot;2XVYKKK6T07E9EX9ZGH09SW6D&quot;,&quot;2XVYKKK6T07E9EXAH79BR6FS6&quot;,&quot;2XVYKKK6T07E9EXAU6ES2M9UU&quot;,&quot;2XVYKKK6T07E9EXBI4RGX3I6M&quot;,&quot;2XVYKKK6T07E9EXDHID8XPNV4&quot;,&quot;2XVYKKK6T07E9F0W1CY89YH6D&quot;,&quot;2XVYKKK6T07CJ4J8DLHQ19IQY&quot;,&quot;2XVYKKK6T07E9F0W1CY8A1GMT&quot;,&quot;2XVYKKK6T07E9F2EMOMFDO8QF&quot;,&quot;2XVYKKK6T07E9F2FJH5415ISJ&quot;,&quot;2XVYKKK6T07E9F2FJHXHWKIN8&quot;,&quot;2XVYKKK6T07E9FDXZDHGM9HHI&quot;,&quot;2XVYKKK6T07E9FDXZE2CLYRWM&quot;,&quot;2XVYKKK6T07E9FDXZG1KTUYFA&quot;],&quot;linkOrder&quot;:[]}</LAYOUT>
+     <ORIGINAL_LANGUAGE>en</ORIGINAL_LANGUAGE>
+     <IS_CATALOG_PAGE/>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20240221072856</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EX9ZGH09SW6D</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9EX9Y1Q36B0SY</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240217190135</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EXAH79BR6FS6</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9EXABD6BYW4B5</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240217191145</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EXAU6ES2M9UU</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9EXAS7Y43Y7GQ</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240217191913</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EXBI4RGX3I6M</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9EXBG417U4LGV</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240217193257</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EXDHID8XPNV4</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9EXAKJ388C1WK</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240217201355</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ4J8DLHQ19IQY</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07CJ4J8B07MPSYS7</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240217212307</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F0W1CY89YH6D</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9F0UPHWJDVDOL</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240219154846</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F0W1CY8A1GMT</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIPROCU:2XVYKKK6T07E9F0UU6EL4ABFZ</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240219154847</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2EMOMFDO8QF</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSVEHIMAT:2XVYKKK6T07E9F2EHEYNDXWAC</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220103647</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2FJH5415ISJ</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSPROCMAT:2XVYKKK6T07E9F2FCH13EA7J5</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220105536</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2FJHXHWKIN8</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSPROCMAT:2XVYKKK6T07E9F2FGJHT37F2P</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220105537</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXZDHGM9HHI</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSPROCMAT:2XVYKKK6T07E9FDXWEPHYLV0Z</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072854</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXZE2CLYRWM</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSPROCMAT:2XVYKKK6T07E9FDXWN9VBKZ89</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072855</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXZG1KTUYFA</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSPROCMAT:2XVYKKK6T07E9FDXX2YTTBPG5</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072856</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

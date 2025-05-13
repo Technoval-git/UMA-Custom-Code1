@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZMM_WHO_PRINT</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Warehouse order print</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>ALL_SORT</KEY>
+     <ENTRY>Sort by Storage Bin &amp; Material</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>C_COLDLV</KEY>
+     <ENTRY>Collect Deliveries</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>C_QTY</KEY>
+     <ENTRY>Show Quantity</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>LOC_SORT</KEY>
+     <ENTRY>Sort by Storage Bin</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MAT_SORT</KEY>
+     <ENTRY>Sort by Material Number</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LANGU</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_DELV</KEY>
+     <ENTRY>Delivery Slip</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_OFFL</KEY>
+     <ENTRY>Offloading Slip</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_PICK</KEY>
+     <ENTRY>Picking Slip</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_ENTTLD</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_LGNUM</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_REFDOC</KEY>
+     <ENTRY>ERP Document Number</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_WHO</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

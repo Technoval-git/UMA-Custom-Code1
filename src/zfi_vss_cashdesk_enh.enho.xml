@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>FI VSS Cashdesk enhancement</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>CLAS</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>/DBE/CL_TILL_ACTION_IMPL</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>CLAS</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>/DBE/CL_TILL_ACTION_IMPL</ORG_MAIN_NAME>
+    <PROGRAMNAME>/DBE/CL_TILL_ACTION_IMPL======CP</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>/DBE/CL_TILL_ACTION_IMPL======CP</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\TY:/DBE/CL_TILL_ACTION_IMPL\ME:FILL_SCREEN_0300\SE:END\EI</FULL_NAME>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <FILES>
+    <item>
+     <NAME>\TY:/DBE/CL_TILL_ACTION_IMPL\ME:FILL_SCREEN_0300\SE:END\EI</NAME>
+     <FILE>6f7762f0</FILE>
+    </item>
+   </FILES>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>E31C397AA5C01EEF95AE700614D4096A</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>E31C397AA5C01EEF95AE700614D4096A</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <FLAG_CORR>X</FLAG_CORR>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>FI VSS Cashdesk enhancement</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZFI_VSS_CASHDESK_ENH</OBJ_NAME>
+     <CONCEPT>E31C397AA5C01EEF95AE700614D4096A</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

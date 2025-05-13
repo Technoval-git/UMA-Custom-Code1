@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>UKMBP_CMS_SGM</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFI_UKMBP_CMS_SGMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFI_UKMBP_CMS_SGM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFI_UKMBP_CMS_SGM</FUNCNAME>
+     <SHORT_TEXT>ZFI_UKMBP_CMS_SGM</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZVSS_VEH_MAT_UPLOAD_N</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Vehicle Inbound</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Log file</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Select the Input file</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Input file format does not support predetermined file extensions, which are CSV and TXT.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Success log file is not provided</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Error log file is not provided</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Input file is not provided</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Input file is empty</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>Status</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Message</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>External Vehicle No</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>VIN</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>Vendor ID</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>PO Number</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>PO Item</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Delivery Date</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>ASN</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>Delivery Quantity</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>019</KEY>
+     <ENTRY>File log</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Total Records</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Success Records</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>Failed Records</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>023</KEY>
+     <ENTRY>Plant Details</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>025</KEY>
+     <ENTRY>PO Item</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>026</KEY>
+     <ENTRY>40</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>036</KEY>
+     <ENTRY>No of Records:</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>037</KEY>
+     <ENTRY>Executed on:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>038</KEY>
+     <ENTRY>Executed by:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>039</KEY>
+     <ENTRY>No of Error Records:</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CLS</KEY>
+     <ENTRY>Class</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L01</KEY>
+     <ENTRY>log path empty</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L14</KEY>
+     <ENTRY>invalid log path</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>N00</KEY>
+     <ENTRY>Message Type</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>N01</KEY>
+     <ENTRY>Material</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>N02</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>N03</KEY>
+     <ENTRY>Messages</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>N04</KEY>
+     <ENTRY>Log display</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PRF</KEY>
+     <ENTRY>Profile</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Vehicle Material Master</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PR_FILE</KEY>
+     <ENTRY>File Path</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PR_LOGIC</KEY>
+     <ENTRY>Logical File</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PR_PC</KEY>
+     <ENTRY>Presentation Server</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PR_PI</KEY>
+     <ENTRY>Application Server</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ELOGIC</KEY>
+     <ENTRY>Error Log Logical File</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ERROR</KEY>
+     <ENTRY>Error Log File Path</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FILE</KEY>
+     <ENTRY>File Path</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LOG</KEY>
+     <ENTRY>Log File Path</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LOGICL</KEY>
+     <ENTRY>Logical File Name</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SLOGIC</KEY>
+     <ENTRY>Success Log Logical File</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SUCC</KEY>
+     <ENTRY>Success Log File Path</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_WOPLAN</KEY>
+     <ENTRY>All Plants</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_WPLANT</KEY>
+     <ENTRY>Specific Plant</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_WERKS</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

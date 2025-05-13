@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="Z18D7354AEC50CA16283E2DB985A367D" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>X-SAP-UI2-CATALOGPAGE:ZUCD_VSS_Sales</ID>
+     <TITLE Transl="true">1</TITLE>
+     <CATALOG_ID/>
+     <LAYOUT/>
+     <ORIGINAL_LANGUAGE/>
+     <IS_CATALOG_PAGE>X</IS_CATALOG_PAGE>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20240211132115</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EB9X2OZ37Z04</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0010\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Order-create\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Order\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;create\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Quotation; Order\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211130719</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9EBA4FHAZ8FQL</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Order\&quot;,\&quot;semantic_action\&quot;:\&quot;create\&quot;,\&quot;display_title_text\&quot;:\&quot;Used Car Quotation\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/dbe/order01\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211123055</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X2NNVCZDBTU</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Customer\&quot;,\&quot;semantic_action\&quot;:\&quot;create\&quot;,\&quot;display_title_text\&quot;:\&quot;Business Partner\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;BP\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211125240</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X2PB8VNNYAZ</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Order\&quot;,\&quot;semantic_action\&quot;:\&quot;display\&quot;,\&quot;display_title_text\&quot;:\&quot;Display Order / Quotation\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/dbe/order03\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211125231</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X2SFFXZZIQ1</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Order\&quot;,\&quot;semantic_action\&quot;:\&quot;change\&quot;,\&quot;display_title_text\&quot;:\&quot;Change Order / Quotation\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/dbe/order02\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211125343</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X2TR2GFD38L</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Order\&quot;,\&quot;semantic_action\&quot;:\&quot;manage\&quot;,\&quot;display_title_text\&quot;:\&quot;Manager Sales Order / Quotation\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/dbe/order\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211125459</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X2ZWG1DIP83</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Vehicle\&quot;,\&quot;semantic_action\&quot;:\&quot;create\&quot;,\&quot;display_title_text\&quot;:\&quot;Create Used Vehicle\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/dbe/vm\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211125749</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X366RC7VR2F</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0010\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Order-change\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Order\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;change\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Quotation ; Order\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211130940</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X386DVJE28Y</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0010\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Order-display\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Order\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;display\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Quotation ; Sales Order\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211130954</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X3B1LXH3O66</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0021\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Customer-manage\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Customer\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;manage\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Customer\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211130532</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X3MAL10SCN2</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori5/F0757\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Vehicle-create\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Vehicle\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;create\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Vehicle\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211131401</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X3T61DZ8EQJ</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://insurance-car\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Vehicle-manage?/dbe/vsearch\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Vehicle\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;manage\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;/dbe/vsearch\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Search\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211131819</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X41X5SCD4K1</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;InvoiceManagement\&quot;,\&quot;semantic_action\&quot;:\&quot;manage\&quot;,\&quot;display_title_text\&quot;:\&quot;Cash Desk\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/dbe/cashdesk\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211132012</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ3X43XY5VPDO7</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0021\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#InvoiceManagement-manage\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;InvoiceManagement\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;manage\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Invoice ; Cash desk\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240211132115</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

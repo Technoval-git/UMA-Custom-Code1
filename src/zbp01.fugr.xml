@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Busniess Partner</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBP01TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBP01</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBP_CHECK</FUNCNAME>
+     <SHORT_TEXT>BP check</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BU_SORT2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_SORT2</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>FLAG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BU_SORT2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Search Term 2 for Business Partner</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLAG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Business Partner Number</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZBP_CREATE</FUNCNAME>
+     <SHORT_TEXT>BP Create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BPDETAILS</PARAMETER>
+       <DBFIELD>ZBP_CREATE_STRUCT</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BPDETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Business Partner Create Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCUST_CREATE</FUNCNAME>
+     <SHORT_TEXT>BP Customer Create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CUST_DETAILS</PARAMETER>
+       <TYP>ZCUST_CREATE_STRUCT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CUST_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customer Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Business Partner Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZVEND_CREATE</FUNCNAME>
+     <SHORT_TEXT>Vendor Create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>VEND_DETAILS</PARAMETER>
+       <TYP>ZBP_VENDOR_STRUCT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>VEND_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BP Vendor Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BPARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Business Partner Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

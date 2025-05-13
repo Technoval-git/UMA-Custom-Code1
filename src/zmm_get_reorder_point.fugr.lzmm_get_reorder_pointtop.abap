@@ -1,0 +1,3 @@
+FUNCTION-POOL ZMM_GET_REORDER_POINT.        "MESSAGE-ID ..
+
+* INCLUDE LZMM_GET_REORDER_POINTD...         " Local class definition

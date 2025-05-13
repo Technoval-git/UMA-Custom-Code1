@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZR_SUBTOTALPARTSANDACCESSORIES</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>WRBTR</DOMNAME>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>ZR_SUBTOTALPARTSANDACCESSORIES</DDTEXT>
+    <SCRTEXT_L>SUB TOTAL PARTS AND ACCESSORIES</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

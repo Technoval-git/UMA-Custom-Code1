@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/ADAPTATION_PAGE" ConfId="ZDCDB4698AEFD14351AAD205CC9ADAC2" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>ZVSSVEHIADMN</ID>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9CQAN7K72172B</USAGE_ID>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ4K3K38M4HCI8</USAGE_ID>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07CJ4MELRM8DWP0I</USAGE_ID>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

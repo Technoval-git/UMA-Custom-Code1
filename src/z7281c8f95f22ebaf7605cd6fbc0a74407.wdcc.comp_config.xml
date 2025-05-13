@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/ADAPTATION_PAGE" ConfId="Z7281C8F95F22EBAF7605CD6FBC0A744" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>ZPRICE_CATALOG_GROUP</ID>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAMKS9OAX5YDWIGS</USAGE_ID>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

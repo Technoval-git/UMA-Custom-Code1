@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCP1" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCP1>
+    <SCPRATTR>
+     <ID>ZAIF_S4_EDOC_GLO</ID>
+     <TYPE>TMP</TYPE>
+     <ORGID>/CUSTOMER/</ORGID>
+     <COMPONENT>S4CORE</COMPONENT>
+     <MINRELEASE>100</MINRELEASE>
+     <MAXRELEASE>*</MAXRELEASE>
+    </SCPRATTR>
+    <SCPRTEXT>
+     <SCPRTEXT>
+      <LANGU>E</LANGU>
+      <ID>ZAIF_S4_EDOC_GLO</ID>
+      <VERSION>N</VERSION>
+      <TEXT>eDocument Generic</TEXT>
+     </SCPRTEXT>
+    </SCPRTEXT>
+    <SUBPROFS>
+     <SCPRPPRL>
+      <ID>ZAIF_S4_EDOC_GLO</ID>
+      <VERSION>N</VERSION>
+      <SUBPROFILE>ZAIF_S4_EDOC_GLO_NAMESPACE_V01</SUBPROFILE>
+      <PROF_POSIT>1</PROF_POSIT>
+     </SCPRPPRL>
+     <SCPRPPRL>
+      <ID>ZAIF_S4_EDOC_GLO</ID>
+      <VERSION>N</VERSION>
+      <SUBPROFILE>ZAIF_S4_EDOC_GLO_ACTIONS_V01</SUBPROFILE>
+      <PROF_POSIT>2</PROF_POSIT>
+     </SCPRPPRL>
+    </SUBPROFS>
+   </SCP1>
+  </asx:values>
+ </asx:abap>
+</abapGit>

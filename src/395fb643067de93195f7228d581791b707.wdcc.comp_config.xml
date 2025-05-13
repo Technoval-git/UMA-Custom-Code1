@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="395FB643067DE93195F7228D581791B7" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>X-SAP-UI2-CATALOGPAGE:CLM_EQUI</ID>
+     <TITLE Transl="true">1</TITLE>
+     <CATALOG_ID/>
+     <LAYOUT/>
+     <ORIGINAL_LANGUAGE/>
+     <IS_CATALOG_PAGE>X</IS_CATALOG_PAGE>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20241224123533</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBFCQKZM8QZM5R</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;VehicleAva\&quot;,\&quot;semantic_action\&quot;:\&quot;display\&quot;,\&quot;display_title_text\&quot;:\&quot;Vehicle Availability\&quot;,\&quot;url\&quot;:\&quot;/sap/opu/odata/sap/ZV_AVAIL_B_SRV/\&quot;,\&quot;ui5_component\&quot;:\&quot;id1\&quot;,\&quot;navigation_provider\&quot;:\&quot;SAPUI5\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20241224123325</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBFCR5MNQ0IRQN</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0405\&quot;,\&quot;navigation_use_semantic_object\&quot;:false,\&quot;navigation_target_url\&quot;:\&quot;/sap/opu/odata/sap/ZV_AVAIL_B_SRV/\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;VehicleAva\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;display\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20241224123533</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBFD2V9U8FDQ7J</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20241224113858</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

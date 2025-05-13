@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="ZA3D44E17465618E94B350A7879A0670" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>X-SAP-UI2-CATALOGPAGE:ZVSSPROCMAT</ID>
+     <TITLE Transl="true">1</TITLE>
+     <CATALOG_ID/>
+     <LAYOUT/>
+     <ORIGINAL_LANGUAGE/>
+     <IS_CATALOG_PAGE>X</IS_CATALOG_PAGE>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20240221072735</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2FCH13EA7J5</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0041\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#Modelopt-create\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;Modelopt\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;create\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220105258</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2FFH87UP1OT</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;Modelopt\&quot;,\&quot;semantic_action\&quot;:\&quot;create\&quot;,\&quot;display_title_text\&quot;:\&quot;Edit Model and Vehicle Options\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/DBE/VM_OPT\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220105350</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2FGJHT37F2P</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0257\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#vehift-manage\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;vehift\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;manage\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;\&quot;,\&quot;display_search_keywords\&quot;:\&quot;\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220105439</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9F2FI3R1MAKAJ</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;vehift\&quot;,\&quot;semantic_action\&quot;:\&quot;manage\&quot;,\&quot;display_title_text\&quot;:\&quot;Maintain Features Categories\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;\&quot;,\&quot;navigation_provider\&quot;:\&quot;TR\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;/DBE/VOPTYPE\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;DS4\&quot;,\&quot;display_info_text\&quot;:\&quot;\&quot;,\&quot;mapping_signature\&quot;:\&quot;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240220105512</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXUBDV721B0</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-ADCAT:SAP_TC_ISA_VMS_BE_APPS:S4ISA</REF_PAGE_ID>
+       <REF_USAGE_ID>005056AC156F1ED688D24DA10316A442_TM</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072600</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXV6ZKTU2PA</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-ADCAT:SAP_TC_ISA_VMS_BE_APPS:S4ISA</REF_PAGE_ID>
+       <REF_USAGE_ID>005056AC156F1ED688D24DA10316E442_TM</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072630</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXVRWRACWNE</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-ADCAT:SAP_TC_ISA_VMS_BE_APPS:S4ISA</REF_PAGE_ID>
+       <REF_USAGE_ID>005056AC156F1ED688D24DA103170442_TM</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072651</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXWEPHYLV0Z</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-ADCAT:SAP_TC_ISA_VMS_BE_APPS:S4ISA</REF_PAGE_ID>
+       <REF_USAGE_ID>005056AC156F1ED688D24DA103170442_AL</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072712</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXWN9VBKZ89</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-ADCAT:SAP_TC_ISA_VMS_BE_APPS:S4ISA</REF_PAGE_ID>
+       <REF_USAGE_ID>005056AC156F1ED688D24DA10316E442_AL</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072721</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9FDXX2YTTBPG5</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-ADCAT:SAP_TC_ISA_VMS_BE_APPS:S4ISA</REF_PAGE_ID>
+       <REF_USAGE_ID>005056AC156F1ED688D24DA10316A442_AL</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240221072735</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

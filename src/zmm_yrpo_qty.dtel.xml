@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_YRPO_QTY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>MENG13</DOMNAME>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>09</SCRLEN2>
+    <DDTEXT>Return PO</DDTEXT>
+    <SCRTEXT_S>RETURN PO</SCRTEXT_S>
+    <SCRTEXT_M>RETURN PO</SCRTEXT_M>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>D</LANGUAGE>
+     <ID/>
+     <TEXT>Schnittstelle für SCM-Formulare</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for SCM forms</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>A</LANGUAGE>
+     <ID/>
+     <TEXT>زاجهة نماذج SCM</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>WHO-PLANDURA</VALUE>
+       <UNIT>WHO-UNIT_T</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-G_WEIGHT</VALUE>
+       <UNIT>HUHDR_INT-UNIT_GW</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-N_WEIGHT</VALUE>
+       <UNIT>HUHDR_INT-UNIT_GW</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-T_WEIGHT</VALUE>
+       <UNIT>HUHDR_INT-UNIT_TW</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-G_VOLUME</VALUE>
+       <UNIT>HUHDR_INT-UNIT_GV</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-N_VOLUME</VALUE>
+       <UNIT>HUHDR_INT-UNIT_GV</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-T_VOLUME</VALUE>
+       <UNIT>HUHDR_INT-UNIT_TV</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-LENGTH</VALUE>
+       <UNIT>HUHDR_INT-UNIT_LWH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-WIDTH</VALUE>
+       <UNIT>HUHDR_INT-UNIT_LWH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-HEIGHT</VALUE>
+       <UNIT>HUHDR_INT-UNIT_LWH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-MAX_WEIGHT</VALUE>
+       <UNIT>HUHDR_INT-UNIT_GW</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-MAX_VOLUME</VALUE>
+       <UNIT>HUHDR_INT-UNIT_GV</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-MAX_LENGTH</VALUE>
+       <UNIT>HUHDR_INT-UNIT_LWH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-MAX_WIDTH</VALUE>
+       <UNIT>HUHDR_INT-UNIT_LWH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>HUHDR_INT-MAX_HEIGHT</VALUE>
+       <UNIT>HUHDR_INT-UNIT_LWH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDIM_O-VSOLM</VALUE>
+       <UNIT>ORDIM_O-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDIM_O-VSOLA</VALUE>
+       <UNIT>ORDIM_O-ALTME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDIM_O-KQUAN</VALUE>
+       <UNIT>ORDIM_O-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDIM_O-WEIGHT</VALUE>
+       <UNIT>ORDIM_O-UNIT_W</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDIM_O-VOLUM</VALUE>
+       <UNIT>ORDIM_O-UNIT_V</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDIM_O-SOLPO</VALUE>
+       <UNIT>ORDIM_O-ZEIEI</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GS_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_HEADER</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_FINAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_FINAL</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_FINAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TT_FINAL</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>TYPES : BEGIN OF  ty_final,</FPCLINE>
+      <FPCLINE>          lgnum   TYPE  /scwm/lgnum,</FPCLINE>
+      <FPCLINE>          tanum   TYPE /scwm/ordim_c-tanum,</FPCLINE>
+      <FPCLINE>          matid   TYPE /scwm/ordim_c-matid,</FPCLINE>
+      <FPCLINE>          maktx   TYPE makt-maktx,</FPCLINE>
+      <FPCLINE>          vsolm   TYPE /scwm/ordim_c-vsolm,</FPCLINE>
+      <FPCLINE>          meins   TYPE /scwm/aqua-unit,</FPCLINE>
+      <FPCLINE>          batchid TYPE /scwm/ordim_c-batchid,</FPCLINE>
+      <FPCLINE>          lgort   TYPE lips-lgort,</FPCLINE>
+      <FPCLINE>          vlpla   TYPE /scwm/ordim_c-vlpla,</FPCLINE>
+      <FPCLINE>          nlpla   TYPE /scwm/ordim_c-nlpla,</FPCLINE>
+      <FPCLINE>          matnr   TYPE picps-matnr,</FPCLINE>
+      <FPCLINE>          quan    TYPE /scwm/de_kquan,</FPCLINE>
+      <FPCLINE>          vlenr   TYPE /scwm/ltap_vlenr,</FPCLINE>
+      <FPCLINE>          nlenr   TYPE /scwm/ltap_nlenr,</FPCLINE>
+      <FPCLINE>          matnr1  TYPE picps-matnr,</FPCLINE>
+      <FPCLINE>        END OF  ty_final,</FPCLINE>
+      <FPCLINE>        tt_final TYPE TABLE OF ty_final.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>TYPES : BEGIN OF ty_header,</FPCLINE>
+      <FPCLINE>          vbeln	         TYPE	vbeln_va,</FPCLINE>
+      <FPCLINE>          erdat	         TYPE	erdat,</FPCLINE>
+      <FPCLINE>          erzet	         TYPE	erzet,</FPCLINE>
+      <FPCLINE>          vsbed	         TYPE	vsbed,</FPCLINE>
+      <FPCLINE>          vtext	         TYPE	vsbed_bez,</FPCLINE>
+      <FPCLINE>          suplant	       TYPE	reswk,</FPCLINE>
+      <FPCLINE>          supplantdesc   TYPE name1,</FPCLINE>
+      <FPCLINE>          werks	         TYPE	werks_d,</FPCLINE>
+      <FPCLINE>          res_plant_desc TYPE name1,</FPCLINE>
+      <FPCLINE>          lprio	         TYPE	lprio,</FPCLINE>
+      <FPCLINE>          bezei	         TYPE	bezei20,</FPCLINE>
+      <FPCLINE>          vgbel	         TYPE	vgbel,</FPCLINE>
+      <FPCLINE>          cust_name	     TYPE	bu_nameor1,</FPCLINE>
+      <FPCLINE>          aenam	         TYPE	aenam,</FPCLINE>
+      <FPCLINE>          sono           TYPE /dbe/vbeln_va,</FPCLINE>
+      <FPCLINE>        END OF ty_header.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>IT_PI_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_PRINT_PI_DOC</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>WO_MISC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_WO_INFO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>WHO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/WHO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>WHUHU</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_WHOHU_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDIM_O</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_ORDIM_O</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDIM_C</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_ORDIM_C</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDIM_L</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_ORDIM_L</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDIM_OS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_ORDIM_OS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDIM_CS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_ORDIM_CS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PRINT_PARAM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/S_PRINT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>WHO_CREATED_DATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>DATS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HUHDR_INT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_HUHDR_INT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TSP_CARRIER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/DE_TSP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ALPHA_CODE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCMB/MDL_PRT_SCAC</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>*BREAK-POINT.</FPCLINE>
+      <FPCLINE>TYPES : BEGIN OF ty_vbeln,</FPCLINE>
+      <FPCLINE>          vbeln TYPE vbeln,</FPCLINE>
+      <FPCLINE>          posnr TYPE posnr_vl,</FPCLINE>
+      <FPCLINE>        END OF ty_vbeln.</FPCLINE>
+      <FPCLINE>DATA(lt_ordim_o) = ordim_o.</FPCLINE>
+      <FPCLINE>DATA : lv_matnr TYPE matnr.</FPCLINE>
+      <FPCLINE>DATA : lv_vbeln TYPE ty_vbeln.</FPCLINE>
+      <FPCLINE>DATA : lt_vbeln TYPE TABLE OF ty_vbeln.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT lt_ordim_o INTO DATA(wa_ordim_o).</FPCLINE>
+      <FPCLINE>  CALL FUNCTION &apos;CONVERSION_EXIT_MDLPD_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>    EXPORTING</FPCLINE>
+      <FPCLINE>      input  = wa_ordim_o-matid</FPCLINE>
+      <FPCLINE>    IMPORTING</FPCLINE>
+      <FPCLINE>      output = lv_matnr.</FPCLINE>
+      <FPCLINE>  gs_final-tanum = wa_ordim_o-tanum.</FPCLINE>
+      <FPCLINE>  gs_final-matid   = wa_ordim_o-matid.</FPCLINE>
+      <FPCLINE>*  gs_final-maktx   = lv_maktx.  &quot;NO</FPCLINE>
+      <FPCLINE>  gs_final-vsolm   = wa_ordim_o-vsolm.</FPCLINE>
+      <FPCLINE>  gs_final-meins   = wa_ordim_o-meins.</FPCLINE>
+      <FPCLINE>  gs_final-batchid = wa_ordim_o-batchid.</FPCLINE>
+      <FPCLINE>*  gs_final-lgort   = wa_ordim_o-lgort.   &quot;No</FPCLINE>
+      <FPCLINE>  gs_final-vlpla   = wa_ordim_o-vlpla.</FPCLINE>
+      <FPCLINE>  gs_final-nlpla   = wa_ordim_o-nlpla.</FPCLINE>
+      <FPCLINE>  gs_final-matnr   = lv_matnr.    &quot;NO</FPCLINE>
+      <FPCLINE>  gs_final-vlenr    = wa_ordim_o-vlenr.</FPCLINE>
+      <FPCLINE>  gs_final-nlenr    = wa_ordim_o-nlenr.</FPCLINE>
+      <FPCLINE>  gs_final-quan    = wa_ordim_o-kquan.</FPCLINE>
+      <FPCLINE>  MOVE-CORRESPONDING wa_ordim_o TO gs_final.</FPCLINE>
+      <FPCLINE>  APPEND gs_final TO gt_final.</FPCLINE>
+      <FPCLINE>  CLEAR : wa_ordim_o,gs_final,lv_matnr.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF gt_final IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT matnr, maktx FROM makt INTO TABLE @DATA(lt_makt) FOR ALL ENTRIES IN @gt_final</FPCLINE>
+      <FPCLINE>     WHERE matnr = @gt_final-matnr AND spras = &apos;E&apos;.</FPCLINE>
+      <FPCLINE>  SELECT guid_parent,guid_stock, lgnum,matid,quan FROM /scwm/aqua INTO TABLE @DATA(lt_quan) FOR ALL ENTRIES IN @gt_final</FPCLINE>
+      <FPCLINE>WHERE lgnum = @gt_final-lgnum AND matid = @gt_final-matid AND cat = &apos;F2&apos;.</FPCLINE>
+      <FPCLINE>  SELECT pickey,picpos,matnr FROM picps INTO TABLE @DATA(lt_PICPS)</FPCLINE>
+      <FPCLINE>  FOR ALL ENTRIES IN @gt_final WHERE matnr = @gt_final-matnr.</FPCLINE>
+      <FPCLINE>  IF lt_PICPS IS NOT INITIAL.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    LOOP AT lt_PICPS INTO DATA(wa_picps).</FPCLINE>
+      <FPCLINE>      IF wa_picps-picpos IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>        wa_picps-picpos = wa_picps-picpos - 1.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>      MODIFY lt_PICPS FROM wa_picps.</FPCLINE>
+      <FPCLINE>      CLEAR : wa_picps.</FPCLINE>
+      <FPCLINE>    ENDLOOP.</FPCLINE>
+      <FPCLINE>    SELECT pickey,picpos, matnr FROM picps INTO TABLE @DATA(lt_picps1) FOR ALL ENTRIES IN @lt_picps</FPCLINE>
+      <FPCLINE>   WHERE pickey = @lt_picps-pickey AND  picpos =  @lt_picps-picpos.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>IF lt_ordim_o IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT docid, refdocno,refitemno FROM /scdl/db_refdoc INTO TABLE @DATA(lt_refdocno) FOR ALL ENTRIES IN @lt_ordim_o</FPCLINE>
+      <FPCLINE>     WHERE docid = @lt_ordim_o-rdocid AND itemid  = @lt_ordim_o-qitmid</FPCLINE>
+      <FPCLINE>  AND doccat = @lt_ordim_o-rdoccat AND refdoccat = &apos;ERP&apos;.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT lt_refdocno INTO DATA(wa4).</FPCLINE>
+      <FPCLINE>  lv_vbeln-vbeln = wa4-refdocno.</FPCLINE>
+      <FPCLINE>  lv_vbeln-posnr = wa4-refitemno.</FPCLINE>
+      <FPCLINE>  APPEND lv_vbeln TO lt_vbeln.</FPCLINE>
+      <FPCLINE>  CLEAR : lv_vbeln,wa4.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF lt_vbeln IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT vbeln,posnr,matnr,werks,lgort,vgbel,vgpos,/dbe/vbeln AS vssvbeln,/dbe/posnr AS vssposnr</FPCLINE>
+      <FPCLINE>    FROM lips INTO TABLE @DATA(lt_lips)</FPCLINE>
+      <FPCLINE>  FOR ALL ENTRIES IN @lt_vbeln WHERE vbeln = @lt_vbeln-vbeln.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SORT gt_final BY matnr.</FPCLINE>
+      <FPCLINE>SORT lt_lips BY matnr.</FPCLINE>
+      <FPCLINE>LOOP AT gt_final INTO DATA(wa3).</FPCLINE>
+      <FPCLINE>  READ TABLE lt_makt ASSIGNING FIELD-SYMBOL(&lt;fs_makt&gt;) WITH KEY matnr = wa3-matnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    IF &lt;fs_makt&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>      wa3-maktx = &lt;fs_makt&gt;-maktx.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>  READ TABLE lt_lips ASSIGNING FIELD-SYMBOL(&lt;fs_lips&gt;) WITH KEY matnr = wa3-matnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    IF &lt;fs_lips&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>      wa3-lgort = &lt;fs_lips&gt;-lgort.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  READ TABLE lt_PICPS ASSIGNING FIELD-SYMBOL(&lt;fs_picps&gt;) WITH KEY matnr = wa3-matnr.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    READ TABLE lt_PICPS1 ASSIGNING FIELD-SYMBOL(&lt;fs_picps1&gt;) WITH KEY pickey = &lt;fs_picps&gt;-pickey.</FPCLINE>
+      <FPCLINE>    IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>      IF &lt;fs_picps1&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>        wa3-matnr1 = &lt;fs_picps1&gt;-matnr.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>  LOOP AT lt_quan INTO DATA(wa6) WHERE lgnum = wa3-lgnum AND matid = wa3-matid.</FPCLINE>
+      <FPCLINE>    wa3-quan = wa3-quan + wa6-quan.</FPCLINE>
+      <FPCLINE>    CLEAR :  wa6.</FPCLINE>
+      <FPCLINE>  ENDLOOP.</FPCLINE>
+      <FPCLINE>  MODIFY gt_final FROM wa3.</FPCLINE>
+      <FPCLINE>  CLEAR  :wa3.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SORT gt_final BY tanum.</FPCLINE>
+      <FPCLINE>DATA(ls_vbeln1) = VALUE #( lt_vbeln[ 1 ] OPTIONAL ) .</FPCLINE>
+      <FPCLINE>SELECT SINGLE vbeln,erdat,erzet,lfart,lprio,vsbed,aenam FROM likp</FPCLINE>
+      <FPCLINE>INTO @DATA(ls_likp) WHERE vbeln = @ls_vbeln1-vbeln .</FPCLINE>
+      <FPCLINE>IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>*Manage Error</FPCLINE>
+      <FPCLINE>  CLEAR gs_header.</FPCLINE>
+      <FPCLINE>  RETURN.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>gs_header-vbeln = ls_likp-vbeln.   &quot;Outbound delivery no</FPCLINE>
+      <FPCLINE>gs_header-erdat = ls_likp-erdat.   &quot;Date</FPCLINE>
+      <FPCLINE>gs_header-erzet = ls_likp-erzet.   &quot;Time</FPCLINE>
+      <FPCLINE>gs_header-vsbed = ls_likp-vsbed.   &quot;Shipping Condition</FPCLINE>
+      <FPCLINE>gs_header-lprio = ls_likp-lprio.   &quot;Delivery Priority</FPCLINE>
+      <FPCLINE>*    gs_header-aenam = ls_likp-aenam.</FPCLINE>
+      <FPCLINE>SELECT werks, name1 FROM t001w INTO TABLE @DATA(it_t001w) FOR ALL ENTRIES IN @lt_lips</FPCLINE>
+      <FPCLINE>  WHERE werks = @lt_lips-werks.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*BREAK-POINT.</FPCLINE>
+      <FPCLINE>LOOP AT lt_lips ASSIGNING FIELD-SYMBOL(&lt;fs_lips2&gt;).</FPCLINE>
+      <FPCLINE>  IF sy-tabix = 1.</FPCLINE>
+      <FPCLINE>    gs_header-suplant = &lt;fs_lips2&gt;-werks.   &quot;Rec.Plant/Source Plant</FPCLINE>
+      <FPCLINE>    READ TABLE it_t001w INTO DATA(ls_t001w) WITH KEY werks = &lt;fs_lips2&gt;-werks.</FPCLINE>
+      <FPCLINE>    IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>      gs_header-supplantdesc = ls_t001w-name1.   &quot;Plant Name</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>gs_header-vgbel = lt_lips[ 1 ]-vgbel.</FPCLINE>
+      <FPCLINE>gs_header-sono  = lt_lips[ 1 ]-vssvbeln.</FPCLINE>
+      <FPCLINE>DATA(lv_item) = lt_lips[ 1 ]-vgpos.</FPCLINE>
+      <FPCLINE>IF gs_header-vgbel IS  INITIAL OR lv_item IS INITIAL.</FPCLINE>
+      <FPCLINE>  gs_header-vgbel = lt_lips[ 1 ]-vssvbeln.</FPCLINE>
+      <FPCLINE>  lv_item         = lt_lips[ 1 ]-vssposnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  SELECT SINGLE</FPCLINE>
+      <FPCLINE>         a~partner    AS partner,</FPCLINE>
+      <FPCLINE>         b~name_last  AS name_last,</FPCLINE>
+      <FPCLINE>         b~name_first AS name_first</FPCLINE>
+      <FPCLINE>    FROM /dbe/vbpa    AS a</FPCLINE>
+      <FPCLINE>   INNER JOIN but000  AS b</FPCLINE>
+      <FPCLINE>      ON b~partner EQ a~partner</FPCLINE>
+      <FPCLINE>    INTO @DATA(ls_soldtoparty)</FPCLINE>
+      <FPCLINE>    WHERE vbeln EQ @gs_header-vgbel</FPCLINE>
+      <FPCLINE>      AND parvw EQ &apos;AG&apos; .&quot;Sold To party</FPCLINE>
+      <FPCLINE>  IF sy-subrc  EQ 0.</FPCLINE>
+      <FPCLINE>    gs_header-cust_name = ls_soldtoparty-name_first &amp;&amp; ` / ` &amp;&amp;  ls_soldtoparty-name_last.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE</FPCLINE>
+      <FPCLINE>            ekpo~werks  AS werks</FPCLINE>
+      <FPCLINE>            t001w~name1 AS name1</FPCLINE>
+      <FPCLINE>       FROM ekpo AS  ekpo</FPCLINE>
+      <FPCLINE>       LEFT OUTER JOIN t001w  AS t001w</FPCLINE>
+      <FPCLINE>         ON t001w~werks =  ekpo~werks</FPCLINE>
+      <FPCLINE>       INTO ( gs_header-werks, gs_header-res_plant_desc )</FPCLINE>
+      <FPCLINE>      WHERE ebeln EQ gs_header-vgbel</FPCLINE>
+      <FPCLINE>        AND ebelp EQ lv_item.</FPCLINE>
+      <FPCLINE>IF gs_header-cust_name IS  INITIAL.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>  DATA(lv_patner) = &apos;BP&apos; &amp;&amp; gs_header-werks .</FPCLINE>
+      <FPCLINE>  IF gs_header-werks IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    SELECT SINGLE</FPCLINE>
+      <FPCLINE>           name_org1</FPCLINE>
+      <FPCLINE>      FROM but000</FPCLINE>
+      <FPCLINE>      INTO gs_header-cust_name</FPCLINE>
+      <FPCLINE>     WHERE partner EQ lv_patner.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>****** Shipping Conditions Description</FPCLINE>
+      <FPCLINE>SELECT SINGLE</FPCLINE>
+      <FPCLINE>       vtext</FPCLINE>
+      <FPCLINE>  FROM tvsbt</FPCLINE>
+      <FPCLINE>  INTO gs_header-vtext</FPCLINE>
+      <FPCLINE> WHERE spras EQ &apos;E&apos;</FPCLINE>
+      <FPCLINE>   AND vsbed EQ gs_header-vsbed.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE</FPCLINE>
+      <FPCLINE>       bezei</FPCLINE>
+      <FPCLINE>  FROM tprit</FPCLINE>
+      <FPCLINE>  INTO gs_header-bezei</FPCLINE>
+      <FPCLINE> WHERE spras EQ &apos;E&apos;</FPCLINE>
+      <FPCLINE>   AND lprio EQ gs_header-lprio.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

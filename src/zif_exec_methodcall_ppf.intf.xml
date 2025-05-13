@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_EXEC_METHODCALL_PPF</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BAdI Interface IF_EX_EXEC_METHODCALL_PPF</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execution of Processing Logic</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>FLT_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter FLT_VAL of Method EXECUTE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>II_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container with Parameter Values</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>IO_APPL_OBJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference to Application Object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>IO_PARTNER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Partner</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>IP_ACTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PPF: Name of Action Definition</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>IP_APPLICATION_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle Application Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>IP_PREVIEW</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Preview Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>RP_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PPF: Output Status</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

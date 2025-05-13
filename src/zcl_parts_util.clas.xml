@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PARTS_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Parts utility class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_AVAILABLE_QTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get available quantity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OPEN_ORD_QTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Open Sales Order Qty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OPEN_PO_QTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get Open PO quantity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OPEN_STO_QTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Open STO Quantity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SALES_HISTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Sales history of materials</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SALES_HIST_MSEG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Sales history from material documents</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

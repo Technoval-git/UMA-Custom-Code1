@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IM_VLC_PREPARE_ACTION</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Imp. class for BAdI imp. ZVLC_PREPARE_ACTION</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_VSS_ACTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Action is VSS-relevant?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks Before Execution of Action</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_VSS_ACTION</CMPNAME>
+     <SCONAME>IV_ACTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Action</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>ACTION_PREPARE_NOT_PERFORMED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>An error has occurred -&gt; action canceled</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>ACTION_TO_BE_PERFORMED_IV</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Aktion</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>ELEMENTARY_ACTION_IS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Teilaktion</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>INCOMING_ACTION_IS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Aktion</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>LIST_OF_VEHICLES_IT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>VELO : Dialogstruktur für Fahrzeuge</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>VLCACTDATA_CS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>VELO : Übergabestruktur für Aktionen (Kopf und Positionen)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREPARE_ZSTO</CMPNAME>
+     <SCONAME>VLCGUIDCUOBJ_ET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tabelle mit GUIDs und cuobjs</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

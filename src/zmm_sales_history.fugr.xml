@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>sales historical data</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_SALES_HISTORYTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_SALES_HISTORY</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM_SALES_HISTORY</FUNCNAME>
+     <SHORT_TEXT>Sales Historical Data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WERKS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>WERKS_D</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MONTHS</PARAMETER>
+       <DEFAULT>03</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>NUMC2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>GOLIVEDATE</PARAMETER>
+       <DEFAULT>&apos;20240201&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-DATUM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>FKLMG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FKLMG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MONTHS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Two digit number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GOLIVEDATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP system field: Current date of application server</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FKLMG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Billing quantity in stock keeping unit</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

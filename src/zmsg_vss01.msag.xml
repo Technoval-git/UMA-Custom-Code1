@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMSG_VSS01</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>VSS Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>External no. &amp;1 not found in Vehicles.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Update the vehicle with Ext no. &amp;1 before inbound delivery creation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Vehicle with External no. &amp;1 successfully updated.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>PO is not created for vehicle with External no. &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>ASN: &amp;1 with External No. &amp;2 is already present in Inb deliv &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>ZBAT action successfully executed for vehicle with external no. &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Inbound delivery creation failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Good Movement cannot be done : Full Payment Pending</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Goods Receipt Successful for Delivery &amp;1 &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Goods Receipt Failed for Delivery &amp;1 &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Model does not exist in the /DBM/V_MODEL (Model: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Table &amp;1: Entry &amp;2 not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Cannot determine value for the VSS control object &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Vehicle master has been created (external no: &amp;1).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>External No. &amp;1 already exist with Internal No. &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>External No. &amp;1 created with Internal No. &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Purchase order Created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>External No. &amp;1 PO &amp;2 Item &amp;3 already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Model No. &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Reverse the posting of PO to update the cost</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Purchase Order cost updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Failed while Assigning &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp;1 : Mandatory fields &amp;2 is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Order unit and Base unit cannot be same.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Transfer Vehicle &amp;1 to the plant &amp;2 before billing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Inbound Delivery not created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Outbound Delivery not created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSG_VSS01</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Special price is active for this material</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

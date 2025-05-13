@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_DE_LABST</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZMM_D_LABST</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Valuated Unrestricted-Use Stock</DDTEXT>
+    <REPTEXT>Unrestricted</REPTEXT>
+    <SCRTEXT_S>Unrestr.</SCRTEXT_S>
+    <SCRTEXT_M>Unrestricted</SCRTEXT_M>
+    <SCRTEXT_L>Unrestricted</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>A</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>مخزون مقيَّم غير مقيد الاستخدام</DDTEXT>
+     <REPTEXT>غير مقيد</REPTEXT>
+     <SCRTEXT_S>غير مقيد</SCRTEXT_S>
+     <SCRTEXT_M>غير مقيد</SCRTEXT_M>
+     <SCRTEXT_L>غير مقيد</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bewerteter, frei verwendbarer Bestand</DDTEXT>
+     <REPTEXT>Frei verwendbar</REPTEXT>
+     <SCRTEXT_S>Frei verw.</SCRTEXT_S>
+     <SCRTEXT_M>Frei verwendbar</SCRTEXT_M>
+     <SCRTEXT_L>Frei verwendbar</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

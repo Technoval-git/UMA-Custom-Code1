@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>PR list</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVSS_JET_GET_PR_LISTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVSS_JET_GET_PR_LIST</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZVSS_JET_GET_PR_LIST</FUNCNAME>
+     <SHORT_TEXT>PR List</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_BANFN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/ISDFPS/BANFN_RT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_EKGRP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BLGL_EKGRP_RANGE_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_MATNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/LIME/R_APO_MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_MAKTL</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FIP_T_MATKL_RANGE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_BEDNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TRG_CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_WERKS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>RANGE_T_WERKS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_BSART</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BLGL_BSART_RANGE_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LFDAT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MSR_T_INSP_LFDAT_RANGE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_FRGDT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MSR_T_INSP_LFDAT_RANGE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_DISPO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BLGL_DISPO_RANGE_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_STATU</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/ISDFPS/TT_CTYPE_RANGE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_FLIEF</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TRG_CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_BANPR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TRG_CHAR2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_BLCKD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/ISDFPS/TT_CTYPE_RANGE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_AFNAM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>AFNAM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_TXZ01</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TXZ01</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ZUGBA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MEMORY</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ERLBA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BSTBA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FREIG</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SELGS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SELPO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_REGION</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZVSS_REGIO_R</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_EBAN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CCRCTT_EBAN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_BANFN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table Type for Data Element BANFN</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_EKGRP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table for Purchasing Group in Backlog List MM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range structure for materials</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_MAKTL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range: Material Group</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BEDNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table: CHAR10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table for Data Element WERKS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BSART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table for Purchasing Document Type in Backlog List MM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LFDAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Selection range Delivery date(From/to)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_FRGDT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Selection range Delivery date(From/to)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_DISPO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table for MRP Controller in Backlog List MM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_STATU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range for /ISDFPS/CASE_TYPE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_FLIEF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table: CHAR10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BANPR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range Table: CHAR2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BLCKD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range for /ISDFPS/CASE_TYPE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_AFNAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name of requisitioner/requester</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_TXZ01</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Short Text</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ZUGBA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MEMORY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ERLBA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BSTBA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FREIG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SELGS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SELPO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_REGION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range: Material Group</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_EBAN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>eban data</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

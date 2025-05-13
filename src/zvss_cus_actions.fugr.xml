@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>VSS Custom Actions</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVSS_CUS_ACTIONSF01</SOBJ_NAME>
+    <SOBJ_NAME>LZVSS_CUS_ACTIONSF02</SOBJ_NAME>
+    <SOBJ_NAME>LZVSS_CUS_ACTIONSF03</SOBJ_NAME>
+    <SOBJ_NAME>LZVSS_CUS_ACTIONSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVSS_CUS_ACTIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZDBE_CO_ACT_CREATE_SETTLE_RULE</FUNCNAME>
+     <SHORT_TEXT>Action - Creates Settlement Rules</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ACTION</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/DBE/OE_ACTION</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IO_ORDER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO /DBE/CL_ORDER</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LT_AUFNR_LIST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>INTERNAL_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NOTHING_DONE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ACTION_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ACTION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Action in Order Control</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IO_ORDER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DBM Order</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_AUFNR_LIST</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INTERNAL_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOTHING_DONE</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ACTION_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZVSS_VEHI_VALU_UPDATE</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Valuvation Update</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>LT_VEHICLE</PARAMETER>
+       <TYP>VLCDIAVEHI_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DATA_RECEIVED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_UPDATE_PERFORMED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LT_VEHICLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>VELO : Table Type for VLCDIAVEHI</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA_RECEIVED</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_UPDATE_PERFORMED</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Decision Text from FIORI app</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_DECISION_TEXTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_DECISION_TEXT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM_DECISION_TEXT</FUNCNAME>
+     <SHORT_TEXT>Decision Text</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_WIID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SWW_WIID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>TLINE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_WIID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Work item ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SAPscript: Text Lines</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

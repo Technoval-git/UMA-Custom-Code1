@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20230422.1.42_SAP" APIVersion="3.6.23111.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-04-28T08:28:13Z" uuid="02286b95-2303-43c0-b8ab-35c3c3c821eb">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="en_IN" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="219.075mm" w="209.55mm" x="3.175mm" y="60.325mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <subform h="50.8mm" name="PageNo" w="215.9mm" y="9.525mm">
+               <bind match="none"/>
+               <field access="readOnly" h="7.5mm" id="floatingField000041" name="CurrentPage" presence="hidden" w="55mm" x="136.525mm" y="0.045mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="7471865D-F12F-4CCD-ABF1-D5C3D5C7664F">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder #?>
+                  <bind match="none"/>
+               </field>
+               <field access="readOnly" h="7.5mm" id="floatingField018467" name="PageCount" presence="hidden" w="55mm" x="136.525mm" y="0.045mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="05D53ACA-DDB5-4B9A-AE1E-1A3C36F5FFDE">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder ##?>
+                  <bind match="none"/>
+               </field>
+               <draw h="3.528mm" name="Pages" w="23.108mm" x="185.033mm" y="0.665mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" maxLength="0" xliff:rid="A4B99A75-B403-4CEA-A185-89465BF608A2">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p>Page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                     </exData>
+                  </value>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+               </draw>
+               <subform h="44.476mm" name="HeaderData" w="95.265mm" x="114.3mm" y="6.324mm">
+                  <bind match="none"/>
+                  <field access="readOnly" h="6.35mm" name="Date_ERDAT" w="53.975mm" x="3.175mm" y="0mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="35.4171mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="4136B4BA-47BA-4642-8FB0-74026BC3E347">Date&amp;Time:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.ERDAT"/>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="Time_ERZET" w="22.225mm" x="57.15mm" y="0mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <bind match="dataRef" ref="$.IS_HEADER.ERZET"/>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="OBDelivery_VBELN" w="62mm" x="3.175mm" y="6.35mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="35.3391mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="798FBB9B-731F-4C9D-BF65-CC2736FCFA43">Outbound Delivery no:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.VBELN"/>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="ReceivingPlant_WERKS" w="46.99mm" x="3.19mm" y="12.726mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="35.3391mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="C3B76871-4491-45DE-92C8-4FCFCD489C6E">Receiving Plant:</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.WERKS"/>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="CustomerName_CUST_NAME" w="73.66mm" x="3.19mm" y="25.426mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="35.186mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="224F52A8-B124-46AB-A560-3BD41304BD56">Customer Name:</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.CUST_NAME"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="ShippingCondition_VSBED" w="44.45mm" x="3.19mm" y="31.776mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="35.3391mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="7FFCDEDE-8532-404E-824E-B51092386F0E">Shipping Condition:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.VSBED"/>
+                     <value>
+                        <text maxChars="2"/>
+                     </value>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="ShipCondText" w="38.1mm" x="47.64mm" y="31.731mm">
+                     <ui>
+                        <textEdit hScrollPolicy="off">
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <bind match="dataRef" ref="$.IS_HEADER.VTEXT"/>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="LPRIO" w="44.45mm" x="3.19mm" y="38.081mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="35.0876mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="FF498020-1B6B-400B-A345-18D40CF66E0E">Delivery Priority:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.LPRIO"/>
+                     <value>
+                        <text maxChars="2"/>
+                     </value>
+                     <desc>
+                        <text name="Schema Annotation">Delivery Priority</text>
+                     </desc>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="DelPrioriytest" w="38.1mm" x="47.64mm" y="38.081mm">
+                     <ui>
+                        <textEdit hScrollPolicy="off">
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="8pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <bind match="dataRef" ref="$.IS_HEADER.BEZEI"/>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="SUPPLANTDESC" w="40.64mm" x="49.545mm" y="12.7mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="30"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_HEADER.RES_PLANT_DESC"/>
+                     <desc>
+                        <text name="Schema Annotation">Name</text>
+                     </desc>
+                  </field>
+                  <field h="6.35mm" name="SUPLANT" w="46.99mm" x="3.19mm" y="19.076mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="34.9726mm">
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="109D1946-D81B-422A-BA1D-FD3A48119253">Suppling Plant:</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_HEADER.SUPLANT"/>
+                     <desc>
+                        <text name="Schema Annotation">Supplying (issuing) plant in case of stock transport order</text>
+                     </desc>
+                  </field>
+                  <field access="readOnly" h="6.35mm" name="SUPPLANTDESC" w="40.64mm" x="49.545mm" y="19.076mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="30"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_HEADER.SUPPLANTDESC"/>
+                     <desc>
+                        <text name="Schema Annotation">Name</text>
+                     </desc>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <subform h="47.625mm" w="82.55mm" x="9.525mm">
+                  <bind match="none"/>
+                  <field access="readOnly" h="9mm" name="VGBEL" w="73.025mm" x="2.800mm" y="3.175mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="20.2055mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="B2DCDD64-41BF-4076-A81F-71A9DE0BCACE">Order:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.VGBEL"/>
+                     <value>
+                        <text maxChars="10"/>
+                     </value>
+                     <desc>
+                        <text name="Schema Annotation">Document Number of Reference Document</text>
+                     </desc>
+                  </field>
+                  <field h="9.525mm" name="BC_ORDER_VBELN" w="34.925mm" x="3.175mm" y="12.7mm">
+                     <ui>
+                        <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <value>
+                        <text xliff:rid="F461DECE-7AAF-435F-A72F-B333A24F3993">1234567890</text>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_HEADER.KDAUF"/>
+                  </field>
+                  <field access="readOnly" h="9mm" name="DELIVERY_VBELN" w="73.025mm" x="2.8mm" y="28.575mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden"/>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="9pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="19.2686mm">
+                        <font size="9pt" typeface="Arial" weight="bold"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="388D2F67-1FB7-4492-9E49-5CDFBF0F1451">Delivery No:</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_HEADER.VBELN"/>
+                     <value>
+                        <text maxChars="10"/>
+                     </value>
+                     <desc>
+                        <text name="Schema Annotation">Sales Document</text>
+                     </desc>
+                  </field>
+                  <field access="readOnly" h="9.525mm" name="BC_Delivery_VBELN" w="34.925mm" x="3.175mm" y="38.1mm">
+                     <ui>
+                        <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <value>
+                        <text xliff:rid="25083704-AA6C-4A32-A240-F46605DBB261">1234567890</text>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_HEADER.VBELN"/>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 0?></subform>
+            <draw h="5.2331mm" name="PickingHeader" w="29.2864mm" x="88.9mm" y="3.175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="3761B1FA-68CC-46C3-AE8C-7A5FF0C7CE91">PICKING SLIP</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 12 PICKING SLIP 0 8171 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+               <?renderCache.line 8171 10239 74846 10239 0 0 0 337?></draw>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" minH="30mm" name="body" w="209.269mm">
+         <bind match="none"/>
+         <subform layout="tb" w="209.55mm">
+            <bind match="none"/>
+            <subform layout="tb" minH="20mm" name="ItemsSubform" w="209.55mm">
+               <bind match="none"/>
+               <subform columnWidths="10.584mm 23.383mm 38.917mm 17.474mm 22.864mm 14.134mm 8.608mm 20.825mm 23.573mm 28.536mm" layout="table" name="Table1">
+                  <border>
+                     <edge/>
+                  </border>
+                  <subform id="HeaderRow_ID_copy1" layout="row" name="HeaderRow">
+                     <assist role="TH"/>
+                     <draw h="14.307mm" name="LineItem">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="F87968D7-BFFE-4B67-8DD4-CE7E761473F1">Line Item</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="PartNo">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="2C822BBC-F458-424C-BFF6-50508CFFDDBE">Part No</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="Description">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="CE2C87DD-4D76-48CD-9884-A228F3E9AEBC">Description</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="SourceLocation">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="E1B53974-C0ED-4962-BD5E-374B898A93B9">Source Location</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="InternalDestinationArea">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="56E3317A-C70B-4965-BAF1-F179A03F1216">Picking Location</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="Quantity">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="BF948C56-0AEE-4770-8E2A-5ED20A061F8F">Quantity</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="UOM">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="B5EB6D98-709D-41A8-98BA-59C6B945568E">UOM</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="CustomerReference">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="6E74D406-8876-431E-B9AB-56E0C3863955">Batch/Expiry</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="SupersededNo">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="F014474A-9279-4D12-851D-332AC52CC97F">Superseded No</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <draw h="14.307mm" name="AvailableStock">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="E3AFEE66-663A-4712-979C-96C43C6401B1">Available Stock</text>
+                        </value>
+                        <font baselineShift="0pt" size="9pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </draw>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <occur max="-1"/>
+                     <bind match="none"/>
+                     <?templateDesigner expand 0?></subform>
+                  <subform layout="row" name="Row1">
+                     <assist role="TR"/>
+                     <field access="readOnly" minH="10mm" name="LineItem_POSNR">
+                        <ui>
+                           <textEdit multiLine="1"/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.POSNR"/>
+                     </field>
+                     <field access="readOnly" minH="10mm" name="PartNo_MATNR">
+                        <ui>
+                           <textEdit multiLine="1"/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.MATNR"/>
+                     </field>
+                     <subform columnWidths="38.917mm" layout="table" name="TT_MAKTX">
+                        <subform layout="row" name="DATA" x="0mm">
+                           <field minH="10mm" name="ITEM" w="62mm" x="0mm">
+                              <ui>
+                                 <textEdit multiLine="1">
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0.5002mm" leftInset="0.5002mm" rightInset="0.5002mm" topInset="0.5002mm"/>
+                              <para vAlign="middle"/>
+                              <bind match="dataRef" ref="$.ITEM"/>
+                              <desc>
+                                 <text name="Schema Annotation">Material Descreption</text>
+                              </desc>
+                              <border>
+                                 <edge/>
+                                 <corner presence="hidden"/>
+                                 <edge presence="hidden"/>
+                                 <edge presence="hidden"/>
+                                 <edge presence="hidden"/>
+                              </border>
+                           </field>
+                           <assist role="TR"/>
+                           <occur max="-1"/>
+                           <bind match="dataRef" ref="$.DATA[*]"/>
+                           <?templateDesigner expand 1?></subform>
+                        <occur min="0"/>
+                        <bind match="dataRef" ref="$.TT_MAKTX"/>
+                        <desc>
+                           <text name="Schema Annotation">Material Descreption</text>
+                        </desc>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <?templateDesigner expand 1?></subform>
+                     <field access="readOnly" h="10mm" name="SourceLocation_LGORT">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.LGORT"/>
+                     </field>
+                     <field minH="6.35mm" name="TextField1" w="19.05mm" x="1.217mm" y="1.068mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden"/>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <bind match="dataRef" ref="$.LGPBE"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.175mm"/>
+                        </border>
+                     </field>
+                     <field access="readOnly" minH="10mm" name="Quantity_LFIMG">
+                        <ui>
+                           <textEdit multiLine="1"/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.LFIMG"/>
+                     </field>
+                     <field access="readOnly" h="10mm" name="UOM_MEINS">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.MEINS"/>
+                     </field>
+                     <field h="10mm" name="CusromerRef_CHARG">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <value>
+                           <text maxChars="10"/>
+                        </value>
+                        <bind match="dataRef" ref="$.CHARG"/>
+                     </field>
+                     <subform layout="tb" name="sumaterials">
+                        <bind match="none"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <subform columnWidths="23.459mm" layout="table" name="SUPMATERIALS" x="-151.142mm">
+                           <subform layout="row" name="DATA" x="0mm">
+                              <field h="10mm" name="ITEM" w="62mm">
+                                 <ui>
+                                    <textEdit>
+                                       <margin/>
+                                    </textEdit>
+                                 </ui>
+                                 <font typeface="Arial"/>
+                                 <margin bottomInset="0.5002mm" leftInset="0.5002mm" rightInset="0.5002mm" topInset="0.5002mm"/>
+                                 <para hAlign="center" vAlign="middle"/>
+                                 <bind match="dataRef" ref="$.ITEM"/>
+                                 <desc>
+                                    <text name="Schema Annotation">superssion material</text>
+                                 </desc>
+                                 <border>
+                                    <edge/>
+                                    <edge presence="hidden"/>
+                                    <edge presence="hidden"/>
+                                    <edge presence="hidden"/>
+                                    <corner/>
+                                    <corner presence="hidden"/>
+                                    <corner presence="hidden"/>
+                                    <corner presence="hidden"/>
+                                 </border>
+                              </field>
+                              <assist role="TR"/>
+                              <occur max="-1"/>
+                              <bind match="dataRef" ref="$.DATA[*]"/>
+                              <?templateDesigner expand 1?></subform>
+                           <occur min="0"/>
+                           <bind match="dataRef" ref="$.SUPMATERIALS"/>
+                           <desc>
+                              <text name="Schema Annotation">superssion material</text>
+                           </desc>
+                           <?templateDesigner expand 1?></subform>
+                        <?templateDesigner expand 1?></subform>
+                     <field access="readOnly" h="10mm" name="AvailableStock_LABST">
+                        <ui>
+                           <numericEdit/>
+                        </ui>
+                        <font size="9pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1" leadDigits="13"/>
+                        </value>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.LABST"/>
+                        <validate nullTest="error"/>
+                     </field>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <bind match="dataRef" ref="$.DATA[*]"/>
+                     <occur max="-1"/>
+                     <keep intact="none"/>
+                     <?templateDesigner expand 1?></subform>
+                  <bind match="dataRef" ref="$.IT_ITEMS"/>
+                  <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+                  <overflow leader="HeaderRow"/>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="tb" name="SpecialInstructions" w="209.042mm">
+            <bind match="none"/>
+            <draw h="5.2331mm" name="LabeInstructions" w="22.363mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="A33468EC-6924-48C5-9461-87D1AD9E5129">Instructions:</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 60557 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 13 Instructions: 0 1417 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?></draw>
+            <field access="readOnly" h="9mm" id="floatingField006334" name="TEXT_INSTRUCTIONS" presence="hidden" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <exData contentType="text/html">
+                     <body xmlns="http://www.w3.org/1999/xhtml"/>
+                  </exData>
+               </value>
+               <bind match="dataRef" ref="$.TEXT_INSTRUCTIONS"/>
+               <caption>
+                  <value>
+                     <text xliff:rid="62DBFFA8-3F0B-49A7-A382-B87512FF2C4D">TEXT_INSTRUCTIONS</text>
+                  </value>
+               </caption>
+               <desc>
+                  <exData name="Schema Annotation">Text Node INSTRUCTIONS
+SAPScript Include Text 
+ NAME = 0080000109 
+ LANGUAGE = E 
+ OBJECT = VBBK 
+ ID = TX03</exData>
+               </desc>
+            </field>
+            <draw minH="11.735mm" minW="205.74mm" name="Text1">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <keep intact="none"/>
+            </draw>
+            <border>
+               <edge/>
+               <corner/>
+            </border>
+            <?templateDesigner expand 1?></subform>
+         <subform h="30.8mm" name="Footer" w="209.088mm">
+            <bind match="none"/>
+            <draw h="5.2331mm" name="Name" w="29.2864mm" x="3.175mm" y="21.275mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="EC83F193-F6B5-42AF-B202-EDE9E681F43D">Receiver</text>
+               </value>
+               <font typeface="Arial" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 8 Receiver 0 1417 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+               <?renderCache.line 1417 10239 43116 10239 0 0 0 337?></draw>
+            <draw h="5.2331mm" name="Binner" w="12.767mm" x="3.175mm" y="11.75mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="B7B41D53-9AC1-405C-A6F7-22BF95A9E874">Picker:</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 33356 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 7 Picker: 0 1417 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+               <?renderCache.line 1417 10239 34771 10239 0 0 0 337?></draw>
+            <draw h="5.2331mm" name="Signature" w="29.2864mm" x="120.65mm" y="11.75mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="0C09258E-0B78-4436-8FF7-77A041A550B9">Signature</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 9 Signature 0 18449 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+               <?renderCache.line 18449 10239 64568 10239 0 0 0 337?></draw>
+            <draw h="5.2331mm" name="EmpId" w="29.2864mm" x="168.275mm" y="11.75mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="476FBF24-B890-414E-A510-B5C98D2A518D">Emp ID</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 6 Emp ID 0 24284 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+               <?renderCache.line 24284 10239 58733 10239 0 0 0 337?></draw>
+            <draw h="5.2331mm" name="DateTime" w="29.2864mm" x="57.15mm" y="11.75mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="84EA4FBD-49A7-4F7E-BC6C-4592BCB71158">Date &amp; Time</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial" underline="1" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 11 Date & Time 0 12612 9313 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+               <?renderCache.line 12612 10239 70405 10239 0 0 0 337?></draw>
+            <field h="7.62mm" name="AENAM" w="38.1mm" x="15.875mm" y="10.033mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial" weight="bold"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <bind match="dataRef" ref="$.IS_HEADER.AENAM"/>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20230422.1.42.2</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 108 27 00030006002600280029002C0031003200330035003600370038003B00420044004700480049004A004C004F00520057005B005E0060 #CEFINOPRSTUX_adefgilotx{}?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 172 43 000300090012001D00240025002600270028002A002C002E002F00300031003200330034003500360037003800440045004600470048004A004B004C004E004F005000510052005300550056005700580059005B005C &/:ABCDEGIKLMNOPQRSTUabcdeghiklmnoprstuvxy?>
+      <?renderCache.subset "Courier New" 0 0 ISO-8859-1 4 40 10 0013001400150016001700180019001A001B001C0123456789?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 70?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://vhumgds4ci.sap.altawkilat.com:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="Calibri-Bold" typeface="Calibri" weight="bold"/>
+      <font posture="normal" psName="Calibri" typeface="Calibri" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZMMF025_PICKIG_SLIP">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IS_HEADER>
+            <VBELN/>
+            <ERDAT/>
+            <ERZET/>
+            <VSBED/>
+            <WERKS/>
+            <LPRIO/>
+            <VGBEL/>
+            <VTEXT/>
+            <BEZEI/>
+            <CUST_NAME/>
+            <SUPLANT/>
+            <SUPPLANTDESC/>
+            <RES_PLANT_DESC/>
+            <AENAM/>
+         </IS_HEADER>
+         <IT_ITEMS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <POSNR/>
+               <MATNR/>
+               <LGORT/>
+               <LFIMG/>
+               <MEINS/>
+               <LABST/>
+               <VRKME/>
+               <WERKS/>
+               <CHARG/>
+               <SUPMATERIALS dd:minOccur="0">
+                  <DATA dd:maxOccur="-1">
+                     <ITEM/>
+                  </DATA>
+               </SUPMATERIALS>
+               <TT_MAKTX dd:minOccur="0">
+                  <DATA dd:maxOccur="-1">
+                     <ITEM/>
+                  </DATA>
+               </TT_MAKTX>
+               <LGPBE/>
+            </DATA>
+         </IT_ITEMS>
+         <TEXT_INSTRUCTIONS/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (India)" name="en_IN">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">DD-MMM-YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">Rs.</currencySymbol>
+         <currencySymbol name="isoname">INR</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2024-04-28T08:28:13Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:02286b95-2303-43c0-b8ab-35c3c3c821eb</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20230422.1.42.2</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

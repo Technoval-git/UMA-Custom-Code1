@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Service Contract</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVSS_CONTRACTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVSS_CONTRACT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZVSS_SERVICE_CONTRACT</FUNCNAME>
+     <SHORT_TEXT>Service Contract Create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LV_VHVIN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>VLC_VHVIN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LV_SALES_DATE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LV_VHVIN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vehicle Identification Number (Vehicle Identification No.)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_SALES_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Field of type DATS</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

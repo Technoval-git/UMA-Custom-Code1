@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZR_EWM_PARTNO_PRINT</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Part number print report</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MATKL</KEY>
+     <ENTRY>Material group</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MATNR</KEY>
+     <ENTRY>Part number</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MTART</KEY>
+     <ENTRY>Material type</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

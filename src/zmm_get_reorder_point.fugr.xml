@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ZMM_GET_REORDER_POINT</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_GET_REORDER_POINTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_GET_REORDER_POINT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM_GET_REORDER_POINT</FUNCNAME>
+     <SHORT_TEXT>ZMM_GET_REORDER_POINT</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WERKS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>WERKS_D</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MATKL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATKL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MINBE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MINBE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATKL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Group</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MINBE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Reorder Point</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

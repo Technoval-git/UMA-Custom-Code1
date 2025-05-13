@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/ADAPTATION_PAGE" ConfId="Z3088F8DA1B8A70E1E2B35D5727A5E2F" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>X-SAP-UI2-CATALOGPAGE:ZVSSWTY</ID>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9CQA93LNK4IK6</USAGE_ID>
+       <Node Name="GU_BAG" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">tileProperties</ID>
+         <SCOPE>CONFIGURATION</SCOPE>
+         <DELETED/>
+         <Node Name="GU_PROPERTY" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <NAME Final="5 ">display_title_text</NAME>
+           <VALUE/>
+           <VALUE_TRANSLATABLE Transl="true">2</VALUE_TRANSLATABLE>
+           <TRANSLATABLE>X</TRANSLATABLE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9CQABURCFRYNC</USAGE_ID>
+       <Node Name="GU_BAG" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">tileProperties</ID>
+         <SCOPE>CONFIGURATION</SCOPE>
+         <DELETED/>
+         <Node Name="GU_PROPERTY" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <NAME Final="5 ">display_title_text</NAME>
+           <VALUE/>
+           <VALUE_TRANSLATABLE Transl="true">3</VALUE_TRANSLATABLE>
+           <TRANSLATABLE>X</TRANSLATABLE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

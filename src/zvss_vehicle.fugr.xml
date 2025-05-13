@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>VSS Vehicle</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVSS_VEHICLEF01</SOBJ_NAME>
+    <SOBJ_NAME>LZVSS_VEHICLEF02</SOBJ_NAME>
+    <SOBJ_NAME>LZVSS_VEHICLETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVSS_VEHICLE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBBP_INB_DELIVERY_CREATE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>NOTRANSL: Inbound Delivery Create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_INB_DELIVERY_HEADER</PARAMETER>
+       <DBFIELD>BBP_INBD_L</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EF_DELIVERY</PARAMETER>
+       <DBFIELD>LIKP-VBELN</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_INB_DELIVERY_DETAIL</PARAMETER>
+       <DBSTRUCT>BBP_INBD_D</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_INB_DELIVERY_HEADER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EF_DELIVERY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_INB_DELIVERY_DETAIL</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

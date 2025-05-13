@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="Z373F91C8DC7BD56179FE1E7BD2D6C31" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>ZVSSWTY</ID>
+     <TITLE Transl="true">2</TITLE>
+     <CATALOG_ID>/UI2/FLPD_CATALOG</CATALOG_ID>
+     <LAYOUT>{&quot;order&quot;:[&quot;2XVYKKK6T07E9CQ9W5835GJ36&quot;,&quot;2XVYKKK6T07E9CQ9W7W4TKL9E&quot;,&quot;2XVYKKK6T07E9CQADF4EG3F3Z&quot;,&quot;2XVYKKK6T07E9CQADF4EG6EKF&quot;],&quot;linkOrder&quot;:[]}</LAYOUT>
+     <ORIGINAL_LANGUAGE>en</ORIGINAL_LANGUAGE>
+     <IS_CATALOG_PAGE/>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20240219133634</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9CQ9W7W4TKL9E</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSWTY:2XVYKKK6T07E9CQ9S0NMJJA6U</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240128081604</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9CQADF4EG3F3Z</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSWTY:2XVYKKK6T07E9CQA7AVVNWXW1</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240128082558</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">2XVYKKK6T07E9CQADF4EG6EKF</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZVSSWTY:2XVYKKK6T07E9CQA7NQZNMR9W</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20240128082559</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

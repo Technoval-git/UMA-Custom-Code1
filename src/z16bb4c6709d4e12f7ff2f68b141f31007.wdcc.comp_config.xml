@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="Z16BB4C6709D4E12F7FF2F68B141F310" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>ZMM_LANDCOST</ID>
+     <TITLE Transl="true">1</TITLE>
+     <CATALOG_ID>/UI2/FLPD_CATALOG</CATALOG_ID>
+     <LAYOUT>{&quot;order&quot;:[&quot;DG1C5LA6QSAOBKCZHBSO4QSC7&quot;,&quot;DG1C5LA6QSAOBKCZI15IJIUIF&quot;,&quot;DG1C5LA6QSAOBKS8XGE1SOCMX&quot;,&quot;DG1C5LA6QSAOBKS922E3CVF21&quot;],&quot;linkOrder&quot;:[]}</LAYOUT>
+     <ORIGINAL_LANGUAGE>en</ORIGINAL_LANGUAGE>
+     <IS_CATALOG_PAGE/>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20250212093618</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBKCZHBSO4QSC7</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:FPM_TEST_MM_VERS_2:FA163E8D39F61ED5A584189986869CCA_AL</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20250209143048</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBKCZI15IJIUIF</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZMM_LANDCOST:DG1C5LA6QSAOBKCZBDMBJ1PFB</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20250209143112</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBKS8XGE1SOCMX</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZMM_LANDCOST:DG1C5LA6QSAOBKS8RR3W9IRQX</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20250212093339</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <USAGE_ID Final="5 ">DG1C5LA6QSAOBKS922E3CVF21</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZMM_LANDCOST:DG1C5LA6QSAOBKS90SWODC5X5</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20250212093618</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

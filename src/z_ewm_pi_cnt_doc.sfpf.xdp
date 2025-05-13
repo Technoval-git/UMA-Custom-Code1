@@ -1,0 +1,2389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20240701.1.52_SAP" APIVersion="3.6.24183.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-08-10T10:21:39Z" uuid="fad42aba-ae71-40a2-9e3a-60a4657b6c32">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/"><value id="N1022">Description</value><value id="N1083"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.4.5277.0"><p>Page :<span style="xfa-spacerun:yes">      </span><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/> /<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField026500" xfa:embedMode="raw" xfa:embedType="uri"/></p></body></value><value id="N109">Count Date :</value><value id="N1099">Current Date of Application Server</value><value id="N1125">Physical Inventory Account Document</value><value id="N1160">Physical Inventory Reference</value><value id="N1195">Reprint</value><value id="N1223">Count Date</value><value id="N1254">Physical Inventory Procedure</value><value id="N1282">Storage Bin Empty</value><value id="N1309">Priority</value><value id="N1336">Reason</value><value id="N1363">Does not Exist</value><value id="N1390">Complete</value><value id="N1419">Empty</value><value id="N1449">Handling Unit</value><value id="N1476">Level</value><value id="N1503">Quantity UoM</value><value id="N1530">Batch</value><value id="N1558">Party Entitled to Dispose</value><value id="N1585">Product</value><value id="N1591">Print Date :</value><value id="N1612">Product Description</value><value id="N1639">Proposed Quantity</value><value id="N1668">StckCat</value><value id="N1698">Owner</value><value id="N1725">CoO</value><value id="N1752">Hazardous Substance</value><value id="N1779">SLED</value><value id="N1806">Sales Order Item</value><value id="N1833">Cust. Document Cat.</value><value id="N1862">Sales</value><value id="N1892">Item</value><value id="N1919">Document Category</value><value id="N1946">Document </value><value id="N1973">Serial Number</value><value id="N2330">30 Characters</value><value id="N2377">Status: Physical Inventory Document Item Already Printed Out</value><value id="N2433">Field of type DATS</value><value id="N2454">Storage Bin</value><value id="N2512">Physical Inventory Procedure (Document Type of Phys. Inv.)</value><value id="N2559">Short Text</value><value id="N2666">Storage Bin</value><value id="N2714">Reason for Physical Inventory/Inventory Difference</value><value id="N2762">Priority of Physical Inventory</value><value id="N2816">Level in Tree Hierarchy Observed from Leaf</value><value id="N2864">Handling Unit Identification</value><value id="N3163">Product</value><value id="N3210">Party Entitled to Dispose</value><value id="N3232">Storage check done</value><value id="N3263">Batch Number</value><value id="N3310">Base Unit of Measure</value><value id="N332">Signature :</value><value id="N3357">Stock Type</value><value id="N3363">Exists</value><value id="N3404">Description</value><value id="N3498">Owner</value><value id="N3545">Ctry/Reg. of Origin</value><value id="N3601">Field of type DATS</value><value id="N3607">F2</value><value id="N3649">Unit for Valuation Quantity</value><value id="N3696">PI: Counted quantity</value><value id="N3749">Doc. Category for Doc. Reference and Doc.-Related Stocks</value><value id="N3785">________ , ___</value><value id="N3796">Document Category for Document-Related Stocks (Text)</value><value id="N3841">Does not exist</value><value id="N3843">Document Number</value><value id="N3890">Item Number</value><value id="N3938">Type: Sales Order Stock or Project Stock</value><value id="N3985">Number of the Sales Order or Project for Special Stock</value><value id="N4002">________ , ___</value><value id="N4032">Sales Order Item for Sales Order Stock</value><value id="N4079">Description of Doc. Cat.: Sales Order Stock or Project Stock</value><value id="N430">Physical Inventory Count Document</value><value id="N4561"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.4.5277.0"><p>(<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField015724" xfa:embedMode="raw" xfa:embedType="uri"/> )</p></body></value><value id="N4664">Hazardous Substance</value><value id="N4939">Serial Number</value><value id="N497">Numeric Field</value><value id="N5132"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.4.5277.0"><p style="text-decoration:none"><span style="xfa-spacerun:yes"> </span>(<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/> )</p></body></value><value id="N5645">Serial Number Requirement</value><value id="N5649">Physical Inventory Item Category (Product/HU)</value><value id="N568">Numeric Field</value><value id="N644"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.4.5277.0"><p style="line-height:10pt;text-decoration:none">Counter :</p></body></value><value id="N696">Warehouse Number :</value><value id="N707">Warehouse Number/Warehouse Complex</value><value id="N730"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.4.5277.0"><p style="line-height:10pt;text-decoration:none">Count Time :</p></body></value><value id="N755">Warehouse Order :</value><value id="N766">Warehouse Order Number</value><value id="N900">Description</value><value id="N961">Physical Inventory Area :</value><value id="N972">Activity Area</value></tags>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <?formServer defaultPDFRenderFormat acrobat9.0static?>
+   <subform layout="tb" locale="ambient" name="data">
+      <pageSet name="Master_Page">
+         <pageArea id="Page1" name="Master">
+            <contentArea h="209.036mm" name="ContentArea" w="175mm" x="21mm" y="40.965mm"/>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <subform h="15.0001mm" name="footer" w="175mm" x="21mm" y="254mm">
+               <field access="readOnly" h="6mm" name="Count_Date" w="62mm" x="0.0002mm" y="2mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                           <?templateDesigner StyleID aped1?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para lineHeight="10pt" vAlign="bottom"/>
+                  <caption reserve="25mm">
+                     <para lineHeight="10pt" vAlign="bottom"/>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N109" xliff:rid="N109">Count Date :</text>
+                     </value>
+                  </caption>
+                  <bind match="none"/>
+                  <assist>
+                     <speak priority="caption"/>
+                  </assist>
+                  <?digestForSAP digest="895c8c27c2c85162ee6a2065534ff585"?></field>
+               <field access="readOnly" h="6mm" name="Counter" w="62mm" x="0.0002mm" y="9mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <?templateDesigner StyleID aped1?>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="bottom"/>
+                  <caption reserve="25mm">
+                     <para lineHeight="10pt" spaceAbove="0pt" vAlign="bottom"/>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N644" xliff:rid="N644">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.4.5277.0"><p style="line-height:10pt;text-decoration:none">Counter :</p></body>
+                        </exData>
+                     </value>
+                  </caption>
+                  <bind match="none"/>
+                  <assist>
+                     <speak priority="caption"/>
+                  </assist>
+                  <?digestForSAP digest="5d199fb853991e719ee141c43e97c268"?></field>
+               <field access="readOnly" h="6mm" name="Count_time" w="62mm" x="75.0002mm" y="2mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <?templateDesigner StyleID aped1?>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="bottom"/>
+                  <caption reserve="25mm">
+                     <para lineHeight="10pt" vAlign="bottom"/>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N730" xliff:rid="N730">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.4.5277.0"><p style="line-height:10pt;text-decoration:none">Count Time :</p></body>
+                        </exData>
+                     </value>
+                  </caption>
+                  <bind match="none"/>
+                  <assist>
+                     <speak priority="caption"/>
+                  </assist>
+                  <?digestForSAP digest="cb2864e2cc63688d673e93b937cb2f61"?></field>
+               <field access="readOnly" h="6mm" name="Signature" w="62mm" x="75.0002mm" y="9mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <?templateDesigner StyleID aped1?>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para lineHeight="10pt" vAlign="bottom"/>
+                  <caption reserve="25mm">
+                     <para lineHeight="10pt" vAlign="bottom"/>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N332" xliff:rid="N332">Signature :</text>
+                     </value>
+                  </caption>
+                  <bind match="none"/>
+                  <assist>
+                     <speak priority="caption"/>
+                  </assist>
+                  <?digestForSAP digest="0de76ad285e5a77b533ae0c1e925c318"?></field>
+               <draw h="=0mm" name="Line" w="2mm" x="1mm" y="1mm">
+                  <value>
+                     <line slope="/">
+                        <edge/>
+                     </line>
+                  </value>
+               </draw>
+               <bind match="none"/>
+               <?templateDesigner expand 0?></subform>
+            <subform name="Title" x="21mm" y="10mm">
+               <draw h="9mm" name="Title_text" w="110mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N430" xliff:rid="N430">Physical Inventory Count Document</text>
+                  </value>
+                  <font baselineShift="0pt" size="18pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?renderCache.bounds 310394 25512 0 0 1417 0 0 0?>
+                  <?renderCache.textRun 33 Physical Inventory Count Document 0 1417 14212 0 0 0 "Arial" 1 0 18000 ISO-8859-1?></draw>
+               <field access="readOnly" h="9mm" id="floatingField006334" name="CurrentPageNumber" presence="hidden" w="62mm" x="0mm" y="0mm">
+                  <?templateDesigner floatingFieldPlaceholder #?>
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <?templateDesigner StyleID aped3?>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N497" xliff:rid="N497">Numeric Field</text>
+                     </value>
+                  </caption>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this)
+</script>
+                  </event>
+                  <calculate override="error"/>
+                  <bind match="none"/>
+                  <?digestForSAP digest="0ac6840026897d18503e8eea88c23c6c"?></field>
+               <field access="readOnly" h="9mm" id="floatingField026500" name="NumberofPages" presence="hidden" w="62mm" x="0mm" y="0mm">
+                  <?templateDesigner floatingFieldPlaceholder ##?>
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <?templateDesigner StyleID aped3?>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N568" xliff:rid="N568">Numeric Field</text>
+                     </value>
+                  </caption>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount()
+</script>
+                  </event>
+                  <calculate override="error"/>
+                  <bind match="none"/>
+                  <?digestForSAP digest="1b2320bab5d9314f1ba5c926c1a04559"?></field>
+               <draw h="5.23mm" name="Pages" w="29.0004mm" x="145.9998mm" y="2mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N1083" xliff:rid="N1083">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p>Page :<span style="xfa-spacerun:yes">      </span><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/> /<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField026500" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                     </exData>
+                  </value>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+               </draw>
+               <bind match="none"/>
+               <keep intact="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform h="178mm" name="PI_CNT_DOC" w="196.001mm">
+               <field h="9mm" name="DATE" presence="hidden" w="62mm" x="0mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="3BB981DA-34DA-42B4-8CC1-9FCAC6210389">Date</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$record.DATE">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Current Date of Application Server</text>
+                  </desc>
+                  <?digestForSAP digest="db195c5717be2494dc5f6dacb4dfd159"?></field>
+               <subform layout="lr-tb" name="Warehouse_line" x="21mm" y="19mm">
+                  <field access="readOnly" h="9mm" name="I_LGNUM" w="60.9999mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="34.4mm">
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N696" xliff:rid="N696">Warehouse Number :</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="LGNUM"/>
+                     <desc>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N707">Warehouse Number/Warehouse Complex</text>
+                     </desc>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="13"/>
+                     </value>
+                     <assist>
+                        <speak priority="caption"/>
+                     </assist>
+                     <?digestForSAP digest="cb5fb1c32d458c9c7a866a009d0ce43c"?></field>
+                  <field access="readOnly" h="9mm" name="LNUMT" w="57.9995mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <bind match="dataRef" ref="LGNUM_TXT"/>
+                     <desc>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N900">Description</text>
+                     </desc>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="22"/>
+                     </value>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                     <?digestForSAP digest="699c48c0fecaf312100bab20cd443f1a"?></field>
+                  <field access="readOnly" h="9.0001mm" name="I_WHO" w="56mm">
+                     <ui>
+                        <textEdit>
+                           <border presence="hidden">
+                              <?templateDesigner StyleID aped0?></border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" vAlign="middle"/>
+                     <caption reserve="31.22mm">
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N755" xliff:rid="N755">Warehouse Order :</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="COUNT_ITEM_HEAD.DATA.WHO"/>
+                     <desc>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N766">Warehouse Order Number</text>
+                     </desc>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="12"/>
+                     </value>
+                     <assist>
+                        <speak priority="caption"/>
+                     </assist>
+                     <?digestForSAP digest="ecd69d3118197228ddb85186730c1c5a"?></field>
+                  <bind match="dataRef" ref="DATA"/>
+                  <?templateDesigner expand 0?></subform>
+               <subform layout="tb" name="Warehouse_Details" w="6.889778in" x="21mm" y="28mm">
+                  <subform name="Area_line" w="175.0004mm">
+                     <field access="readOnly" h="9mm" name="PI_AREA" w="60.9995mm" x="0.001mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="40.22mm">
+                           <font baselineShift="0pt" typeface="Arial"/>
+                           <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N961" xliff:rid="N961">Physical Inventory Area :</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="AAREA"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N972">Activity Area</text>
+                        </desc>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="10"/>
+                        </value>
+                        <assist>
+                           <speak priority="caption"/>
+                        </assist>
+                        <?digestForSAP digest="488f0a6ff8c110b7beeba1f97bd837c2"?></field>
+                     <field access="readOnly" h="9mm" name="AAREAT" w="57.9995mm" x="61mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <bind match="dataRef" ref="AAREA_TXT"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N1022">Description</text>
+                        </desc>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="35"/>
+                        </value>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="1d8e56dfbec0166964b4951bd1ef8c97"?></field>
+                     <field access="readOnly" h="9mm" name="DATE" w="56mm" x="119mm">
+                        <ui>
+                           <dateTimeEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </dateTimeEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <date/>
+                        </value>
+                        <caption reserve="24.9264mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1591" xliff:rid="N1591">Print Date :</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$record.DATE">
+                           <picture>date{YYYY-MM-DD}</picture>
+                        </bind>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N1099">Current Date of Application Server</text>
+                        </desc>
+                        <format>
+                           <picture>DD.MM.YYYY</picture>
+                        </format>
+                        <assist>
+                           <speak priority="caption"/>
+                        </assist>
+                        <?digestForSAP digest="db195c5717be2494dc5f6dacb4dfd159"?></field>
+                     <bind match="none"/>
+                     <keep intact="none"/>
+                     <?templateDesigner expand 1?></subform>
+                  <bind match="dataRef" ref="DATA.COUNT_ITEM_HEAD.DATA"/>
+                  <?templateDesigner expand 0?></subform>
+               <bind match="dataRef" ref="$.IT_PI_ITEM"/>
+               <keep intact="none"/>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="Body_Page">
+         <bind match="dataRef" ref="$.IT_PI_ITEM.DATA[*].COUNT_ITEM_HEAD"/>
+         <subform layout="tb" name="Table_contents" w="6.889764in">
+            <subform h="9mm" name="Firstrow" w="175mm">
+               <field access="readOnly" minH="4mm" minW="37mm" name="DOC_STRING" y="1.0004mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="30"/>
+                  </value>
+                  <bind match="dataRef" ref="$.DOC_STATUS_TXT"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2330">30 Characters</text>
+                  </desc>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?templateDesigner expand 1?>
+                  <?digestForSAP digest="880b586c1a8591f47f6f86bc79f3e7ae"?></field>
+               <field access="readOnly" minH="4mm" name="IND_PRINTED" w="8mm" x="138mm" y="1mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.IND_PRINTED"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2377">Status: Physical Inventory Document Item Already Printed Out</text>
+                  </desc>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="86f0ace77886662609f4e602e6f6047d"?></field>
+               <field access="readOnly" minH="4mm" name="COUNT_DATE" w="25.0003mm" x="149mm" y="1mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <bind match="dataRef" ref="$.COUNT_DATE_UI"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2433">Field of type DATS</text>
+                  </desc>
+                  <format>
+                     <picture>DD.MM.YYYY</picture>
+                  </format>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="93753d80ec4a6cd6943cfdbc7e149db6"?></field>
+               <bind match="none"/>
+               <field access="readOnly" h="9mm" name="PI_AREA" presence="hidden" w="42mm" x="38mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="11.0693mm">
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N961" xliff:rid="030FA96C-7C5D-44E1-B862-0868A1D08935"/>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.AAREA"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N972">Activity Area</text>
+                  </desc>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="10"/>
+                  </value>
+                  <assist>
+                     <speak priority="caption"/>
+                  </assist>
+                  <?digestForSAP digest="9114968e290d8dbc3dcfc3938bc0df1f"?></field>
+               <field access="readOnly" h="9mm" name="AAREAT" presence="hidden" w="57.9995mm" x="81mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.AAREA_TXT"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N1022">Description</text>
+                  </desc>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="35"/>
+                  </value>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="d1e08d44f40597c66ed362cc3d3a6bb8"?></field>
+               <?templateDesigner expand 0?></subform>
+            <subform h="14mm" name="Secondrow" w="175mm">
+               <draw minH="1.5mm" name="Storage_Bin" w="0.787403in" x="1.0001mm" y="0mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2454" xliff:rid="N2454">Storage Bin</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0.75mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.75mm"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+               </draw>
+               <field access="readOnly" minH="4mm" name="DOC_TYPE" w="13.0002mm" x="36mm" y="0.945mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.DOC_TYPE"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2512">Physical Inventory Procedure (Document Type of Phys. Inv.)</text>
+                  </desc>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  </value>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="6e3e539068d5b002af9fdcc71e03ab2a"?></field>
+               <field access="readOnly" h="8.7609mm" name="DOC_TYPE_TXT" w="57.0001mm" x="59mm" y="0.9454mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.DOC_TYPE_TXT"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2559">Short Text</text>
+                  </desc>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  </value>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="0214d9dbfbbcd7b33c0ce716493fd78b"?></field>
+               <field access="readOnly" minH="5mm" minW="5mm" name="Storage_Check" x="140.4998mm" y="1.5007mm">
+                  <ui>
+                     <checkButton size="3.5278mm">
+                        <border>
+                           <fill>
+                              <color value="255, 255, 255"/>
+                           </fill>
+                           <?templateDesigner StyleID apcb1?></border>
+                     </checkButton>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin leftInset="0mm" rightInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <integer>0</integer>
+                  </value>
+                  <items>
+                     <integer>1</integer>
+                     <integer>0</integer>
+                     <integer>2</integer>
+                  </items>
+                  <bind match="none"/>
+                  <assist>
+                     <speak priority="toolTip"/>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3232" xliff:rid="N3232">Storage check done</toolTip>
+                  </assist>
+                  <?digestForSAP digest="f2254d194614c13d23e0f95b1baeecbc"?></field>
+               <field access="readOnly" minH="4mm" name="LGPLA" w="35mm" y="8.9722mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.LGPLA"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2666">Storage Bin</text>
+                  </desc>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  </value>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="ea524e7c9a8d77cbd6e5006c862dce6e"?></field>
+               <field access="readOnly" minH="4mm" name="REASON" w="18.0005mm" x="36mm" y="8.972mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.REASON"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2714">Reason for Physical Inventory/Inventory Difference</text>
+                  </desc>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  </value>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="c550ab6f06009b5dbfc7ff2d6ee36bfb"?></field>
+               <field access="readOnly" minH="4mm" name="PRIORITY" w="9.0001mm" x="141mm" y="8.9722mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.PRIORITY"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2762">Priority of Physical Inventory</text>
+                  </desc>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="7d22394e2e02a650482bf6367b69cdb8"?></field>
+               <bind match="none"/>
+               <?templateDesigner expand 0?></subform>
+            <subform layout="tb" name="Items" w="175mm">
+               <subform layout="tb" name="data" w="175mm">
+                  <subform name="HU_ROW" presence="hidden" w="175mm">
+                     <field access="readOnly" minH="4mm" name="LVL" w="22.9997mm" y="0.0543mm">
+                        <ui>
+                           <numericEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </numericEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <bind match="dataRef" ref="LVL"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2816">Level in Tree Hierarchy Observed from Leaf</text>
+                        </desc>
+                     </field>
+                     <field access="readOnly" minH="4mm" name="HUIDENT" w="37mm" x="25mm" y="0.0543mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <bind match="dataRef" ref="HUIDENT"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2864">Handling Unit Identification</text>
+                        </desc>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        </value>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="8f743152aab7d6a5a2c85153bfa1315b"?></field>
+                     <field access="readOnly" locale="ambient" minH="5mm" minW="5mm" name="Empty_checkbox" x="73.0001mm">
+                        <ui>
+                           <checkButton size="3.5278mm">
+                              <border>
+                                 <fill>
+                                    <color value="255, 255, 255"/>
+                                 </fill>
+                                 <?templateDesigner StyleID apcb1?></border>
+                           </checkButton>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin leftInset="0mm" rightInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <integer>0</integer>
+                        </value>
+                        <items>
+                           <integer>1</integer>
+                           <integer>0</integer>
+                           <integer>2</integer>
+                        </items>
+                        <bind match="none"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="2f9a600eaa9c9aae804b678ced53c46e"?></field>
+                     <field access="readOnly" locale="ambient" minH="5mm" minW="5mm" name="Complete_checkbox" x="114.9999mm" y="0.4117mm">
+                        <ui>
+                           <checkButton size="3.5278mm">
+                              <border>
+                                 <fill>
+                                    <color value="255, 255, 255"/>
+                                 </fill>
+                                 <?templateDesigner StyleID apcb1?></border>
+                           </checkButton>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin leftInset="0mm" rightInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <integer>0</integer>
+                        </value>
+                        <items>
+                           <integer>1</integer>
+                           <integer>0</integer>
+                           <integer>2</integer>
+                        </items>
+                        <bind match="none"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="c1ca1560f223d04ca7980ff511bddaa5"?></field>
+                     <field access="readOnly" locale="ambient" minH="5mm" minW="5mm" name="Noexist_checkbox" x="141mm" y="0.4117mm">
+                        <ui>
+                           <checkButton size="3.5278mm">
+                              <border>
+                                 <fill>
+                                    <color value="255, 255, 255"/>
+                                 </fill>
+                                 <?templateDesigner StyleID apcb1?></border>
+                           </checkButton>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin leftInset="0mm" rightInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <integer>0</integer>
+                        </value>
+                        <items>
+                           <integer>1</integer>
+                           <integer>0</integer>
+                           <integer>2</integer>
+                        </items>
+                        <bind match="none"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="a3e3a1038af99e8416970c6cb6095dae"?></field>
+                     <bind match="none"/>
+                     <event activity="ready" name="event__form_ready" ref="$form">
+                        <script>if  ( $.HUIDENT.rawValue ne null ) then
+$.presence	= "visible"
+endif
+</script>
+                     </event>
+                     <keep intact="none"/>
+                     <?templateDesigner expand 0?></subform>
+                  <subform layout="tb" name="Stock_rows" w="175mm" y="18.0548mm">
+                     <subform h="17.973mm" name="PROP_STOCK_SUBFORM" w="175.0004mm">
+                        <field access="readOnly" minH="5mm" name="LVL" w="23mm" x="0.001mm" y="0.546mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <bind match="dataRef" ref="LVL"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N2816">Level in Tree Hierarchy Observed from Leaf</text>
+                           </desc>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="9e1a0f3d8e4a6484e731105244f03801"?></field>
+                        <field access="readOnly" minH="5mm" name="MATNR" w="45mm" x="25mm" y="0.546mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial" weight="bold"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="MATNR"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3163">Product</text>
+                           </desc>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" maxChars="18"/>
+                           </value>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="a046256f100482e9376857f9d71026c0"?></field>
+                        <field access="readOnly" minH="5mm" name="ENTITLED" w="37mm" x="72mm" y="0.546mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="ENTITLED"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3210">Party Entitled to Dispose</text>
+                           </desc>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                           </value>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="c3517bc9a7496b17157d12d495e2d84b"?></field>
+                        <field access="readOnly" minH="5mm" name="CHARG" w="22mm" x="115mm" y="0.546mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <value>
+                              <text maxChars="10"/>
+                           </value>
+                           <bind match="dataRef" ref="CHARG"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3263">Batch Number</text>
+                           </desc>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="3b8f74b3a9622d3353b50d25c15925e9"?></field>
+                        <field access="readOnly" minH="6mm" name="CAT" w="11mm" x="115mm" y="5.973mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="CAT"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3357">Stock Type</text>
+                           </desc>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3607" xliff:rid="N3607">F2</text>
+                           </value>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="22f4ffa55df0114c4f7ef932f1746e34"?></field>
+                        <field access="readOnly" minH="6mm" name="MAKTX" w="45mm" x="25mm" y="5.973mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="MAKTX"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3404">Description</text>
+                           </desc>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                           </value>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="e6c07d9e0157bf232b422023384240a0"?></field>
+                        <subform h="5.17mm" name="Quantity" w="37mm" x="138mm" y="0.546mm">
+                           <draw minH="5mm" name="BlankLine" w="1.004806in" x="2.001mm" y="0.327mm">
+                              <ui>
+                                 <textEdit/>
+                              </ui>
+                              <value>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3785" xliff:rid="N3785">________ , ___</text>
+                              </value>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                           </draw>
+                           <field access="readOnly" minH="5mm" name="MEINS" w="9mm" x="28mm" y="0.1mm">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <bind match="dataRef" ref="UNIT_B"/>
+                              <desc>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3310">Base Unit of Measure</text>
+                              </desc>
+                              <value>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                              </value>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <?digestForSAP digest="5280422ef8a095879a60d31828fcefd4"?></field>
+                           <bind match="none"/>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ($.MEINS	ne null ) then
+$.presence = "visible"
+else
+$.presence = "hidden"
+endif
+</script>
+                           </event>
+                           <?templateDesigner expand 1?></subform>
+                        <subform h="5.1742mm" locale="ambient" name="Exists_checkbox" presence="hidden" w="15.9995mm" x="149mm" y="0.973mm">
+                           <draw minH="3.2981mm" minW="11.0003mm" name="Exists" y="0.1464mm">
+                              <value>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3363" xliff:rid="N3363">Exists</text>
+                              </value>
+                              <ui>
+                                 <textEdit/>
+                              </ui>
+                              <font baselineShift="0pt" typeface="Arial"/>
+                              <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                              <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                           </draw>
+                           <field minH="5mm" minW="5mm" name="exist_checkbox" x="10.9996mm" y="0mm">
+                              <ui>
+                                 <checkButton size="4.2333mm">
+                                    <border>
+                                       <fill>
+                                          <color value="255, 255, 255"/>
+                                       </fill>
+                                       <?templateDesigner StyleID apcb1?></border>
+                                 </checkButton>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin leftInset="0mm" rightInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <integer>0</integer>
+                              </value>
+                              <items>
+                                 <integer>1</integer>
+                                 <integer>0</integer>
+                                 <integer>2</integer>
+                              </items>
+                              <bind match="none"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <?digestForSAP digest="7c386eea0d1fd56f9eb1ca6c72dbf00d"?></field>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ( $.parent.Quantity.MEINS.isNull	) then
+$.presence = "visible"
+endif
+</script>
+                           </event>
+                           <bind match="none"/>
+                           <?templateDesigner expand 1?></subform>
+                        <subform h="9.7148mm" name="PropQuant" w="62mm" x="113mm" y="5.973mm">
+                           <bind match="none"/>
+                           <field access="readOnly" h="9mm" id="floatingField015724" name="PropQuantity" presence="hidden" w="37mm" x="0.0002mm" y="0.0004mm">
+                              <ui>
+                                 <numericEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </numericEdit>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <format>
+                                 <picture>zzzzzzz</picture>
+                              </format>
+                              <bind match="dataRef" ref="QUANTITY_B"/>
+                              <?digestForSAP digest="bb650de516ec188e3625f5f27311b410"?></field>
+                           <draw h="0.236222in" name="StaticText3" w="1.141736in" x="28.9998mm" y="0.0004mm">
+                              <ui>
+                                 <textEdit/>
+                              </ui>
+                              <value>
+                                 <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N4561" xliff:rid="N4561">
+                                    <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p>(<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField015724" xfa:embedMode="raw" xfa:embedType="uri"/> )</p></body>
+                                 </exData>
+                              </value>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                           </draw>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ( $.PropQuantity	ne null ) then
+$.presence = "visible"
+else
+$.presence = "hidden"
+endif
+</script>
+                           </event>
+                           <?templateDesigner expand 1?></subform>
+                        <subform name="NoExists_checkbox" presence="hidden" w="30.2863mm" x="139mm" y="5.417mm">
+                           <field minH="5mm" minW="5mm" name="noexist_checkbox" x="25.0002mm" y="1mm">
+                              <ui>
+                                 <checkButton size="4.2333mm">
+                                    <border>
+                                       <fill>
+                                          <color value="255, 255, 255"/>
+                                       </fill>
+                                       <?templateDesigner StyleID apcb1?></border>
+                                 </checkButton>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin leftInset="0mm" rightInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <integer>0</integer>
+                              </value>
+                              <items>
+                                 <integer>1</integer>
+                                 <integer>0</integer>
+                                 <integer>2</integer>
+                              </items>
+                              <bind match="none"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <?digestForSAP digest="6255f221f4fa605cf4f3ba35eaead812"?></field>
+                           <draw minH="2mm" name="NoExists" w="1.023625in" x="0.0004mm" y="1.0002mm">
+                              <value>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3841" xliff:rid="N3841">Does not exist</text>
+                              </value>
+                              <ui>
+                                 <textEdit>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font baselineShift="0pt" typeface="Arial"/>
+                              <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                              <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                           </draw>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ( $.parent.PropQuant.PropQuantity.isNull	 ) then 
+$.presence = "visible"
+endif
+</script>
+                           </event>
+                           <bind match="none"/>
+                           <?templateDesigner expand 1?></subform>
+                        <field access="readOnly" minH="3mm" name="OWNER" w="37mm" x="72mm" y="12.973mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="OWNER"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3498">Owner</text>
+                           </desc>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="800d8e183023bf8c3f9dd615f76854c9"?></field>
+                        <field access="readOnly" minH="3mm" name="COO" w="14mm" x="115mm" y="13.083mm">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="COO"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3545">Ctry/Reg. of Origin</text>
+                           </desc>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                           </value>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="81176d6724515abc73ca04cd32402db4"?></field>
+                        <field access="readOnly" minH="3mm" name="WDATU" w="34mm" x="140mm" y="12.973mm">
+                           <ui>
+                              <dateTimeEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </dateTimeEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <value>
+                              <date/>
+                           </value>
+                           <bind match="dataRef" ref="UI_WDATU"/>
+                           <desc>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3601">Field of type DATS</text>
+                           </desc>
+                           <format>
+                              <picture>DD.MM.YYYY</picture>
+                           </format>
+                           <assist>
+                              <speak disable="1"/>
+                           </assist>
+                           <?digestForSAP digest="bb068881c1a12562c4d8aee18519fe87"?></field>
+                        <bind match="none"/>
+                        <event activity="ready" name="event__form_ready" ref="$form">
+                           <script>if ( $.parent.TYPE_ITEM	eq "S" ) then
+$.presence = "visible"
+else
+$.presence = "hidden"
+endif
+</script>
+                        </event>
+                        <subform name="Hazard" presence="hidden" x="25mm" y="11.973mm">
+                           <field minH="5mm" minW="5mm" name="Hazard_checkbox" x="0.0002mm" y="1.0003mm">
+                              <ui>
+                                 <checkButton size="4.2333mm">
+                                    <border>
+                                       <fill>
+                                          <color value="255, 255, 255"/>
+                                       </fill>
+                                       <?templateDesigner StyleID apcb1?></border>
+                                 </checkButton>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin leftInset="0mm" rightInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <integer>0</integer>
+                              </value>
+                              <items>
+                                 <integer>1</integer>
+                                 <integer>0</integer>
+                                 <integer>2</integer>
+                              </items>
+                              <bind match="none"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <?digestForSAP digest="ed8ccfcb6c22adaadf88d382a8f11c31"?></field>
+                           <bind match="none"/>
+                           <field h="3mm" name="HAZMAT" presence="hidden" w="4.9999mm" x="4mm" y="1mm">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                              <para vAlign="middle"/>
+                              <bind match="dataRef" ref="HAZMAT"/>
+                              <desc>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N4664">Hazardous Substance</text>
+                              </desc>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <?digestForSAP digest="0b97f9ec7239360db85763f109eddd50"?></field>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ( $.HAZMAT ne null ) then
+$.presence	= "visible"
+endif
+</script>
+                           </event>
+                           <?templateDesigner expand 1?></subform>
+                        <keep intact="none"/>
+                        <?templateDesigner expand 0?></subform>
+                     <subform name="Crew" w="175mm">
+                        <subform name="CWQuant" w="175mm" y="5.9166mm">
+                           <field access="readOnly" h="9mm" id="floatingField018467" name="CWQUAN" presence="hidden" w="12mm" y="0.0558mm">
+                              <ui>
+                                 <numericEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </numericEdit>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <bind match="dataRef" ref="CWQUAN"/>
+                              <format>
+                                 <picture>zzzzzzz</picture>
+                              </format>
+                              <?digestForSAP digest="9b3f89992b97c8614253d612172d2e85"?></field>
+                           <draw minH="4.5276mm" name="CW_QUANTITY_PROP" w="1.259819in" x="139.9998mm" y="0.0558mm">
+                              <ui>
+                                 <textEdit>
+                                    <margin/>
+                                    <border presence="hidden"/>
+                                 </textEdit>
+                              </ui>
+                              <value>
+                                 <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N5132" xliff:rid="N5132">
+                                    <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p><span style="xfa-spacerun:yes"> </span>(<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/> )</p></body>
+                                 </exData>
+                              </value>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <desc>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3696">PI: Counted quantity</text>
+                              </desc>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                           </draw>
+                           <bind match="none"/>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ( $.CWQUAN ne null ) then 
+$.presence = "visible"
+else
+$.presence = "hidden"
+endif
+</script>
+                           </event>
+                           <?templateDesigner expand 0?></subform>
+                        <subform h="5.4716mm" name="Quant" w="35.9992mm" x="138.0003mm">
+                           <field access="readOnly" minH="4.5276mm" name="CWUNIT" w="8mm" x="27.9996mm" y="0.944mm">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="1mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <bind match="dataRef" ref="CWUNIT"/>
+                              <desc>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N3649">Unit for Valuation Quantity</text>
+                              </desc>
+                              <value>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                              </value>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                              <?digestForSAP digest="6f1ab2e88c28062c993aff84f9d51fa6"?></field>
+                           <draw minH="2mm" name="StaticText2" w="1.004806in" x="1.9995mm" y="0.944mm">
+                              <ui>
+                                 <textEdit>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <value>
+                                 <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N4002" xliff:rid="N4002">________ , ___</text>
+                              </value>
+                              <font typeface="Arial"/>
+                              <margin bottomInset="0mm" leftInset="0.5mm" rightInset="0mm" topInset="0mm"/>
+                              <assist>
+                                 <speak disable="1"/>
+                              </assist>
+                           </draw>
+                           <bind match="none"/>
+                           <event activity="ready" name="event__form_ready" ref="$form">
+                              <script>if ( $.CWUNIT ne null ) then 
+$.presence = "visible"
+else
+$.presence = "hidden"
+endif
+</script>
+                           </event>
+                           <?templateDesigner expand 0?></subform>
+                        <bind match="none"/>
+                        <event activity="ready" name="event__form_ready" ref="$form">
+                           <script>if ( $.CWQuant.CWQUAN ne null or $.Quant.CWUNIT ne null ) then 
+$.presence = "visible"
+else
+$.presence = "hidden"
+endif
+</script>
+                        </event>
+                        <keep intact="none"/>
+                        <?templateDesigner expand 1?></subform>
+                     <bind match="none"/>
+                     <field access="readOnly" h="2mm" locale="ambient" name="SER_STOCK" presence="hidden" w="2mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <bind match="dataRef" ref="SER_STOCK"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N5645">Serial Number Requirement</text>
+                        </desc>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="329c95b269df0b0aada8e13438cdca0f"?></field>
+                     <field access="readOnly" h="2mm" name="TYPE_ITEM" presence="hidden" w="2mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="0mm">
+                           <para vAlign="middle"/>
+                        </caption>
+                        <bind match="dataRef" ref="TYPE_ITEM"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N5649">Physical Inventory Item Category (Product/HU)</text>
+                        </desc>
+                        <?digestForSAP digest="f40a42833003b890666dc75032b48fc0"?></field>
+                     <?templateDesigner expand 0?></subform>
+                  <bind match="dataRef" ref="$.DATA[*]"/>
+                  <occur max="-1" min="0"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="dataRef" ref="$.COUNT_ITEM"/>
+               <occur max="-1"/>
+               <?templateDesigner expand 1?></subform>
+            <bind match="dataRef" ref="$.DATA[*]"/>
+            <occur max="-1"/>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 220 55 00030006000B000C000F001100120015001D002400250026002700280029002B002C002F003000310032003300340035003600370038003A0042004400450046004700480049004A004B004C004E004F005000510052005300550056005700580059005A005B005C005D005E0060 #(),./2:ABCDEFHILMNOPQRSTUW_abcdefghiklmnoprstuvwxyz{}?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 80 20 000300260027002C0033004400460048004B004C004F00500051005200550056005700580059005C CDIPacehilmnorstuvy?>
+   </subform>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt server?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner XDPPreviewFormat 1?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.4/?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner Grid show:0, snap:0, units:17, color:ff8080, origin:(0,0), interval:(25000,25000), objsnap:0, guidesnap:0, pagecentersnap:1?>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Zoom 127?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <template>
+            <base>http://vhumgds4ci.sap.altawkilat.com:8000/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="ArialmonospacedforSAP" typeface="Arial monospaced for SAP" weight="normal"/>
+      <font posture="normal" psName="KozMinProVI-Regular" typeface="Kozuka Mincho Pro-VI R" weight="normal"/>
+      <font posture="normal" psName="AdobeArabic-Regular" typeface="Adobe Arabic" weight="normal"/>
+      <font posture="normal" psName="AdobeHebrew-Regular" typeface="Adobe Hebrew" weight="normal"/>
+      <font posture="normal" psName="AdobeThai-Regular" typeface="Adobe Thai" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="Z_EWM_PI_CNT_DOC">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.1/?></connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <DATE/>
+         <IT_PI_ITEM dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <LGNUM/>
+               <LGNUM_TXT/>
+               <COUNT_ITEM_HEAD dd:minOccur="0">
+                  <DATA dd:maxOccur="-1">
+                     <AAREA/>
+                     <AAREA_TXT/>
+                     <PRIORITY/>
+                     <IND_PRINTED/>
+                     <DOC_TYPE/>
+                     <DOC_TYPE_TXT/>
+                     <DOC_STATUS_TXT/>
+                     <REASON/>
+                     <WHO dd:minOccur="0" dd:nullType="exclude"/>
+                     <COUNT_DATE_UI/>
+                     <LGPLA/>
+                     <COUNT_ITEM dd:minOccur="0">
+                        <DATA dd:maxOccur="-1">
+                           <LVL/>
+                           <TYPE_ITEM/>
+                           <HUIDENT dd:minOccur="0" dd:nullType="exclude"/>
+                           <HUIDENT_ITEM dd:minOccur="0" dd:nullType="exclude"/>
+                           <QUANTITY_B dd:minOccur="0" dd:nullType="exclude"/>
+                           <UNIT_B dd:minOccur="0" dd:nullType="exclude"/>
+                           <CWQUAN dd:minOccur="0" dd:nullType="exclude"/>
+                           <CWUNIT dd:minOccur="0" dd:nullType="exclude"/>
+                           <MATNR/>
+                           <MAKTX/>
+                           <CHARG/>
+                           <CAT/>
+                           <ENTITLED/>
+                           <OWNER/>
+                           <STOCK_DOCCAT dd:minOccur="0" dd:nullType="exclude"/>
+                           <STOCK_DOCCAT_TEXT/>
+                           <STOCK_DOCNO dd:minOccur="0" dd:nullType="exclude"/>
+                           <STOCK_ITMNO dd:minOccur="0" dd:nullType="exclude"/>
+                           <SER_STOCK/>
+                           <UI_WDATU/>
+                           <COO/>
+                           <QDOCCAT/>
+                           <QDOCCAT_TEXT/>
+                           <QDOCNO dd:minOccur="0" dd:nullType="exclude"/>
+                           <QITEMNO dd:minOccur="0" dd:nullType="exclude"/>
+                           <HAZMAT/>
+                           <SERID_T dd:minOccur="0">
+                              <DATA dd:maxOccur="-1">
+                                 <SERID/>
+                                 <UII/>
+                              </DATA>
+                           </SERID_T>
+                           <HU_PMAT/>
+                           <HU_TYPE/>
+                        </DATA>
+                     </COUNT_ITEM>
+                     <ALLOW_COUNT_REFERENCE/>
+                  </DATA>
+               </COUNT_ITEM_HEAD>
+            </DATA>
+         </IT_PI_ITEM>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.1/?></localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" rdf:about="">
+         <xmp:MetadataDate>2024-08-10T10:21:39Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:fad42aba-ae71-40a2-9e3a-60a4657b6c32</xmpMM:DocumentID>
+         <pdfuaid:part>1</pdfuaid:part>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xfa="http://www.xfa.org/schema/xfa-template/2.2/" xmlns:xfadata="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml" attributeFormDefault="unqualified" elementFormDefault="qualified" id="XFASchemaXSD">
+   <xsd:import namespace="http://www.xfa.org/schema/xfa-data/1.0/"/>
+   <xsd:element name="data">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="DATE" type="xsd:date">
+               <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <xsd:documentation>System Date</xsd:documentation>
+                  <xsd:appinfo>
+                     <dc:description>System Date</dc:description>
+                     <dc:title>Date</dc:title>
+                  </xsd:appinfo>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="IT_PI_ITEM">
+               <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <xsd:documentation>Print Physical Inventory Document Items with Adobe</xsd:documentation>
+                  <xsd:appinfo>
+                     <dc:description>Print Physical Inventory Document Items with Adobe</dc:description>
+                  </xsd:appinfo>
+               </xsd:annotation>
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element maxOccurs="unbounded" minOccurs="1" name="DATA">
+                        <xsd:complexType>
+                           <xsd:sequence>
+                              <xsd:element name="LGNUM">
+                                 <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                    <xsd:documentation>Warehouse Number/Warehouse Complex</xsd:documentation>
+                                    <xsd:appinfo>
+                                       <dc:description>Warehouse Number/Warehouse Complex</dc:description>
+                                       <dc:title>WhN</dc:title>
+                                    </xsd:appinfo>
+                                 </xsd:annotation>
+                                 <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                       <xsd:maxLength value="4"/>
+                                    </xsd:restriction>
+                                 </xsd:simpleType>
+                              </xsd:element>
+                              <xsd:element name="LGNUM_TXT">
+                                 <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                    <xsd:documentation>Description</xsd:documentation>
+                                    <xsd:appinfo>
+                                       <dc:description>Description</dc:description>
+                                       <dc:title>Description</dc:title>
+                                    </xsd:appinfo>
+                                 </xsd:annotation>
+                                 <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                       <xsd:maxLength value="40"/>
+                                    </xsd:restriction>
+                                 </xsd:simpleType>
+                              </xsd:element>
+                              <xsd:element maxOccurs="1" minOccurs="0" name="COUNT_ITEM_HEAD">
+                                 <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                    <xsd:documentation>Print Physical Inventory Document Header with Adobe</xsd:documentation>
+                                    <xsd:appinfo>
+                                       <dc:description>Print Physical Inventory Document Header with Adobe</dc:description>
+                                    </xsd:appinfo>
+                                 </xsd:annotation>
+                                 <xsd:complexType>
+                                    <xsd:sequence>
+                                       <xsd:element maxOccurs="unbounded" minOccurs="1" name="DATA">
+                                          <xsd:complexType>
+                                             <xsd:sequence>
+                                                <xsd:element name="AAREA">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Activity Area</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Activity Area</dc:description>
+                                                         <dc:title>Activity Area</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="4"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="AAREA_TXT">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Description</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Description</dc:description>
+                                                         <dc:title>Description</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="40"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="PRIORITY">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Priority of Physical Inventory</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Priority of Physical Inventory</dc:description>
+                                                         <dc:title>Phys. Inv. Priority</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="1"/>
+                                                         <xsd:pattern value="\d+"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="IND_PRINTED">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Status: Physical Inventory Document Item Already Printed Out</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Status: Physical Inventory Document Item Already Printed Out</dc:description>
+                                                         <dc:title>Print</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="1"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="DOC_TYPE">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Physical Inventory Procedure (Document Type of Phys. Inv.)</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Physical Inventory Procedure (Document Type of Phys. Inv.)</dc:description>
+                                                         <dc:title>Physical Inventory Procedure</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="2"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="DOC_TYPE_TXT">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Physical Inventory Procedure Description</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Physical Inventory Procedure Description</dc:description>
+                                                         <dc:title>Physical Inventory Procedure Description</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="50"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="DOC_STATUS_TXT">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Description of Physical Inventory Status</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Description of Physical Inventory Status</dc:description>
+                                                         <dc:title>Status of Phys. Inv. Progress</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="50"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="REASON">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Reason for Physical Inventory/Inventory Difference</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Reason for Physical Inventory/Inventory Difference</dc:description>
+                                                         <dc:title>Reason for Physical Inventory</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="4"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element maxOccurs="1" minOccurs="0" name="WHO">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Warehouse Order Number</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Warehouse Order Number</dc:description>
+                                                         <dc:title>Whse Order</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="10"/>
+                                                         <xsd:pattern value="\d+"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element name="COUNT_DATE_UI" type="xsd:date">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Date of Physical Inventory Count</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Date of Physical Inventory Count</dc:description>
+                                                         <dc:title>Count Date</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                </xsd:element>
+                                                <xsd:element name="LGPLA">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Storage Bin</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Storage Bin</dc:description>
+                                                         <dc:title>Bin</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="18"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                                <xsd:element maxOccurs="1" minOccurs="0" name="COUNT_ITEM">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Print Physical Inventory Document Items with Adobe</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Print Physical Inventory Document Items with Adobe</dc:description>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:complexType>
+                                                      <xsd:sequence>
+                                                         <xsd:element maxOccurs="unbounded" minOccurs="1" name="DATA">
+                                                            <xsd:complexType>
+                                                               <xsd:sequence>
+                                                                  <xsd:element name="LVL">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Level of Stock Hierarchy</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Level of Stock Hierarchy</dc:description>
+                                                                           <dc:title>Level</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:int">
+                                                                           <xsd:totalDigits value="10"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="TYPE_ITEM">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Physical Inventory Item Category (Product/HU)</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Physical Inventory Item Category (Product/HU)</dc:description>
+                                                                           <dc:title>ItemCat</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="1"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="HUIDENT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Handling Unit Identification</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Handling Unit Identification</dc:description>
+                                                                           <dc:title>Handling Unit</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="20"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="HUIDENT_ITEM">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Handling Unit Identification</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Handling Unit Identification</dc:description>
+                                                                           <dc:title>Handling Unit</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="20"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="QUANTITY_B">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Quantity in Base Unit of Measure</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Quantity in Base Unit of Measure</dc:description>
+                                                                           <dc:title>Qty BUoM</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:decimal">
+                                                                           <xsd:totalDigits value="13"/>
+                                                                           <xsd:fractionDigits value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="UNIT_B">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Base Unit of Measure</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Base Unit of Measure</dc:description>
+                                                                           <dc:title>BUn</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="CWQUAN">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Actual Valuation Quantity (for UI)</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Actual Valuation Quantity (for UI)</dc:description>
+                                                                           <dc:title>Overall Valuation Quantity</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:decimal">
+                                                                           <xsd:totalDigits value="13"/>
+                                                                           <xsd:fractionDigits value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="CWUNIT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Unit for Valuation Quantity</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Unit for Valuation Quantity</dc:description>
+                                                                           <dc:title>Val. Unit</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="MATNR">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Product</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Product</dc:description>
+                                                                           <dc:title>Product</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="40"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="MAKTX">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Product Short Description</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Product Short Description</dc:description>
+                                                                           <dc:title>Product Short Description</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="40"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="CHARG">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Batch</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Batch</dc:description>
+                                                                           <dc:title>Batch</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="10"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="CAT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Stock Type</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Stock Type</dc:description>
+                                                                           <dc:title>ST</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="2"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="ENTITLED">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Party Entitled to Dispose</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Party Entitled to Dispose</dc:description>
+                                                                           <dc:title>Disposal</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="10"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="OWNER">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Owner</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Owner</dc:description>
+                                                                           <dc:title>Owner</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="28"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="STOCK_DOCCAT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Special Reference Stock Type</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Special Reference Stock Type</dc:description>
+                                                                           <dc:title>Tpe</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="STOCK_DOCCAT_TEXT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Description of Special Reference Stock Type</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Description of Special Reference Stock Type</dc:description>
+                                                                           <dc:title>Type Description</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="40"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="STOCK_DOCNO">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Reference Document for Special Reference Stock</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Reference Document for Special Reference Stock</dc:description>
+                                                                           <dc:title>Stock Reference Document</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="35"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="STOCK_ITMNO">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Sales Order Item for Sales Order Stock</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Sales Order Item for Sales Order Stock</dc:description>
+                                                                           <dc:title>SlsOrd.Itm</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="10"/>
+                                                                           <xsd:pattern value="\d+"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="SER_STOCK">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Serial Number Requirement</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Serial Number Requirement</dc:description>
+                                                                           <dc:title>Serial No. Requiremt</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="1"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="UI_WDATU" type="xsd:date">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Goods Receipt Date</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Goods Receipt Date</dc:description>
+                                                                           <dc:title>GR Date</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="COO">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Country/Region of Origin</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Country/Region of Origin</dc:description>
+                                                                           <dc:title>Origin</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="QDOCCAT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Doc. Category for Doc. Reference and Doc.-Related Stock</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Doc. Category for Doc. Reference and Doc.-Related Stock</dc:description>
+                                                                           <dc:title>Cat</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="3"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="QDOCCAT_TEXT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Document Category for Document-Related Stocks (Text)</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Document Category for Document-Related Stocks (Text)</dc:description>
+                                                                           <dc:title>Document Category (Text)</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="40"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="QDOCNO">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Document Number for Stock Reference</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Document Number for Stock Reference</dc:description>
+                                                                           <dc:title>Stock Reference</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="35"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="QITEMNO">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Item Number of Stock Reference</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Item Number of Stock Reference</dc:description>
+                                                                           <dc:title>Stock Reference Item</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="10"/>
+                                                                           <xsd:pattern value="\d+"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="HAZMAT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Hazardous Substance</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Hazardous Substance</dc:description>
+                                                                           <dc:title>Hazardous Substance Relevant for Storage</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="1"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element maxOccurs="1" minOccurs="0" name="SERID_T">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Print Physical Inventory Document Serial Numbers with Adobe</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Print Physical Inventory Document Serial Numbers with Adobe</dc:description>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:complexType>
+                                                                        <xsd:sequence>
+                                                                           <xsd:element maxOccurs="unbounded" minOccurs="1" name="DATA">
+                                                                              <xsd:complexType>
+                                                                                 <xsd:sequence>
+                                                                                    <xsd:element name="SERID">
+                                                                                       <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                                          <xsd:documentation>Serial Number</xsd:documentation>
+                                                                                          <xsd:appinfo>
+                                                                                             <dc:description>Serial Number</dc:description>
+                                                                                             <dc:title>Serial No.</dc:title>
+                                                                                          </xsd:appinfo>
+                                                                                       </xsd:annotation>
+                                                                                       <xsd:simpleType>
+                                                                                          <xsd:restriction base="xsd:string">
+                                                                                             <xsd:maxLength value="30"/>
+                                                                                          </xsd:restriction>
+                                                                                       </xsd:simpleType>
+                                                                                    </xsd:element>
+                                                                                    <xsd:element name="UII">
+                                                                                       <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                                          <xsd:documentation>Unique Item Identifier</xsd:documentation>
+                                                                                          <xsd:appinfo>
+                                                                                             <dc:description>Unique Item Identifier</dc:description>
+                                                                                             <dc:title>Unique Item Identifier</dc:title>
+                                                                                          </xsd:appinfo>
+                                                                                       </xsd:annotation>
+                                                                                       <xsd:simpleType>
+                                                                                          <xsd:restriction base="xsd:string">
+                                                                                             <xsd:maxLength value="72"/>
+                                                                                          </xsd:restriction>
+                                                                                       </xsd:simpleType>
+                                                                                    </xsd:element>
+                                                                                 </xsd:sequence>
+                                                                              </xsd:complexType>
+                                                                           </xsd:element>
+                                                                        </xsd:sequence>
+                                                                     </xsd:complexType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="HU_PMAT">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Packaging Material</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Packaging Material</dc:description>
+                                                                           <dc:title>Pack.Mat.</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="40"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                                  <xsd:element name="HU_TYPE">
+                                                                     <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                                        <xsd:documentation>Handling Unit Type</xsd:documentation>
+                                                                        <xsd:appinfo>
+                                                                           <dc:description>Handling Unit Type</dc:description>
+                                                                           <dc:title>Handling Unit Type</dc:title>
+                                                                        </xsd:appinfo>
+                                                                     </xsd:annotation>
+                                                                     <xsd:simpleType>
+                                                                        <xsd:restriction base="xsd:string">
+                                                                           <xsd:maxLength value="4"/>
+                                                                        </xsd:restriction>
+                                                                     </xsd:simpleType>
+                                                                  </xsd:element>
+                                                               </xsd:sequence>
+                                                            </xsd:complexType>
+                                                         </xsd:element>
+                                                      </xsd:sequence>
+                                                   </xsd:complexType>
+                                                </xsd:element>
+                                                <xsd:element name="ALLOW_COUNT_REFERENCE">
+                                                   <xsd:annotation xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                                      <xsd:documentation>Enable Count Reference</xsd:documentation>
+                                                      <xsd:appinfo>
+                                                         <dc:description>Enable Count Reference</dc:description>
+                                                         <dc:title>Enable Count Reference</dc:title>
+                                                      </xsd:appinfo>
+                                                   </xsd:annotation>
+                                                   <xsd:simpleType>
+                                                      <xsd:restriction base="xsd:string">
+                                                         <xsd:maxLength value="1"/>
+                                                      </xsd:restriction>
+                                                   </xsd:simpleType>
+                                                </xsd:element>
+                                             </xsd:sequence>
+                                          </xsd:complexType>
+                                       </xsd:element>
+                                    </xsd:sequence>
+                                 </xsd:complexType>
+                              </xsd:element>
+                           </xsd:sequence>
+                        </xsd:complexType>
+                     </xsd:element>
+                  </xsd:sequence>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+</xsd:schema></xdp:xdp>

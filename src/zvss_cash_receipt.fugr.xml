@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Cash Receipt</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZVSS_CASH_RECEIPTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZVSS_CASH_RECEIPT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZVSS_CASH_RECEIPT</FUNCNAME>
+     <SHORT_TEXT>Cash receipt</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CS_DOC_HEAD</PARAMETER>
+       <DBFIELD>/DBE/T_DOC_HEAD_COM</DBFIELD>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CS_SESSION</PARAMETER>
+       <DBFIELD>/DBE/T_SESSION_COM</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DOC_LINE</PARAMETER>
+       <DBSTRUCT>/DBE/T_DOC_LINE_COM</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_OP_LINE</PARAMETER>
+       <DBSTRUCT>/DBE/T_OP_LINE_COM</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_BOOK_DOC</PARAMETER>
+       <DBSTRUCT>/DBE/T_DOC_BOOK_COM</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_DOC_LINE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Cash Desk Item (Item Document)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_OP_LINE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Cash Desk Open Items - Item</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_BOOK_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Cash Desk Posting Documents</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CS_DOC_HEAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Cash Desk Header (Header Document)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CS_SESSION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Cash Desk Session (Opening/Closing)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

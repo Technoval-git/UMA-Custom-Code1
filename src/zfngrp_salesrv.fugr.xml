@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Sales service function group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFNGRP_SALESRVTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFNGRP_SALESRV</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YDBE_SERV_INV_DATA</FUNCNAME>
+     <SHORT_TEXT>FM for sales srv</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BILLING_DOC</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>VBELN_VF</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SF_SHOW</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PRINT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CRMT_BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROFORMA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CRMT_BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ALL</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ARABIC</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CRMT_BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LANGU</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-LANGU</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_OTF</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TSFOTF</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2_TAB</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_HEADER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YPRFINV_HEAD_VSS_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_LABOR_DETAILS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YSERV_INV_ITEM_PDF_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_PARTS_DETAILS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YSERV_INV_ITEM_PDF_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_CONSUMAB_DETAILS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YSERV_INV_ITEM_PDF_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_ADDITION_DETAILS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YSERV_INV_ITEM_PDF_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_TAX_PERC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BILLING_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Billing Document</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SF_SHOW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PRINT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Logical Variable</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROFORMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Logical Variable</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ALL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ARABIC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Logical Variable</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LANGU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Language ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_OTF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TT for YPRFINV_HEAD_VSS_ST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error Messages</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TT for YPRFINV_HEAD_VSS_ST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_LABOR_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TT for SERV_INV_ITEM_PDF_ST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_PARTS_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TT for SERV_INV_ITEM_PDF_ST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_CONSUMAB_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TT for SERV_INV_ITEM_PDF_ST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ADDITION_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>TT for SERV_INV_ITEM_PDF_ST</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TAX_PERC</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>YVSS_CONVERT_STRUC_NUM_TO_AR</FUNCNAME>
+     <SHORT_TEXT>FM num to ar</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CS_STRUC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CS_STRUC</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

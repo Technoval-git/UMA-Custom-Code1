@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_MRP_SER_LEVEL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DEC3</DOMNAME>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Service Level</DDTEXT>
+    <SCRTEXT_S>Srv Level</SCRTEXT_S>
+    <SCRTEXT_M>Service Level</SCRTEXT_M>
+    <SCRTEXT_L>Service Level</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

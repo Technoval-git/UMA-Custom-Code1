@@ -1,0 +1,4326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20201112.2.940716_SAP" APIVersion="3.6.20316.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-06-24T20:28:22Z" uuid="7bc433a1-0715-4938-900d-2cc35b16a09d">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.3/" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="en_US" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="263.525mm" id="contentArea_ID" name="cover" w="203.2mm" x="6.35mm" y="6.35mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <field access="readOnly" h="7.5mm" id="floatingField025712" name="CurrentPage" presence="hidden" w="55mm" x="65.845mm" y="135.884mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para hAlign="center" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="E6A6558F-42D4-4B02-A4B4-F56589FC528C">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder #?>
+               <bind match="none"/>
+            </field>
+            <field access="readOnly" h="7.5mm" id="floatingField018476" name="PageCount" presence="hidden" w="55mm" x="65.845mm" y="135.884mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para hAlign="center" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="E9053166-4FF8-4913-A9A9-31C77624E1B2">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder ##?>
+               <bind match="none"/>
+            </field>
+            <draw name="Pages" x="95.25mm" y="269.875mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData contentType="text/html" maxLength="0" xliff:rid="EC170E82-4551-41E7-AD8D-BF5493CE7DC3">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+<p>Page<span style="xfa-spacerun:yes"> </span>
+<span xfa:embed="#floatingField025712" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span>
+<span xfa:embed="#floatingField018476" xfa:embedMode="raw" xfa:embedType="uri"/>
+</p>
+</body>
+                  </exData>
+               </value>
+               <font typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <?templateDesigner expand 1?></pageArea>
+         <pageArea id="Page2_ID" name="Page2">
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <contentArea h="263.525mm" id="contentArea_ID_copy1" name="Kontent" w="203.2mm" x="6.35mm" y="6.35mm"/>
+            <draw name="Pages" x="95.25mm" y="269.875mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData contentType="text/html" maxLength="0" xliff:rid="7107D71D-FF65-49EB-995D-A495AD72459F">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+<p>Page<span style="xfa-spacerun:yes"> </span>
+<span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span>
+<span xfa:embed="#floatingField026500" xfa:embedMode="raw" xfa:embedType="uri"/>
+</p>
+</body>
+                  </exData>
+               </value>
+               <font typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <field access="readOnly" h="7.5mm" id="floatingField006334" name="CurrentPage" presence="hidden" w="55mm" x="151.57mm" y="408.934mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para hAlign="center" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="1EE64FDA-C9A7-4541-8FAB-90422C86775A">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder #?>
+               <bind match="none"/>
+            </field>
+            <field access="readOnly" h="7.5mm" id="floatingField026500" name="PageCount" presence="hidden" w="55mm" x="151.57mm" y="408.934mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para hAlign="center" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="7A77DB39-ED55-40BD-BDB0-FE214A4F51BE">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder ##?>
+               <bind match="none"/>
+            </field>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform h="263.525mm" name="Cover_page" w="203.2mm">
+         <breakBefore target="Page1" targetType="pageArea"/>
+         <bind match="none"/>
+         <draw h="0.400472in" name="Text1" w="203.2mm" y="28.575mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="91866ED0-B470-4DE2-82E6-15892395EDD5">Delivery Slip</text>
+            </value>
+            <font size="26pt" typeface="Arial" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center"/>
+            <?renderCache.bounds 573166 26000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 13 Delivery Slip 0 209962 21945 0 0 0 "Arial" 1 0 26000 ISO-8859-1?></draw>
+         <subform layout="tb" name="WarehouseOrder" w="203.23mm" y="57.15mm">
+            <bind match="none"/>
+            <field anchorType="middleCenter" h="50.8mm" hAlign="center" name="ERP_DLV" w="160.02mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="18pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="72.3163mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="E096454E-6D8B-4B2F-B642-BF5F73EBE0A4">ERP Delivery</text>
+                  </value>
+                  <font baselineShift="0pt" size="18pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="$.WA_WHO.ERP_DLV"/>
+               <desc>
+                  <text name="Schema Annotation">System Date</text>
+               </desc>
+            </field>
+            <field anchorType="middleCenter" h="16.309mm" hAlign="center" name="SHIP_PARTY" w="160.02mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="18pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <bind match="dataRef" ref="$.WA_WHO.PARTY_TEXT"/>
+               <caption reserve="72.3163mm">
+                  <value>
+                     <text xliff:rid="F92D7ED1-DCEE-4D98-821B-E713F6B3EE14">(Ship-To / Ship-From) Party</text>
+                  </value>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <font baselineShift="0pt" size="16pt" typeface="Arial"/>
+               </caption>
+            </field>
+            <field anchorType="middleCenter" h="16.309mm" hAlign="center" name="partyentitled" w="160.02mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="18pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="72.3163mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="14A04A44-86E5-4B84-A84C-A7A15B8632B4">Party Entitled to dispose</text>
+                  </value>
+                  <font baselineShift="0pt" size="18pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="$.WA_WHO.ENTITLED"/>
+               <desc>
+                  <text name="Schema Annotation">System Date</text>
+               </desc>
+            </field>
+            <field anchorType="middleCenter" h="16.309mm" hAlign="center" name="Warehouse_Number" w="160.02mm" x="4.000583in" y="0.893597in">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="18pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="72.3163mm">
+                  <font baselineShift="0pt" size="18pt" typeface="Arial"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="DE728A07-729F-4C8B-8A51-CE909E988B98">Warehouse Number</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$.WA_WHO.LGNUM"/>
+            </field>
+            <field access="readOnly" anchorType="middleCenter" h="16.309mm" hAlign="center" name="DATE" w="160.02mm">
+               <ui>
+                  <dateTimeEdit>
+                     <border>
+                        <edge/>
+                     </border>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font size="18pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="72.3163mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="240DB048-359D-4C61-BE11-31778C575430">Date / Time</text>
+                  </value>
+                  <font baselineShift="0pt" size="18pt" typeface="Arial"/>
+               </caption>
+               <bind match="none"/>
+               <desc>
+                  <text name="Schema Annotation">System Date</text>
+               </desc>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script>$.rawValue = Concat(Num2Date(Date(), "YYYY-MM-DD"), " ", Num2Time(Time(), "HH:MM:SS"))
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder {current date/time}?></field>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <subform layout="tb" name="BIG_SUBFORM" w="8in">
+         <bind match="none"/>
+         <subform layout="tb" name="IT_WHO" w="203.2mm">
+            <bind match="dataRef" ref="$.IT_WHO.DATA[*]"/>
+            <draw h="0.261583in" name="Text1" w="203.2mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="54B0455D-810C-49FF-A759-7648663AC905">Delivery Slip</text>
+               </value>
+               <font size="16pt" typeface="Arial" weight="bold"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center"/>
+               <?renderCache.bounds 573166 16000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 13 Delivery Slip 0 239977 14050 0 0 0 "Arial" 1 0 16000 ISO-8859-1?></draw>
+            <subform h="70.333mm" name="WarehouseOrder" w="203.23mm">
+               <bind match="none"/>
+               <subform columnWidths="50.7999mm 50.7999mm 50.7999mm 50.7999mm" layout="table" name="Table1" y="18.756mm">
+                  <border>
+                     <edge/>
+                  </border>
+                  <subform layout="row" name="Row1" y="0mm">
+                     <assist role="TR"/>
+                     <draw h="17.013mm" name="Cell1">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="54F807A6-EF8A-4D27-BEE4-703F7F7EC72B">ERP Delivery</text>
+                        </value>
+                     </draw>
+                     <field h="17.013mm" name="Cell3">
+                        <ui>
+                           <textEdit multiLine="1"/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.ERP_DLV"/>
+                     </field>
+                     <draw minH="17.013mm" name="Cell3" w="2in">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="1674EB1E-8E72-4AB3-BBBC-C84ACACC1AEB">(Ship-To / Ship-From) Party</text>
+                        </value>
+                     </draw>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <bind match="none"/>
+                     <?templateDesigner expand 1?>
+                     <field minH="17.013mm" name="TextField3" w="62mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden"/>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <bind match="dataRef" ref="$.PARTY_TEXT"/>
+                     </field>
+                  </subform>
+                  <subform layout="row" name="Row2" y="0mm">
+                     <assist role="TR"/>
+                     <draw h="11.165mm" name="Cell1">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="49CA8AE0-B8F4-47E8-972D-78869363ACDB">Created At</text>
+                        </value>
+                     </draw>
+                     <field minH="11.165mm" name="Cell5" w="2in">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden"/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.CREATED_AT"/>
+                     </field>
+                     <draw h="11.165mm" name="Cell3">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="CF7CFBAE-0218-489E-9622-C02791215D88">Created By</text>
+                        </value>
+                     </draw>
+                     <field h="11.165mm" name="Cell4">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.CREATED_BY"/>
+                     </field>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <bind match="none"/>
+                     <?templateDesigner expand 1?></subform>
+                  <subform layout="row" name="Row3" y="0mm">
+                     <assist role="TR"/>
+                     <draw h="11.165mm" name="Cell1">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="01CCB3D2-3A28-459E-8E80-B35F8DE3278F">Started At</text>
+                        </value>
+                     </draw>
+                     <field h="11.165mm" name="Cell2">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.STARTED_AT"/>
+                     </field>
+                     <draw h="11.165mm" name="Cell3">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="E4511026-470E-4F93-964F-C24F79204F88">Processor</text>
+                        </value>
+                     </draw>
+                     <field h="11.165mm" name="Cell4">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.PROCESSOR"/>
+                     </field>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <bind match="none"/>
+                     <?templateDesigner expand 1?></subform>
+                  <subform layout="row" name="Row4" y="0mm">
+                     <assist role="TR"/>
+                     <draw h="11.165mm" name="Cell1">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="43C32779-A61C-4F54-8FF7-7E7CAEB8D0BD">Confirmed At</text>
+                        </value>
+                     </draw>
+                     <field h="11.165mm" name="Cell2">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.CONFIRMED_AT"/>
+                     </field>
+                     <draw h="11.165mm" name="Cell3">
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="164994DC-3D40-4576-A77F-94CFE1BEAAAA">Confirmed By</text>
+                        </value>
+                     </draw>
+                     <field minH="11.165mm" name="Cell4" w="2in">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden"/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.CONFIRMED_BY"/>
+                     </field>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <bind match="none"/>
+                     <?templateDesigner expand 1?></subform>
+                  <bind match="none"/>
+                  <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+                  <?templateDesigner expand 0?></subform>
+               <field h="12.85mm" name="WHO" w="87.361mm" x="55.559mm" y="3.523mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="14pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <caption reserve="41.7122mm">
+                     <para hAlign="center" vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="7E7ED577-9398-4A0D-A3F1-C766A709C25D">Warehouse Order</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.WHO"/>
+               </field>
+               <field access="readOnly" h="9mm" name="DATE" w="57.15mm" x="146.05mm" y="9.525mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <caption reserve="16.9333mm">
+                     <para hAlign="center" vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="EC2733A0-5FAA-4095-B29E-0FCAA6A99461">Date/Time</text>
+                     </value>
+                  </caption>
+                  <bind match="none"/>
+                  <desc>
+                     <text name="Schema Annotation">System Date</text>
+                  </desc>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script>$.rawValue = Concat(Num2Date(Date(), "YYYY-MM-DD"), " ", Num2Time(Time(), "HH:MM:SS"))
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder {current date/time}?></field>
+               <field h="12.7mm" name="TextField2" w="47.625mm" y="3.175mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <caption reserve="18.3124mm">
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="58BA5C0E-312F-43FC-8D64-EACE593E8E15">Warehouse Number</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.LGNUM"/>
+               </field>
+               <field h="0.385694in" name="partyentitled" w="57.15mm" x="146.05mm" y="0mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <caption reserve="16.9333mm">
+                     <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="765A09D2-9669-4A7A-8FA4-7A9ED4970837">Party Entitled to dispose</text>
+                     </value>
+                     <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.ENTITLED"/>
+                  <desc>
+                     <text name="Schema Annotation">System Date</text>
+                  </desc>
+               </field>
+               <?templateDesigner expand 0?></subform>
+            <subform layout="tb" name="WarehouseTask" w="203.207mm">
+               <bind match="none"/>
+               <subform columnWidths="17.327mm 44.517mm 50.7932mm 39.45mm 50.7932mm" layout="table" name="Table2">
+                  <border>
+                     <edge/>
+                  </border>
+                  <subform id="HeaderRow_ID" layout="row" name="HeaderRow">
+                     <assist role="TH"/>
+                     <draw h="11.1134mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <value>
+                           <text xliff:rid="EAA38468-05F8-483E-B4BA-26032755150D">Serial</text>
+                        </value>
+                        <font typeface="Arial"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <border>
+                           <edge/>
+                           <edge/>
+                           <edge/>
+                           <edge>
+                              <color value="0,0,255"/>
+                           </edge>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                     </draw>
+                     <draw h="11.1134mm" name="Cell2">
+                        <border>
+                           <edge/>
+                           <edge/>
+                           <edge/>
+                           <edge>
+                              <color value="0,0,255"/>
+                           </edge>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="C0B1A3B5-F100-4246-9BBD-99D2E57286D3">Material</text>
+                        </value>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                     </draw>
+                     <draw h="11.1134mm" name="Cell3">
+                        <border>
+                           <edge/>
+                           <edge/>
+                           <edge/>
+                           <edge>
+                              <color value="0,0,255"/>
+                           </edge>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="5949CDC5-D81D-4FD1-B1DB-B94097068193">Material
+Description</text>
+                        </value>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                     </draw>
+                     <draw h="11.1134mm" name="Cell5">
+                        <border>
+                           <edge/>
+                           <edge/>
+                           <edge/>
+                           <edge>
+                              <color value="0,0,255"/>
+                           </edge>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="EC4722F2-BF71-4953-B414-B24E4F2769CC">Quantity</text>
+                        </value>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                     </draw>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <bind match="none"/>
+                     <?templateDesigner expand 0?>
+                     <draw minH="11.1134mm" name="Cell5" w="0.820625in">
+                        <border>
+                           <edge/>
+                           <edge/>
+                           <edge/>
+                           <edge>
+                              <color value="0,0,255"/>
+                           </edge>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="344C0963-4A85-4B04-AF06-E563B2D44FFA">Storage Bin</text>
+                        </value>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                     </draw>
+                  </subform>
+                  <subform layout="row" name="Row1">
+                     <assist role="TR"/>
+                     <field h="11.1134mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.NUMBERING"/>
+                     </field>
+                     <field h="11.1134mm" name="Cell2">
+                        <ui>
+                           <textEdit multiLine="1"/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.MATNR"/>
+                     </field>
+                     <field h="11.1134mm" name="Cell3">
+                        <ui>
+                           <textEdit multiLine="1"/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.MAKTX"/>
+                     </field>
+                     <field h="11.1134mm" name="Cell5">
+                        <ui>
+                           <numericEdit/>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.NISTM"/>
+                     </field>
+                     <border>
+                        <edge presence="hidden"/>
+                        <fill/>
+                     </border>
+                     <bind match="dataRef" ref="$.DATA[*]"/>
+                     <occur max="-1"/>
+                     <keep intact="none"/>
+                     <?templateDesigner expand 0?>
+                     <event activity="indexChange" name="event__indexChange">
+                        <script contentType="application/x-javascript" runAt="both">//{{Adobe LiveCycle Designer Generated Code Begin}} - row shading script. Don't modify it!
+var Freqs=[1,1];
+var Colors=["255,255,255","255,255,255"];
+var nFreqSize = 0;
+for (var i=0; i&lt;Freqs.length; i++)
+  nFreqSize += Freqs[i];
+var nRelIndex = this.index % nFreqSize + 1;
+for (var nRun=0; nRun&lt;Freqs.length; nRun++)
+{
+   if (nRelIndex&gt;Freqs[nRun])
+   {
+        nRelIndex -= Freqs[nRun];
+   }
+   else
+   {
+      this.border.fill.color.value = Colors[nRun];
+      break;
+   }
+}
+//{{Adobe LiveCycle Designer Generated Code End}} - row shading script.
+</script>
+                     </event>
+                     <?templateDesigner rowpattern first:1, next:1, firstcolor:ffffff, nextcolor:ffffff, apply:1?>
+                     <field h="11.1134mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.VLPLA"/>
+                     </field>
+                  </subform>
+                  <bind match="dataRef" ref="$.IT_TAB"/>
+                  <?templateDesigner rowpattern first:1, next:1, firstcolor:ffffff, nextcolor:ffffff, apply:1?>
+                  <overflow leader="HeaderRow[0]"/>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <occur max="-1"/>
+            <breakBefore startNew="1" targetType="pageArea">
+               <script>IT_WHO[-1].WarehouseOrder.WHO ne IT_WHO.WarehouseOrder.WHO</script>
+            </breakBefore>
+            <?templateDesigner expand 1?></subform>
+         <breakAfter/>
+         <breakBefore target="Page2" targetType="pageArea"/>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.8.20190218.1.935452.924598</text>
+      </desc>
+      <variables>
+         <script contentType="application/x-javascript" name="ContainerFoundation_JS">
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 1101.20140527085625.896893.896893 - ContainerFoundation_JS
+
+// Log reporting levels.
+const debugLogLevel = 0;
+const debugLogLevelText = "debug";
+
+const infoLogLevel = 1;
+const infoLogLevelText = "info";
+
+const errorLogLevel = 2;
+const errorLogLevelText = "error";
+
+// Idle timers for the dynamic PDF dirty flag for lock, unlock and setFieldState messages. 
+// We need to assign the timer to a variable to avoid garbage collection. 
+var docDirtyIdleDirtyStateTimer = null; 
+var lockIdleDirtyStateTimer = null; 
+var unlockIdleDirtyStateTimer = null;
+var restoreIdleDirtyStateTimer = null;
+var resetInformationIdleDirtyStateTimer = null;
+var zciReadyIdleDirtyStateTimer = null;
+var pendingDataLoadedTimer = null;
+var sendDataToServerTimer = null;
+var setMarkValidateFailedTimer = null;
+var clearValidateFailedTimer = null;
+var enableValueHelpTimer = null;
+
+// Timer used to send the ZCIReady message to the HTML container.
+// We need to assign the timer to a variable to avoid garbage collection.
+var zciReadyTimer = null;
+
+// Global attachment list 
+var globalAttachmentList = null;
+
+//This flag is used to record the state of ZCIReadyMessageDirtyState.
+//when ZCIReadyMessageDirtyState was initialized, we would set this flag as true.
+//If this flag is true, we would not set ZCIReadyMessageDirtyStatus again.
+var initZCIReadyMessageDirtyStateComplete = false;
+
+/**
+ * Retrieve a pointer to the root global value DOM node. 
+ * Global values are stored in a non-form data section of the DOM.
+ * The root is created if it is not already defined.
+ *
+ * @return Root global value DOM node
+ */
+function getGlobalDataParent() {
+	var globalDataParent = xfa.datasets.resolveNode("ContainerFoundation_JS_Global_Values");
+	if(globalDataParent == null) {
+		globalDataParent = xfa.datasets.createNode("dataGroup", "ContainerFoundation_JS_Global_Values");
+		xfa.datasets.nodes.append(globalDataParent);
+	} 
+	return globalDataParent;
+}
+
+/**
+ * Determine if the ZCI global values exist in the data DOM.
+ *
+ * This is used to help determine if the form is offline.
+ * If offline and they don't exist then they will be created. 
+ * Once the user dirtys the form the values will be saved 
+ * as part of the form. When the form comes back online and 
+ * the values are detected then the form is marked as dirty.
+ *
+ * SAP agreed that when the form comes bck online that it 
+ * should be marked as dirty. 
+ *
+ * @return true if the values are detected, false otherwise.
+ */
+function detectGlobalValues() {
+    return xfa.datasets.resolveNode("ContainerFoundation_JS_Global_Values") != null;
+}
+
+/**
+ * Convert the passed in value to a string.
+ *
+ * @param number The value to be converted to a string
+ *
+ * @return string representation of the passed in value
+ */
+function numberToString(number) { 
+	return number += "";
+}
+
+/**
+ * Convert the passed in value to an integer.
+ *
+ * @param str The value to be converted to an integer
+ *
+ * @return integer representation of the passed in string
+ */
+function stringToInteger(str) {
+	return parseInt(str);
+}
+
+/**
+ * Checks to see if the global value data type is an integer.
+ *
+ * @param name Name of the global value type to check
+ *
+ * @return true if the global value data type is an integer, false otherwise
+ */
+// TODO: provide a better way to determine the global property data type then using names.
+function isGlobalValueAnInteger(name) {
+	return ((name == "lockRefCount") || 
+	        (name == "setFieldStateRefCount") || 
+	        (name == "logReportingLevel"));
+}
+
+/**
+ * Checks to see if the global value data type is a boolean.
+ *
+ * @param name Name of the global value type to check
+ *
+ * @return true if the global value data type is a boolean, false otherwise
+ */
+function isGlobalValueABoolean(name) {
+	return ((name == "processingValueHelp") || 
+			(name == "isDirtyStateValid") ||
+		   	(name == "pendingLock") ||
+	   		(name == "pendingReadOnly") ||
+	   		(name == "saveDirtyState") ||
+	   		(name == "sentZCIReadyMessage") ||
+	        (name == "processingF4HelpOpen")||
+			(name == "triggerExitEvent") ||
+	        (name == "isPDFSubmitRecommendedQueried") ||
+	        (name == "pendingGDFSResponse") ||
+	   		(name == "pendingAttachmentList")||
+	   		(name == "valueHelpFlag")||
+	   		(name == "pendingVHFieldDSUpdate")||
+	   		(name == "presaveTriggeredFromSendDataToServer")||
+	   		(name == "offlineCase"));
+}
+
+/**
+ * Convert the named global value to a string representation for storage.
+ * Curently only strings, booleans and integers are supported.
+ *
+ * @param name Name of the global value to convert
+ * @param value Value to be converted
+ *
+ * @return string representation of the passed in value
+ */
+function convertGlobalValueForStorage(name, value) {
+	var returnValue = value;
+
+	if(isGlobalValueAnInteger(name)) {
+		returnValue = numberToString(value);
+	} else if(isGlobalValueABoolean(name)) {
+		if(value == false) {
+		 	returnValue = "false";
+		} else {
+			returnValue = "true";
+		}
+	}
+
+	return returnValue;
+}
+
+/**
+ * Convert the string representation to the native data type for the named global property.
+ * Curently only strings, booleans and integers are supported.
+ *
+ * @param name Name of the global value to convert
+ * @param value String representation to convert
+ *
+ * @return native data type for the named global property
+ */
+function convertGlobalValueForRetrieval(name, value) {
+	var returnValue = value;
+
+	if(isGlobalValueAnInteger(name)) {
+		returnValue = stringToInteger(value);
+	} else if(isGlobalValueABoolean(name)) {
+		if(value == "false") {
+		 	returnValue = false;
+		} else {
+			returnValue = true;
+		}
+	}
+
+	return returnValue;
+}
+
+/**
+ * Set a default value for the named global property. No action 
+ * is taken if the named property is already defined. Curently 
+ * only strings, booleans and integers are supported.
+ *
+ * @param doc Current document object
+ * @param name Name of the global property to set
+ * @param value Default for the named property
+ */
+function setGlobalValueDefault(doc, name, value) {
+	var currentValue = getGlobalValue(doc, name);
+	if(currentValue == null) {
+		setGlobalValue(doc, name, value);
+	}	
+}
+
+/**
+ * Set a value for the named global property. The propery is 
+ * created if it is not already defined. Curently only strings, 
+ * booleans and integers are supported.
+ *
+ * @param doc Current document object
+ * @param name Name of the global property to set
+ * @param value New value for the named property
+ */
+function setGlobalValue(doc, name, value) {
+	try {
+		var globalData = getGlobalDataParent(); 
+		if(globalData != null) {
+			var valueNode = globalData.resolveNode(name);
+			if(valueNode == null) {
+				valueNode = xfa.datasets.createNode("dataValue", name);
+				xfa.datasets.ContainerFoundation_JS_Global_Values.nodes.append(valueNode);				
+			} 
+			
+			// The DOM can only store strings so conversion is needed.			
+		    valueNode.value = convertGlobalValueForStorage(name, value);
+		}		
+	} catch (ex) {
+		console.println("Error setting global value: " + name + " to: " + value + ex);
+	}
+}
+
+/**
+ * Retrieve current value of the named global property. Curently only strings, 
+ * booleans and integers are supported.
+ *
+ * @param doc Current document object
+ * @param name Name of the global property to retrieve
+ *
+ * @return current value of global property if defined, null otherwise 
+*/
+function getGlobalValue(doc, name) {
+	var returnValue = null;
+	try {
+		var globalData = getGlobalDataParent();
+		if(globalData != null) {
+		    var valueNode = globalData.resolveNode(name);		
+			if(valueNode != null) {
+				// The DOM can only store strings so conversion is needed.
+				returnValue = convertGlobalValueForRetrieval(name, valueNode.value); 
+			} 
+		} 
+	} catch(ex) {
+		console.println("Error getting global value: " + name + " to: " + value + ex);
+	}
+	return returnValue;
+}
+
+/**
+ * Set the current log reporting level for the container. Called from 
+ * the container when it requires more or less log information. 
+ *
+ * @param doc Current document object
+ * @param level New log reporting level
+ */
+function setLogReportingLevel(doc, level) {
+	if(level == errorLogLevelText) {
+		setGlobalValue(doc, "logReportingLevel", errorLogLevel);
+	} else if (level == infoLogLevelText) {
+		setGlobalValue(doc, "logReportingLevel", infoLogLevel);
+	} else if(level == debugLogLevelText) {
+		setGlobalValue(doc, "logReportingLevel", debugLogLevel);
+	} else {
+		// remains unchanged
+		SendLogMessage(doc, errorLogLevel, "Invalid log level passed to setLogReportingLevel(): " + level);	
+	}
+}
+
+/**
+ * Return the log reporting level as text.
+ *
+ * @param level Log reporting level
+ */ 
+function getLogLevelText(level) {
+	if(level == errorLogLevel) {
+		return errorLogLevelText;
+	} else if (level == infoLogLevel) {
+		return infoLogLevelText;
+	} else if(level == debugLogLevel) {
+		return debugLogLevelText;
+	} else {
+		return "undefined";	
+	}
+}
+
+/**
+ * Get the attachmentList.
+ * We store the attachment name and modification date of the attachment as a combined string
+ *
+ * @param doc Current document object
+ * 
+ * @return attachment list as a string, each attachment is saved "attchmentname:modDate" pair.
+ *         Between attachments, "|" is used as separator.
+ */
+function getAttachmentListAsString(doc) {
+	var attachmentList = "";
+	
+	var dataObjectList = doc.dataObjects;
+	if(dataObjectList != null) {
+		for(i = 0; i &lt; dataObjectList.length; i++) {
+			if(attachmentList == "") {	
+				attachmentList +=  dataObjectList[i].name + ':' + dataObjectList[i].modDate ;
+			} else {	
+				attachmentList +=  '|' + dataObjectList[i].name + ':' + dataObjectList[i].modDate;
+			}
+		}
+	}	
+	return attachmentList;
+}
+
+/**
+ * Get the initial list of annotations.
+ * We store the annotation name and modification date of the annotation as a combined string
+ * 
+ * @param doc Current document object
+ *
+ * @return annotation list as a string, each attachment is saved "annotationname:modDate" pair.
+ *         Between annotations, "," is used as separator.
+ */
+function getAnnotationsListAsString(doc) {
+	var annotationList = "";
+	
+	doc.syncAnnotScan();
+	var annots = doc.getAnnots();
+	if(annots != null) {
+		for(i = 0; i &lt; annots.length; i++) {
+			if(annotationList == "") {	
+				annotationList += '"' + annots[i].name + ':' + annots[i].modDate + '"';
+			} else {	
+				annotationList +=  ',"' + annots[i].name + ':' + annots[i].modDate + '"';
+			}
+		}
+	}
+	return annotationList;
+}
+
+/**
+ * Report an exception to the container via an error log message.
+ *
+ * @param doc Current document object
+ * @param prefix Pre-exception message text.
+ * @param exception Exception object to report.
+ */
+function reportException(doc, prefix, exception) {
+	var error = prefix + "\n";
+	for(var i in exception) { 
+		error += i + ":" + exception[i] + "\n";
+	}
+	SendLogMessage(doc, errorLogLevel, error);
+}
+
+/**
+ * Retrieve the Acrobat application name (i.e. Reader).
+ *
+ * @return name of current Acrobat application or "unknown". 
+ */	
+function getAcrobatApplicationName() {
+	var application = "Unknown";
+	switch (app.viewerType) {
+		case "Reader":
+			application = "Adobe Reader";
+			break;
+
+		case "Exchange":
+			application = "Adobe Acrobat Standard";
+			break;
+
+		case "Exchange-Pro":
+			application = "Adobe Acrobat Professional";
+			break;
+	}
+	return application;
+}	
+
+/**
+ * Send a log message to the containing application. We prefix the viewer name to 
+ * the string to assist in debugging.  We also prefix the current date and time to 
+ * the message.
+ *
+ * @param doc Document with host container object.
+ * @param level Log reporting level for this message.
+ * @param message The message sent to the container application.
+ */
+function SendLogMessage(doc, level, message) {
+	var logReportingLevel = getGlobalValue(doc, "logReportingLevel");
+	if(level &gt;= logReportingLevel) {
+		var application = getAcrobatApplicationName();
+
+		// Timestamp message 
+		var time = new Date();  // format 2005-06-01T09:33:28.376Z
+		var timeAsString = time.getUTCFullYear() + "-" + adjustLogTimeField(time.getUTCMonth() + 1, 10) + "-" + 
+						   adjustLogTimeField(time.getUTCDate(), 10) + "T" + adjustLogTimeField(time.getUTCHours(), 10) + 
+						   ":" + adjustLogTimeField(time.getUTCMinutes(), 10) + ":" + adjustLogTimeField(time.getUTCSeconds(), 10) + 
+						   "." + adjustLogTimeField(time.getUTCMilliseconds(), 100) + "Z";
+
+		// Send to container logger.
+		SendMessageToContainer(doc, "log", getLogLevelText(level) + ": " + application + ": " + timeAsString + ": " + message, "", "", "");
+	}	
+}
+
+/**
+ * Add leading "0"s to the passed in value if it is less then the radix.
+ *
+ * @param value Value to pad with leading "0"s
+ * @param radix Used to determine the number of leading "0"s
+ * 
+ * @return value with padded "0"s
+ */
+function adjustLogTimeField(value, radix) {
+	if(value &lt; radix) {
+		return (((radix == 10) || ((radix == 100) &amp;&amp; (value &gt; 9))) ? "0" : "00") + value;
+	} else {
+		return value;
+	}
+}
+
+/**
+ * Install the embedded PDF message handler. This allows the PDF to
+ * process messages from the container. It is not installed if we
+ * are running on the server (i.e. PDFMM or XMLFM).
+
+ * Store the document in the message handler so it can be accessed 
+ * during message processing as this.doc.
+ *
+ * @param doRegister Flag indicating if the message handler should be 
+ *                   registered. 
+ */
+function RegisterMessageHandler(doRegister) {
+
+	/*****************************************************/
+	/* Set up reasonable defaults for the global values. */
+	/*****************************************************/
+
+	// When a form comes back online it must have the ZCI global 
+	// vaules defined. There is a bug in Reader that prevents the
+	// values from being included in the saved form when the form
+	// status is clean. This bug does not exist in Acrobat.
+	if (detectGlobalValues() == true) {
+		setGlobalValue(event.target, "sentZCIReadyMessage", false);
+			
+		// If coming back online then we want sendZciReadyMessage() to mark the form dirty.	
+		if(getGlobalValue(event.target, "offlineCase") == true) {
+			setGlobalValue(event.target, "zciReadyMessageDirtyState", "useReader");
+			initZCIReadyMessageDirtyStateComplete = true;
+		} else {
+			setGlobalValue(event.target, "zciReadyMessageDirtyState", "useDefault");
+		}
+	}
+
+	// Level of log information to return to the container.
+	setGlobalValueDefault(event.target, "logReportingLevel", errorLogLevel); 
+	
+	// Reference count lock/unlock calls.
+	setGlobalValueDefault(event.target, "lockRefCount", 0);
+	
+	// List of read-only/restore SOM expressions for fields with "open" access.
+	setGlobalValueDefault(event.target, "openFieldSOM", "");
+	
+	// List of lock/unlock SOM expressions for fields with "open" access.
+	// This will disappear once the Reader user interface lock down call is supported.
+	setGlobalValueDefault(event.target, "openUIFieldSOM", "");
+
+	// Reference count setFieldState readOnly/restore calls.
+	setGlobalValue(event.target, "setFieldStateRefCount", 0);
+	
+	// SOM expression for the list type field currently being modified.
+	setGlobalValueDefault(event.target, "currentListTypeField", "");
+
+	// Used by the SAP ValueHelpDropDown.xfo to avoid repeated processing in the PreOpen event.
+	setGlobalValueDefault(event.target, "processingValueHelp", false);
+
+	// Each time we reload PDF form, processingValueHelp should be false no matter offline or online.
+	//setGlobalValue(event.target, "processingValueHelp", false);
+	
+	// Used by the SAP Enumerated Drop-down list No S.xfo and EnumListDropDown.xfo
+	// files to avoid repeated processing in the PreOpen event.
+	setGlobalValueDefault(event.target, "processingF4HelpOpen", false);
+	
+	// Pending lock or read-only operations.
+	setGlobalValueDefault(event.target, "pendingLock", false);
+	setGlobalValueDefault(event.target, "pendingReadOnly", false);
+	
+	// Pending getDataFromServer response
+	setGlobalValueDefault(event.target, "pendingGDFSResponse", false);
+	
+	// Coordinate reset of the dirty flag for lock, unlock and setFieldState messages.
+	setGlobalValueDefault(event.target, "isDirtyStateValid", true);
+	
+	// Used to track if a form has been ultimatly modified despite certain 
+	// save type operations (i.e. sign) clearing the doc.dirty flag.
+	// Save as an absolute false state instead of setting a default.
+	setGlobalValue(event.target, "saveDirtyState", false);
+	
+	// Coordinate sending of the zciReady message to the container.
+	setGlobalValueDefault(event.target, "sentZCIReadyMessage", false);
+	
+	// ZCI script object name (remove the [0], [1] and #variables substrings).
+	var zciScriptObject = this.somExpression;
+	zciScriptObject = stringReplace(zciScriptObject, "[0]", "");
+	zciScriptObject = stringReplace(zciScriptObject, "[1]", "");
+	zciScriptObject = stringReplace(zciScriptObject, "#variables", "variables");
+	
+	if(zciScriptObject.indexOf(".variables.ContainerFoundation_JS") == -1) {
+		zciScriptObject = zciScriptObject + ".variables.ContainerFoundation_JS";
+	}
+	setGlobalValueDefault(event.target, "zciScriptObject", zciScriptObject);
+   
+	// Enumerated DDL list values.
+	setGlobalValueDefault(event.target, "currentEnumDDLSOM", "");
+	setGlobalValueDefault(event.target, "triggerExitEvent", false);
+
+	// SOM expression of the hidden XML digital signature button to be used during Submit and Check operations.
+	setGlobalValueDefault(event.target, "XMLDigitalSignatureSOM", "");
+	
+	// State to check if isPDFSubmitRecommended invoked.
+	setGlobalValueDefault(event.target, "isPDFSubmitRecommendedQueried", false);
+	
+	// Get attachmentList and store as a global value with timestamps. 
+	// Later this is used to compare the attachment lists to determine
+	// if a PDF submission is required.
+	// This list is regenerated everytime the PDF is open.
+	globalAttachmentList = getAttachmentListAsString(event.target);
+
+	// In the offline case we need to original attachment list, so this
+	// is saved. This will be used to compare against the new attachment list
+	// to check if the attachment list has been modified offline.
+	setGlobalValueDefault(event.target, "originalAttachmentList", "");
+	
+	// Get annotationList and store as a global value with timestamps. 
+	// Later this is used to compare the annotation lists to determine
+	// if a PDF submission is required.
+	var annotationList = getAnnotationsListAsString(event.target)
+	setGlobalValueDefault(event.target, "annotationList", annotationList);
+	
+	// This list is now used temporarily, if the pendeingAttachmentList is true, 
+	// we store the list in the Container global variable 
+	// and it is later used to get back the original attachmentList in the 
+	// javascript global variable.
+	setGlobalValueDefault(event.target, "attachmentList", "");
+	
+	// Since the data in the global javascript variable gets wiped out
+	// when GetDataFromServer-with unLock is invoked, we use this flag
+	// to get the original list which was created when the PDF was open. 
+	setGlobalValueDefault(event.target, "pendingAttachmentList", false);
+	
+	// This checks if its an offline case or online case for isPDFSubmitRequired.
+	setGlobalValueDefault(event.target, "offlineCase", (doRegister == false) ? true : false);
+		
+	// This list contains the original color code and toolTip values of the fields.
+	// When clearValidateFailed is invoked, we go through this list and
+	// the error fields are reset to its original color and toolTip values.
+	setGlobalValueDefault(event.target, "globalOriginalFailedValidationList", "");
+	
+	// State to check if the valueHelp should be turned off, its on by default.
+	setGlobalValueDefault(event.target, "valueHelpFlag", true);
+	
+	// Allows the *FieldValueHelp XFOs to coordinate their dirty state
+	// update timers. This is needed when exiting one of these fields
+	// and entering another. The exit event sets up a timer followed
+	// by the enter setting up a timer. Neither timer is processed until 
+	// Reader goes idle. It is possible for the exit timer, that runs first, 
+	// to reset the dirty state to a different value then the enter timer.
+	// If there is a pending *FieldValueHelp timer then the associated 
+	// XFOs will not launch a secondary timer. The inverse of this is 
+	// seen in ebableValueHelp() and getDataFromServer(). These two 
+	// functions cause the *FieldValueHelp XFOs event handlers to fire.
+	// Setting pendingVHFieldDSUpdate to true prevents all the timers 
+	// from interfering with the function's timer. 
+	setGlobalValueDefault(event.target, "pendingVHFieldDSUpdate", false);
+
+	if(initZCIReadyMessageDirtyStateComplete == false){
+		// Set the dirty state setting to use when sending the zciReady message. 
+		setGlobalValueDefault(event.target, "zciReadyMessageDirtyState", "useDefault");
+		initZCIReadyMessageDirtyStateComplete = true;
+	}	
+
+	//This value is used to determine if a presave event was triggered by sendDataToServer function.
+	setGlobalValueDefault(event.target, "presaveTriggeredFromSendDataToServer", false);
+
+	/**********************************************************************/
+	/* Register a message handler to process messages from the container. */
+	/**********************************************************************/
+	if(doRegister == true) {
+		try {
+			// Embedded PDF message handler.
+			event.target.hostContainer.messageHandler = {
+			
+				zciScriptObject: zciScriptObject,
+				
+				doc: event.target,
+				
+				onMessage: function(strings) {			
+				
+					if(initZCIReadyMessageDirtyStateComplete == false){
+						// Always set the zciReady message dirty state to use the Reader value.
+						setGlobalValue(this.doc, "zciReadyMessageDirtyState", "useDefault");
+						initZCIReadyMessageDirtyStateComplete = true;
+					}	
+					
+					// Always expect a string array. Each case below knows 
+					// what the array contents should be.
+					var operation = strings[0]; // Operation to perform.
+	
+					var logStr = "OnMessage received:\n";
+					for(var i=0; i&lt;strings.length; i++) {
+						logStr += "[" + i + "] - " + strings[i] + "\n";
+					}
+					SendLogMessage(this.doc, debugLogLevel, logStr);
+	
+					// If new data was loaded into the form there might
+					// be a pending lock or read-only to be performed.
+					// This is checked here since the field event handlers
+					// need to fire first, there may be scripts that
+					// modify the access settings. Perform these pending
+					// operations before processing the current message. 
+					// Both pendings will never be true at the same time. 
+					if(getGlobalValue(this.doc, "pendingLock") == true) {
+						lockForm(this.doc, true, false);					
+						setGlobalValue(this.doc, "pendingLock", false);
+						setGlobalValue(this.doc, "pendingReadOnly", false);
+					} else if(getGlobalValue(this.doc, "pendingReadOnly") == true) {
+						setFormReadOnlyRestore(this.doc, "readOnly", true, false);
+						setGlobalValue(this.doc, "pendingReadOnly", false);
+						setGlobalValue(this.doc, "pendingLock", false);
+					}
+				
+					// If new data was loaded the global javascript variable which holds
+					// the attachmentList is wiped out, so the pendingAttachmentList value
+					// is set, then we get the original list from the container global variable
+					// and reset that list to be empty and the flag to be false.
+					if(getGlobalValue(this.doc, "pendingAttachmentList") == true) {
+						globalAttachmentList = getGlobalValue(this.doc, "attachmentList");
+						setGlobalValue(this.doc, "attachmentList", "");
+						setGlobalValue(this.doc, "pendingAttachmentList", false);
+					}
+	
+					switch (operation) {
+	 
+						// This script is currently not required because we are 
+						// relying on the default behavior of the viewer to set
+						// the dirty flag only when necessary. If SAP does require
+						// the ability to set the dirty flag manually in the future,
+						// uncomment the code below.
+	
+						/*
+						case "dirty": {
+			   				SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to set the dirty state of the document.");
+							try {
+								this.dirty = eval(strings[1]);
+							} catch (ex) {
+								reportException(this.doc, "Error evaluating: " + strings[1] + " while setting the document dirty state: ", ex);
+							}
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to set the document dirty state: " + this.dirty);
+							break;
+						}
+						*/
+	
+						// The container application is asking for the ZCI version numer.
+						
+						case "getZCIVersion": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to retrieve the ZCI version number.");
+							SendMessageToContainer(this.doc, "zciVersion", "1101.20140527085625.896893.896893", "", "", "");
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to to retrieve the ZCI version number.");
+							break;
+						}
+	
+						// The container application is asking us to set the sentZCIReadyMessage flag.
+	
+						case "setZCIReadyMessageSent": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to set the sentZCIReadyMessage flag: " + strings[1]);
+							setGlobalValue(this.doc, "sentZCIReadyMessage", (strings[1] == "true") ? true : false);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to set the sentZCIReadyMessage flag: " + strings[1]);
+							break;
+						}
+						
+						// The container application is asking us to retrieve the sentZCIReadyMessage flag.
+	
+						case "getZCIReadyMessageSent": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to retrieve the sentZCIReadyMessage flag.");
+							SendMessageToContainer(this.doc, "sentZCIReadyMessageState", (getGlobalValue(this.doc, "sentZCIReadyMessage") == true) ? "true" : "false", "", "", "");
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to retrieve the sentZCIReadyMessage flag.");
+							break;
+						}					
+	
+						// The container application is asking us to return the embedded acrobat object version number.
+						
+						case "getAcrobatVersion": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to retrieve the acrobat version.");
+							SendMessageToContainer(this.doc, "acrobatVersion", getAcrobatApplicationName() + " " + xfa.host.version, "", "", "");
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to retrieve the acrobat version.");
+							break;
+						}
+	
+						// The container application is asking us to set the user interface focus on the provided field.
+						
+						case "setCursor" : {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to set the user interface focus to: " + strings[1] + ".");
+							var fieldSOM = "xfa.form." + strings[1];
+							xfa.host.setFocus(fieldSOM);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to set the user interface focus to: " + strings[1] + ".");
+							break;
+						}
+						
+						// The container application is asking us to adjust the level of 
+						// log informetion reported to it. The levels are "debug", "info"
+						// and "error". The level remains unchanged if an invalid level is
+						// specified.
+						
+						case "setLogReportingLevel": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to adjust the log level: " + strings[1] + ".");
+							setLogReportingLevel(this.doc, strings[1]);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to adjust the log level: " + strings[1] + ".");
+							break;
+						}
+	
+						// The container application is requesting the current log reporting level.
+						// The possible levels are "debug", "info" and "error". 
+						
+						case "getLogReportingLevel": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to return the current log reporting level.");
+							SendMessageToContainer(this.doc, "logReportingLevel", getLogLevelText(getGlobalValue(this.doc, "logReportingLevel")), "", "", ""); 
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to return the current log reporting level.");
+							break;
+						}
+	
+						// The container application is asking us to retrieve data from  
+						// the server and merge it into the document. The server will 
+						// return a response containing the data to be merged. A 
+						// "finishedSettingData" message is sent to the container when 
+						// the operation is finished.
+	
+						case "getDataFromServer": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to retrieve data from server: " + strings[1] + ".");
+							var forceCookieAuthentication = strings[3];
+							if((forceCookieAuthentication == null) || (forceCookieAuthentication == undefined)) {
+								forceCookieAuthentication = "false";						
+							}
+							GetDataFromServer(this.doc, strings[1], strings[2], forceCookieAuthentication);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to retrieve data from server: " + strings[1] + ".");
+							break;
+						}
+						
+						// The container application is passing us new form data   
+						// and asking us to merge it into the document.
+						// A "finishedSettingData" message is sent to the container when 
+						// the operation is finished.
+						
+						case "setFormData": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to load new form data: " + strings[1] + ".");
+							SetFormData(this.doc, strings[1]);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to load data: " + strings[1] + ".");
+							break;
+						}
+						
+						// The container application is asking us to submit the data 
+						// (or the entire PDF if nedded) up to the server so it 
+						// can be processed. The server will return a response to us 
+						// which we will immediately forward back to the containing 
+						// application as it will know what to do with it.
+	
+						case "sendDataToServer": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to submit the data to server: " + strings[1] + ".");
+							var forceCookieAuthentication = strings[5];
+							if((forceCookieAuthentication == null) || (forceCookieAuthentication == undefined)) {
+								forceCookieAuthentication = "false";						
+							}
+							SendDataToServer(this.doc, strings[1], strings[2], strings[3], strings[4], forceCookieAuthentication);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to submit the data to server: " + strings[1] + ".");
+							break;
+						}
+						
+						// The container application is asking us to return the form data 
+						// so it can be processed. A message containing the form data in XML format
+						// will be sent back to the application at the end of the operation.
+						
+						case "getFormData": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to get the form data: " + strings[1] + ".");
+							GetFormData(this.doc, strings[1]);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to get the form data from PDF: " + strings[1] + ".");
+							break;
+						}
+						
+						// One message that we must receive is to get whether or not the 
+						// document is dirty.  This information is used to show the user 
+						// a warning dialog if they are going to the next step in a workflow 
+						// without submitting or saving their data.
+	
+						case "isDocDirty": {								
+							isDocDirty(this.doc);
+							break;
+						}
+	
+						// The container application is asking us to return the active
+						// document's view state. This is needed if the document is 
+						// displayed in a portal and needs to be redisplayed after submiting
+						// data to the server. A "setViewState" message will be sent when 
+						// the document is redisplayed.
+		
+						case "getViewState": {
+							var viewState = this.doc.viewState; 
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to retrieve the active document view state.");
+							SendMessageToContainer(this.doc, "viewState", (viewState ? viewState : null), "", "", ""); // Object type should not be a problem with JS's weak type checking
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to retrieve the active document view state.");
+							break;
+						}
+	
+						// The container application is asking us to return the active
+						// document to a previous view state. This is needed if the document 
+						// is displayed in a portal and needs to be redisplayed after submiting
+						// data to the server.
+		
+						case "setViewState": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to set the active document view state.");
+							SetViewState(this.doc, strings[1]); // Object type should not be a problem with JS's weak type checking
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to set the active document view state.");
+							break;
+						}
+	
+						// The container application is asking us to set the document field 
+						// level access. Only fields with open access are modified. This is 
+						// closely tied into the lock/unlock SOM list and code.
+						// In Reader/Acrobat 9, the subform level readOnly/Open is used.
+						
+						case "setFieldState": {
+							setFormReadOnlyRestore(this.doc, strings[1], false, true);												
+							break;
+						}
+	
+						// The container application is asking us to lock the viewer application. For Acrobat 7 this
+						// is limited to setting all the fields to read-only status. In Acrobat 8 we will lock the 
+						// entire document and user interface. 
+						// In Reader/Acrobat 9, the entire UI is locked.
+				
+						case "lock": {
+							lockForm(this.doc, false, true);
+							break;
+						}
+	
+						// The container application is asking us to unlock the viewer application. See notes 
+						// for the lock operation above.
+	
+						case "unlock": {
+							unlockForm(this.doc, false, true);
+							break;
+						}					
+	
+						// Reset the values of the global properties to their default values.  Attempt to leave the form
+						// unlocked after we are done.  The one argument should be true if the user wants an unlock to be
+						// attempted (default is false).  Watson 1276182
+	
+						case "resetStateInformation": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to reset the state information: " + strings[1] + ".");
+	
+							// Check the lock status since the state information will not be available to keep track of it.
+							var originalDirty = this.doc.dirty;
+							if((strings[1] != undefined) &amp;&amp; (strings[1] == "true")) {						
+								SendLogMessage(this.doc, infoLogLevel, "resetStateInformation attempting to revert from a previous lock.");
+								if (xfa.host.version &gt;= 9) {
+									this.doc.enableWindows();
+								} else {
+									var openUIFieldSOM = getGlobalValue(this.doc, "openUIFieldSOM");
+									if((openUIFieldSOM != null) &amp;&amp; (openUIFieldSOM.length &gt; 0)) {
+										SetFieldState(this.doc, "restore", openUIFieldSOM); // Only restore from a lock but not from a read-only.
+									}
+								}	
+								SendLogMessage(this.doc, infoLogLevel, "resetStateInformation finished attempting to revert from a previous lock.");
+							}
+	
+							setGlobalValue(this.doc, "lockRefCount", 0);
+							setGlobalValue(this.doc, "openFieldSOM", "");
+							setGlobalValue(this.doc, "openUIFieldSOM", "");
+							setGlobalValue(this.doc, "setFieldStateRefCount", 0);
+							setGlobalValue(this.doc, "currentListTypeField", "");
+							setGlobalValue(this.doc, "processingValueHelp", false);
+							setGlobalValue(this.doc, "processingF4HelpOpen", false);
+							setGlobalValue(this.doc, "pendingLock", false);
+							setGlobalValue(this.doc, "pendingReadOnly", false);
+							setGlobalValue(this.doc, "pendingGDFSResponse", false);
+							setGlobalValue(this.doc, "isDirtyStateValid", true);
+							setGlobalValue(this.doc, "zciScriptObject", this.zciScriptObject);
+							setGlobalValue(this.doc, "saveDirtyState", false);
+							setGlobalValue(this.doc, "sentZCIReadyMessage", false);
+							setGlobalValue(this.doc, "currentEnumDDLSOM", "");
+							setGlobalValue(this.doc, "triggerExitEvent", false);
+							setGlobalValue(this.doc, "XMLDigitalSignatureSOM", "");
+							setGlobalValue(this.doc, "isPDFSubmitRecommendedQueried", false);
+							setGlobalValue(this.doc, "attachmentList", "");
+							setGlobalValue(this.doc, "originalAttachmentList", "");
+							setGlobalValue(this.doc, "pendingAttachmentList", false);
+							setGlobalValue(this.doc, "annotationList", "");
+							setGlobalValue(this.doc, "globalOriginalFailedValidationList", "");
+							setGlobalValue(this.doc, "valueHelpFlag", true);
+							setGlobalValue(this.doc, "offlineCase", false);
+							setGlobalValue(this.doc, "pendingVHFieldDSUpdate", false);
+							setGlobalValue(this.doc, "zciReadyMessageDirtyState", "useDefault");
+							setGlobalValue(this.doc, "presaveTriggeredFromSendDataToServer", false);
+							
+							// Reset dirty state valid flag for dynamic PDFs.
+							lockIdleDirtyStateTimer = null; 
+							unlockIdleDirtyStateTimer = null;
+							restoreIdleDirtyStateTimer = null;
+							resetInformationIdleDirtyStateTimer = null;
+							zciReadyIdleDirtyStateTimer = null;
+							docDirtyIdleDirtyStateTimer = null;
+							pendingDataLoadedTimer = null;
+							sendDataToServerTimer = null;
+							setMarkValidateFailedTimer = null;
+							clearValidateFailedTimer = null;
+							enableValueHelpTimer = null;
+							
+							// Reset ZCI ready to receive messages timer.
+							zciReadyTimer = null;
+							
+							initZCIReadyMessageDirtyStateComplete = false;
+	
+							// Output the info. log message before setting the log level to its default (error) level.
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to reset the state information.");
+	
+							// Reset the original form dirty state. Dynamic PDF needs a timer.
+							if(this.doc.dynamicXFAForm == true) {
+								setGlobalValue(this.doc, "isDirtyStateValid", false);	
+								
+								var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+								                  this.zciScriptObject + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+								                  this.zciScriptObject + '.SendLogMessage(this, 0, "resetStateInformation timer fired");' + 
+								                  this.zciScriptObject + '.resetInformationIdleDirtyStateTimer = null;';
+	                  						 
+								SendLogMessage(this.doc, debugLogLevel, "resetStateInformation timeoutCode: " + timeoutCode);
+								resetInformationIdleDirtyStateTimer = app.setTimeOut(timeoutCode, 1);
+							} else {
+								this.doc.dirty = originalDirty;
+								setGlobalValue(this.doc, "isDirtyStateValid", true);														
+							} 
+							
+							// Set the log reporting level last to allow all messages to be sent to the container.
+							setGlobalValue(this.doc, "logReportingLevel", errorLogLevel);
+	
+							break;
+						}
+	
+						// The container application is asking us to modify the value for an XML data node.
+						// The viewer application will automatically update the form field to reflect the new value.
+	
+						case "setFieldData": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to modify field value: " + strings[1] + ".");
+							SetFieldData(this.doc, strings[1], strings[2]);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to modify field value: " + strings[1]);
+							break;
+						}
+	
+						// The container application is asking us to modify the values for an XML data node
+						// associated with a form list type field. The viewer application will automatically 
+						// update the form field to reflect the new values.
+	
+						case "setListData": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to modify options for list field: " + strings[1] + ".");
+	
+							var options = strings.slice(3);
+							var logStr = "New list field settings:\n";
+							var slot = 0;
+						    for (var i = 0; i &lt; options.length; i+=2 ) {
+						        logStr += "Option[" + slot + "] - " + options[i] + " Data[" + slot++ + "] - " + options[i+1] + "\n";
+							}
+							SendLogMessage(this.doc, debugLogLevel, logStr);
+	
+							SetListData(this.doc, strings[1], strings[2], options);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to modify options for a list field.");
+							break;
+						}
+						
+						// The container application is asking if a PDF submission is recommended for a sendDataToServer message.
+						
+						case "isPDFSubmitRequired": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container asking if a PDF submission is recommended for a sendDataToServer message.");
+							setGlobalValue(this.doc, "isPDFSubmitRecommendedQueried", true);
+							isPDFSubmitRequired(this.doc);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing asking if a PDF submission is recommended for a sendDataToServer message.");
+							break;
+						}
+						
+						// The container application is asking to submit the PDf as an email.
+						
+						case "emailDocument": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to email the form.");
+							emailDocument(this.doc, strings[1], strings[2], strings[3], strings[4], strings[5]);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to email the form.");
+							break;
+						}
+						
+						// The container application wants to print the form.
+						
+						case "printDocument": {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to print the form.");
+							printDocument(this.doc);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to print the form.");
+							break;
+						}
+						
+						// The container application is asking us to highlght the error fields and set the focus on the first field.
+						// If error messages are passed, the messages will be displayed as an alert pop-up.
+						
+						case "markValidateFailed" : {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to highlight/focus on error fields: " + strings[1] + ".");
+					       	setMarkValidateFailed(this.doc, strings[1], strings[2], strings[3], strings[4]);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to highlight/focus on error fields: " + strings[1] + ".");
+							break;
+						}
+						
+						// The container application is asking us to reset the fields to its original color value.
+						
+						case "clearValidateFailed" : {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to reset highlighted error fields: " + strings[1] + ".");
+							clearValidateFailed(this.doc);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to reste highlighted error fields: " + strings[1] + ".");
+							break;
+						}
+						
+						// The container application is asking us to enable the valueHelpFlag.
+										
+						case "enableValueHelp" : {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to enable value help.");
+							enableValueHelp(this.doc, true);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to enable value help: " + getGlobalValue(this.doc, "valueHelpFlag") + ".");
+							break;
+						}
+				
+						// The container application is asking us to disable the valueHelpFlag.
+										
+						case "disableValueHelp" : {
+							SendLogMessage(this.doc, infoLogLevel, "Got a message from the container to disable value help.");
+							enableValueHelp(this.doc, false);
+							SendLogMessage(this.doc, infoLogLevel, "Finished message processing to disable value help: " + getGlobalValue(this.doc, "valueHelpFlag") + ".");
+							break;
+						}
+					} // switch
+				},
+	
+				// The function definition below will get called in response to any error
+				// that occurs during the communication process to the containing
+				// application.  All we are going to do is print it to the JavaScript
+				// console.  We don't want to communicate back to the containing
+				// application because if we do, we may encounter the same communication
+				// issues, resulting in an infinite loop.
+	
+				onError: function(errorObj, stringArray) { 
+					var errorString = "";
+					try {								   
+						errorString = "Error: " + errorObj.toString() + "\n";
+						for (var i = 0; i&lt;stringArray.length; i++ ) {
+					        errorString += stringArray[i] + "\n";
+						}								
+					} catch (ex) {
+						// some error - see comments above about reporting errors here. 
+					}
+	
+					// Set up a timer to resend the ZCIReady message or just report an error.
+					// Current timer is set to 20 milliseconds.
+					try {
+						if(errorString.search("zciReady") != -1) {
+							var timerCode = getGlobalValue(this.doc, "zciScriptObject") + ".sendZCIReadyMessage(this);";
+							setGlobalValue(this.doc, "sentZCIReadyMessage", false);
+							zciReadyTimer = app.setTimeOut(timerCode, 20);
+						} else {
+							console.println(errorString);
+							xfa.host.messageBox(errorString);								
+						}
+					} catch (ex) {
+						// some error - see comments above about reporting errors here. 
+					}
+				},
+	
+				// Reader will only allow external applications to communicate with the
+				// JavaScript contained within the document if the function below returns
+				// true.  We will only allow the communication if the URL of the web page
+				// trying to communicate with us comes from the same server that sent the
+				// document to us.
+				onDisclose: HostContainerDisclosurePolicy.SameOriginPolicy
+			};			 
+		} catch (ex) {
+			reportException(event.target, "Error installing message handler:", ex);
+		}
+		
+		// Inform the HTML container that ZCI is ready to process messages.
+		// this must be done with a timer to allow Reader to complete its
+		// initialization before sending the message. We must provide a full 
+		// path to the ZCI script object since the code is called from outside
+		// of the script object itself. current timer is set to one millisecond. 
+		var timerCode = getGlobalValue(event.target, "zciScriptObject") + ".sendZCIReadyMessage(this);";
+		zciReadyTimer = app.setTimeOut(timerCode, 1);
+	}
+}
+
+
+  
+
+
+/**
+ * Send a message to the container that the form has finished loading the new form data.
+ *
+ * @param doc Document with host container object reference
+ */
+function sendPendingDataLoadedMessage(doc) {
+	if(getGlobalValue(doc, "pendingGDFSResponse") == true) {
+		var now = new Date();
+		SendLogMessage(doc, debugLogLevel, "reading pendingGDFSResponse at: " + now); 
+		
+		SendMessageToContainer(doc, "finishedSettingData", "OK", "", "", "");
+		setGlobalValue(doc, "pendingGDFSResponse", false);
+		
+		// Reset the form dirty state. Dynamic PDF needs a timer.
+		// The result of this timer is checked in isDocDirty().
+		setGlobalValue(doc, "saveDirtyState", false);
+		if(doc.dynamicXFAForm == true) {
+			setGlobalValue(doc, "isDirtyStateValid", false);
+			//var timeoutCode = 'this.dirty = false;' + 
+			var timeoutCode = '' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "pendingVHFieldDSUpdate", false);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "zciReadyMessageDirtyState", "useDefault");' +
+					  		  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "sendPendingDataLoadedMessage timer fired");' +
+							  getGlobalValue(doc, "zciScriptObject") + '.pendingDataLoadedTimer = null;'; 
+
+			SendLogMessage(doc, debugLogLevel, "sendPendingDataLoadedMessage timeoutCode: " + timeoutCode);
+			pendingDataLoadedTimer = app.setTimeOut(timeoutCode, 1);
+		} else {			
+			//doc.dirty = false;
+			setGlobalValue(doc, "isDirtyStateValid", true);
+		}
+	}
+}
+
+/**
+ * Send a message to the HTML container stating that ZCI is ready to process messages. If this message
+ * fails (i.e. continer message handler is not registered) then the message handler onError processor 
+ * creates a timer to resend the message every 500 milliseconds. The timer is cleared once the message
+ * goes through.
+ 
+ * @param doc Document with host container object reference
+ */ 
+function sendZCIReadyMessage(doc) {
+	if(getGlobalValue(doc, "sentZCIReadyMessage") == false) {
+		
+		var originalDirty = true;
+		
+		// Should we use the back online dirty state or the existing one?
+		if(getGlobalValue(doc, "zciReadyMessageDirtyState") == "useDefault") { 
+			originalDirty = doc.dirty;
+		} 		
+
+		SendMessageToContainer(doc, "zciReady", "", "", "", "");
+		zciReadyTimer = null;
+		setGlobalValue(doc, "sentZCIReadyMessage", true);
+		
+		//Clear the presaveTriggeredFromSendDataToServer state in the end of a talk.
+		setGlobalValue(doc, "presaveTriggeredFromSendDataToServer", false);
+	 
+		// Reset the original form dirty state. Dynamic PDF needs a timer.
+		// The result of this timer is checked in isDocDirty().
+		if(doc.dynamicXFAForm == true) {
+			setGlobalValue(doc, "isDirtyStateValid", false);
+
+			var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.zciReadyIdleDirtyStateTimer = null;'; 					                      
+  		 
+			zciReadyIdleDirtyStateTimer = app.setTimeOut(timeoutCode, 300); 
+		} else {		 
+			doc.dirty = originalDirty;
+			setGlobalValue(doc, "isDirtyStateValid", true);
+		}
+	} 
+}
+
+/**
+ * Return the dirty state value to the calling application. When lock, unlock and setFieldState
+ * are called they should not affect the dirty state. For dynamic PDFs a timer and flag are used 
+ * during idle processing to set the flag back to its original state.
+ *
+ * Reader needs to stop processing for the idle code segments to execute. This is done by converting 
+ * the lock, unlock and setFieldState messages to a request/response pair that requires the container
+ * application to wait for a response before issuing the next message.
+ 
+ * @param doc Document with host container object reference
+ */ 
+function isDocDirty(doc) {	  
+	try {
+		var	eval1 = getGlobalValue(doc, "zciScriptObject") + ".getGlobalValue(this, 'isDirtyStateValid');"  
+		SendLogMessage(doc, debugLogLevel, "isDocDirty eval1 content: " + eval1);  
+		SendLogMessage(doc, debugLogLevel, "isDocDirty eval1 result: " + eval(eval1)); 
+
+		// Zero out the recall timer.
+		if(docDirtyIdleDirtyStateTimer != null) {
+			docDirtyIdleDirtyStateTimer = null;
+		}
+
+		if((doc.dynamicXFAForm == true) &amp;&amp; (eval(eval1) == false)) {
+			// Recall this function in fifty milliseconds giving the lockForm(),
+			// unlockForm() or setFormReadOnlyRestore() intervals a chance to run. 
+			// Those intervals are set to one millisecond giving them higher priority.
+			var eval2 = getGlobalValue(doc, "zciScriptObject") + '.docDirtyIdleDirtyStateTimer = app.setTimeOut("' + 
+			            getGlobalValue(doc, "zciScriptObject") + '.isDocDirty(this);", 50);' +
+			            getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(doc, 0, "isDocDirty eval2 timer fired");';     
+		 
+			SendLogMessage(doc, debugLogLevel, "isDocDirty eval2 content: " + eval2);  
+			eval(eval2);
+		} else {				
+			// If the viewer is Acrobat 8.1 or better attempt to remove focus from 
+			// the current form field. This is a work around to commit entered data 
+			// while using FireFox. Watson 1430160!!
+			try {
+				if(xfa.host.version &gt;= 8.1 &amp;&amp; doc.dirty==false){
+			  		var focusSOM = xfa.host.getFocus().somExpression;
+			  		xfa.host.setFocus();
+			  		xfa.host.setFocus(focusSOM);
+			   }
+			  } catch (ex) {
+				  SendLogMessage(doc, debugLogLevel, "Error while setting focus during a form dirty state query: " + ex.message);
+			  }
+			// Consider the ZCI dirty state flag set via the root form preSave event handler. 
+			var saveDirtyState = getGlobalValue(doc, "saveDirtyState");
+			var dirty = doc.dirty || saveDirtyState;
+		 
+			SendLogMessage(doc, infoLogLevel, "Got a message from the container to see if the active document is dirty. Dirty status: " + dirty);
+			SendMessageToContainer(doc, "dirtyState", (dirty ? "true" : "false"), "", "", ""); 
+			SendLogMessage(doc, infoLogLevel, "Finished message processing to see if the active document is dirty.");
+		}		
+	} catch (ex) {
+		reportException(doc, "Error while determining the form dirty state: ", ex);
+	}
+}
+
+/**
+ * Lock the current form so that the user cannot interact with it.
+ *
+ * @param doc Current document reference.
+ * @param forceOperation Perform the operation regardless of the reference counting.
+ * @param sendContainerMessage Flag to send messages to the container.
+ */
+function lockForm(doc, forceOperation, sendContainerMessage) {
+	if(sendContainerMessage == true) {
+		SendLogMessage(doc, infoLogLevel, "Got a message from the container to lock the viewer user interface.");
+	}
+
+	var functionStart = new Date();
+	var lockRefCount = getGlobalValue(doc, "lockRefCount");
+	if((lockRefCount == 0) || (forceOperation == true)) {	
+		try {
+			if(xfa.host.platform == "MAC" &amp;&amp; xfa.host.version &gt;= 8.1 &amp;&amp; doc.dirty==false) {
+		 	   	  var focusSOM = xfa.host.getFocus().somExpression;
+			  		xfa.host.setFocus();
+			  		xfa.host.setFocus(focusSOM);
+			}
+		} catch (ex) {
+			SendLogMessage(doc, debugLogLevel, "Error while setting focus during locking form: " + ex.message);
+		}
+		var originalDirty = doc.dirty; 						
+		
+		// Lock the form to prevent the user from triggering another event. 																													
+		if ((xfa.host.platform != "MAC") &amp;&amp; (xfa.host.version &gt;= 9)) {
+			if(sendContainerMessage == true) {
+				SendLogMessage(doc, debugLogLevel, "Using the new enable/disable form functionlaity.");
+			}
+			doc.disableWindows(0); 
+		} else {
+			// If the read-only/restore list exists then the form is already read-only.
+			var openFieldSOM = getGlobalValue(doc, "openFieldSOM");
+			if((openFieldSOM != null) &amp;&amp; (openFieldSOM.length &gt; 0)) {
+				if(sendContainerMessage == true) {
+					SendLogMessage(doc, debugLogLevel, "The read-only/restore SOM list exists, clearing the UI SOM list");
+				}
+				setGlobalValue(doc, "openUIFieldSOM", "");																					
+			} else {
+				if(sendContainerMessage == true) {
+					SendLogMessage(doc, debugLogLevel, "The read-only/restore SOM list does not exist, building UI SOM list");
+				}
+				var openUIFieldSOM = BuildReadOnlyArray(doc);
+				setGlobalValue(doc, "openUIFieldSOM", openUIFieldSOM);
+				if((openUIFieldSOM!= null) &amp;&amp; (openUIFieldSOM.length &gt; 0)) {
+					SetFieldState(doc, "readOnly", openUIFieldSOM); 								
+				}
+			}
+		}
+							
+		// Reset the original form dirty state. Dynamic PDF needs a timer.
+		// The result of this timer is checked in isDocDirty().
+		if(doc.dynamicXFAForm == true) {
+			setGlobalValue(doc, "isDirtyStateValid", false);
+			var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "lockForm timer fired");' +
+							  getGlobalValue(doc, "zciScriptObject") + '.lockIdleDirtyStateTimer = null;'; 
+ 
+
+			if(sendContainerMessage == true) {
+				SendLogMessage(doc, debugLogLevel, "lockForm timeoutCode: " + timeoutCode);
+			}
+		 
+			lockIdleDirtyStateTimer = app.setTimeOut(timeoutCode, 1);
+		} else {			
+			setGlobalValue(doc, "isDirtyStateValid", true);
+			doc.dirty = originalDirty;
+		}
+	}
+						
+	setGlobalValue(doc, "lockRefCount", ++lockRefCount);
+	if(sendContainerMessage == true) {
+		SendLogMessage(doc, debugLogLevel, "Lock: lockRefCount: " + lockRefCount);
+		SendMessageToContainer(doc, "lockFormComplete", "", "", "", "");	
+		SendLogMessage(doc, debugLogLevel, "Total time to lock the viewer user interface: " + (new Date() - functionStart) + " milliseconds.");				
+		SendLogMessage(doc, infoLogLevel, "Finished message processing to lock the viewer user interface.");	
+	}
+}
+
+/**
+ * Unlock the current form so that the user can interact with it.
+ *
+ * @param doc Current document reference.
+ * @param forceOperation Perform the operation regardless of the reference counting.
+ * @param sendContainerMessage Flag to send messages to the container.
+ */
+function unlockForm(doc, forceOperation, sendContainerMessage) {
+	if(sendContainerMessage == true) {
+		SendLogMessage(doc, infoLogLevel, "Got a message from the container to unlock the viewer user interface.");
+	}
+	 
+	var functionStart = new Date();						
+	var lockRefCount = getGlobalValue(doc, "lockRefCount");
+	if((lockRefCount == 1) || (forceOperation == true)) {				
+		var originalDirty = doc.dirty; 
+		
+		// Unlock the form so the user can interact with it.
+		if ((xfa.host.platform != "MAC") &amp;&amp; (xfa.host.version &gt;= 9)) {
+			if(sendContainerMessage == true) {
+				SendLogMessage(doc, debugLogLevel, "Using the new enable/disable form functionlaity.");
+			}
+			doc.enableWindows(); 
+		} else {		
+			// If the read-only/restore list exists then the form is already read-only.						
+			var openUIFieldSOM = getGlobalValue(doc, "openUIFieldSOM");
+			if((openUIFieldSOM!= null) &amp;&amp; (openUIFieldSOM.length &gt; 0)) {
+				SetFieldState(doc, "restore", openUIFieldSOM);  
+			}
+			setGlobalValue(doc, "openUIFieldSOM", "");
+		}
+
+		if(sendContainerMessage == true) {
+			// The WebDynpro drop down window made us delay the CHANGE event and mask the
+			// EXIT event.  Now the window is gone so fire the event and put the focus back
+			// on the DDL.
+			var triggerExitEvent = getGlobalValue(doc, "triggerExitEvent");
+			if(triggerExitEvent == true) {
+				// Get and then clear the SOM associated with the Enum Dropdown List
+				var currentEnumSOM = getGlobalValue(doc, "currentEnumDDLSOM");
+				setGlobalValue(doc, "currentEnumDDLSOM", "");
+
+				// Build a SOM expression that we can script on and save it back to a global variable.  In
+				// the unlockform message we'll see if we have the new SOM expression and act on it if we do.
+				var newSOM = "";
+				var somArray = currentEnumSOM.split(".");
+				var i;
+				for (i = 0; i &lt; somArray.length; i++) {
+					if (i &lt; somArray.length - 1) {
+						if (somArray[i].match("#") == null) {		// Ignore any container containing a #
+							var openBraceIndex = parseInt(somArray[i].indexOf("["));
+							var nextControl = somArray[i].substring(0, openBraceIndex);
+							newSOM += nextControl;
+							newSOM += ".";
+						}
+					} else {
+						var findIndex = somArray[i].split("[");
+						findIndex[1] = stringReplace(findIndex[1], "]", "");
+		
+						newSOM += findIndex[0];	// Field's name
+						newSOM += ".all.item(";
+						newSOM += findIndex[1];	// Field's occurrence
+						newSOM += ")";
+					}
+				}
+
+				// Send the change event (it doesn't matter if we changed the value or not)
+				var DDLPrevText = getGlobalValue(doc, "currentEnumDDLPrevText");
+				var setEventPrevText = "xfa.event.prevText = '" + DDLPrevText + "';"
+				eval(setEventPrevText);
+				var fireChangeEvent = newSOM + ".execEvent(\"change\");";
+				eval(fireChangeEvent);
+				setGlobalValue(doc, "currentEnumDDLPrevText", "");
+	
+				// Give the focus back to the DDL.
+				xfa.host.setFocus(newSOM);
+			}
+		}
+
+		// If we are processing a "ValueHelp" request then the list field needs to be opened.
+		var currentListTypeField = getGlobalValue(doc, "currentListTypeField");
+		if((currentListTypeField != null) &amp;&amp; (currentListTypeField.length &gt; 0)) {
+			if(sendContainerMessage == true) {
+				SendLogMessage(doc, debugLogLevel, "Opening list object: " + currentListTypeField);
+			}
+			try {
+				xfa.host.openList(currentListTypeField); 
+			} catch (ex) {
+				reportException(doc, "Error opening list field: " + currentListTypeField + " :", ex);
+			}
+			setGlobalValue(doc, "currentListTypeField", "");	
+			setGlobalValue(doc, "processingValueHelp", false);
+		}
+		// Used by the SAP Enumerated Drop-down list No S.xfo and EnumListDropDown.xfo 
+		// files to avoid repeated processing in the PreOpen event. No need to open the list 
+		// control since it will only have one option if depending on the HTML container 
+		// to display a popup for option selection. If there is more then one option then 
+		// the list is fully populated with no further HTML container interaction.
+		setGlobalValue(doc, "processingF4HelpOpen", false);							
+			
+		// Reset the original form dirty state. Dynamic PDF needs a timer.
+		// The result of this timer is checked in isDocDirty().
+		if(doc.dynamicXFAForm == true) {
+			setGlobalValue(doc, "isDirtyStateValid", false);
+
+			var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "unlockForm timer fired");' +
+							  getGlobalValue(doc, "zciScriptObject") + '.unlockIdleDirtyStateTimer = null;'; 
+
+			if(sendContainerMessage == true) {
+				SendLogMessage(doc, debugLogLevel, "unlockForm timeoutCode: " + timeoutCode);
+			}		                      							                    
+		    unlockIdleDirtyStateTimer = app.setTimeOut(timeoutCode, 1);
+		} else {
+			doc.dirty = originalDirty;
+			setGlobalValue(doc, "isDirtyStateValid", true);									 
+		}
+	} 
+
+	lockRefCount--; if(lockRefCount &lt; 0) {lockRefCount = 0;}
+	setGlobalValue(doc, "lockRefCount", lockRefCount);
+	if(sendContainerMessage == true) {
+		SendLogMessage(doc, debugLogLevel, "UnLock: lockRefCount: " + lockRefCount);						
+		SendMessageToContainer(doc, "unlockFormComplete", "", "", "", "");	
+		SendLogMessage(doc, debugLogLevel, "Total time to unlock the viewer user interface: " + (new Date() - functionStart) + " milliseconds.");											
+		SendLogMessage(doc, infoLogLevel, "Finished message processing to unlock the viewer user interface.");
+	}
+}
+
+/**
+ * Toggle the form between read-only and edit mode.
+ *
+ * @param doc Current document reference.
+ * @param mode Mode to set the form to.
+ * @param forceOperation Perform the operation regardless of the reference counting.
+ * @param sendContainerMessage Flag to send messagea to the container.
+ */
+function setFormReadOnlyRestore(doc, mode, forceOperation, sendContainerMessage) {
+	if(sendContainerMessage == true) {
+		SendLogMessage(doc, infoLogLevel, "Got a message from the container to set the document field states: " + mode + ".");
+	}
+
+	var functionStart = new Date();
+	var setFieldStateRefCount = getGlobalValue(doc, "setFieldStateRefCount");
+	var originalDirty = doc.dirty;
+	var resetDirtyFlag = false;
+
+	if(mode == "readOnly") {
+		if((setFieldStateRefCount == 0) || (forceOperation == true)) { 			 
+			if ((xfa.host.platform != "MAC") &amp;&amp; (xfa.host.version &gt;= 9)) {
+				setFormRootNodeReadOnly(doc);
+			} else {
+				// If the lock/unlock list exists then the form is already ready-only.
+				var openUIFieldSOM = getGlobalValue(doc, "openUIFieldSOM");
+				if((openUIFieldSOM != null) &amp;&amp; (openUIFieldSOM.length &gt; 0)) {
+					if(sendContainerMessage == true) {
+						SendLogMessage(doc, debugLogLevel, "The UI SOM list exists, moving to read-only/restore SOM list");
+					}
+					setGlobalValue(doc, "openFieldSOM", openUIFieldSOM);
+					setGlobalValue(doc, "openUIFieldSOM", "");
+				} else {	
+					if(sendContainerMessage == true) {
+						SendLogMessage(doc, debugLogLevel, "The UI SOM list does not exist, building read-only/restore SOM list");
+					}
+					var openFieldSOM = BuildReadOnlyArray(doc);
+					setGlobalValue(doc, "openFieldSOM", openFieldSOM);
+					if((openFieldSOM != null) &amp;&amp; (openFieldSOM.length &gt; 0)) {
+						SetFieldState(doc, "readOnly", openFieldSOM);
+					}
+				}
+			}
+			resetDirtyFlag = true;								
+		}
+		setFieldStateRefCount++;
+	} else if(mode == "restore") {
+		if((setFieldStateRefCount == 1) || (forceOperation == true)) {
+			if ((xfa.host.platform != "MAC") &amp;&amp; (xfa.host.version &gt;= 9)) {
+				setFormRootNodeRestore(doc);
+			} else {						
+				// If the read-only/restore list then copy it to lock/unlock list. 
+				var openFieldSOM = getGlobalValue(doc, "openFieldSOM");
+				if((openFieldSOM != null) &amp;&amp; (openFieldSOM.length &gt; 0)) {
+					if(forceOperation == true) {
+						SetFieldState(doc, "restore", openFieldSOM);	
+						setGlobalValue(doc, "openFieldSOM", "");					
+					} else {
+						setGlobalValue(doc, "openUIFieldSOM", openFieldSOM);
+						setGlobalValue(doc, "openFieldSOM", "");
+					}
+				}
+			}		
+			resetDirtyFlag = true;						
+		}
+		setFieldStateRefCount--;
+		if(setFieldStateRefCount &lt; 0) {setFieldStateRefCount = 0;}
+	}
+	
+	// Reset the original form dirty state. Dynamic PDF needs a timer.
+	// The result of this timer is checked in isDocDirty().
+	if(resetDirtyFlag == true) {
+		if(doc.dynamicXFAForm == true) {
+			setGlobalValue(doc, "isDirtyStateValid", false);	 
+		 
+			var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "setFormReadOnlyRestore timer fired");' +
+							  getGlobalValue(doc, "zciScriptObject") + '.restoreIdleDirtyStateTimer = null;'; 
+							  				 
+			if(sendContainerMessage == true) {
+				SendLogMessage(doc, debugLogLevel, "setFormReadOnlyRestore timeoutCode: " + timeoutCode);
+			}
+			restoreIdleDirtyStateTimer = app.setTimeOut(timeoutCode, 1); 
+		} else {		 
+			doc.dirty = originalDirty;
+			setGlobalValue(doc, "isDirtyStateValid", true);
+		}
+	}
+				
+	setGlobalValue(doc, "setFieldStateRefCount", setFieldStateRefCount);
+	if(sendContainerMessage == true) {						
+		SendLogMessage(doc, debugLogLevel, "SetFieldState: setFieldStateRefCount: " + setFieldStateRefCount);
+		SendMessageToContainer(doc, "setFieldStateComplete", "", "", "", "");
+		SendLogMessage(doc, debugLogLevel, "Total time to set the document field states: " + (new Date() - functionStart) + " milliseconds.");
+		SendLogMessage(doc, infoLogLevel, "Finished message processing to set the document field states: " + mode + ".");
+	}
+}
+
+/**
+ * Send a message to the containing application. The container message handler expects 
+ * an array of Strings. The array should contain the operation in [0] and the operation 
+ * parameters in [1] on.
+ *
+ * @param doc Document with host container object reference
+ * @param type Type of message being sent to the container (i.e. "response").
+ * @param payload1 First message parameter.
+ * @param payload2 Second message parameter.
+ * @param payload3 Third message parameter.
+ * @param payload4 Fourth message parameter.
+ */
+function SendMessageToContainer(doc, type, payload1, payload2, payload3, payload4) {
+	// Send response to container
+	var strings = new Array();
+	strings[0] = type;
+	strings[1] = payload1;
+	strings[2] = payload2;
+	strings[3] = payload3;
+	strings[4] = payload4;
+
+	// This is invoked to reset the highlighted fields to their original 
+	// color. Reset only during "submit" and "check" operations.
+    if ((type == "submit") || (type == "check")) {  
+    	clearValidateFailed(doc);
+    }
+    
+	if(doc.hostContainer != undefined) {
+		try {
+			doc.hostContainer.postMessage(strings);
+		} catch (ex) {
+            console.println("Error on SendMessageToContainer" + ex + strings.join());
+		}
+	}
+}
+
+/**
+ * Extract the XML data from the document and return it as a string. Most
+ * likely, the string will then be passed up to a server via HTTP.
+ *
+ * @param doc Active document reference.
+ *
+ * @return XML representation of form data.
+ */
+function GetData(doc) {
+	SendLogMessage(doc, infoLogLevel, "Start extraction of XML data from the active document.");
+	
+	var myDataNode = null;
+	try {
+		myDataNode = xfa.resolveNode("$data.nodes.item(0)");
+	} catch (ex) {
+		reportException(doc, "Error while resolving node: $data.nodes.item(0) for XML data extraction:" ,ex);
+	}
+
+	var xml = "";
+	try {
+		xml = myDataNode.saveXML();
+	} catch (ex) {
+		reportException(doc, "Error while extracting XML data from the active document:" ,ex);
+	}
+
+	SendLogMessage(doc, infoLogLevel, "Finished extraction of XML data from the active document.");
+	return xml;
+}
+
+/**
+ * Determine if the document has signature fields so we can make the proper 
+ * decision as to which type of submission we should be making to the server.
+ *
+ * @param doc Active document reference.
+ * @param returnFlag If this flag is true, it returns true if the signature fields exists, false otherwise
+ *                   If this flag is false, it returns the list of signature fields else returns an empty string
+ *
+ * @return true or signature list if the document does have signature fields, false or empty string if otherwise
+ */
+function DoesDocHaveSignatureFields(doc, returnFlag) {
+	SendLogMessage(doc, infoLogLevel, "Checking to see if the active document has signature fields.");
+
+	// We must figure out if the document has signature fields by performing
+	// the operation in two steps. We first figure out if there are signature 
+	// fields in the pageArea then we search the non-pageArea.
+
+	var hasSignatureField = false;
+	var signatureList = "";
+	
+	var pageCount = 0;
+	try {
+		pageCount = xfa.layout.pageCount();
+	} catch (ex) {
+		reportException(doc, "Error determining the active document page count during a signature field search:", ex);
+	}
+
+	try {
+		for (var i=0; !hasSignatureField &amp;&amp; i &lt; pageCount; i++) {
+			var fields = xfa.layout.pageContent(i, "field", false);
+			if (returnFlag) {
+				hasSignatureField = DoFieldsContainSignatureField(fields, signatureList, returnFlag);
+			} else {
+				signatureList = DoFieldsContainSignatureField(fields, signatureList, returnFlag);
+			} 
+			
+			if (returnFlag) {
+				if (!hasSignatureField) {
+					fields = xfa.layout.pageContent(i, "field", true);
+					hasSignatureField = DoFieldsContainSignatureField(fields, signatureList, returnFlag);
+				}
+			} else {
+				if (signatureList != "") {			
+					fields = xfa.layout.pageContent(i, "field", true);
+					signatureList = DoFieldsContainSignatureField(fields, signatureList, returnFlag);
+				}
+			}
+		}
+	} catch (ex) {
+		reportException(doc, "Error during the active document signature field search:", ex);
+	}
+
+	if (returnFlag) {
+		return hasSignatureField;
+	} else {
+		return signatureList;
+	} 
+}
+
+/**
+ * Figure out if a signature field is present in the array of fields.
+ *
+ * @param fields The array of fields that we need to search for to figure out
+ *        if one of them is a signature field or not.
+ * @param signatureList The array of fields that are signature fields.
+ *
+ * @param returnFlag If this flag is true, it returns true if the signature fields exists, false otherwise
+ *                  If this flag is false, it returns the list of signature fields else returns an empty string
+ *
+ * @return true or signature list if the document does have signature fields, false or empty string if otherwise
+ */
+
+function DoFieldsContainSignatureField(fields, signatureList, returnFlag) {
+	for (var i=0; i &lt; fields.length; i++) {
+		var item = fields.item(i);
+
+		if (item.isPropertySpecified("ui")) {
+			var className = item.ui.oneOfChild.className;
+
+			if (className == "signature") {
+			    if (returnFlag) {
+					return true;
+				} else {		
+					if(signatureList == "") {							
+						signatureList +=  '"' + item.somExpression + '"';
+					} else {							
+						signatureList +=  ',"' + item.somExpression + '"';
+					}
+				}
+			}
+		}
+	}
+	if (returnFlag) {
+		return false;
+	} else {
+		return signatureList;
+	}
+}
+
+/**
+ * We need to do an HTTP POST of either the XML data or of the PDF document
+ * depending on the type of data contained within it. We need to post the
+ * data up to the server depending on the type of operation that needs to
+ * occur (i.e. check, submit, etc). We will also handle the response by
+ * forwarding the information back out to the containing application so it
+ * can decide what to do.
+ *
+ * If the document has signatures, we will send the entire PDF document
+ * because most likely the document will need to be archived in its entirety.
+ * The document will also need to be checked to make sure that the data in the
+ * signed document has not been tampered with since the signature has been
+ * applied.
+ *
+ * @param doc The PDF document we want to extract the data from.
+ * @param url The URL that the data should be sent to.
+ * @param cookies Cookies for the server/browser.
+ * @param dataType Type of data to send "pdf" or "xml".
+ * @param submitType If "Submit" or "Check" then prompt user for an XML signature  
+ * @param forceCookieAuthentication If "true" then force the use of "cookie" authentication
+ */
+function SendDataToServer(doc, url, cookies, dataType, submitType, forceCookieAuthentication) {
+	SendLogMessage(doc, infoLogLevel, "About to send data to server: " + url + ".");
+
+	// Async response function
+	var oSendDataToServerHandler =
+	{
+	    response: function(resp, uri, exception)
+	    {
+	    	setGlobalValue(doc, "zciReadyMessageDirtyState", "useDefault");
+	   		
+			if(exception != undefined) {
+				var error = "\n";
+				for(var i in exception) { 
+					error += i + ":" + exception[i] + "\n";
+				}
+				SendMessageToContainer(doc, "responseFromServer", "", "ERROR", error, "");
+	            reportException(doc, "SOAP response exception for \"SendDataToServer\":" , exception);				
+	        } else {
+	        	try {
+					var responseAsString = util.stringFromStream(resp, "utf-8"); 
+					globalAttachmentList = getAttachmentListAsString(doc);
+					SendMessageToContainer(doc, "responseFromServer", responseAsString, "OK", "", "");
+					SendLogMessage(doc, debugLogLevel, responseAsString);
+					
+					// Timers do not seem to fire properly inside of a response handler.
+					// Normally, a timer would be set up with an interval of one to 
+					// ensure it is fired before the lower priority timers when idle.
+					setGlobalValue(doc, "saveDirtyState", false);
+					doc.dirty = false;			
+				} catch (ex) {
+					var error = "\n";
+					for(var i in ex) { 
+						error += i + ":" + ex[i] + "\n";
+					}
+					SendMessageToContainer(doc, "responseFromServer", "", "ERROR", error, "");
+					reportException(doc, "Error converting a \"SendDataToServer\" response from a stream to a string:", ex);
+				}				
+	        }	
+		}
+	};
+
+	var newData = null;
+	var contentType = "";
+	var doSubmit = true;
+
+	setGlobalValue(doc, "presaveTriggeredFromSendDataToServer", true);
+	setGlobalValue(doc, "offlineCase", false);
+
+	// Determine if the entire PDF or just the XML data should be submitted. 
+	if ((dataType == "pdf") || ((DoesDocHaveSignatureFields(doc, true)) &amp;&amp; ((getGlobalValue(doc, "isPDFSubmitRecommendedQueried") == null) || (getGlobalValue(doc, "isPDFSubmitRecommendedQueried") == false)))) {
+		SendLogMessage(doc, infoLogLevel, "Submitting the form as a PDF for server processing.");
+		contentType = "application/pdf";
+		try {
+			newData = Collab.documentToStream(doc);   
+		} catch (ex) {
+			var error = "\n";
+			for(var i in ex) { 
+				error += i + ":" + ex[i] + "\n";
+			}
+			SendMessageToContainer(doc, "responseFromServer", "", "ERROR", error, "");
+			reportException(doc, "Error while \"SendDataToServer\" convertion of the active document to a stream:", ex);
+		}
+	} else {
+		SendLogMessage(doc, infoLogLevel, "Send the XML data from the form up to the server.");
+		contentType = "text/xml";
+		try {
+			newData = GetFormDataFromPDF(doc, submitType, true);
+		} catch (ex) {
+			doSubmit = false;
+			var error = "\n";
+			for(var i in ex) { 
+				error += i + ":" + ex[i] + "\n";
+			}
+			SendMessageToContainer(doc, "responseFromServer", "", "ERROR", error, "");
+			reportException(doc, "Error while \"SendDataToServer\" convertion of the active document XML data to a stream:", ex);
+		}
+	}
+
+	if(doSubmit == true) {
+		try {
+			var sendingWithContentType = "xml";
+			if(contentType == "application/pdf") {
+				sendingWithContentType = "pdf";
+			}
+			SendMessageToContainer(doc, "sendDataToServerContentType", sendingWithContentType, "", "", "");
+			
+			SendLogMessage(doc, debugLogLevel, "Added \"SendDataToServer\" cookies: \"" + cookies + "\" for URL: " + url + ".");
+
+			// As of Acrobat 9 we extract the authentication information 
+			// from the session instead of using passed in cookies. There 
+			// is an issue using the Reader 9 "browser" authentication
+			// and FireFox 3. In this combination the container application 
+			// will set the forceCookieAuthentication flag and "cookie" 
+			// authentication will be used regardless of the Reader version. 
+			if((xfa.host.platform != "UNIX") &amp;&amp; (xfa.host.version &gt;= 9) &amp;&amp; (forceCookieAuthentication != "true")) {
+				SendLogMessage(doc, debugLogLevel, "SendDataToServer using \"browser\" based authentication.");
+				SOAP.request(
+				{   
+			    	cURL: url, 
+			    	oRequest: newData, 
+			        cRequestStyle: SOAPRequestStyle.RawPost,
+			        cContentType: contentType,
+					oAuthenticate: {UsePlatformAuth: true},
+					oAsync: oSendDataToServerHandler 
+				});
+			} else {
+				SendLogMessage(doc, debugLogLevel, "SendDataToServer using \"cookie\" based authentication.");
+				SOAP.request(
+				{   
+			    	cURL: url, 
+			    	oRequest: newData, 
+			        cRequestStyle: SOAPRequestStyle.RawPost,
+			        cContentType: contentType,
+					oAuthenticate: {Cookies: cookies},
+					oAsync: oSendDataToServerHandler 
+				});	
+			}
+		} catch (ex) {
+			var error = "\n";
+			for(var i in ex) { 
+				error += i + ":" + ex[i] + "\n";
+			}
+			SendMessageToContainer(doc, "responseFromServer", "", "ERROR", error, "");
+			reportException(doc, "\"SendDataToServer\" SOAP request exception while sending data to the server:", ex);
+		}
+	}
+
+	SendLogMessage(doc, infoLogLevel, "Finished sending data to server: " + url + ".");
+}
+
+/**
+* Get XML form data from a PDF document and return it to the container application.
+*
+* @param doc The PDF document we want to extract the data from.
+* @param submitType If "Submit" or "Check" then prompt user for an XML signature  
+*/
+function GetFormData(doc, submitType) {
+	var formData = null; 
+	try{
+	 SendLogMessage(doc, infoLogLevel, "About to get data from the form.");
+	 formData = GetFormDataFromPDF(doc, submitType, false);
+	 SendMessageToContainer(doc, "responseFromForm", formData, "OK", "", "");
+	 SendLogMessage(doc, debugLogLevel, formData);
+	} catch (ex) {
+		var error = "\n";
+		for(var i in ex) { 
+			error += i + ":" + ex[i] + "\n";
+		}
+		SendMessageToContainer(doc, "responseFromForm", "", "ERROR", error, "");
+		reportException(doc, "Error while \"GetFormData\" returning of the active document XML data in a string:", ex);
+	}
+	SendLogMessage(doc, infoLogLevel, "Finished getting form data from the PDF.");
+}
+
+/**
+ * Get XML form data from a PDF document and return it as a string or stream.
+ * This function is used by SendDataToServer and GetFormData functions.
+ *
+ * @param doc The PDF document we want to extract the data from.
+ * @param submitType If "Submit" or "Check" then prompt user for an XML signature  
+ * @param returnStream If true, return the data as stream. If false, return data as String.
+ */
+function GetFormDataFromPDF(doc, submitType, returnStream) {
+	var doSubmit = true;
+	var newData  = null;
+	var errorMsg = "";
+	var targetId = "XFODigitalSignature_ID";
+	
+	// Clear out any existing XFO digital signatures.
+	var signatures = xfa.signature.enumerate();
+	for(var loop = 0; loop &lt; signatures.length; loop++) {
+		var signature = signatures.item(loop);
+	    if(signature.saveXML().indexOf(targetId) != -1) {
+	    	xfa.signature.clear(signature, false);
+	    }
+	}
+	
+	// Apply an XML digital signature for Submit and Check operations only.
+	var digSigSOM = getGlobalValue(doc, "XMLDigitalSignatureSOM");		
+    if((digSigSOM != undefined) &amp;&amp; (digSigSOM.length &gt; 0) &amp;&amp; 
+	   ((submitType == "submit") || (submitType == "check"))) {  
+		var digSigNode = xfa.resolveNode(digSigSOM);
+		if((digSigNode != undefined) &amp;&amp; (digSigNode != null)) {
+			var recordNode = xfa.resolveNode("$record");	
+			if(xfa.signature.sign(recordNode, "$data.signatures", targetId) == false) {
+				errorMsg = "An XML Digital Signature was not properly applied.";
+				doSubmit = false;
+			}								
+		}
+	}
+	
+	// In a drop down list along with the selected value, the complete list
+	// is sent back to server. We should restrict it by removing all the list data
+	// values in sap-vhlist and pass back only the selected value.
+	var SAPLISTNAME = "sap-vhlist";
+	var STARTLISTDATA = "&lt;" + SAPLISTNAME; 
+	var ENDLISTDATA = "&gt;&lt;/" + SAPLISTNAME; 
+	var ENDLISTDATA2 = "/&gt;"; 
+	
+	// This wraps the entire XML data with an &lt;xfa:data&gt; node pair.
+	if(doSubmit == true) {
+		// Mark the &lt;signatures&gt; node with a dataGenerator attribute to indicate who generated the XML.			
+		var dataNode = xfa.datasets.data.saveXML();
+		dataNode = stringReplace(dataNode, "&lt;signatures\n", '&lt;signatures dataGenerator="xfa" ');
+		// Remove all the sap-vhlist data from the xml data returned to server.
+		dataNode = removeSubString(dataNode, STARTLISTDATA, ENDLISTDATA, ENDLISTDATA2);
+		// Convert the data string to stream if required.
+		if (returnStream == true) {
+			newData = util.streamFromString(dataNode, "utf-8");
+		} else {
+			newData = dataNode;
+		}
+		// Clear out any existing XFO digital signatures.	
+		var signatures = xfa.signature.enumerate();
+	    for (var loop = 0; loop &lt; signatures.length; loop++) {
+	    	var signature = signatures.item(loop);
+	      	if(signature.saveXML().indexOf(targetId) != -1) {
+	        	xfa.signature.clear(signature, false);
+	      	}
+	    }
+	} else {
+		throw errorMsg;
+	}
+	
+	return newData;
+}
+
+/**
+ * Do an HTTP GET to the server to get data to merge into the active document.
+ * The data is always in the XML format. A "finishedSettingData" message is sent 
+ * to the container application when the merge has completed.
+ *
+ * @param doc The PDF document we want to extract the data from.
+ * @param url The URL where the data should be retrieved from.
+ * @param cookies Cookies for the server/browser.
+ * @param forceCookieAuthentication If "true" then force the use of "cookie" authentication
+ */
+function GetDataFromServer(doc, url, cookies, forceCookieAuthentication) {
+	SendLogMessage(doc, infoLogLevel, "About to retrieve data from server: " + url + ".");
+
+	var oGetDataFromServerHandler =
+	{
+	    response: function(resp, uri, exception)
+	    { 
+	    	setGlobalValue(doc, "zciReadyMessageDirtyState", "useDefault");
+	   		
+	        if(exception != undefined) {
+	        	var error = "\n";
+				for(var i in exception) { 
+					error += i + ":" + exception[i] + "\n";
+				}
+				SendMessageToContainer(doc, "finishedSettingData", "ERROR", error, "", "");				
+	            reportException(doc, "SOAP response exception for \"GetDataFromServer\":", exception);
+	        } else {
+				var result = "";
+				try {
+					result = util.stringFromStream(resp, "utf-8");
+				} catch (ex) {
+					var error = "\n";
+					for(var i in ex) { 
+						error += i + ":" + ex[i] + "\n";
+					}
+					SendMessageToContainer(doc, "finishedSettingData", "ERROR", error, "", "");
+		            reportException(doc, "Error converting a \"GetDataFromServer\" response from a stream to a string:", ex);
+				}
+
+				try {
+					LoadNewFormData(doc, result);
+				} catch (ex) {
+					var error = "\n";
+					for(var i in ex) { 
+						error += i + ":" + ex[i] + "\n";
+					}
+					SendMessageToContainer(doc, "finishedSettingData", "ERROR", error, "", "");
+					reportException(doc, "Error loading retrieved \"GetDataFromServer\" XML data into the active document:", ex);
+				}
+				
+				// Queue container notification until the layout:ready event handler has fired.
+				// The loadXML() call is not blocked meaning that once made the event handler
+				// and other various scripts need time to fire. The layout:ready event handler 
+				// is generally the last handler to fire thus giving the form time to process.
+				var now = new Date();
+				SendLogMessage(doc, debugLogLevel, "setting pendingGDFSResponse at: " + now); 
+				setGlobalValue(doc, "pendingGDFSResponse", true);								
+	        }
+		}
+	};
+
+	try {
+		SendLogMessage(doc, debugLogLevel, "Added \"GetDataFromServer\" cookies: \"" + cookies + "\" for URL: " + url + ".");
+		
+		// As of Acrobat 9 we extract the authentication information 
+		// from the session instead of using passed in cookies. There 
+		// is an issue using the Reader 9 "browser" authentication
+		// and FireFox 3. In this combination the container application 
+		// will set the forceCookieAuthentication flag and "cookie" 
+		// authentication will be used regardless of the Reader version. 
+		if((xfa.host.platform != "UNIX") &amp;&amp; (xfa.host.version &gt;= 9) &amp;&amp; (forceCookieAuthentication != "true")) {
+			SendLogMessage(doc, debugLogLevel, "GetDataFromServer using \"browser\" based authentication.");
+			SOAP.request(
+			{  
+		    	cURL: url, 
+		    	oRequest: util.streamFromString("", "utf-8"), 
+		        cRequestStyle: SOAPRequestStyle.RawPost,
+		        cContentType: "text/plain",
+				oAuthenticate: {UsePlatformAuth: true},
+				oAsync: oGetDataFromServerHandler 
+			});	
+		} else {
+			SendLogMessage(doc, debugLogLevel, "GetDataFromServer using \"cookie\" based authentication.");
+			SOAP.request(
+			{  
+		    	cURL: url, 
+		    	oRequest: util.streamFromString("", "utf-8"), 
+		        cRequestStyle: SOAPRequestStyle.RawPost,
+		        cContentType: "text/plain",
+				oAuthenticate: {Cookies: cookies},
+				oAsync: oGetDataFromServerHandler 
+			});
+		}
+	} catch (ex) {
+		var error = "\n";
+		for(var i in ex) { 
+			error += i + ":" + ex[i] + "\n";
+		}
+		SendMessageToContainer(doc, "finishedSettingData", "ERROR", error, "", "");
+		reportException(doc, "\"GetDataFromServer\" SOAP request exception while retrieving data from the server:", ex);
+	}
+
+	SendLogMessage(doc, infoLogLevel, "Finished retrieving data from server: " + url + ".");
+} 
+
+/**
+ * Get data from the container to merge into the active document.
+ * The data is always in the XML format. A "finishedSettingData" message is sent 
+ * to the container application when the merge has completed.
+ *
+ * @param doc The PDF document we want to extract the data from.
+ * @param data The XML data string to merge into the PDF document.
+ */
+function SetFormData(doc, data) {
+	try{
+		LoadNewFormData(doc, data);
+	} catch (ex) {
+		var error = "\n";
+		for(var i in ex) { 
+			error += i + ":" + ex[i] + "\n";
+		}
+		SendMessageToContainer(doc, "finishedSettingData", "ERROR", error, "", "");
+		reportException(doc, "Error loading retrieved \"SetFormData\" XML data into the active document:", ex);
+	}
+		
+	// Queue container notification until the layout:ready event handler has fired.
+	// The loadXML() call is not blocked meaning that once made the event handler
+	// and other various scripts need time to fire. The layout:ready event handler 
+	// is generally the last handler to fire thus giving the form time to process.
+	var now = new Date();
+	SendLogMessage(doc, debugLogLevel, "setting pendingGDFSResponse at: " + now); 
+	setGlobalValue(doc, "pendingGDFSResponse", true);	
+}
+
+
+  
+
+
+/**
+ * Merge the XML data passed into a PDF document.
+ * The data is always in the XML format. 
+ * This function is used by GetDataFromServer and SetFormData functions.
+ *
+ * @param doc The PDF document we want to extract the data from.
+ * @param data The XML data string to merge into the PDF document.
+ */
+function LoadNewFormData(doc, data) {
+	// Restore the form's default access state since there may
+	// be scripts that define a new default. Once the new 
+	// form data is loaded the form will be relocked or set 
+	// back to read-only on the next incoming message. 
+	var uiSOMList = getGlobalValue(doc, "openUIFieldSOM");
+	var sfsSOMList = getGlobalValue(doc, "openFieldSOM");
+	if((uiSOMList != null) &amp;&amp; (uiSOMList.length &gt; 0)) {
+		unlockForm(doc, true, false);
+		setGlobalValue(doc, "pendingLock", true);
+		setGlobalValue(doc, "pendingReadOnly", false);
+	} else if(getGlobalValue(doc, "setFieldStateRefCount") &gt; 0) {
+		setFormReadOnlyRestore(doc, "restore", true, false);
+		setGlobalValue(doc, "pendingReadOnly", true);
+		setGlobalValue(doc, "pendingLock", false);
+	}
+	
+	// Save the attachmentList to container global variable 
+	// and set the pendingAttachmentList to be true.
+ 	setGlobalValue(doc, "attachmentList", globalAttachmentList);					
+	setGlobalValue(doc, "pendingAttachmentList", true);
+	
+	// Disable the *FieldValueHelp XFO dirty state update timers.
+	setGlobalValue(doc, "pendingVHFieldUpdate", true);
+	
+	// Load the new form data thus triggering the form field event handlers.
+	xfa.datasets.data.loadXML(data, false, true);
+	SendLogMessage(doc, debugLogLevel, data);
+}
+
+/**
+ *  Build a list of fields with access other then read-only. This is used to 
+ *  set/reset the document to read-only and back.
+ *
+ * @param doc Current document reference.
+ */
+var getFieldsOpenFieldSOM = "";
+var fieldCount = 0;
+function BuildReadOnlyArray(doc) {
+	var arrHandsOff = new Array();
+
+	fieldCount = 0;
+	
+	// Reset list before scanning fields.
+	getFieldsOpenFieldSOM = "";
+	
+	// Get the non-pageArea fields.
+	GetFields(doc, false, arrHandsOff);	
+
+	// Get the pageArea fields.
+	GetFields(doc, true, arrHandsOff);
+	
+	SendLogMessage(doc, debugLogLevel, "Added " + fieldCount + " fields to the SOM list.");
+	
+	return getFieldsOpenFieldSOM ;
+}
+
+/**
+ * Traverse the page and non-page area fields building a list of SOM expressions 
+ * for the fields with access other then read-only.
+ *
+ * @param doc Currentl document reference.
+ * @param containerFlag Page or non-page search flag.
+ * @param arrHandsOff Array of SOM expressions.
+ */
+function GetFields(doc, containerFlag, arrHandsOff) {
+	try {
+		// Get the field containers from each page.
+		for (var i = 0; i &lt; xfa.layout.pageCount(); i++) {
+			var oFields = xfa.layout.pageContent(i, "field", containerFlag);
+
+			for (var j = 0; j &lt; oFields.length; j++) {
+				var oItem = oFields.item(j);
+				
+				// If this field is part of an exclusion group then use its access value.
+				var parentNode = xfa.resolveNode(oItem.parent.somExpression);
+				if(((parentNode != null) || (parentNode != undefined)) &amp;&amp; (parentNode.className == "exclGroup")) {
+					oItem = oItem.parent;
+				}
+
+				// Retain the SOM expression of opened fields.
+				if (oItem != this) {
+					if (oItem.access == "open") {
+						var bAdd = true;
+						if (arrHandsOff.length != "0") {
+							for (var k = 0; k &lt; arrHandsOff.length; k++) {
+								if (oItem.somExpression	== arrHandsOff[k].somExpression) {					
+									bAdd = false;
+									SendLogMessage(doc, debugLogLevel, "Duplicate SOM found: " + oItem.somExpression);
+									break;
+								}
+							}
+						}
+			
+						if (bAdd == true) {	
+							fieldCount++;
+							if(getFieldsOpenFieldSOM == "") {							
+								getFieldsOpenFieldSOM +=  '"' + oItem.somExpression + '"';
+							} else {							
+								getFieldsOpenFieldSOM +=  ',"' + oItem.somExpression + '"';
+							}
+						}
+					}
+				}
+			}	
+		}
+	} catch (ex) {
+		reportException(doc, "Error while constructing a list of active document fileds with non read-only access:", ex);
+	}
+}
+
+/**
+ * Traverse the page and non-page area fields setting their access level to newState.
+ * Only affects fields with non read-only access.
+ *
+ * @param doc Current document reference.
+ * @param newState New field level access state "readOnly" or "restore".
+ */
+function SetFieldState(doc, newState, openFieldSOM) {
+	try {
+		var sArray = "new Array(" + openFieldSOM + ")";	// Build the string representation of the array.
+		var newArray = eval(sArray);					// Evaluate the string.
+
+		for (i = 0; i &lt; newArray.length; i++) {	
+			if(newState == "restore") {
+				newState = "open";
+			}
+
+			var node = null;
+			try {
+				node = xfa.resolveNode(newArray[i]);
+			} catch (ex) {
+				node = null;
+				reportException(doc, "Error while resolving node: $data.nodes.item(0) while setting a field state to " + newState + ":" ,ex);
+			}
+			
+			if(node != null) {
+				node.access = newState;
+			}
+		}
+	} catch (ex) {
+		reportException(doc, "Error while setting field access state for: " + openFieldSOM + ": ", ex);
+	}
+}
+
+/**
+ * Update the XML value associated with a form field. The field should 
+ * be automatically updated by the viewer application.
+ *
+ * @param somExpression Full pathway to the XML data node.
+ * @param new Value Replacement value the XML data node.
+ */
+function SetFieldData(doc, somExpression, newValue) 
+{
+	SendLogMessage(doc, infoLogLevel, "About to modify the value for XML data node: " + somExpression);
+
+	try {
+		xfa.data.resolveNode(somExpression).value = newValue;
+	} catch (ex) {
+		reportException(doc, "Error resolving node: " + somExpression + " with new value:" + newValue + " :", ex);
+	}
+
+	// Indicate that DDL exit events should be executed since the value changed.
+	var currentEnumSOM = getGlobalValue(doc, "currentEnumDDLSOM");
+	if (currentEnumSOM != null &amp;&amp; currentEnumSOM.length &gt; 0) {
+		setGlobalValue(doc, "triggerExitEvent", true);
+		xfa.event.newText = newValue;	// Save value for the CHANGE event.
+	}
+
+	SendLogMessage(doc, infoLogLevel, "Finished modifing the value for XML data node: " + somExpression);
+}
+
+/**
+ * Update the XML values associated with a form list type field. The list type field should 
+ * be automatically updated by the viewer application.
+ *
+ * @param somExpression Full pathway to the XML data node.
+ * @param openList Flag to drop the list of options.
+ * @param nameValuePairs Replacement values the XML data node.
+ */
+function SetListData(doc, somExpression, openList, nameValuePairs) 
+{
+	SendLogMessage(doc, infoLogLevel, "About to modify the value for XML data node: " + somExpression);
+	
+	var len = nameValuePairs.length;
+	var myNode = FormNodeFromDataNode(doc, somExpression);
+	
+	try {
+		for (var i=0; i &lt; len; i+=2) {
+			myNode.addItem(nameValuePairs[i], nameValuePairs[i + 1]);
+		} 
+		
+		// Sometimes the PDF is replaced in the portal and the valueHelp droplist 
+		// must be opened right away since now unlock call will be made.
+		if(openList == "true") {
+			SendLogMessage(doc, debugLogLevel, "Opening list object: " + myNode.somExpression);
+			try {
+				xfa.host.openList(myNode.somExpression); 
+			} catch (ex) {
+				reportException(doc, "Error opening list field: " + currentListTypeField + " :", ex);
+			}
+			setGlobalValue(doc, "currentListTypeField", "");	
+			setGlobalValue(doc, "processingValueHelp", false);
+		} else {
+			// ValueHelp llist will be opened by the unlock call.
+			setGlobalValue(doc, "currentListTypeField", myNode.somExpression);
+		}
+	} catch (ex) {
+		reportException(doc, "Error while updating options for field: " + myNode.somExpression + " :", ex);
+	}
+	
+	SendLogMessage(doc, infoLogLevel, "Finished modifing the value for XML data node: " + somExpression);
+}
+
+/**
+ * Return the form root node. This is needed to in Acrobat 9 to set the root subform node to 
+ * either "ReadOnly" or "Open". 
+ *
+ * @param doc Current document reference.
+ */	
+function getFormRootNode(doc) {
+	SendLogMessage(doc, infoLogLevel, "About to get the form root node of the document" );
+	var formRootNodeSOM = null ;
+	try {
+		formRootNodeSOM = xfa.form["#subform"].somExpression ;	
+		formRootNodeSOM = stringReplace( formRootNodeSOM, "[0]", "");
+		formRootNodeSOM = stringReplace( formRootNodeSOM, "[1]", "");
+	} catch (ex) {
+		reportException(doc, "Error while getting root subform node :", ex);
+	}
+	SendLogMessage(doc, infoLogLevel, "Finished getting the form root node of the document" + formRootNodeSOM );
+	return  formRootNodeSOM;
+}
+/**
+ * In Acrobat 9 the root subform node is set to "readOnly" to make the entrire form
+ * "readOnly"
+ *
+ * @param doc Current document reference.
+ */	
+function setFormRootNodeReadOnly(doc) {
+	SendLogMessage(doc, infoLogLevel, "About to set the form to readOnly" );
+	
+	try {
+		var formRootNode = getFormRootNode(doc);
+		var  resolvedFormRootNode = xfa.resolveNode(formRootNode);
+		resolvedFormRootNode.access = "readOnly";
+	} catch (ex) {
+		reportException(doc, "Error while setting root subform node to readOnly :", ex);
+	}
+	
+	SendLogMessage(doc, infoLogLevel, "Finished setting the form to readOnly" );
+}
+
+/**
+ * In Acrobat 9 the root subform node is set to "open" to restore the form from 
+ * "readOnly"
+ *
+ * @param doc Current document reference.
+ */	
+function setFormRootNodeRestore(doc) {
+	SendLogMessage(doc, infoLogLevel, "About to restore (open) the form" );
+
+	try {
+		var formRootNode = getFormRootNode(doc);
+		var  resolvedFormRootNode = xfa.resolveNode(formRootNode);
+		resolvedFormRootNode.access = "open";
+	} catch (ex) {
+		reportException(doc, "Error while setting root subform node to restore (open) :", ex);
+	}
+	SendLogMessage(doc, infoLogLevel, "Finsihed restoring(open) the form" );
+}
+
+/**
+ * Return the form node based on the data DOM node. This is needed to relate fields
+ * with their associated data values. 
+ *
+ * @param doc Current document reference.
+ * @param somExpression Full pathway to the XML data node.
+ */
+function FormNodeFromDataNode(doc, somExpression) 
+{
+	var dataNode = null;
+	try {
+		dataNode = xfa.data.resolveNode(somExpression);
+	} catch (ex) {
+		reportException(doc, "Error while resolving data node: " + somExpression + " :", ex);
+	}
+
+	var formNodes = null;
+	try {
+		formNodes = xfa.form.formNodes(dataNode); 
+	} catch (ex) {
+		reportException(doc, "Error while resolving form node: " + dataNode.somExpression + " :", ex);
+	}
+	
+	return formNodes.item(0);
+}			
+
+/**
+ * Set the active document view state when the document is being redisplayed. For example, if the 
+ * document is displayed in a portal and is submited to the server it will need the same view state
+ * when redisplayed in the portal. 
+ *
+ * @param newViewState Previous view state.
+ */
+function SetViewState(doc, newViewState) {
+	SendLogMessage(doc, infoLogLevel, "About to set the document view state: " + newViewState);
+	
+	try {
+		doc.viewState = newViewState;
+	} catch (ex) {
+		reportException(doc, "Set document view state error:", ex);
+	}
+	
+	SendLogMessage(doc, infoLogLevel, "Finished modifing the document view state: " + newViewState);
+}
+
+/**
+ * Email the for, the compose window for the default mail client application
+ * will pop-up. The emailAddress, Cc, Bcc, Subject and Message are optional fields.
+ * 
+ * @param doc Current document reference
+ * @param emailAddress optional field
+ * @param emailCc      optional field
+ * @param emailBcc     optional field
+ * @param emailSubject optional field
+ * @param emailMessage optional field
+ */
+function emailDocument(doc, emailAddress, emailCc, emailBcc, emailSubject, emailMessage) {
+	SendLogMessage(doc, infoLogLevel, "Attempting to send the form as an email.");
+	
+	emailAddress = 	checkForNullUndefinedSpace(emailAddress);
+	emailCc      = 	checkForNullUndefinedSpace(emailCc);
+	emailBcc     = 	checkForNullUndefinedSpace(emailBcc);
+	emailSubject = 	checkForNullUndefinedSpace(emailSubject);
+	emailMessage = 	checkForNullUndefinedSpace(emailMessage);
+	
+	try {
+		// For sending email, based on the default mail client application the compose window will open.
+		doc.mailDoc(true, emailAddress, emailCc, emailBcc, emailSubject, emailMessage);
+		SendMessageToContainer(doc, "emailDocumentComplete", "OK", "", "", "");   
+	} catch (ex) {
+		var error = "\n";
+		for(var i in ex) { 
+			error += i + ":" + ex[i] + "\n";
+		}			
+		SendMessageToContainer(doc, "emailDocumentComplete", "ERROR", error, "", "");
+		reportException(doc, "\"EmailDocument\" email exception :", ex);
+	}
+	SendLogMessage(doc, infoLogLevel, "Finished attempt to send the form as an email.");
+}
+
+/**
+ * Check for null, undefined and space conditions. 
+ * If found, the fieldValue is set to an empty string.
+ * 
+ * @param fieldValue 
+ */
+function checkForNullUndefinedSpace(fieldValue){
+	if ((fieldValue == null) ||(fieldValue == undefined) || (fieldValue == " ")) {
+		fieldValue = "";
+	}
+	return fieldValue;
+}
+
+/**
+ * Print the form. When this message is invoked the print dialog
+ * opens up with the option for the user to select a printer and other
+ * printer properties to print the document.
+ *
+ * @param doc Current document reference.
+ */
+function printDocument(doc) {
+	SendLogMessage(doc, infoLogLevel, "Attempting to print the form.");
+	
+	try {
+		// The print dialog will open with the option to select the printer. 
+    	var printParameters = doc.getPrintParams();
+    	if((printParameters != null) || (printParameters != undefined)) {
+   			doc.print(printParameters);
+   		}
+   		SendMessageToContainer(doc, "printDocumentComplete", "OK", "", "", "");
+	} catch (ex) {
+		var error = "\n";
+		for(var i in ex) { 
+			error += i + ":" + ex[i] + "\n";
+		}
+		SendMessageToContainer(doc, "printDocumentComplete", "ERROR", error, "", "");
+		reportException(doc, "\"PrintDocument\" print exception :", ex);
+	}
+	SendLogMessage(doc, infoLogLevel, "Finished attempt to print the form.");
+}
+
+/**
+ * This function sets all the error fields to be highlighted with the colorCode
+ * and the focus will be set on the first error field in the list.
+ * If the error messages are sent by the container, the toolTip values
+ * of the fields will be set.
+ *
+ * @param doc					Current document reference.
+ * @param validateFailedList	list of SOM expressions of the error fields.
+ * @param colorCode				color code.
+ * @param edgeColorCode			edge color code.
+ * @param errorMessageList		optional field - error message list.
+ */
+function setMarkValidateFailed(doc, validateFailedList, colorCode, edgeColorCode, errorMessageList) {
+	SendLogMessage(doc, infoLogLevel, "Start highlighting fields and set the focus on first field and toolTip values too for error messages");	
+	
+	var originalDirty = doc.dirty;
+	var focusField = null;
+	var highlightFieldValue = null;
+	var edgeColorFieldValue = null;
+	var toolTipFieldValue = null;
+	
+	//Since in Reader 9 the fields are highlighted by default, we need to turn it off.	
+	if(xfa.host.version &gt;= 9) {
+		app.runtimeHighlight = false;
+	}
+				
+	var validateFailedList	=	checkForNullUndefinedSpace(validateFailedList);
+	var colorCode			= 	checkForNullUndefinedSpace(colorCode);
+	var edgeColorCode		= 	checkForNullUndefinedSpace(edgeColorCode);
+	var errorMessageList	=	checkForNullUndefinedSpace(errorMessageList);
+	
+	var globalOriginalFailedValidationList = "";
+			
+	if((validateFailedList == "") || (colorCode == "") || (edgeColorCode == "") ) {	
+		var error = "Error either the fields list or the colorCode is empty or edgeColorCode is empty.";
+		SendLogMessage(doc, infoLogLevel, error);
+		SendMessageToContainer(doc, "markValidateFailedComplete", "ERROR", error, "", "");
+	} else {
+		// Highlight the failed fields. Build the string representation of the array.
+   		var validateFailedListArray = "new Array(" + validateFailedList + ")";	
+		// Evaluate the string.
+		var newValidateFailedListArray = eval(validateFailedListArray);
+		
+		// Set the toolTip values of the fields with error message.
+		if(errorMessageList != "") {	
+			// Build the string representation of the array.
+			var errorListArray = "new Array(" + errorMessageList + ")";
+			// Evaluate the string.
+			var newErrorListArray = eval(errorListArray);
+		}			
+		
+		for(i= 0; i &lt; newValidateFailedListArray.length; i++) {
+			focusField = "xfa.form." + newValidateFailedListArray[0];
+			// .ui.oneOfChild.className returns the type of a form object such as 'textEdit' for text fields and 'numericEdit' for numeric fields, etc.
+			var currentNodeType = xfa.resolveNode("xfa.form." + newValidateFailedListArray[i]).ui.oneOfChild.className;
+			var highlightField = "xfa.form." + newValidateFailedListArray[i] + ".ui.#" + currentNodeType + ".border.fill.color";
+			var edgeColorField = "xfa.form." + newValidateFailedListArray[i] + ".ui.#" + currentNodeType + ".border.edge.color";
+			var toolTipField = "xfa.form." + newValidateFailedListArray[i] + ".assist.toolTip";
+			var resolvedhighlightFieldNode = "";
+			var resolvededgeColorFieldNode = "";
+			var resolvedtoolTipFieldNode = "";
+			try{
+				resolvedhighlightFieldNode = xfa.resolveNode(highlightField);
+				resolvededgeColorFieldNode = xfa.resolveNode(edgeColorField);
+				resolvedtoolTipFieldNode   = xfa.resolveNode(toolTipField);
+			}catch (ex){
+				reportException(doc, "Error while resolving highlightFieldNode : " + highlightField + " edgeColorFieldNode : " + edgeColorField + ", or toolTipFieldNode : " + toolTipField + ".", ex);
+			}
+			
+			if( (resolvedhighlightFieldNode != undefined) &amp;&amp; (resolvedhighlightFieldNode != null)) {
+				highlightFieldValue = resolvedhighlightFieldNode.value;
+				resolvedhighlightFieldNode.value = colorCode;
+				
+			}	
+			if( (resolvededgeColorFieldNode  != undefined) &amp;&amp; (resolvededgeColorFieldNode  != null)) {
+				edgeColorFieldValue = resolvededgeColorFieldNode.value;
+				resolvededgeColorFieldNode.value = edgeColorCode;
+				
+			}
+			if( (resolvedtoolTipFieldNode != undefined) &amp;&amp; (resolvedtoolTipFieldNode != null)) {
+				toolTipFieldValue = resolvedtoolTipFieldNode.value;
+				if (errorMessageList != "") {	
+					resolvedtoolTipFieldNode.value = newErrorListArray[i]
+				}
+			} 
+			
+			// Save the original color code so that we can reset the field later.
+			// Each item is saved as SOMfieldName:colorCodeValue:toolTip combination.
+			if(globalOriginalFailedValidationList == ""){
+				globalOriginalFailedValidationList += '"xfa.form.' + newValidateFailedListArray[i] + ':' + highlightFieldValue + ':' + edgeColorFieldValue + ':' + toolTipFieldValue + '"';
+			}else{
+				globalOriginalFailedValidationList += ',"xfa.form.' + newValidateFailedListArray[i] + ':' + highlightFieldValue + ':' + edgeColorFieldValue + ':' + toolTipFieldValue + '"';
+			}			
+		}
+		// Save the globalOriginalFailedValidation list.
+		setGlobalValue(doc, "globalOriginalFailedValidationList", globalOriginalFailedValidationList);
+		
+		SendMessageToContainer(doc, "markValidateFailedComplete", "OK","", "", "");	
+	}
+	
+	// Reset the original form dirty state. Dynamic PDF needs a timer.
+	// The result of this timer is checked in isDocDirty().
+	if(doc.dynamicXFAForm == true) {
+		setGlobalValue(doc, "isDirtyStateValid", false);
+
+		var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+						  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+						  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "setMarkValidateFailed timer fired");' +
+						  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "zciReadyMessageDirtyState", "useDefault");' +
+						  getGlobalValue(doc, "zciScriptObject") + '.setMarkValidateFailedTimer = null;'; 
+		SendLogMessage(doc, debugLogLevel, "setMarkValidateFailed timeoutCode: " + timeoutCode);                							                    
+	    setMarkValidateFailedTimer = app.setTimeOut(timeoutCode, 1);
+	} else {
+		doc.dirty = originalDirty;
+		setGlobalValue(doc, "isDirtyStateValid", true);									 
+	}
+
+	SendLogMessage(doc, infoLogLevel, "Finished highlighting and setting focus on the field and changing toolTip values.");
+}
+
+/**
+ * This function resets all the error fields to its original color code and toolTip values.
+ * This is called just before submitting the data to the server.
+ *
+ * @param doc 	Current document reference.
+ */
+function clearValidateFailed(doc) {
+	SendLogMessage(doc, infoLogLevel, "Start resetting the color and toolTip values of failed error fields");	
+	
+	var originalDirty = doc.dirty;
+
+	// Get the global failed validation list
+	var globalOriginalFailedValidationList = getGlobalValue(doc, "globalOriginalFailedValidationList");
+ 	if(globalOriginalFailedValidationList == null) {
+ 		globalOriginalFailedValidationList = "";
+ 	}
+ 	// Reset the form fields to its original color and tooltip values.
+	if(globalOriginalFailedValidationList != "") {
+		// Build the string representation of the array.
+		var fieldListArray = "new Array(" + globalOriginalFailedValidationList + ")";	
+		// Evaluate the string.
+		var newfieldListArray = eval(fieldListArray);					
+		// Since its an array, parse and get each field item. 
+		// Each item is stored as SOMFieldName:ColorValue:toolTip combination.	
+		for(i = 0; i &lt; newfieldListArray.length; i++) {		
+			var splitField = newfieldListArray[i].split(":");
+			// .ui.oneOfChild.className returns the type of a form object such as 'textEdit' for text fields and 'numericEdit' for numeric fields, etc.
+			var currentNodeType = xfa.resolveNode(splitField[0]).ui.oneOfChild.className;
+			var highlightField = splitField[0] + ".ui.#" + currentNodeType + ".border.fill.color";
+			var edgeColorField = splitField[0] + ".ui.#" + currentNodeType + ".border.edge.color";
+			var toolTipField = splitField[0] + ".assist.toolTip";
+			var resolvedhighlightFieldNode = "";
+			var resolvededgeColorFieldNode = "";
+			var resolvedtoolTipFieldNode = "";
+			try{
+				resolvedhighlightFieldNode = xfa.resolveNode(highlightField);
+				resolvededgeColorFieldNode = xfa.resolveNode(edgeColorField);
+				resolvedtoolTipFieldNode   = xfa.resolveNode(toolTipField);
+			}catch (ex){
+				reportException(doc, "Error while resolving highlightFieldNode and toolTipFieldNode: " + highlightField + " :" + edgeColorField + " :" + toolTipField + " :", ex);
+			}
+			if((resolvedhighlightFieldNode != undefined) &amp;&amp; (resolvedhighlightFieldNode != null)){
+				if(splitField[1] != null){
+					resolvedhighlightFieldNode.value = splitField[1];
+				}else{
+					resolvedhighlightFieldNode.value = "";
+				}
+			}
+			
+			if((resolvededgeColorFieldNode != undefined) &amp;&amp; (resolvededgeColorFieldNode != null)){
+				if(splitField[2] != null){
+					resolvededgeColorFieldNode.value = splitField[2];
+				}else{
+					resolvededgeColorFieldNode.value = "";
+				}
+			}
+			if((resolvedtoolTipFieldNode != undefined) &amp;&amp; (resolvedtoolTipFieldNode != null)){
+				if(splitField[3] != null){
+					resolvedtoolTipFieldNode.value = splitField[3];	
+				}else{
+					resolvedtoolTipFieldNode.value = "";
+				}
+			}
+		}
+	}
+	// Since in Reader 9 the fields are highlighted by default, we need to turn it on back.
+	// So that when the page is open again the fields are highlighted.	
+	if(xfa.host.version &gt;= 9){
+		app.runtimeHighlight = true;
+	}
+
+	// Reset the original form dirty state. Dynamic PDF needs a timer.
+	// The result of this timer is checked in isDocDirty().
+	if(doc.dynamicXFAForm == true) {
+		setGlobalValue(doc, "isDirtyStateValid", false);
+
+		var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+						  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+						  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "clearValidateFailed timer fired");' +
+						  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "zciReadyMessageDirtyState", "useDefault");' +
+						  getGlobalValue(doc, "zciScriptObject") + '.clearValidateFailedTimer = null;';               							                    
+	    clearValidateFailedTimer = app.setTimeOut(timeoutCode, 1);
+	} else {
+		doc.dirty = originalDirty;
+		setGlobalValue(doc, "isDirtyStateValid", true);									 
+	}
+
+	// reset the global failed Valiedation list to an empty string.
+	setGlobalValue(doc, "globalOriginalFailedValidationList", "");
+	SendLogMessage(doc, infoLogLevel, "Finished resetting the color and toolTip values of failed error fields.");	 
+}
+
+/**
+ * Determine if the form should be submitted as a PDF. This is determined based on the following:
+ * 1. populated signature field or
+ * 2. modified attachments or
+ * 3. annotations (TBD)
+ *
+ * @param doc Current document reference.
+ */
+function isPDFSubmitRequired(doc) {
+	SendLogMessage(doc, infoLogLevel, "Start determination of PDF submission.");	
+	
+	var result = false;
+	var resultString = "";
+	
+	var signatureApplied = checkIfAnySignatureIsApplied(doc);
+	var attachmentsModified = checkIfAnyAttachmentsAreModified(doc);
+	var annotationsModified = checkIfAnyAnnotationsAreModified(doc);
+	
+	if (signatureApplied) {
+		resultString += "Detected populated signature field(s)";
+	} 
+	if(attachmentsModified) {
+		if (resultString != "") {
+			resultString += " and modified attachment list(s)";
+		} else {
+			resultString += "Detected modified attachment list(s)";
+		}
+	}
+	if(annotationsModified) {
+		if (resultString != "") {
+			resultString += " and modified annotation list(s)";
+		} else {
+			resultString += "Detected modified annotation list(s)";
+		}
+	}
+	if(resultString != "") {
+		resultString += ".";
+	}
+	
+	if (signatureApplied || attachmentsModified || annotationsModified) {
+		result = true;
+	}
+		
+	SendLogMessage(doc, infoLogLevel, "Finished determination of PDF submission: " + result);
+	SendMessageToContainer(doc, "PDFSubmitRecommended", result, resultString, "", "");
+	
+	return result;
+}
+
+
+/**
+ * Check if any signature field is populated to the form
+ *
+ * @param doc Current document reference.
+ *
+ * @return true if signature field populated, false otherwise.
+ */
+function checkIfAnySignatureIsApplied(doc) {
+
+	SendLogMessage(doc, infoLogLevel, "Start detection of signatures for PDF submission. ");
+	
+	var signatureApplied = false;
+	
+	// Get the list of signatures or empty string in the document.
+	var signatureList = DoesDocHaveSignatureFields(doc, false);
+	
+	// Only process if the signatureList is not empty.
+	if ((signatureList != undefined) &amp;&amp; (signatureList != "")) {
+		var sArray = "new Array(" + signatureList + ")";	// Build the string representation of the array.
+		var newArray = eval(sArray);						// Evaluate the string.
+
+		for (i = 0; i &lt; newArray.length; i++) {	
+			var sigField = doc.getField(newArray[i].substr(15));
+			
+			/*  signatureValidate method returns one of the following integer validity status values:
+				-1: not a signature field
+				0: signature is blank
+				1: unknown status
+				2: signature is invalid
+				3: signature is valid, identity of signer could not be verified
+				4: signature and identity of signer are both valid
+			*/ 
+			var status = sigField.signatureValidate();
+			// If either one signature field is populated then we set the flag and break
+			if (status &gt; 0) {
+				signatureApplied = true;
+				break;
+			}
+		}
+	}
+	SendLogMessage(doc, infoLogLevel, "Finished detection of signatures for PDF submission: " + signatureApplied);
+	return signatureApplied;
+}
+
+
+/**
+ * Check if any modifications are done to the attachment list
+ *
+ * @param doc Current document reference.
+ *
+ * @return true if attachment list modified, false otherwise.
+ */
+function checkIfAnyAttachmentsAreModified(doc) {
+	SendLogMessage(doc, infoLogLevel, "Start detection of attachment list modification for PDF submission");
+	var attachmentsModified = false;
+	
+	// Get the initial attachment list set as global value;
+ 	SendLogMessage(doc, infoLogLevel, "New Global Attachment List: " + globalAttachmentList);
+ 	if (globalAttachmentList == null ) {
+ 		globalAttachmentList = "";
+ 	}
+
+ 	// Get the attachment list saved in the data DOM in the pre-save event handler.
+	var originalGlobalAttachmentList = getGlobalValue(doc, "originalAttachmentList");
+	SendLogMessage(doc, infoLogLevel, "Original Global Attachment List: " + originalGlobalAttachmentList);
+ 	if (originalGlobalAttachmentList == null ) {
+ 		originalGlobalAttachmentList = "";
+ 	}
+
+	// Get the new list of attachments to compare against the stored list.
+	var newAttachmentList = getAttachmentListAsString(doc);
+ 	SendLogMessage(doc, infoLogLevel, "New Attachment List: " + newAttachmentList);
+	
+	if (getGlobalValue(doc, "offlineCase") == true ) {
+		if (globalAttachmentList == newAttachmentList) {
+			if (originalGlobalAttachmentList == newAttachmentList) {
+				attachmentsModified = false; 
+			} else {
+				attachmentsModified = true;
+			}
+		} else {
+			attachmentsModified = true;
+		}	
+		setGlobalValue(doc, "offlineCase", false);
+		setGlobalValue(doc, "originalAttachmentList", "");
+	} else {
+		if (globalAttachmentList == newAttachmentList) {
+			attachmentsModified = false; 
+		} else {
+			attachmentsModified = true;
+		}
+	}
+	
+	SendLogMessage(doc, infoLogLevel, "Finished determination of attachment list modification for PDF submission: " + attachmentsModified);
+	return attachmentsModified;
+}
+
+/**
+ * Check if any modifications are done to the annotations list
+ *
+ * @param doc Current document reference.
+ *
+ * @return true if annotation list modified, false otherwise.
+ */
+function checkIfAnyAnnotationsAreModified(doc) {
+	SendLogMessage(doc, infoLogLevel, "Start detection of annotations list modification for PDF submission");
+	var annotationsModified = false;
+	
+	// Get the initial annotations list set as global value;
+	var globalAnnotationList = getGlobalValue(doc, "annotationList");
+ 	SendLogMessage(doc, infoLogLevel, "Global Annotation List: " + globalAnnotationList);
+ 	if (globalAnnotationList == null ) {
+ 		globalAnnotationList = "";
+ 	}
+	// Get the new list of annotations to compare against the stored list.
+	var newAnnotationList = getAnnotationsListAsString(doc);
+ 	SendLogMessage(doc, infoLogLevel, "New Annotation List: " + newAnnotationList);
+	
+	if (globalAnnotationList == newAnnotationList) {
+		annotationsModified  = false; ;
+	} else {
+		annotationsModified  = true;
+	}
+		
+	SendLogMessage(doc, infoLogLevel, "Finished determination of annotations list modification for PDF submission: " + annotationsModified );
+	return annotationsModified;
+}
+
+/**
+ * Set the valueHelp control display state.
+ *
+ * @param doc Current document reference.
+ * @param newState New display state for the valueHelp controls.
+ */
+function enableValueHelp(doc, newState) {
+	var originalDirty = doc.dirty;
+	
+	// Disable the *FieldValueHelp XFO timers.
+	setGlobalValue(doc, "pendingVHFieldDSUpdate", true);
+	
+	setGlobalValue(doc, "valueHelpFlag", newState);
+	xfa.form.remerge();
+	
+	// Enable the *FieldValueHelp XFO timers.
+	setGlobalValue(doc, "pendingVHFieldDSUpdate", false);
+	
+	if(doc.dynamicXFAForm == true) {
+		var pendingDSUpdate = getGlobalValue(doc, "pendingVHFieldDSUpdate");
+		if(pendingDSUpdate == false) {
+			setGlobalValue(doc, "pendingVHFieldDSUpdate", true);
+			setGlobalValue(doc, "isDirtyStateValid", false);
+	
+			var timeoutCode = 'this.dirty = ' + originalDirty + ';' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "isDirtyStateValid", true);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "pendingVHFieldDSUpdate", false);' + 
+							  getGlobalValue(doc, "zciScriptObject") + '.setGlobalValue(this, "zciReadyMessageDirtyState", "useDefault");' +							  
+							  getGlobalValue(doc, "zciScriptObject") + '.enableValueHelpTimer = null;' +
+							  getGlobalValue(doc, "zciScriptObject") + '.SendLogMessage(this, 0, "enableValueHelpTimer timer fired");';  
+
+			SendLogMessage(doc, 0, "enableValueHelpTimer timeoutCode: " + timeoutCode);                							                    
+		    enableValueHelpTimer = app.setTimeOut(timeoutCode, 1);
+	    } else {
+	    	SendLogMessage(doc, 0, "EnableValueHelpTimer not set due to a pending valueHelp dirty state update timer.");  
+	    }
+	} else {
+		event.target.dirty = originalDirty;
+		setGlobalValue(doc, "isDirtyStateValid", true);									 
+	}	
+}
+
+/**
+ * This function removes any string between the startString and the endString
+ * in a string,inclusive of those strings too. It returns the originalString
+ * to the caller of this function.
+ *
+ * @param originalString Original String.
+ * @param startString    Start String.
+ * @param endString      End String.
+ * @param endString2     End String if sap-vhlist is empty.
+ *
+ * @return the OriginalString to caller.
+ */
+
+function removeSubString(originalString, startString, endString, endString2) {
+	var beginningPosition = 0;
+	
+	var beginningPosition = originalString.indexOf(startString);
+	if (beginningPosition != -1) {
+		var endStringPosition = originalString.indexOf(endString);
+		if (endStringPosition != -1) {
+			var preString = originalString.substr(0, beginningPosition);
+			var postString = originalString.substr(endStringPosition + endString.length + 2);
+			originalString = preString + postString;
+		} else {
+			var preString = originalString.substring(0, beginningPosition);
+			var postString = originalString.substring(beginningPosition + startString.length + endString2.length + 1, originalString.length);
+			originalString = preString + postString;
+		}
+	}
+	return originalString;
+}
+
+function stringReplace(originalString, findText, replaceText) {
+	var position = 0;
+	var length = findText.length;
+	
+	position = originalString.indexOf(findText);
+	while(position != -1) {
+		preString = originalString.substring(0, position);
+		postString = originalString.substring(position + length, originalString.length);
+		originalString = preString + replaceText + postString;
+		position = originalString.indexOf(findText);
+	}
+	return originalString;
+}
+
+/**
+ * This function accepts a field's access state and document reference then
+ * returns the field's logical access. There is a bug in Reader 9 when making 
+ * a form read-only via the root sub-form access state. From a user point of 
+ * view the form is locked but the child field's access states are still reported
+ * as open. To get around this if the passed in access is "open" then retrieve the 
+ * root sub-form access level and compare.
+ *
+ * @param access Access state of the field being checked.
+ * @param doc Document reference.
+ *
+ * @return logical access state for the field.
+ */
+
+function isFieldReadOnly(access, doc) {
+
+    if ((access == "open") &amp;&amp; (xfa.host.version &gt;= 9)) {
+        var formRootNode = getFormRootNode(doc);
+        var resolvedFormRootNode = xfa.resolveNode(formRootNode);
+
+        if(resolvedFormRootNode.access == "readOnly") {
+            access = "readOnly";
+        }
+    }
+
+    return access;
+}
+
+// END OF DO NOT MODIFY
+
+
+  
+</script>
+         <?templateDesigner expand 1?></variables>
+      <?templateDesigner ScriptInitializers ready:form:lang=JavaScript;?>
+      <event activity="ready" name="event__form_ready" ref="$form">
+         <script contentType="application/x-javascript">
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 1101.20140527085625.896893.896893 - FormReady
+
+//////////////////////////////////////////////////////////
+// Register the message handler if running on the client.
+//////////////////////////////////////////////////////////
+ 
+// If this object exists, then we are not being rendered by the XML Form Agent 
+if(xfa.host.name == "Acrobat") {
+	// Check to make sure we are not running in PDFMM - only under Acrobat Reader/Pro/Std 
+    if (xfa.host.appType != "Adobe PDF Library") {
+	    // Make sure the form is embedded.
+		if(event.target.hostContainer != undefined) {
+			// The form is online.
+			ContainerFoundation_JS.RegisterMessageHandler(true);
+		} else if (ContainerFoundation_JS.detectGlobalValues() == false) {
+			// The form is offline so create the ZCI global defaults, if they 
+			// do not exist, so they will be written out when the user saves 
+			// the form. In order for this to work the form must be dirtied 
+			// by the user. If the user descides not to save the form then 
+			// all changes are discarded. 
+			ContainerFoundation_JS.RegisterMessageHandler(false);
+		} 	
+	}
+}
+
+// END OF DO NOT MODIFY
+  
+</script>
+      </event>
+      <event activity="ready" name="event__layout_ready" ref="$layout">
+         <script contentType="application/x-javascript">
+////////////////////////////////////
+// Client scripts - start.
+////////////////////////////////////
+
+
+
+
+// Client scripts should go here.
+
+
+
+
+////////////////////////////////////
+// Client scripts - end.
+////////////////////////////////////
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 1101.20140527085625.896893.896893 - LayoutReady
+
+// This should be the last piece of script in this event handler.
+
+// If this object exists, then we are not being rendered by the XML Form Agent 
+if(xfa.host.name == "Acrobat") {
+	// Check to make sure we are not running in PDFMM - only under Acrobat Reader/Pro/Std 
+    if (xfa.host.appType != "Adobe PDF Library") {
+    	// Make sure the form is embedded.
+		if(event.target.hostContainer != undefined) {
+			ContainerFoundation_JS.sendPendingDataLoadedMessage(event.target);
+		} 	
+	}
+}
+
+// END OF DO NOT MODIFY
+  
+</script>
+      </event>
+      <?templateDesigner ScriptInitializers preSave:lang=JavaScript;?>
+      <event activity="preSave" name="event__preSave" ref="$host">
+         <script contentType="application/x-javascript">
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 1101.20140527085625.896893.896893 - PreSave
+
+// If this object exists, then we are not being rendered by the XML Form Agent 
+if(xfa.host.name == "Acrobat") {
+	// Check to make sure we are not running in PDFMM - only under Acrobat Reader/Pro/Std 
+    if (xfa.host.appType != "Adobe PDF Library") {
+    	// Make sure the form is embedded.
+		if(event.target.hostContainer != undefined) {
+			var currentFromSendDataToServer = ContainerFoundation_JS.getGlobalValue(event.target, "presaveTriggeredFromSendDataToServer");
+			if(currentFromSendDataToServer == true){
+				//If this presave event was triggered by SendDataToServer.
+				//Do nothing but set the flag presaveTriggeredFromSendDataToServer as false.
+				ContainerFoundation_JS.setGlobalValue(event.target, "presaveTriggeredFromSendDataToServer", false);
+			}else {		
+				// Set the ZCI dirty state flag to track the overall dirty state via save type operations.
+				// Once set to true then do not set it again since it will change the form data and
+				// possibily invalidate the form state after being signed.
+				var currentSaveState = ContainerFoundation_JS.getGlobalValue(event.target, "saveDirtyState");
+				if((currentSaveState == false) &amp;&amp; (event.target.dirty == true)) {
+					ContainerFoundation_JS.setGlobalValue(event.target, "saveDirtyState", event.target.dirty);
+				}
+				
+				// When the user saves the PDF the current list of attachments should be saved.
+				// This list will be used to compare after the user edits the form offline and 
+				// uploads it to the server. 	
+				var attachmentList = ContainerFoundation_JS.getAttachmentListAsString(event.target);
+				if (attachmentList == null) {
+					attachmentList = "";
+				}		
+				ContainerFoundation_JS.setGlobalValue(event.target, "originalAttachmentList", attachmentList);
+				ContainerFoundation_JS.setGlobalValue(event.target, "offlineCase", true);
+				ContainerFoundation_JS.setGlobalValue(event.target, "zciReadyMessageDirtyState", "useReader");
+			}
+		} else if (ContainerFoundation_JS.detectGlobalValues() == true) {
+			//Record the offline case when modify this pdf form offline.
+			ContainerFoundation_JS.setGlobalValue(event.target, "offlineCase", true);
+			ContainerFoundation_JS.setGlobalValue(event.target, "zciReadyMessageDirtyState", "useReader");
+		} 	
+	}
+}
+
+// END OF DO NOT MODIFY
+  
+</script>
+      </event>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 168 42 00030006000B000C0010001200240025002600270028002900300031003200330034003500360037003A004400450046004700480049004A004B004C004F005000510052005300550056005700580059005B005C #()-/ABCDEFMNOPQRSTWabcdefghilmnoprstuvxy?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 40 10 0003002700360048004C004F005300550059005C DSeilprvy?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:1, pagecentersnap:0?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:0, vertical:0, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 99?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://MASCMDEV:8000/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="Calibri-Bold" typeface="Calibri" weight="bold"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZMM_WHO_DELIVERY">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <DATE/>
+         <IT_WHO dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <LGNUM/>
+               <WHO/>
+               <CREATED_AT/>
+               <CREATED_BY/>
+               <STARTED_AT/>
+               <CONFIRMED_AT/>
+               <CONFIRMED_BY/>
+               <PROCESSOR/>
+               <TANUM/>
+               <MATID/>
+               <MATNR/>
+               <MAKTX/>
+               <CHARG/>
+               <NISTM/>
+               <MEINS/>
+               <VLTYP/>
+               <VLPLA/>
+               <NLTYP/>
+               <NLPLA/>
+               <VLENR/>
+               <NLENR/>
+               <V_DATE/>
+               <VSOLA/>
+               <FIX_BIN/>
+               <RDOCID/>
+               <QDOCID/>
+               <ERP_DLV/>
+               <PARTY_TEXT/>
+               <ENTITLED/>
+               <NUMBERING/>
+               <IT_TAB dd:minOccur="0">
+                  <DATA dd:maxOccur="-1">
+                     <LGNUM/>
+                     <WHO/>
+                     <CREATED_AT/>
+                     <CREATED_BY/>
+                     <STARTED_AT/>
+                     <CONFIRMED_AT/>
+                     <CONFIRMED_BY/>
+                     <PROCESSOR/>
+                     <TANUM/>
+                     <MATID/>
+                     <MATNR/>
+                     <MAKTX/>
+                     <CHARG/>
+                     <NISTM/>
+                     <MEINS/>
+                     <VLTYP/>
+                     <VLPLA/>
+                     <NLTYP/>
+                     <NLPLA/>
+                     <VLENR/>
+                     <NLENR/>
+                     <V_DATE/>
+                     <VSOLA/>
+                     <FIX_BIN/>
+                     <RDOCID/>
+                     <QDOCID/>
+                     <ERP_DLV/>
+                     <PARTY_TEXT/>
+                     <ENTITLED/>
+                     <NUMBERING/>
+                  </DATA>
+               </IT_TAB>
+            </DATA>
+         </IT_WHO>
+         <WA_WHO>
+            <LGNUM/>
+            <WHO/>
+            <CREATED_AT/>
+            <CREATED_BY/>
+            <STARTED_AT/>
+            <CONFIRMED_AT/>
+            <CONFIRMED_BY/>
+            <PROCESSOR/>
+            <TANUM/>
+            <RDOCID/>
+            <QDOCID/>
+            <ERP_DLV/>
+            <PARTY_TEXT/>
+            <MATID/>
+            <MATNR/>
+            <MAKTX/>
+            <CHARG/>
+            <VSOLA/>
+            <NISTM/>
+            <MEINS/>
+            <VLTYP/>
+            <VLPLA/>
+            <NLTYP/>
+            <NLPLA/>
+            <VLENR/>
+            <NLENR/>
+            <ENTITLED/>
+            <FIX_BIN/>
+            <V_DATE/>
+            <NUMBERING/>
+         </WA_WHO>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 81.159809, 2016/09/10-01:42:48        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmp:MetadataDate>2021-06-22T14:17:05Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:a0293030-8d4c-4ba4-8c29-6daafdd614a8</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.8.20190218.1.935452.924598</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

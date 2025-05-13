@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZFI_VSS_ENHANCEMENT</IMP_NAME>
+     <TEXT>FI VSS Cashdesk  Enahncement</TEXT>
+     <IMP_CLASS>ZCL_IM_FI_VSS_ENHANCEMENT</IMP_CLASS>
+     <EXIT_NAME>ACC_DOCUMENT</EXIT_NAME>
+     <INTER_NAME>IF_EX_ACC_DOCUMENT</INTER_NAME>
+     <ACTIVE>X</ACTIVE>
+    </IMPLEMENTATION_DATA>
+    <FILTERS>
+     <item>
+      <FLT_VAL>DBMCD</FLT_VAL>
+     </item>
+     <item>
+      <FLT_VAL>DBMDP</FLT_VAL>
+     </item>
+    </FILTERS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

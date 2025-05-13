@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_VERPR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>WERT11V</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Moving Average Price/Periodic Unit Price</DDTEXT>
+    <REPTEXT>MovAvgPrice</REPTEXT>
+    <SCRTEXT_S>MvAvgPrice</SCRTEXT_S>
+    <SCRTEXT_M>Moving price</SCRTEXT_M>
+    <SCRTEXT_L>Moving price</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>MOVING_PR</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>A</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>متوسط السعر المتغير/سعر الوحدة الدوري</DDTEXT>
+     <REPTEXT>MovAvgPrice</REPTEXT>
+     <SCRTEXT_S>MvAvgPrice</SCRTEXT_S>
+     <SCRTEXT_M>سعر متغير</SCRTEXT_M>
+     <SCRTEXT_L>سعر متغير</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Cost Price</DDTEXT>
+     <REPTEXT>Cost Price</REPTEXT>
+     <SCRTEXT_S>Cost Price</SCRTEXT_S>
+     <SCRTEXT_M>Cost Price</SCRTEXT_M>
+     <SCRTEXT_L>Cost Price</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMM_VERPR</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0015</VERSION>
+      <TXTLINES>00020</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMM_VERPR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00015</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Preis des Materials. Es handelt sich hierbei um einen der folgenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Preise:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.Durchschnittspreis,_gleitender&gt;gleitender</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Durchschnittspreis&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.Verrechnungspreis,_periodischer&gt;periodischer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verrechnungspreis&lt;/&gt; (falls das Material-Ledger für das Material aktiv</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ist).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System ermittelt den gleitenden Durchschnittspreis automatisch,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>indem es den Materialwert im Bestandskonto durch die Summe aller</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Lagerortbestände im betreffenden Werk dividiert. Es ändert den Preis</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bei jeder bewertungsrelevanten Bewegung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System ändert den periodischen Verrechnungspreis, wenn Sie eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Material-Ledger-Abrechnung durchführen und sichern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Bewertung von Beständen zum gleitenden Durchschnittspreis bzw.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>periodischen Verrechnungspreis bewirkt, daß der Preis des Materials an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die ständigen Schwankungen des Beschaffungspreises angepaßt wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls das Material-Ledger für das Material aktiv ist, bestimmt die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CK_ML_ABST&gt;Abrechnungssteuerung&lt;/&gt; des Materials, ob es sich um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>den gleitenden Durchschnittspreis oder den periodischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verrechnungspreis handelt.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMM_VERPR</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0015</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00016</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMM_VERPR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00015</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Price of the material. This can be one of the following:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.moving_average_price&gt;Moving average price&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.periodic_unit_price&gt;Periodic unit price&lt;/&gt; (only if the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material ledger is activated for the material)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system calculates the moving average price automatically by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dividing the material value in the stock account by the total of all</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>storage location stocks in the plant concerned. It changes the price</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with each valuation-relevant movement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system changes the periodic unit price if you settle the material</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ledger and then save the data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The valuation of stocks at moving average price or periodic unit price</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>means that the price of the material is adapted to the continual</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fluctuations in the procurement price.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the material ledger is activated for the material, the material&apos;s</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CK_ML_ABST&gt;settlement control&lt;/&gt; determines whether this price</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is the moving average price or the periodic unit price.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_COMMON_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common utility class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_INV_DOC_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Document for Action</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_INV_RETN_DOC_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Document for Action</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MM_CONTROL_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Control Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SERV_CONTRL_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Control Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SL_CONTROL_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Control Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DIRECTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get path of the file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PATH_PARAMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get generated directory , file name and extension from path</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_KNVV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customer Master Sales Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_TVARVC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Variant Variables (Client-Specific)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_PO_DOC_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Order Type (Purchasing)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DIRECTORY</CMPNAME>
+     <SCONAME>EV_DIRECTORY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>path</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DIRECTORY</CMPNAME>
+     <SCONAME>IV_PATH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Local file for upload/download</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PATH_PARAMS</CMPNAME>
+     <SCONAME>EV_DIRECTORY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>created path</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PATH_PARAMS</CMPNAME>
+     <SCONAME>EV_EXTENSION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>file extension</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PATH_PARAMS</CMPNAME>
+     <SCONAME>EV_FILE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FILE NAME</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PATH_PARAMS</CMPNAME>
+     <SCONAME>IV_PATH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>success file path</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PATH_PARAMS</CMPNAME>
+     <SCONAME>IV_PREFIX</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>prefix</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>CI_CATSDB</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>VSS Fields</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/DBE/CATSDB</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>VSS Fields</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>/DBE/CATSDB</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

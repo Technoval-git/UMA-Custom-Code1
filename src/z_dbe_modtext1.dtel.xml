@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_DBE_MODTEXT1</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/DBE/MODTEXT1</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Text 1 for Vehicle Model</DDTEXT>
+    <REPTEXT>Model Description</REPTEXT>
+    <SCRTEXT_S>Model Desc</SCRTEXT_S>
+    <SCRTEXT_M>Model Description</SCRTEXT_M>
+    <SCRTEXT_L>Model Description</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Text 1 zum Fahrzeugmodell</DDTEXT>
+     <REPTEXT>Modelltext 1</REPTEXT>
+     <SCRTEXT_S>Modelltext</SCRTEXT_S>
+     <SCRTEXT_M>Modelltext 1</SCRTEXT_M>
+     <SCRTEXT_L>Modelltext 1</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

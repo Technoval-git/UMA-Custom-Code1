@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Fg for sales part</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFNGRP_SALESPRTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFNGRP_SALESPRT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YDBE_VSS_PRT_CRDT_INVOICE</FUNCNAME>
+     <SHORT_TEXT>YDBE_VSS_PRT_CRDT_INVOICE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_INVOICE_NO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>VBELN_VF</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SF</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LANGU</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SPRAS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_HEADER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YCL_DBE_PRT_CRDT_INV_FRM_UTIL=&gt;TY_HEADER</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_BODY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YCL_DBE_PRT_CRDT_INV_FRM_UTIL=&gt;TT_BODY_STR</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_FOOTER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YCL_DBE_PRT_CRDT_INV_FRM_UTIL=&gt;TY_FOOTER_STR</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2_TAB</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_OTF</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TSFOTF</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_INVOICE_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Billing Document</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SF</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LANGU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Language Key</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_HEADER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_BODY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_FOOTER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error Messages</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_OTF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Smart Forms: Table OTF</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

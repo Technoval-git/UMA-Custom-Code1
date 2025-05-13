@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZMM_RIMS_PARTS_OUTBOUND</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Selection</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>File Path</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>RIMS Parts Outbound</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DCODE</KEY>
+     <ENTRY>GM Dealer Code</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FNAME</KEY>
+     <ENTRY>Desktop Path</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_INFILE</KEY>
+     <ENTRY>Application Server Path</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_BSART</KEY>
+     <ENTRY>PO Order Type</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_DATE</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_DISMM</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MATKL</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MATNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_MTART</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_SPART</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_VKORG</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>S_WERKS</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>13</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

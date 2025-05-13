@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZMM_PR_PO_TRACKING_REPORT</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>Selection</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Notification sent successfully</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Sending notification failed</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>201</KEY>
+     <ENTRY>Parts Number</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>202</KEY>
+     <ENTRY>PR Number</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>203</KEY>
+     <ENTRY>Quantity</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>204</KEY>
+     <ENTRY>ET Date</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>205</KEY>
+     <ENTRY>Item Number</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>206</KEY>
+     <ENTRY>PR item</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>207</KEY>
+     <ENTRY>PO Quantity</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>208</KEY>
+     <ENTRY>PR Quantity</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>209</KEY>
+     <ENTRY>Order item</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>210</KEY>
+     <ENTRY>Order Qty</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>211</KEY>
+     <ENTRY>PO Status</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>212</KEY>
+     <ENTRY>INB delivery</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>213</KEY>
+     <ENTRY>INB item</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>214</KEY>
+     <ENTRY>INB del date</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>215</KEY>
+     <ENTRY>PO Date</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>216</KEY>
+     <ENTRY>GR Diff. Date</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>217</KEY>
+     <ENTRY>PO Text</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>218</KEY>
+     <ENTRY>PR document type</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>219</KEY>
+     <ENTRY>PO document type</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>220</KEY>
+     <ENTRY>Delivery Status</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>221</KEY>
+     <ENTRY>Jobs</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T03</KEY>
+     <ENTRY>No of records :</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T04</KEY>
+     <ENTRY>Executed on:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T05</KEY>
+     <ENTRY>Executed by:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>U01</KEY>
+     <ENTRY>USER_COMMAND</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>PR PO Tracking report</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_BSART</KEY>
+     <ENTRY>Purchase Order Type</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CUST</KEY>
+     <ENTRY>Customer</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DDAT</KEY>
+     <ENTRY>VSS Document Date</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EMAIL</KEY>
+     <ENTRY>Email Notification</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ESART</KEY>
+     <ENTRY>Purchase Requistion Type</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MTART</KEY>
+     <ENTRY>Material Type</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ORDR</KEY>
+     <ENTRY>VSS Order No.</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PDAT</KEY>
+     <ENTRY>Purchase Order Date</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PERNR</KEY>
+     <ENTRY>Sales/Serv Adviser</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PLANT</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PO</KEY>
+     <ENTRY>Purchase Order</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PR</KEY>
+     <ENTRY>Purchase Requistion</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PRT_NO</KEY>
+     <ENTRY>Part No.</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RD1</KEY>
+     <ENTRY>VSS order</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RD2</KEY>
+     <ENTRY>Purchase order</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SL_ORG</KEY>
+     <ENTRY>Sales Organization</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SUPP</KEY>
+     <ENTRY>Supplier</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

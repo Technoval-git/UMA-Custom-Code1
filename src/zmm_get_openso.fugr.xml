@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Open Sales Order</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_GET_OPENSOTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_GET_OPENSO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM_GET_OPENSO</FUNCNAME>
+     <SHORT_TEXT>GET OPEN Sales Order</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WERKS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>WERKS_D</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ZMENG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/DBE/AMOUNT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZMENG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Reorder Point</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

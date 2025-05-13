@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZINVENTORY_UPLOAD</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Input Parameter</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Select the file</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Inventory Upload Results</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Message Type</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Material</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Materiial Doc Number</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Messages</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>40</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>10</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>036</KEY>
+     <ENTRY>Data Does not exist</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>134</KEY>
+     <ENTRY>success</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>135</KEY>
+     <ENTRY>error</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>136</KEY>
+     <ENTRY>Record number &amp;1 has error in file</ENTRY>
+     <LENGTH>68</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>202</KEY>
+     <ENTRY>Log File</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L01</KEY>
+     <ENTRY>Material Number</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L02</KEY>
+     <ENTRY>Type</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L03</KEY>
+     <ENTRY>Material Doc. No.</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L04</KEY>
+     <ENTRY>Message</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L10</KEY>
+     <ENTRY>invalid success log file path</ENTRY>
+     <LENGTH>58</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L11</KEY>
+     <ENTRY>invalid error log file path</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S01</KEY>
+     <ENTRY>Total No of Entries</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S02</KEY>
+     <ENTRY>No of Succ. messages</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S03</KEY>
+     <ENTRY>No of Error messages</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S04</KEY>
+     <ENTRY>Success</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Inventory Upload Program</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ELOGIC</KEY>
+     <ENTRY>Error Log Logical File</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ERROR</KEY>
+     <ENTRY>Error Log File Path</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FNAME</KEY>
+     <ENTRY>File Path</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SLOGIC</KEY>
+     <ENTRY>Success Log Logical File</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SUCC</KEY>
+     <ENTRY>Success Log File Path</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB_FILE</KEY>
+     <ENTRY>File Path</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB_LOGIC</KEY>
+     <ENTRY>Logical File</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB_PC</KEY>
+     <ENTRY>Presentation Server</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB_PI</KEY>
+     <ENTRY>Application Server</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

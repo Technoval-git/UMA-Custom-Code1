@@ -1,0 +1,11 @@
+"Name: \FU:/DBE/C_GET_ORDER_PARAMETER\SE:END\EI
+ENHANCEMENT 0 ZVSS_PARTS_ORD_TYPE.
+DATA : lv_export(30) TYPE c.
+IMPORT zcash_desk TO lv_export FROM MEMORY ID 'ZPRT_ORD'.
+IF lv_export IS NOT INITIAL..
+  IF e_ordertp-engine EQ 'MM'.
+    CLEAR e_ordertp-engine .
+  ENDIF.
+ENDIF.
+FREE MEMORY ID 'ZPRT_ORD'.
+ENDENHANCEMENT.

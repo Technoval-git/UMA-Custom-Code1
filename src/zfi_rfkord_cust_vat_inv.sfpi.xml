@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>A</LANGUAGE>
+     <ID/>
+     <TEXT>RFKORD10</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>D</LANGUAGE>
+     <ID/>
+     <TEXT>RFKORD10</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>RFKORD10</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-H_NET_AMOUNT</VALUE>
+       <UNIT>LS_HEADER-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-EC_H_NET_AMOUNT</VALUE>
+       <UNIT>LS_HEADER-EC_CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-H_TAX_AMOUNT</VALUE>
+       <UNIT>LS_HEADER-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-EC_H_TAX_AMOUNT</VALUE>
+       <UNIT>LS_HEADER-EC_CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-H_NET_PAYMENT_WT</VALUE>
+       <UNIT>LS_HEADER-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-EC_H_NET_PAYMENT_WT</VALUE>
+       <UNIT>LS_HEADER-EC_CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-WRSHB</VALUE>
+       <UNIT>LS_HEADER-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-EC_WRSHB</VALUE>
+       <UNIT>LS_HEADER-EC_CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-QBUIHB</VALUE>
+       <UNIT>LS_HEADER-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-EC_QBUIHB</VALUE>
+       <UNIT>LS_HEADER-EC_CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-ZALBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-AUGBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-BRTBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-UMBBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-DIFBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-SKTBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-TLZBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-RPOBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LS_HEADER-ACOBT</VALUE>
+       <UNIT>LS_HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-WRSHB</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-DMSHB</VALUE>
+       <UNIT>LS_HEADER-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-WSSHB</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-SKSHB</VALUE>
+       <UNIT>LS_HEADER-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-WSSHV</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-SKSHV</VALUE>
+       <UNIT>LS_HEADER-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-PSSHB</VALUE>
+       <UNIT>LT_ITEM-PSWSL</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-ZLSHB</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-ZALBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-WSKTA</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-WRSHN</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-AUGBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-SKTBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-TLZBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-RPOBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-ACOBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-BRTBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-DIFBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_ITEM-UMBBT</VALUE>
+       <UNIT>LT_ITEM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-SALDOH</VALUE>
+       <UNIT>LT_SUM-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-SALDOW</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-SALSK</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-SALDN</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-SALDOP</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-SALDON</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-NEBTR</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-GSALDB</VALUE>
+       <UNIT>LT_SUM-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_SUM-P_TAX_AMOUNT</VALUE>
+       <UNIT>LT_SUM-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-OPSUM</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-RAST1</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-RAST2</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-RAST3</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-RAST4</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-RAST5</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_RTAB-RAST6</VALUE>
+       <UNIT>LT_RTAB-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_PAYMO-RBBTR</VALUE>
+       <UNIT>LT_PAYMO-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_PAYMO-RSKON</VALUE>
+       <UNIT>LT_PAYMO-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_PAYMO-RBETR</VALUE>
+       <UNIT>LT_PAYMO-HWAER</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_PAYMO-RWBBT</VALUE>
+       <UNIT>LT_PAYMO-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_PAYMO-RWSKT</VALUE>
+       <UNIT>LT_PAYMO-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>LT_PAYMO-RWBTR</VALUE>
+       <UNIT>LT_PAYMO-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-ITEMS-PRICE</VALUE>
+       <UNIT>GS_INTF-ITEMS-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-ITEMS-TOT_AMOUNT</VALUE>
+       <UNIT>GS_INTF-ITEMS-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-ITEMS-VAT_AMOUNT</VALUE>
+       <UNIT>GS_INTF-ITEMS-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-ITEMS-DISC_AMT</VALUE>
+       <UNIT>GS_INTF-ITEMS-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-ITEMS-TOT_WO_VAT</VALUE>
+       <UNIT>GS_INTF-ITEMS-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-GENERAL-TOT_AMOUNT</VALUE>
+       <UNIT>GS_INTF-GENERAL-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-GENERAL-TOT_DISC_AMT</VALUE>
+       <UNIT>GS_INTF-GENERAL-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-GENERAL-TOT_PRICE</VALUE>
+       <UNIT>GS_INTF-GENERAL-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-GENERAL-TOT_WO_VAT</VALUE>
+       <UNIT>GS_INTF-GENERAL-CURRENCY</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INTF-GENERAL-TOT_VAT_AMT</VALUE>
+       <UNIT>GS_INTF-GENERAL-CURRENCY</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GS_INTF</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZFI_CREDIT_DEBIT_NOTE_S</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_DATE_TIME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TITLE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_ARABIC_TITLE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_SLR_CR_NO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PAVAL</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_CST_CR_NO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BU_ID_NUMBER</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_IMAGE_FOOTER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_FOOTER_ADDRESS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_HONGQI_LOGO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_E_REF</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_A_REF</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_A_NAME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_E_NAME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_INV_REF</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BKTXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_REASON_FOR_CR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>LS_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_S_HEADER</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_ADDRESS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_ADDRESS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_CONTACT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_CONTACT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_ITEM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_SUM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_SUM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_RTAB</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_RTAB</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_PAYMO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_PAYMO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TLINE_TAB</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LT_LIST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RFKORD_T_LIST</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>GS_INTF</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>GV_REASON_FOR_CR</FPPARAMETER>
+      <FPPARAMETER>GV_INV_REF</FPPARAMETER>
+      <FPPARAMETER>GV_E_REF</FPPARAMETER>
+      <FPPARAMETER>GV_A_REF</FPPARAMETER>
+      <FPPARAMETER>GV_A_NAME</FPPARAMETER>
+      <FPPARAMETER>GV_E_NAME</FPPARAMETER>
+      <FPPARAMETER>GV_HONGQI_LOGO</FPPARAMETER>
+      <FPPARAMETER>GS_INTF</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE>DATA :</FPCLINE>
+      <FPCLINE>  ls_intf_in TYPE zfi_credit_debit_note_in_s.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ls_intf_in = VALUE #(</FPCLINE>
+      <FPCLINE>                      ls_header   = ls_header</FPCLINE>
+      <FPCLINE>                      lt_address  = lt_address</FPCLINE>
+      <FPCLINE>                      lt_contact  = lt_contact</FPCLINE>
+      <FPCLINE>                      lt_item     = lt_item</FPCLINE>
+      <FPCLINE>                      lt_sum      = lt_sum</FPCLINE>
+      <FPCLINE>                      lt_rtab     = lt_rtab</FPCLINE>
+      <FPCLINE>                      lt_paymo    = lt_paymo</FPCLINE>
+      <FPCLINE>                      lt_text     = lt_text</FPCLINE>
+      <FPCLINE>                      lt_list     = lt_list</FPCLINE>
+      <FPCLINE>                     ).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA(lo_obj) = NEW zcl_fi_001_cust_vat_inv( is_intf_in = ls_intf_in ).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>lo_obj-&gt;m_init_form_processing(</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    is_intf_in =  ls_intf_in                &quot; Credit Debit Note Input structure</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    es_intf    = gs_intf</FPCLINE>
+      <FPCLINE>).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* QR CODE</FPCLINE>
+      <FPCLINE>CASE gs_intf-header-doc_typ.</FPCLINE>
+      <FPCLINE>  WHEN &apos;KR&apos; OR &apos;KG&apos;.</FPCLINE>
+      <FPCLINE>    CLEAR: gs_intf-general-qr_code.</FPCLINE>
+      <FPCLINE>ENDCASE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Title</FPCLINE>
+      <FPCLINE>CASE gs_intf-header-doc_typ.</FPCLINE>
+      <FPCLINE>  WHEN &apos;DR&apos;.</FPCLINE>
+      <FPCLINE>    gv_title = &apos;Tax Invoices&apos;.</FPCLINE>
+      <FPCLINE>    gv_arabic_title = &apos;فاتورة ضريبية&apos;.</FPCLINE>
+      <FPCLINE>*    gv_e_ref = &apos;Customer Ref&apos;.</FPCLINE>
+      <FPCLINE>*    gv_a_ref = &apos;رقم العميل&apos;.</FPCLINE>
+      <FPCLINE>     gv_e_ref = &apos;Customer No&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_ref = &apos;رقم العميل&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    gv_e_name = &apos;Customer Name&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_name =  &apos;اسم العميل&apos;.</FPCLINE>
+      <FPCLINE>  WHEN &apos;DG&apos;.</FPCLINE>
+      <FPCLINE>    gv_title = &apos;Credit Note&apos;.</FPCLINE>
+      <FPCLINE>    gv_arabic_title =  &apos;اشعار دائن&apos;.</FPCLINE>
+      <FPCLINE>*     gv_e_ref = &apos;Customer Ref&apos;.</FPCLINE>
+      <FPCLINE>*    gv_a_ref = &apos;رقم العميل&apos;.</FPCLINE>
+      <FPCLINE>     gv_e_ref = &apos;Customer No&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_ref = &apos;رقم العميل&apos;.</FPCLINE>
+      <FPCLINE>    gv_e_name = &apos;Customer Name&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_name =  &apos;اسم العميل&apos;.</FPCLINE>
+      <FPCLINE>  WHEN &apos;KR&apos;.</FPCLINE>
+      <FPCLINE>    gv_title = &apos;Tax Invoices&apos;.</FPCLINE>
+      <FPCLINE>    gv_arabic_title =  &apos;فاتورة ضريبية&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>     gv_e_ref = &apos;Vendor Ref&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_ref =  &apos; مورد رقم&apos;.</FPCLINE>
+      <FPCLINE>    gv_e_name = &apos;Vendor Name&apos;.</FPCLINE>
+      <FPCLINE>    gv_A_name =  &apos;اسم مورد&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>  WHEN &apos;KG&apos;.</FPCLINE>
+      <FPCLINE>    gv_title = &apos;Debit Note&apos;.</FPCLINE>
+      <FPCLINE>    gv_arabic_title =  &apos;اشعار مدين&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    gv_e_ref = &apos;Vendor Ref&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_ref =  &apos; مورد رقم&apos;.</FPCLINE>
+      <FPCLINE>    gv_e_name = &apos;Vendor Name&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_name =  &apos;اسم مورد&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  when &apos;KD&apos;.</FPCLINE>
+      <FPCLINE>       gv_title = &apos;Credit Note&apos;.</FPCLINE>
+      <FPCLINE>    gv_arabic_title = &apos;اشعار دائن&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    gv_e_ref = &apos;Vendor Ref&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_ref =  &apos; مورد رقم&apos;.</FPCLINE>
+      <FPCLINE>    gv_e_name = &apos;Vendor Name&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_name =  &apos;اسم مورد&apos;.</FPCLINE>
+      <FPCLINE>  when &apos;DD&apos;.</FPCLINE>
+      <FPCLINE>   gv_title = &apos;Debit Note&apos;.</FPCLINE>
+      <FPCLINE>    gv_arabic_title =  &apos;اشعار مدين&apos;.</FPCLINE>
+      <FPCLINE>*    gv_e_ref = &apos;Customer Ref&apos;.</FPCLINE>
+      <FPCLINE>    gv_e_ref = &apos;Customer No&apos;.</FPCLINE>
+      <FPCLINE>*    gv_a_ref = &apos;رقم العميل&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_ref = &apos;رقم العميل &apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    gv_e_name = &apos;Customer Name&apos;.</FPCLINE>
+      <FPCLINE>    gv_a_name =  &apos;اسم العميل&apos;.</FPCLINE>
+      <FPCLINE> ENDCASE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Date and Time</FPCLINE>
+      <FPCLINE>DATA(lv_date) = |{ gs_intf-header-invoice_dt+6(2) }| &amp;&amp; &apos;/&apos; &amp;&amp;</FPCLINE>
+      <FPCLINE>                |{ gs_intf-header-invoice_dt+4(2) }| &amp;&amp; &apos;/&apos; &amp;&amp;</FPCLINE>
+      <FPCLINE>                |{ gs_intf-header-invoice_dt+0(4) }|.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA(lv_time) = |{ gs_intf-header-invoice_tm+0(2) }| &amp;&amp; &apos;:&apos; &amp;&amp;</FPCLINE>
+      <FPCLINE>                |{ gs_intf-header-invoice_tm+2(2) }| &amp;&amp; &apos;:&apos; &amp;&amp;</FPCLINE>
+      <FPCLINE>                |{ gs_intf-header-invoice_tm+4(2) }|.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*CONCATENATE lv_date lv_time INTO gv_date_time SEPARATED BY space.</FPCLINE>
+      <FPCLINE>gv_date_time = lv_date.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>&quot; Seller&apos;s CR Number</FPCLINE>
+      <FPCLINE>SELECT SINGLE *</FPCLINE>
+      <FPCLINE>  FROM t001z</FPCLINE>
+      <FPCLINE>  INTO @DATA(ls_t001z)</FPCLINE>
+      <FPCLINE>  WHERE bukrs EQ @gs_intf-header-bukrs</FPCLINE>
+      <FPCLINE>    AND party EQ &apos;CREGNO&apos;.</FPCLINE>
+      <FPCLINE>IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>  gv_slr_cr_no = ls_t001z-paval.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot; Customer CR No</FPCLINE>
+      <FPCLINE>SELECT SINGLE *</FPCLINE>
+      <FPCLINE>  FROM but0id</FPCLINE>
+      <FPCLINE>  INTO @DATA(ls_but0id)</FPCLINE>
+      <FPCLINE>  WHERE partner EQ @gs_intf-header-kunnr</FPCLINE>
+      <FPCLINE>    AND type EQ &apos;BUP002&apos;.</FPCLINE>
+      <FPCLINE>IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>  gv_cst_cr_no = ls_but0id-idnumber.</FPCLINE>
+      <FPCLINE>*  CONCATENATE ls_but0id-idnumber ls_but0id-</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>select SINGLE bktxt from bkpf into gv_reason_for_cr   &quot;gv_inv_ref</FPCLINE>
+      <FPCLINE>  WHERE  BUKRS = gs_intf-header-bukrs and</FPCLINE>
+      <FPCLINE>         belnr = gs_intf-header-belnr and</FPCLINE>
+      <FPCLINE>         gjahr =  gs_intf-header-gjahr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  data: lv_rebzg type rebzg,</FPCLINE>
+      <FPCLINE>       lv_rebzj type rebzj,</FPCLINE>
+      <FPCLINE>       lv_rebzz type rebzz.</FPCLINE>
+      <FPCLINE>select SINGLE rebzg rebzj rebzz from bseg into ( lv_rebzg , lv_rebzj, lv_rebzz )</FPCLINE>
+      <FPCLINE>  WHERE  BUKRS = gs_intf-header-bukrs and</FPCLINE>
+      <FPCLINE>         belnr = gs_intf-header-belnr and</FPCLINE>
+      <FPCLINE>         gjahr =  gs_intf-header-gjahr and koart = &apos;D&apos;.</FPCLINE>
+      <FPCLINE>  if sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    CONCATENATE lv_rebzg lv_rebzj lv_rebzz into gv_inv_ref  SEPARATED BY space.</FPCLINE>
+      <FPCLINE>*    gv_reason_for_cr SEPARATED BY space.</FPCLINE>
+      <FPCLINE>  endif.</FPCLINE>
+      <FPCLINE>*****    CLEAR gv_image_footer.</FPCLINE>
+      <FPCLINE>*****    CALL METHOD cl_ssf_xsf_utilities=&gt;get_bds_graphic_as_bmp</FPCLINE>
+      <FPCLINE>*****      EXPORTING</FPCLINE>
+      <FPCLINE>*****        p_object       = &apos;GRAPHICS&apos;</FPCLINE>
+      <FPCLINE>*****        p_name         = &apos;HONGQI_LOGO&apos;</FPCLINE>
+      <FPCLINE>*****        p_id           = &apos;BMAP&apos;</FPCLINE>
+      <FPCLINE>*****        p_btype        = &apos;BCOL&apos;</FPCLINE>
+      <FPCLINE>*****      RECEIVING</FPCLINE>
+      <FPCLINE>*****        p_bmp          = gv_hongqi_logo</FPCLINE>
+      <FPCLINE>*****      EXCEPTIONS</FPCLINE>
+      <FPCLINE>*****        not_found      = 1</FPCLINE>
+      <FPCLINE>*****        internal_error = 2</FPCLINE>
+      <FPCLINE>*****        OTHERS         = 3.</FPCLINE>
+      <FPCLINE>*****    IF sy-subrc &lt;&gt; 0.</FPCLINE>
+      <FPCLINE>****** Implement suitable error handling here</FPCLINE>
+      <FPCLINE>*****    ENDIF.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

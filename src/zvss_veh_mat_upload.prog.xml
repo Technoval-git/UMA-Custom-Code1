@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZVSS_VEH_MAT_UPLOAD</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Log display</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Message Type</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Material</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Messages</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>40</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>10</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Industry sector</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>Material Type</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>Storage Location</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>SOrg.</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Distribution Channel</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Short Description EN</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Short Description AR</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>Material Group</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>General Item category Group</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>019</KEY>
+     <ENTRY>Old material number</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Class</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Division</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>Tax Classification</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>023</KEY>
+     <ENTRY>Material Pricing Group</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>024</KEY>
+     <ENTRY>Mat.  Account Assignment Group</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>025</KEY>
+     <ENTRY>Item Cat. Group</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>026</KEY>
+     <ENTRY>Availabiity Check</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>027</KEY>
+     <ENTRY>Transportation Group</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>028</KEY>
+     <ENTRY>Loading Group</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>029</KEY>
+     <ENTRY>MRP Type</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>030</KEY>
+     <ENTRY>Valuation class</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>031</KEY>
+     <ENTRY>Moving Average Price</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>032</KEY>
+     <ENTRY>Order Unit</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>033</KEY>
+     <ENTRY>Material</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>034</KEY>
+     <ENTRY>Material Log</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>035</KEY>
+     <ENTRY>Old Material no</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>036</KEY>
+     <ENTRY>No of Records:</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>037</KEY>
+     <ENTRY>Executed on:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>038</KEY>
+     <ENTRY>Executed by:</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>039</KEY>
+     <ENTRY>No of Error Records:</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CLS</KEY>
+     <ENTRY>Class</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L01</KEY>
+     <ENTRY>log path empty</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L14</KEY>
+     <ENTRY>invalid log path</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PRF</KEY>
+     <ENTRY>Profile</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Vehicle Material Upload</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FNAME</KEY>
+     <ENTRY>Input File Path</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LOG</KEY>
+     <ENTRY>Log File Path</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB_PC</KEY>
+     <ENTRY>Presentation Server</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB_PI</KEY>
+     <ENTRY>Application Server</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_MRP_LEAD_TIME_DEMAND</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>MENG13</DOMNAME>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Lead time Demand Quantity</DDTEXT>
+    <SCRTEXT_S>LT D Qaun</SCRTEXT_S>
+    <SCRTEXT_M>Lead Time Demand</SCRTEXT_M>
+    <SCRTEXT_L>Lead time Demand Quantity</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

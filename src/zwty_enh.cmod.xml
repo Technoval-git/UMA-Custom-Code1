@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CMOD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <MODACT>
+    <MODACT>
+     <NAME>ZWTY_ENH</NAME>
+    </MODACT>
+    <MODACT>
+     <NAME>ZWTY_ENH</NAME>
+     <MEMBER>WTY00001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZWTY_ENH</NAME>
+     <MEMBER>WTY00002</MEMBER>
+    </MODACT>
+   </MODACT>
+   <MODTEXT>
+    <MODTEXT>
+     <SPRSL>E</SPRSL>
+     <NAME>ZWTY_ENH</NAME>
+     <MODTEXT>Warranty enhancement</MODTEXT>
+    </MODTEXT>
+   </MODTEXT>
+   <MODATTR>
+    <MODATTR>
+     <NAME>ZWTY_ENH</NAME>
+     <STATUS>A</STATUS>
+    </MODATTR>
+   </MODATTR>
+  </asx:values>
+ </asx:abap>
+</abapGit>

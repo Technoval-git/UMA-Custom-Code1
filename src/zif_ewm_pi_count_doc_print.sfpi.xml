@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>D</LANGUAGE>
+     <ID/>
+     <TEXT>Interface für PDF-Formular /SCWM/PI_CNT_DOC</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for PDF form /SCWM/PI_CNT_DOC</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>A</LANGUAGE>
+     <ID/>
+     <TEXT>واجهة نموذج PDF /SCWM/PI_CNT_DOC</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-CWBQUAN</VALUE>
+       <UNIT>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-CWBUNIT</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-CWQUAN</VALUE>
+       <UNIT>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-CWUNIT</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-ACWQUAN</VALUE>
+       <UNIT>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-ACWUNIT</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-BOOK_QUANTITY</VALUE>
+       <UNIT>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-BOOK_QUAN_UNIT</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-QUANTITY_B</VALUE>
+       <UNIT>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-UNIT_B</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-QUANTITY</VALUE>
+       <UNIT>IT_PI_ITEM-COUNT_ITEM_HEAD-COUNT_ITEM-UNIT</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GS_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_HEADER</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_PRINT_PI_DOC_IT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_ITEM1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/S_PRINT_PI_DOC_IT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_ITEM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>TYPES : BEGIN OF ty_header,</FPCLINE>
+      <FPCLINE>          lgnum        TYPE /scwm/lgnum,</FPCLINE>
+      <FPCLINE>          lgnum_txt    TYPE /scwm/de_desc40,</FPCLINE>
+      <FPCLINE>          doc_type     TYPE /lime/pi_document_type,</FPCLINE>
+      <FPCLINE>          doc_type_txt TYPE /scwm/pi_s_ui_doc_type_txt,</FPCLINE>
+      <FPCLINE>          doc_number   TYPE /lime/pi_doc_number,</FPCLINE>
+      <FPCLINE>          who          TYPE /scwm/de_who,</FPCLINE>
+      <FPCLINE>        END OF ty_header.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>TYPES : BEGIN OF ty_item,</FPCLINE>
+      <FPCLINE>          lgnum    TYPE /scwm/lgnum,</FPCLINE>
+      <FPCLINE>          huident  TYPE /scwm/de_huident,</FPCLINE>
+      <FPCLINE>          matnr    TYPE /SCWM/DE_MATNR,</FPCLINE>
+      <FPCLINE>          maktx    TYPE /scwm/de_ui_maktx,</FPCLINE>
+      <FPCLINE>          batchid  TYPE /scwm/de_batchid,</FPCLINE>
+      <FPCLINE>          quantity TYPE /scwm/pi_de_quan_ame,</FPCLINE>
+      <FPCLINE>          cat      TYPE /scwm/de_cat,</FPCLINE>
+      <FPCLINE>          datum    type sy-datum,</FPCLINE>
+      <FPCLINE>        END OF ty_item,</FPCLINE>
+      <FPCLINE>        tt_item type table of ty_item.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>IT_PI_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/SCWM/TT_PRINT_PI_DOC</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>DATA(itab1) = it_pi_item.</FPCLINE>
+      <FPCLINE>DATA(itab2) = it_pi_item.</FPCLINE>
+      <FPCLINE>DATA : lv_LGPLA TYPE /scwm/lgpla .</FPCLINE>
+      <FPCLINE>DATA : lv_LGPLA1 TYPE /scwm/lgpla .</FPCLINE>
+      <FPCLINE>DATA : wa TYPE /scwm/s_print_pi_doc_it.</FPCLINE>
+      <FPCLINE>DATA : it_data_parent1 TYPE /scwm/tt_lagp_mon.</FPCLINE>
+      <FPCLINE>DATA : et_data1 TYPE /scwm/tt_lime_quan_mon.</FPCLINE>
+      <FPCLINE>DATA: it_lgpla_r   TYPE /scwm/tt_lgpla_r,</FPCLINE>
+      <FPCLINE>      et_stock_mon TYPE /scwm/tt_stock_mon,</FPCLINE>
+      <FPCLINE>      ev_error     TYPE xfeld.</FPCLINE>
+      <FPCLINE>*BREAK-POINT.</FPCLINE>
+      <FPCLINE>LOOP AT itab1 ASSIGNING FIELD-SYMBOL(&lt;fs_wa10&gt;).</FPCLINE>
+      <FPCLINE>  IF &lt;fs_wa10&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>*    LOOP AT &lt;fs_wa10&gt;-count_item_head ASSIGNING FIELD-SYMBOL(&lt;FS_wa11&gt;).</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*    ENDLOOP.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SORT &lt;FS_wa10&gt;-count_item_head  BY item_no.</FPCLINE>
+      <FPCLINE>LOOP AT itab1 ASSIGNING FIELD-SYMBOL(&lt;fs_wa&gt;).</FPCLINE>
+      <FPCLINE>  IF &lt;fs_wa&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>*    LOOP AT &lt;fs_wa&gt;-count_item_head ASSIGNING FIELD-SYMBOL(&lt;FS_wa2&gt;).</FPCLINE>
+      <FPCLINE>    LOOP AT &lt;FS_wa10&gt;-count_item_head ASSIGNING FIELD-SYMBOL(&lt;FS_wa2&gt;).</FPCLINE>
+      <FPCLINE>      IF &lt;fs_wa2&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>*       SORT &lt;FS_wa&gt;-count_item_head  BY ITEM_NO.</FPCLINE>
+      <FPCLINE>*        gs_item-lgnum = &lt;FS_wa2&gt;-lgnum.</FPCLINE>
+      <FPCLINE>        LOOP AT &lt;FS_wa2&gt;-count_item ASSIGNING FIELD-SYMBOL(&lt;FS_wa3&gt;).</FPCLINE>
+      <FPCLINE>          IF &lt;FS_wa2&gt;-doc_type &lt;&gt; &apos;HL&apos;.</FPCLINE>
+      <FPCLINE>            READ TABLE &lt;FS_wa2&gt;-count_item INTO DATA(wa3) WITH KEY lgnum = &lt;fs_wa3&gt;-lgnum.</FPCLINE>
+      <FPCLINE>            IF  &lt;fs_wa3&gt;-lgpla IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>              lv_lgpla = &lt;fs_wa3&gt;-lgpla.</FPCLINE>
+      <FPCLINE>            ENDIF.</FPCLINE>
+      <FPCLINE>            IF lv_lgpla IS NOT INITIAL AND &lt;FS_wa3&gt;-lgpla IS INITIAL AND &lt;FS_wa3&gt;-matnr IS NOT INITIAL .</FPCLINE>
+      <FPCLINE>              &lt;FS_wa3&gt;-lgpla =  lv_lgpla.</FPCLINE>
+      <FPCLINE>            ENDIF.</FPCLINE>
+      <FPCLINE>            IF &lt;fs_wa3&gt; IS ASSIGNED.</FPCLINE>
+      <FPCLINE>              IF &lt;FS_wa3&gt;-matnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>                wa = &lt;FS_wa3&gt;.</FPCLINE>
+      <FPCLINE>                APPEND &lt;FS_wa3&gt; TO gt_item.</FPCLINE>
+      <FPCLINE>              ENDIF.</FPCLINE>
+      <FPCLINE>            ENDIF.</FPCLINE>
+      <FPCLINE>          ELSE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>            it_data_parent1 =  VALUE #( ( lgpla = &lt;FS_wa3&gt;-lgpla  ) ).</FPCLINE>
+      <FPCLINE>            TRY.</FPCLINE>
+      <FPCLINE>                CALL FUNCTION &apos;/SCWM/STOCK_PER_BIN_MON&apos;</FPCLINE>
+      <FPCLINE>                  EXPORTING</FPCLINE>
+      <FPCLINE>                    iv_lgnum       = &lt;FS_wa3&gt;-lgnum</FPCLINE>
+      <FPCLINE>*                   IV_VARIANT     =</FPCLINE>
+      <FPCLINE>                    iv_mode        = &apos;2&apos;</FPCLINE>
+      <FPCLINE>                    it_data_parent = it_data_parent1</FPCLINE>
+      <FPCLINE>                  IMPORTING</FPCLINE>
+      <FPCLINE>                    et_data        = et_data1</FPCLINE>
+      <FPCLINE>*                   EV_RETURNCODE  =</FPCLINE>
+      <FPCLINE>*                   EV_VARIANT     =</FPCLINE>
+      <FPCLINE>*            CHANGING</FPCLINE>
+      <FPCLINE>*                   CT_TAB_RANGE   =</FPCLINE>
+      <FPCLINE>                  .</FPCLINE>
+      <FPCLINE>              CATCH /scwm/cx_mon_noexec INTO DATA(lo_catch1).</FPCLINE>
+      <FPCLINE>                lo_catch1-&gt;get_text(</FPCLINE>
+      <FPCLINE>                  RECEIVING</FPCLINE>
+      <FPCLINE>                    result =    DATA(lv_text)               &quot; ---</FPCLINE>
+      <FPCLINE>                ).</FPCLINE>
+      <FPCLINE>            ENDTRY.</FPCLINE>
+      <FPCLINE>            IF it_data_parent1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>              CLEAR : it_data_parent1.</FPCLINE>
+      <FPCLINE>            ENDIF.</FPCLINE>
+      <FPCLINE>            IF et_data1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>              LOOP AT et_data1 INTO DATA(wa1).</FPCLINE>
+      <FPCLINE>                gs_item1-lgpla = wa1-lgpla.</FPCLINE>
+      <FPCLINE>                gs_item1-huident = wa1-huident.</FPCLINE>
+      <FPCLINE>                gs_item1-matnr = wa1-matnr.</FPCLINE>
+      <FPCLINE>                gs_item1-maktx = wa1-maktx.</FPCLINE>
+      <FPCLINE>                gs_item1-batchid = wa1-charg.</FPCLINE>
+      <FPCLINE>                gs_item1-quantity = wa1-quan.</FPCLINE>
+      <FPCLINE>                gs_item1-cat   = wa1-cat.</FPCLINE>
+      <FPCLINE>                IF  wa1-lgpla IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>                  lv_lgpla1 = wa1-lgpla.</FPCLINE>
+      <FPCLINE>                ENDIF.</FPCLINE>
+      <FPCLINE>                IF lv_lgpla1 IS NOT INITIAL AND wa1-lgpla IS INITIAL AND wa1-matnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>                  gs_item1-lgpla = lv_lgpla1.</FPCLINE>
+      <FPCLINE>                ENDIF.</FPCLINE>
+      <FPCLINE>                APPEND gs_item1 TO gt_item.</FPCLINE>
+      <FPCLINE>                CLEAR wa1.</FPCLINE>
+      <FPCLINE>              ENDLOOP.</FPCLINE>
+      <FPCLINE>            ELSE.</FPCLINE>
+      <FPCLINE>              APPEND &lt;FS_wa3&gt; TO gt_item.</FPCLINE>
+      <FPCLINE>            ENDIF.</FPCLINE>
+      <FPCLINE>          ENDIF.</FPCLINE>
+      <FPCLINE>        ENDLOOP.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDLOOP.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

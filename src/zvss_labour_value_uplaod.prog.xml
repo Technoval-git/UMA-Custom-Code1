@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZVSS_LABOUR_VALUE_UPLAOD</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Labor Catalog Upload</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Please provide the Header file</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Log display</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Message Type</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Catalog ID</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Labor Value</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Messages</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>10</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>40</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Time Value is invalid for LV MainType: &apos;&amp;1&apos;. Hence it is not saved.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>Upload failed</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>Upload Successful</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>File log</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Total Records</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Success Records</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Error Records</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Labour Value Upload</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_HEADER</KEY>
+     <ENTRY>LV Catalog Header File</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TEXT</KEY>
+     <ENTRY>LV Catalog Text File</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TIME</KEY>
+     <ENTRY>LV Catalog Time File</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_LOCAL</KEY>
+     <ENTRY>Upload from Desktop</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>R_SERVER</KEY>
+     <ENTRY>Upload from Server</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

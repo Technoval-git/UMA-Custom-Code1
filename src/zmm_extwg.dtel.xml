@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMM_EXTWG</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR18</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>External Material Group</DDTEXT>
+    <REPTEXT>Ext. Material Grp</REPTEXT>
+    <SCRTEXT_S>ExtMatlGrp</SCRTEXT_S>
+    <SCRTEXT_M>Ext. Matl Group</SCRTEXT_M>
+    <SCRTEXT_L>Ext. Material Group</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>EXTMATLGRP</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>A</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>مجموعة مواد خارجية</DDTEXT>
+     <REPTEXT>مجموعة مواد خارجية</REPTEXT>
+     <SCRTEXT_S>موادخارجية</SCRTEXT_S>
+     <SCRTEXT_M>م.مواد خارجية</SCRTEXT_M>
+     <SCRTEXT_L>مجموعة مواد خارجية</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Externe Warengruppe</DDTEXT>
+     <REPTEXT>Externe Warengrp.</REPTEXT>
+     <SCRTEXT_S>Ext.Wagru.</SCRTEXT_S>
+     <SCRTEXT_M>Ext.Warengrp.</SCRTEXT_M>
+     <SCRTEXT_L>Externe Warengruppe</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

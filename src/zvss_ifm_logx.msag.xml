@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Cannot create log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Log is full</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Failed to save log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Failed to open log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Failed to export log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Failed to import log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVSS_IFM_LOGX</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Number range for log ID not created.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

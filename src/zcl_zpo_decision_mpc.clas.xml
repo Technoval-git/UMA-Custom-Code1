@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZPO_DECISION_MPC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZCL_ZPO_DECISION_MPC</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Character Field with Length 10</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>075</KEY>
+     <ENTRY>Character Field with Length 10</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>076</KEY>
+     <ENTRY>Character Field with Length 10</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>077</KEY>
+     <ENTRY>Undefined range (can be used for patch levels)</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>078</KEY>
+     <ENTRY>Field name</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>079</KEY>
+     <ENTRY>Character Field with Length 10</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>080</KEY>
+     <ENTRY>30 Characters</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_ZTY_DWI_ENTITYTYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DEFINE_ZTY_DWI_ENTITYTYPE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_ZVSS_SALES_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DEFINE_ZVSS_SALES_TYPE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_ZVSS_STOCK_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DEFINE_ZVSS_STOCK_TYPE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_TEXT_ELEMENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>LOAD_TEXT_ELEMENTS</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

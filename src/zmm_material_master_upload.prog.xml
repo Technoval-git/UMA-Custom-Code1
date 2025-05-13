@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZMM_MATERIAL_MASTER_UPLOAD</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Select View</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Select Fil</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Log display</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Message Type</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Material</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Messages</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>40</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>10</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>File log</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>Total Records:</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>Success Records:</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>Failed Records:</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Please Enter Excel file only</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Material Master Upload</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>036</KEY>
+     <ENTRY>No Data Available</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>037</KEY>
+     <ENTRY>View Selection</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>038</KEY>
+     <ENTRY>Select All</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>039</KEY>
+     <ENTRY>De-Select All</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>134</KEY>
+     <ENTRY>success</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>135</KEY>
+     <ENTRY>error</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L10</KEY>
+     <ENTRY>success log file path invalid</ENTRY>
+     <LENGTH>58</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>L11</KEY>
+     <ENTRY>invalid error log file path</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>P01</KEY>
+     <ENTRY>Download Template</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Material Master Upload</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PV_FILE</KEY>
+     <ENTRY>Excel File Name</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ACC</KEY>
+     <ENTRY>Account</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_AE</KEY>
+     <ENTRY>Extend to all Plants of UAE</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_BASIC</KEY>
+     <ENTRY>Basic Data</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_BG</KEY>
+     <ENTRY>Background</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FG</KEY>
+     <ENTRY>Foreground</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FNAME</KEY>
+     <ENTRY>File Path</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FORCST</KEY>
+     <ENTRY>Forcasting</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MRP</KEY>
+     <ENTRY>MRP</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_NA</KEY>
+     <ENTRY>Do not Extend</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PLANT</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PURC</KEY>
+     <ENTRY>Purchase</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SA</KEY>
+     <ENTRY>Extend to all Plants of KSA</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SALES</KEY>
+     <ENTRY>Sales org. Data</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SALL</KEY>
+     <ENTRY>Select All</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_USALL</KEY>
+     <ENTRY>De-Select All</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

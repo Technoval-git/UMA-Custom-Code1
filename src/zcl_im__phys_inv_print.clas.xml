@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IM__PHYS_INV_PRINT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Imp. class for BAdI imp. Z_PHYS_INV_PRINT</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_IF_PI_CUST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for PI Customizing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SCWM_CUST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read WM PI Customizing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_STOCK_MAPPING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service Class for Filling Stock Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>CV_WHO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Order Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>ET_PI_ITEM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Table of Read Physical Inventory Document Items</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>E_MTYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>I_APPL_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>I_GUID_DOC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GUID for Physical Inventory Document</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_APPL_DATA</CMPNAME>
+     <SCONAME>I_ITEM_NO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

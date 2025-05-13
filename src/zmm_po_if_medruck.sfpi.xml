@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET/>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>CONDITIONS-KBETR</VALUE>
+       <UNIT>CONDITIONS-KOEI1</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ITEM-MENGE</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>SCHEDULE-MENGE</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>COMPONENTS-BDMNG</VALUE>
+       <UNIT>COMPONENTS-LAGME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM-NETPR</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM-NETWR</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>KOMK-FKWRT</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>KOMK-SUPOS</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>KOMK-FKWRT_EURO</VALUE>
+       <UNIT>HEADER-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ACCOUNT-MENGE</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ITEM-WEMNG</VALUE>
+       <UNIT>ITEM-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ITEM-BSMNG</VALUE>
+       <UNIT>ITEM-BPRME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>SRVLINES-MENGE</VALUE>
+       <UNIT>SRVLINES-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>SRVCONDITIONS-KBETR</VALUE>
+       <UNIT>SRVCONDITIONS-KOEI1</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>LV_FLAG_SERVICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>C</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_NAME1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>NAME1_GP</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_LIFNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LIFNR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_ADRNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ADRNR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_PO_BOX</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AD_POBX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_CITY1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AD_CITY1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_COUNTRY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LAND1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_TEL_NUMBER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AD_TLNMBR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_FLAGCOMM6</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AD_FLGCM06</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>P_EBELN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EBELN</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LT_ITEMD</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZMM_PO_TY</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>SHIPTODETAILS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_SHIPTO</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TOTALTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>DISCOUNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KWERT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>VAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KWERT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>VBVAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KWERT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>OTHERCHARGES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KWERT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TOTALCURRENCY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_PURGRP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR25</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_STRAS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRAS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TERMS_AND_COND</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZMM_TC</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_PAYTERM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>DZTERM_BEZ</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_STENR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STENR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_STCEG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STCEG</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_VAT_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR10</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>CREATEDBY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>NAME_TEXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>TYPES: BEGIN OF ty_shipto,</FPCLINE>
+      <FPCLINE>  Werks type WERKS_D,</FPCLINE>
+      <FPCLINE>  name1 type name1,</FPCLINE>
+      <FPCLINE>  pfach type pfach,</FPCLINE>
+      <FPCLINE>  pstlz type pstlz,</FPCLINE>
+      <FPCLINE>  ort01 type ort01,</FPCLINE>
+      <FPCLINE>  LAND1 type LAnd1,</FPCLINE>
+      <FPCLINE>  ADRNR type ADRNR,</FPCLINE>
+      <FPCLINE>  stras type stras,</FPCLINE>
+      <FPCLINE>  TEL_NUMBER type AD_TLNMBR1,</FPCLINE>
+      <FPCLINE>  END OF ty_shipto.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>SHIPINSTR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_T027B</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>DOCUMENTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_DRAD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>COMPONENTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_COMPLIST</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MANFDETAILS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_HTNMAT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SCHEDULE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKET</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SERVICES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ML_ESLL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MMPUR_PRINT_EKKO</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>APPENDIXTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166A</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HEADERINFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T166U</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ADDRESSINFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T024E</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166P</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVVALUE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ESUH</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MAINTHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_MMPT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MAINTPOS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MPOS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FORMULABODY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_VARIABLEN</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVLINES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVLINE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MMPUR_PRINT_ML_ESLL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MMPUR_PRINT_ML_ESLL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EKKO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EKKO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CHANGETEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166T</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INVOICEPER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FPLTDR_PER</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INVOICEVAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FPLTDR_VAL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MODE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>DRUVO</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PAYMENTTERMS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_TTEXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>HEADERTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166K</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONTACTINFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T024</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>VARIANTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_PEKPOV</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>KOMK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MMPUR_PRINT_KOMK</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVCONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_KOMVD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>QMTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_QMTEXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_KOMVD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INVOICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FPLTDR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FORMULAHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FORMEL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ACCOUNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_EKKN</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTYP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVTYP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKPO</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVHDR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONFIGMAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_ECONF_OUT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTIME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_TIME</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CHNGTXTSRV</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166T</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ITEMLINE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ITEM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EKPO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EKPO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TEXTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166P</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONTCONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>QUANCONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD_QUANT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>VALUECONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD_VALUE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LINECONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKOMD_COND</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EKEK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_EKEK</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SCHEDLINES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SCHEDLINE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ACCQTYFLG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR01</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>CONTACTINFO</FPPARAMETER>
+      <FPPARAMETER>CONDITIONS</FPPARAMETER>
+      <FPPARAMETER>ITEM</FPPARAMETER>
+      <FPPARAMETER>EKKO</FPPARAMETER>
+      <FPPARAMETER>HEADER</FPPARAMETER>
+      <FPPARAMETER>EKPO</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>CREATEDBY</FPPARAMETER>
+      <FPPARAMETER>V_VAT_TEXT</FPPARAMETER>
+      <FPPARAMETER>V_STCEG</FPPARAMETER>
+      <FPPARAMETER>TERMS_AND_COND</FPPARAMETER>
+      <FPPARAMETER>TOTALCURRENCY</FPPARAMETER>
+      <FPPARAMETER>GV_PURGRP</FPPARAMETER>
+      <FPPARAMETER>OTHERCHARGES</FPPARAMETER>
+      <FPPARAMETER>VAT</FPPARAMETER>
+      <FPPARAMETER>DISCOUNT</FPPARAMETER>
+      <FPPARAMETER>HEADERTEXT</FPPARAMETER>
+      <FPPARAMETER>V_NAME1</FPPARAMETER>
+      <FPPARAMETER>V_LIFNR</FPPARAMETER>
+      <FPPARAMETER>V_ADRNR</FPPARAMETER>
+      <FPPARAMETER>V_PO_BOX</FPPARAMETER>
+      <FPPARAMETER>V_CITY1</FPPARAMETER>
+      <FPPARAMETER>V_COUNTRY</FPPARAMETER>
+      <FPPARAMETER>V_TEL_NUMBER</FPPARAMETER>
+      <FPPARAMETER>V_FLAGCOMM6</FPPARAMETER>
+      <FPPARAMETER>P_EBELN</FPPARAMETER>
+      <FPPARAMETER>LT_ITEMD</FPPARAMETER>
+      <FPPARAMETER>HEADERTEXT</FPPARAMETER>
+      <FPPARAMETER>SHIPTODETAILS</FPPARAMETER>
+      <FPPARAMETER>TOTALTEXT</FPPARAMETER>
+      <FPPARAMETER>VBVAT</FPPARAMETER>
+      <FPPARAMETER>V_STRAS</FPPARAMETER>
+      <FPPARAMETER>V_PAYTERM</FPPARAMETER>
+      <FPPARAMETER>V_STENR</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE>v_lifnr = header-lifnr.</FPCLINE>
+      <FPCLINE>p_ebeln = header-ebeln.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA lw_cond TYPE komvd.</FPCLINE>
+      <FPCLINE>DATA lwa_headertext TYPE mmpur_print_t166k.</FPCLINE>
+      <FPCLINE>DATA lv_amount TYPE bwert.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>lwa_headertext-txnam = p_ebeln.</FPCLINE>
+      <FPCLINE>lwa_headertext-tdid  = &apos;F01&apos;.</FPCLINE>
+      <FPCLINE>lwa_headertext-tdobject = &apos;EKKO&apos;.</FPCLINE>
+      <FPCLINE>APPEND lwa_headertext TO headertext.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>SELECT knumv, kposn, kschl, kwert FROM prcd_elements INTO TABLE @DATA(lt_prcd_elements)</FPCLINE>
+      <FPCLINE>    WHERE knumv = @header-knumv and kinak = @space.</FPCLINE>
+      <FPCLINE>SELECT kschl FROM  zmm_po_cond INTO TABLE @DATA(lt_zmm_po_cond) WHERE cond_ind = &apos;OTHER&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT lt_zmm_po_cond INTO DATA(lw_zmm_po_cond).</FPCLINE>
+      <FPCLINE>  LOOP AT lt_prcd_elements INTO DATA(ls_prcd_elements) WHERE kschl = lw_zmm_po_cond-kschl.</FPCLINE>
+      <FPCLINE>    othercharges = othercharges + ls_prcd_elements-kwert.</FPCLINE>
+      <FPCLINE>  ENDLOOP.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT lt_prcd_elements INTO ls_prcd_elements WHERE kschl = &apos;YVDI&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  discount = discount + ls_prcd_elements-kwert.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>CLEAR ls_prcd_elements.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT lt_prcd_elements INTO ls_prcd_elements WHERE kschl = &apos;MWVS&apos;.</FPCLINE>
+      <FPCLINE>  vat = vat + ls_prcd_elements-kwert.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>*vbvat = header-netwr - vat.</FPCLINE>
+      <FPCLINE>vbvat = header-netwr .</FPCLINE>
+      <FPCLINE>CLEAR ls_prcd_elements.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>header-netwr = header-netwr + vat + othercharges .</FPCLINE>
+      <FPCLINE>lv_amount = header-netwr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL FUNCTION &apos;ZMM_AMOUNT_TO_WORDS&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    amount = lv_amount</FPCLINE>
+      <FPCLINE>    waers  = header-waers</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    a_word = totaltext.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>DATA ls_item TYPE mmpur_print_ekpo.</FPCLINE>
+      <FPCLINE>DATA lwa_final TYPE zmm_po_str.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>READ TABLE item INTO ls_item INDEX 1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE werks name1 pfach pstlz ort01 land1 adrnr stras</FPCLINE>
+      <FPCLINE>  FROM t001w</FPCLINE>
+      <FPCLINE>  INTO (shiptodetails-werks, shiptodetails-name1, shiptodetails-pfach, shiptodetails-pstlz,</FPCLINE>
+      <FPCLINE>  shiptodetails-ort01, shiptodetails-land1, shiptodetails-adrnr,shiptodetails-stras)</FPCLINE>
+      <FPCLINE>  WHERE werks = ls_item-werks.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF shiptodetails-adrnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE tel_number</FPCLINE>
+      <FPCLINE>    FROM adrc</FPCLINE>
+      <FPCLINE>    INTO (shiptodetails-tel_number)</FPCLINE>
+      <FPCLINE>    WHERE addrnumber = shiptodetails-adrnr.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CLEAR: ls_item.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE adrnr pfach name1 stras stenr stceg</FPCLINE>
+      <FPCLINE>  FROM lfa1</FPCLINE>
+      <FPCLINE>  INTO (v_adrnr, v_po_box, v_name1, v_stras, v_stenr, v_stceg)</FPCLINE>
+      <FPCLINE>  WHERE lifnr = v_lifnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF v_adrnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE city1 country tel_number flagcomm6</FPCLINE>
+      <FPCLINE>    FROM adrc</FPCLINE>
+      <FPCLINE>    INTO (v_city1, v_country, v_tel_number, v_flagcomm6)</FPCLINE>
+      <FPCLINE>    WHERE addrnumber = v_adrnr.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>SELECT ebeln, ebelp,etenr,eindt FROM eket INTO TABLE @DATA(lt_eket)  WHERE ebeln = @header-ebeln.</FPCLINE>
+      <FPCLINE>SELECT ebeln, ebelp,matnr,txz01,menge,meins,netpr,netwr FROM ekpo INTO TABLE @DATA(lt_ekpo)</FPCLINE>
+      <FPCLINE>  WHERE ebeln = @header-ebeln AND loekz  NE &apos;L&apos; .</FPCLINE>
+      <FPCLINE>LOOP AT lt_ekpo INTO DATA(ls_ekpo).</FPCLINE>
+      <FPCLINE>  lwa_final-ebelp = ls_ekpo-ebelp. &quot;+2(3).</FPCLINE>
+      <FPCLINE>  SHIFT lwa_final-ebelp LEFT DELETING LEADING &apos;0&apos;.</FPCLINE>
+      <FPCLINE>  lwa_final-matnr = ls_ekpo-matnr.</FPCLINE>
+      <FPCLINE>  lwa_final-maktx = ls_ekpo-txz01.</FPCLINE>
+      <FPCLINE>  lwa_final-menge = ls_ekpo-menge.</FPCLINE>
+      <FPCLINE>  lwa_final-meins = ls_ekpo-meins.</FPCLINE>
+      <FPCLINE>  lwa_final-netpr = ls_ekpo-netpr.</FPCLINE>
+      <FPCLINE>  lwa_final-netwr = ls_ekpo-netwr.</FPCLINE>
+      <FPCLINE>  READ TABLE lt_eket INTO DATA(ls_eket) WITH KEY ebeln = ls_ekpo-ebeln</FPCLINE>
+      <FPCLINE>                                                 ebelp = ls_ekpo-ebelp.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    lwa_final-eq_eindt = ls_eket-eindt.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>  APPEND lwa_final TO lt_itemd.</FPCLINE>
+      <FPCLINE>  CLEAR: lwa_final.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>CONCATENATE header-ekgrp &apos;-&apos; contactinfo-eknam INTO gv_purgrp.</FPCLINE>
+      <FPCLINE>CONCATENATE &apos;Total PO Value (&apos; header-waers &apos;)&apos; INTO totalcurrency .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE terms_and_cond INTO terms_and_cond FROM zmm_po_trm_cond WHERE ekorg = header-ekorg</FPCLINE>
+      <FPCLINE>  AND ekgrp = header-ekgrp.</FPCLINE>
+      <FPCLINE>IF terms_and_cond IS INITIAL.</FPCLINE>
+      <FPCLINE>  terms_and_cond = &apos;ZMM_TERMS_CONDITION_DEF&apos;.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE vtext FROM tvzbt INTO v_payterm WHERE spras = &apos;E&apos; AND zterm = header-zterm.</FPCLINE>
+      <FPCLINE>*BREAK-POINT.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CASE header-bukrs.</FPCLINE>
+      <FPCLINE>  WHEN 2100.</FPCLINE>
+      <FPCLINE>    v_vat_text = &apos;VAT 5%&apos;.</FPCLINE>
+      <FPCLINE>  WHEN 2200.</FPCLINE>
+      <FPCLINE>    v_vat_text = &apos;VAT 5%&apos;.</FPCLINE>
+      <FPCLINE>  WHEN 1000.</FPCLINE>
+      <FPCLINE>    v_vat_text = &apos;VAT 15%&apos;.</FPCLINE>
+      <FPCLINE>  WHEN OTHERS.</FPCLINE>
+      <FPCLINE>    v_vat_text = &apos;VAT %&apos;.</FPCLINE>
+      <FPCLINE>ENDCASE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>*select single name_textc from user_addr into  createdby where bname = header-ernam.</FPCLINE>
+      <FPCLINE>DATA lv_usr03 TYPE usr03.</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;SUSR_SHOW_USER_DETAILS&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    bname      = header-ernam</FPCLINE>
+      <FPCLINE>    mandt      = sy-mandt</FPCLINE>
+      <FPCLINE>    no_display = &apos;X&apos;</FPCLINE>
+      <FPCLINE>  CHANGING</FPCLINE>
+      <FPCLINE>    user_usr03 = lv_usr03.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE lv_usr03-name1 lv_usr03-name2 INTO createdby SEPARATED BY space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF srvlines IS INITIAL.</FPCLINE>
+      <FPCLINE>  lv_flag_service = abap_false.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  lv_flag_service = abap_true.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SORT lt_itemd BY ebelp.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

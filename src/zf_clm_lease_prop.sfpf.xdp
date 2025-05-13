@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20240701.1.52_SAP" APIVersion="3.6.24183.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-09-29T18:49:29Z" uuid="315a07cb-6247-4ada-b4bc-69361e966a7c">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="en_US" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="50.8mm" w="203.2mm" x="6.35mm" y="104.775mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <subform columnWidths="30mm 76.2mm" layout="table" name="Table1" x="6.35mm" y="22.225mm">
+               <border>
+                  <edge/>
+               </border>
+               <subform layout="row" name="Row1">
+                  <assist role="TR"/>
+                  <draw>
+                     <font typeface="Arial"/>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="FC4F6F78-B63E-403A-BB68-DCC3A02BAD5A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:Calibri;font-size:11pt;text-decoration:none;letter-spacing:0in">To</p></body>
+                        </exData>
+                     </value>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row2">
+                  <assist role="TR"/>
+                  <draw>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="F850275B-D46B-438A-84F2-5AA5EBCD9986">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:Calibri;font-size:11pt;text-decoration:none;letter-spacing:0in">Attn<span style="xfa-tab-count:1">         </span><br/><br/></p></body>
+                        </exData>
+                     </value>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row3">
+                  <assist role="TR"/>
+                  <draw>
+                     <font typeface="Arial"/>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="AD2BE1FB-37A1-4395-995F-2F2E6FA48527">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:Calibri;font-size:11pt;text-decoration:none;letter-spacing:0in">Tel : <span style="xfa-tab-count:1">         </span><br/><br/></p></body>
+                        </exData>
+                     </value>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row4">
+                  <assist role="TR"/>
+                  <draw>
+                     <font typeface="Arial"/>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="F8CDA1D6-1B8E-4EC7-82C8-CE21ED04C631">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:Calibri;font-size:11pt;text-decoration:none;letter-spacing:0in">Subject<span style="xfa-tab-count:1">         </span><br/><br/></p></body>
+                        </exData>
+                     </value>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <draw>
+                     <font typeface="Arial"/>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="B4718C0A-F0DF-4D31-84D9-C3B596D3E177">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span style="xfa-tab-count:1">         </span><span style="font-family:Calibri-Bold;font-size:14pt">Operation Lease Proposal<span style="xfa-tab-count:1">         </span><br/></span><br/></p></body>
+                        </exData>
+                     </value>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="none"/>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+               <?templateDesigner expand 1?></subform>
+            <field h="9mm" name="DateField1" w="62mm" x="146.05mm" y="9.525mm">
+               <ui>
+                  <dateTimeEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <caption reserve="25mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="57452641-32B2-4913-BBEE-21E1DBC9ECC2">Date Field</text>
+                  </value>
+               </caption>
+               <bind match="none"/>
+            </field>
+            <field h="9mm" name="TextField1" w="62mm" x="142.875mm" y="50.8mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="5mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="812F34AC-9460-43FE-9351-491F5F3A74FB">Mobile</text>
+                  </value>
+               </caption>
+               <bind match="none"/>
+            </field>
+            <draw h="9.156mm" name="Text1" w="168.964mm" x="15.875mm" y="76.2mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">Dear Customer, UMA is pleased to submit the below Proposal / Quotation as requested for your reference &amp;</span></p><p style="font-family:Calibri;font-size:10.5pt;font-weight:bold">Confirmation.</p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 476119 23120 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 1   0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?>
+               <?renderCache.textRun 104 Dear Customer, UMA is pleased to submit the below Proposal / Quotation as requested for your reference & 0 4195 9313 0 0 0 "Calibri" 1 0 10500 ISO-8859-1?>
+               <?renderCache.textRun 13 Confirmation. 0 1417 21913 0 0 0 "Calibri" 1 0 10500 ISO-8859-1?></draw>
+            <subform columnWidths="30mm 30mm 37.338mm 30mm 30mm 45.913mm" layout="table" name="Table2" x="6.35mm" y="107.95mm">
+               <border>
+                  <edge/>
+               </border>
+               <subform id="HeaderRow_ID" layout="row" name="HeaderRow">
+                  <assist role="TH"/>
+                  <draw h="10mm" name="Cell1">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="EAC863F3-6538-48AA-A99E-73B2231BD534">Sr.No.</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="E16AFE6F-450A-42FB-81DC-C8DF51CCF27A">Vehicle Brand</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell3">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="758F6E33-F481-47AB-A8B6-563204A87E32">Vehicle Specification</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell4">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="3680D3D2-EADF-4068-9295-41EDAC2AC64E">Quantity</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell5">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="8CA2B1C9-B82B-4D05-A172-49C1C420F911">Leasing Period</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell6">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="FB6C8957-F880-45F6-8B2D-3570362EABE4">Monthly Rate</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <occur max="-1"/>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row1">
+                  <assist role="TR"/>
+                  <draw h="10mm" name="Cell1">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell2">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell3">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell4">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell5">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="10mm" name="Cell6">
+                     <border>
+                        <edge/>
+                        <corner thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="none"/>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+               <overflow leader="HeaderRow"/>
+               <?templateDesigner expand 0?></subform>
+            <draw h="5.2331mm" name="Text2" w="36.57mm" x="6.35mm" y="161.925mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="D6975A57-3DBF-4187-A83F-943ADDDD0741">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:11pt;font-weight:bold">Terms and Condition:</span></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 100829 12000 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 1   0 1417 9667 0 0 0 "Arial" 0 0 10000 ISO-8859-1?>
+               <?renderCache.textRun 20 Terms and Condition: 0 4195 9667 0 0 0 "Calibri" 1 0 11000 ISO-8859-1?></draw>
+            <subform columnWidths="152.4mm" layout="table" name="Table3" x="6.35mm" y="171.45mm">
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden"/>
+               </border>
+               <subform layout="row" name="Row1">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD1">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• All POs are subject to credit approval.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row2">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD2">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Delivery Points (UMA Jeddah – UMA Riyadh – UMA Khobar).</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row3">
+                  <assist role="TR"/>
+                  <draw h="10.16mm" name="TCD3">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Delivery Period: 4-6 Weeks of receiving PO and credit process approval / subject to stock<span style="xfa-spacerun:yes">   </span></span></p><p style="font-family:Calibri;font-size:10.5pt;font-weight:bold;letter-spacing:0in"><span style="xfa-spacerun:yes">     </span>availability.<span style="xfa-spacerun:yes"> </span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.7mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row4">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD4">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• All periodic maintenance and repairs are included.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row5">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD5">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Replacement vehicle will be provided during breakdown and accidents.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row6">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD6">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Comprehensive Insurance (Driver and Passengers).</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row7">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD7">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Mileage: Unlimited.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row8">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD8">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• VAT 15% will be added on monthly invoice.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row9">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD9">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Proposal / Quotation validity: One Week.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row10">
+                  <assist role="TR"/>
+                  <draw h="6.35mm" name="TCD10">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="0D3AE1A4-1F0E-4530-A52F-A86C9B71E91A">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:10.5pt;font-weight:bold">• Payment Terms – 30 Days.</span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="none"/>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+               <?templateDesigner expand 1?></subform>
+            <draw h="9.537mm" name="Text3" w="120.102mm" x="6.35mm" y="247.65mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData contentType="text/html" xliff:rid="1B2EA585-31DC-4F55-BCDA-2F1AEED453A3">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span style="xfa-spacerun:yes"> </span><span style="font-family:Calibri;font-size:11pt">All remaining terms and conditions will apply as per the Master Agreement</span></p><p style="font-family:Calibri;font-size:11pt">Regards.</p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <?renderCache.bounds 337613 24200 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 1   0 1417 9667 0 0 0 "Arial" 0 0 10000 ISO-8859-1?>
+               <?renderCache.textRun 74 All remaining terms and conditions will apply as per the Master Agreement  0 4195 9667 0 0 0 "Calibri" 0 0 11000 ISO-8859-1?>
+               <?renderCache.textRun 8 Regards. 0 1417 22867 0 0 0 "Calibri" 0 0 11000 ISO-8859-1?></draw>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform h="165.1mm" w="8in">
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20240701.1.52.2</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 132 33 00030011002500270029002F00300031003300340035003600370039004400450046004700480049004A004B004C004F0051005200530055005600570058005B005C .BDFLMNPQRSTVabcdefghilnoprstuxy?>
+      <?renderCache.subset "Calibri" 0 0 ISO-8859-1 4 112 28 000300040044005A005E00640102010F0110011A011E0150015A015D0169016F01750176017D0189018C0190019A01B501C101C703570358 AMRSTabcdeghijlmnoprstuwy:.?>
+      <?renderCache.subset "Calibri" 1 0 ISO-8859-1 4 232 62 0003000400120018002F003A003C003E0044004B00570059005A00640068007300740102010F0110011A011E01280150015A015D0169016C016F01750176017D0189018B018C0190019A01B501C001C101C7035503570358036C03720374037B037E037F039803EC03ED03EF03F003F103F20439 ACDIJKLMOPQRTUVWabcdefghijklmnopqrstuvwy,:./-–•()&013456%?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 77?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://vhumgds4ci.sap.altawkilat.com:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="Calibri" typeface="Calibri" weight="normal"/>
+      <font posture="normal" psName="Calibri-Bold" typeface="Calibri" weight="bold"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZF_CLM_LEASE_PROP">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data dd:dataNode="dataGroup"/>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2024-09-29T18:49:29Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:315a07cb-6247-4ada-b4bc-69361e966a7c</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20240701.1.52.2</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

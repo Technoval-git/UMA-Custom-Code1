@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>AMOUNT_TO_WORDS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_AMOUNT_TO_WORDSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_AMOUNT_TO_WORDS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM_AMOUNT_TO_WORDS</FUNCNAME>
+     <SHORT_TEXT>ZMM_AMOUNT_TO_WORDS</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>AMOUNT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BWERT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WAERS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>WAERS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>A_WORD</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>AMOUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Order Value in PO Currency</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WAERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Currency Key</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>A_WORD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Adobe Form Interface for 2500 Invoices</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-NON_TAX_AMOUNT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-INV_GROSS_TOT_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-INV_TOT_PAYABLE_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-TOT_DISCOUNT_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-TOT_GROSS_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-TOT_VAT_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-TOT_TAX_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-TOT_NONTAX_AMT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>ITEM_TOTALS-DOWN_PAYMENT</VALUE>
+       <UNIT>ITEM_TOTALS-WAERK</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GV_LOGO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_REPEATS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>ITEM_TOTALS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZST_VSS_RETAIL_TOTAL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ITEM_DET</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZTT_VSS_RETAIL_ITEM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_NAST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>NAST</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_REPEAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GV_QR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GS_BUYER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSD_INV_HEAD_MID</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>L_AMTWORDS_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GS_HEADER1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZST_VSS_RETAIL_HDR_INFO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>L_AMTWORDS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GS_SELLER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSD_INV_HEAD_MID</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LS_FTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LS_BANK_EN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSD_INV_BANKS_ST</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LS_BANK_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSD_INV_BANKS_ST</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_FOOTER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_DBM_VEH_CRDT_INV_FRM_UTIL=&gt;TY_FOOTER_STR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_BODY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_DBM_VEH_CRDT_INV_FRM_UTIL=&gt;TT_BODY_STR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_HEAD</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_DBM_VEH_CRDT_INV_FRM_UTIL=&gt;TY_HEADER</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>L_TITLE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_VEHICLE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_DBM_VEH_CRDT_INV_FRM_UTIL=&gt;TT_VEHICLE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>CLEAR: gv_repeats.</FPCLINE>
+      <FPCLINE>BREAK TECH2.</FPCLINE>
+      <FPCLINE>IF is_repeat = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>  gv_repeats = &apos;Copy&apos;.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL METHOD cl_ssf_xsf_utilities=&gt;get_bds_graphic_as_bmp</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    p_object       = &apos;GRAPHICS&apos;      &quot; &apos;GRAPHICS&apos;</FPCLINE>
+      <FPCLINE>    p_name         = &apos;ALTAWKILAT_LOGO&apos;     &quot; Name of the SE78 logo inside Quotes</FPCLINE>
+      <FPCLINE>    p_id           = &apos;BMAP&apos;           &quot; &apos;BMAP&apos;</FPCLINE>
+      <FPCLINE>    p_btype        = &apos;BCOL&apos;     &quot; &apos;BCOL&apos; for color, &apos;BMON&apos; for Black &amp; White</FPCLINE>
+      <FPCLINE>  RECEIVING</FPCLINE>
+      <FPCLINE>    p_bmp          = gv_logo       &quot; v_field and g_logo must be typed xstring</FPCLINE>
+      <FPCLINE>  EXCEPTIONS</FPCLINE>
+      <FPCLINE>    not_found      = 1</FPCLINE>
+      <FPCLINE>    internal_error = 2</FPCLINE>
+      <FPCLINE>    OTHERS         = 3.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE>S</TYPE>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>New Form</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS/>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>TS_COMP_DETAILS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_FI_COMMON_UTIL=&gt;TY_PLANT_ADDRESS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TS_CUSTOMER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_FI_COMMON_UTIL=&gt;TY_CUSTOMER</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_AMOUNT_EN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_AMOUNT_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_ORDER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TS_COMP_DETAILS_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YCL_FI_COMMON_UTIL=&gt;TY_PLANT_ADDRESS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LV_PO_BOX</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LV_PO_BOX_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LV_CUSTOMER_VAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CRMT_BOOLEAN</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_PMNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>I_TILL_DOC_HEAD</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/T_DOC_HEAD_COM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_TILL_SESSION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/T_SESSION_COM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_LANGU</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>SYST_LANGU</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_TEXT_SC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/T_WP_TEXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_BIL_INVOICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LBBIL_INVOICE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_VBAK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/VBAK_COM</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_VAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YDBE_CASH_RECPT_VAT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IV_TAX_PERC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>T_TILL_DOC_LINE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/TT_TILL_DOC_LINE</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T_TILL_OP_LINE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/TT_TILL_OP_LINE</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T_BOOK_DOC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>/DBE/TT_BOOK_DOC</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </TABLE_PARAMETERS>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>TS_COMP_DETAILS</FPPARAMETER>
+      <FPPARAMETER>I_TILL_DOC_HEAD</FPPARAMETER>
+      <FPPARAMETER>TS_CUSTOMER</FPPARAMETER>
+      <FPPARAMETER>TS_COMP_DETAILS_AR</FPPARAMETER>
+      <FPPARAMETER>LV_PO_BOX</FPPARAMETER>
+      <FPPARAMETER>LV_PO_BOX_AR</FPPARAMETER>
+      <FPPARAMETER>I_TILL_SESSION</FPPARAMETER>
+      <FPPARAMETER>IS_VAT</FPPARAMETER>
+      <FPPARAMETER>GV_PMNT</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>TS_COMP_DETAILS</FPPARAMETER>
+      <FPPARAMETER>TS_CUSTOMER</FPPARAMETER>
+      <FPPARAMETER>TS_COMP_DETAILS_AR</FPPARAMETER>
+      <FPPARAMETER>LV_PO_BOX</FPPARAMETER>
+      <FPPARAMETER>LV_PO_BOX_AR</FPPARAMETER>
+      <FPPARAMETER>I_TILL_SESSION</FPPARAMETER>
+      <FPPARAMETER>LV_CUSTOMER_VAT</FPPARAMETER>
+      <FPPARAMETER>GV_PMNT</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE/>
+      <FPCLINE>CALL METHOD ycl_fi_common_util=&gt;get_plant_address</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    iv_bukrs        = i_till_doc_head-bukrs</FPCLINE>
+      <FPCLINE>    iv_werks        = i_till_session-wp_log+0(4)</FPCLINE>
+      <FPCLINE>    iv_lang         = &apos;E&apos;</FPCLINE>
+      <FPCLINE>*    yif_dbm_jet_constants=&gt;gc_value_e</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    es_comp_details = ts_comp_details.</FPCLINE>
+      <FPCLINE>IF ts_comp_details-po_box IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  CONCATENATE &apos;P O Box&apos; ts_comp_details-po_box INTO lv_po_box SEPARATED BY space.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>CALL METHOD ycl_fi_common_util=&gt;get_plant_address</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    iv_bukrs        = i_till_doc_head-bukrs</FPCLINE>
+      <FPCLINE>    iv_werks        = i_till_session-wp_log+0(4)</FPCLINE>
+      <FPCLINE>    iv_lang         = &apos;E&apos;</FPCLINE>
+      <FPCLINE>*    yif_dbe_jet_constants=&gt;gc_value_a</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    es_comp_details = ts_comp_details_ar.</FPCLINE>
+      <FPCLINE>IF ts_comp_details_ar-po_box IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  CONCATENATE &apos;P O Box&apos; ts_comp_details_ar-po_box INTO lv_po_box_ar SEPARATED BY space.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>CALL METHOD ycl_fi_common_util=&gt;get_customer_details</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    iv_kunnr    = i_till_doc_head-kunnr</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    es_customer = ts_customer.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF is_vat-cust_vat_no IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  lv_customer_vat = abap_true.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>*SELECT SINGLE CSH_CHQ_BNK INTO GV_PMNT FROM YDBM_FI_PTYP</FPCLINE>
+      <FPCLINE>*  WHERE PMNT_TYP = I_TILL_DOC_HEAD-PAYMENT_TYPE.</FPCLINE>
+      <FPCLINE>*Translate gv_pmnt TO UPPER CASE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE/>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

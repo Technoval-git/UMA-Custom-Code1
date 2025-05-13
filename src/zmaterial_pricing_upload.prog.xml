@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZMATERIAL_PRICING_UPLOAD</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>023</KEY>
+     <ENTRY>Sales org./Distr. Chl/Division/Order Type/Customer/Material</ENTRY>
+     <LENGTH>118</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>024</KEY>
+     <ENTRY>Sales org./Distr. Chl/Division/Order Type/Cust.Group/Mat</ENTRY>
+     <LENGTH>112</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>025</KEY>
+     <ENTRY>Sales org./Distr. Chl/Division/Order Type/Material</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>026</KEY>
+     <ENTRY>Sales org./Distr. Chl/Division/Customer</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>027</KEY>
+     <ENTRY>Sales org./Distr. Chl/Division/Cust.Group/Material</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>028</KEY>
+     <ENTRY>Sales org./Distr. Chl/Division/Material</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>029</KEY>
+     <ENTRY>Material</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Material Pricing Upload</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

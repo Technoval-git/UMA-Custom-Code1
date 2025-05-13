@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service for ZV_AVAILABLITY'
+define service ZV_AVAIL_SRV {
+  expose ZV_availablity;
+}

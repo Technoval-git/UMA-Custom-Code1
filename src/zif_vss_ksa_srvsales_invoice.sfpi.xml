@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Service Invoice Interface for JACO</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-ADDITION_SERV_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-BOUGHT_OUT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-CCONSUMABLES_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-DEBUCTIBALE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-DEPOSIT_AMT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-DISCOUNT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-GROSS_ADDTN2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-GROSS_CONSM2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-GROSS_LABOR2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-GROSS_LABOUR_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-GROSS_PARTS2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-GROSS_PARTS_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-NETPR_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-NETWR_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-NET_PAYABLE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-OIL_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-PAINT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-SUBLET_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-TAX_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IS_HEADER-TOTAL_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_ADDITION-GROSS_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_ADDITION-NETPAY</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_ADDITION-TAXAMOUNT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_ADDITION-UNIT_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_CONSUMAB-GROSS_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_CONSUMAB-NETPAY</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_CONSUMAB-TAXAMOUNT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_CONSUMAB-UNIT_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_LABOUR-GROSS_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_LABOUR-NETPAY</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_LABOUR-TAXAMOUNT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_LABOUR-UNIT_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_PARTS-GROSS_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_PARTS-NETPAY</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_PARTS-TAXAMOUNT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>IT_ITEM_PARTS-UNIT_PRICE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-ADDITION_SERV_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-BOUGHT_OUT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-CCONSUMABLES_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-DEBUCTIBALE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-DEPOSIT_AMT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-DISCOUNT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-GROSS_ADDTN2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-GROSS_CONSM2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-GROSS_LABOR2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-GROSS_LABOUR_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-GROSS_PARTS2_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-GROSS_PARTS_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-NETPR_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-NETWR_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-NET_PAYABLE_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-OIL_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-PAINT_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-SUBLET_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-TAX_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>TS_HEADER-TOTAL_NT</VALUE>
+       <UNIT>TS_HEADER-CURRENCY_EN</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GV_LOGO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TITLE_EN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TITLE_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TS_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YPRFINV_HEAD_VSS_ST</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_COMPANY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>WERKS_D</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_NAME2</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BU_NAMEOR2</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TITLE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AD_TITLE</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_NAME1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BU_NAMEOR2</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_NAME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_DUE_DATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>SY-DATUM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_PO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_REG_DATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>SY-DATUM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_FLAG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_QR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_JACO_VAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_JACO_VAT_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GF_FOOTER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_NOTE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GI_CUST_ADDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTTY_CUST_ADDR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GW_CUST_ADDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTY_CUST_ADDR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_T005T</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTTY_T005T</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_T005U</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTTY_T005U</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GW_T005T</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T005T</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GW_T005U</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T005U</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_MODEL_YEAR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_AMTWORDS_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_AMTWORDS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>TYPES: BEGIN OF lty_cust_addr,</FPCLINE>
+      <FPCLINE>         nation     TYPE adrc-nation,</FPCLINE>
+      <FPCLINE>         street     TYPE adrc-street,</FPCLINE>
+      <FPCLINE>         house_num1 TYPE adrc-house_num1,</FPCLINE>
+      <FPCLINE>         str_suppl3 TYPE adrc-str_suppl3,</FPCLINE>
+      <FPCLINE>         post_code1 TYPE adrc-post_code1,</FPCLINE>
+      <FPCLINE>         city1      TYPE adrc-city1,</FPCLINE>
+      <FPCLINE>         region     TYPE adrc-region,</FPCLINE>
+      <FPCLINE>         country    TYPE adrc-country,</FPCLINE>
+      <FPCLINE>       END OF lty_cust_addr,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>       ltty_cust_addr TYPE TABLE OF lty_cust_addr,</FPCLINE>
+      <FPCLINE>       ltty_t005t     TYPE TABLE OF t005t,</FPCLINE>
+      <FPCLINE>       ltty_t005u     TYPE TABLE OF t005u.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>IS_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YPRFINV_HEAD_VSS_ST</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_ITEM_LABOUR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YSERV_INV_ITEM_PDF_TT</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_ITEM_PARTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YSERV_INV_ITEM_PDF_TT</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_ITEM_CONSUMAB</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YSERV_INV_ITEM_PDF_TT</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_ITEM_ADDITION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>YSERV_INV_ITEM_PDF_TT</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IV_PROFORMA_INVOICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CRMT_BOOLEAN</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GV_COMP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VKORG</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IV_DIVISION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>SPART</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IV_TAX_PERC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_COMPANY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSD_INV_HEAD_MID</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IS_CUSTOMER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSD_INV_HEAD_MID</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IV_TITLE_AR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>REPEAT_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IV_TITLE_EN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>IV_TITLE_AR</FPPARAMETER>
+      <FPPARAMETER>IV_TITLE_EN</FPPARAMETER>
+      <FPPARAMETER>IS_HEADER</FPPARAMETER>
+      <FPPARAMETER>IV_PROFORMA_INVOICE</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>GV_QR</FPPARAMETER>
+      <FPPARAMETER>GV_FLAG</FPPARAMETER>
+      <FPPARAMETER>TS_HEADER</FPPARAMETER>
+      <FPPARAMETER>GF_FOOTER</FPPARAMETER>
+      <FPPARAMETER>GV_JACO_VAT_AR</FPPARAMETER>
+      <FPPARAMETER>GV_JACO_VAT</FPPARAMETER>
+      <FPPARAMETER>GV_REG_DATE</FPPARAMETER>
+      <FPPARAMETER>GV_DUE_DATE</FPPARAMETER>
+      <FPPARAMETER>GV_PO</FPPARAMETER>
+      <FPPARAMETER>GW_T005T</FPPARAMETER>
+      <FPPARAMETER>GW_T005U</FPPARAMETER>
+      <FPPARAMETER>GW_CUST_ADDR</FPPARAMETER>
+      <FPPARAMETER>GV_NAME</FPPARAMETER>
+      <FPPARAMETER>GV_TITLE</FPPARAMETER>
+      <FPPARAMETER>GV_COMPANY</FPPARAMETER>
+      <FPPARAMETER>GV_TITLE_EN</FPPARAMETER>
+      <FPPARAMETER>GV_TITLE_AR</FPPARAMETER>
+      <FPPARAMETER>GV_MODEL_YEAR</FPPARAMETER>
+      <FPPARAMETER>GV_AMTWORDS_AR</FPPARAMETER>
+      <FPPARAMETER>GV_AMTWORDS</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE/>
+      <FPCLINE>CALL METHOD cl_ssf_xsf_utilities=&gt;get_bds_graphic_as_bmp</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    p_object       = &apos;GRAPHICS&apos;      &quot; &apos;GRAPHICS&apos;</FPCLINE>
+      <FPCLINE>    p_name         = &apos;ALTAWKILAT_LOGO&apos;     &quot; Name of the SE78 logo inside Quotes</FPCLINE>
+      <FPCLINE>    p_id           = &apos;BMAP&apos;           &quot; &apos;BMAP&apos;</FPCLINE>
+      <FPCLINE>    p_btype        = &apos;BCOL&apos;     &quot; &apos;BCOL&apos; for color, &apos;BMON&apos; for Black &amp; White</FPCLINE>
+      <FPCLINE>  RECEIVING</FPCLINE>
+      <FPCLINE>    p_bmp          = gv_logo       &quot; v_field and g_logo must be typed xstring</FPCLINE>
+      <FPCLINE>  EXCEPTIONS</FPCLINE>
+      <FPCLINE>    not_found      = 1</FPCLINE>
+      <FPCLINE>    internal_error = 2</FPCLINE>
+      <FPCLINE>    OTHERS         = 3.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>FIELD-SYMBOLS &lt;lv_price&gt; TYPE any.</FPCLINE>
+      <FPCLINE>ASSIGN (&apos;(/DBE/SAPLORDER_UI)/DBE/VBAK_COM-KFPREIS&apos;)</FPCLINE>
+      <FPCLINE> TO &lt;lv_price&gt;.</FPCLINE>
+      <FPCLINE>IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: lv_fixpr      TYPE dmbtr,</FPCLINE>
+      <FPCLINE>      lv_srv_ord_no TYPE /dbe/vbeln_va.</FPCLINE>
+      <FPCLINE>IF &lt;lv_price&gt; IS ASSIGNED .</FPCLINE>
+      <FPCLINE>  lv_fixpr = &lt;lv_price&gt;.</FPCLINE>
+      <FPCLINE>  IF lv_fixpr NE 0.&quot; or lv_fixpr ne space.</FPCLINE>
+      <FPCLINE>    gv_flag = &apos;F&apos;.&quot; fix price indicator.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**** the following lines are added temprorarily</FPCLINE>
+      <FPCLINE>** and saved in CD:8100002596</FPCLINE>
+      <FPCLINE>*** remove them after tr is released</FPCLINE>
+      <FPCLINE>*CLEAR gv_flag.</FPCLINE>
+      <FPCLINE>***end of temp code</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: lv_zterm TYPE dzterm,</FPCLINE>
+      <FPCLINE>      lv_days  TYPE t052-ztag1.                &quot;Shahid added</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*ts_labels-city_addr = &apos;المدينة &amp; العنوان&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>gv_title_en = iv_title_en.</FPCLINE>
+      <FPCLINE>gv_title_ar = iv_title_ar.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ts_header = is_header.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONDENSE ts_header-loc_telf.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>TRANSLATE ts_header-plant USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE>SELECT SINGLE vkorg</FPCLINE>
+      <FPCLINE>FROM t001w</FPCLINE>
+      <FPCLINE>INTO gv_company</FPCLINE>
+      <FPCLINE>WHERE werks = ts_header-plant.</FPCLINE>
+      <FPCLINE>IF sy-subrc &lt;&gt; 0.</FPCLINE>
+      <FPCLINE>  gv_company = gv_comp.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE name_org1 name_org2 title</FPCLINE>
+      <FPCLINE>INTO ( gv_name1, gv_name2, gv_title )</FPCLINE>
+      <FPCLINE> FROM but000 WHERE partner = ts_header-cust_id.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE gv_name1 &apos; &apos; gv_name2 INTO gv_name.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: lv_addrno  TYPE kna1-adrnr,</FPCLINE>
+      <FPCLINE>      lv_cust_id TYPE kna1-kunnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Get address number from customer master</FPCLINE>
+      <FPCLINE>lv_cust_id = ts_header-cust_id.</FPCLINE>
+      <FPCLINE>TRANSLATE lv_cust_id USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE>SELECT SINGLE adrnr FROM kna1 INTO lv_addrno</FPCLINE>
+      <FPCLINE>  WHERE kunnr = lv_cust_id.</FPCLINE>
+      <FPCLINE>IF sy-subrc = 0 AND lv_addrno IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>* Get address</FPCLINE>
+      <FPCLINE>  SELECT nation street house_num1 str_suppl3</FPCLINE>
+      <FPCLINE>         post_code1 city1 region country</FPCLINE>
+      <FPCLINE>    FROM adrc</FPCLINE>
+      <FPCLINE>    INTO TABLE gi_cust_addr</FPCLINE>
+      <FPCLINE>    WHERE addrnumber = lv_addrno</FPCLINE>
+      <FPCLINE>      AND date_to &gt;= sy-datum.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0 AND gi_cust_addr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*   Get Country text</FPCLINE>
+      <FPCLINE>    SELECT * FROM t005t INTO TABLE gt_t005t</FPCLINE>
+      <FPCLINE>      FOR ALL ENTRIES IN gi_cust_addr</FPCLINE>
+      <FPCLINE>      WHERE land1 = gi_cust_addr-country.</FPCLINE>
+      <FPCLINE>*   Get Region text</FPCLINE>
+      <FPCLINE>    SELECT * FROM t005u INTO TABLE gt_t005u</FPCLINE>
+      <FPCLINE>    FOR ALL ENTRIES IN gi_cust_addr</FPCLINE>
+      <FPCLINE>    WHERE land1 = gi_cust_addr-country</FPCLINE>
+      <FPCLINE>      AND bland = gi_cust_addr-region.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CLEAR: gw_cust_addr, gw_t005t, gw_t005u.</FPCLINE>
+      <FPCLINE>  READ TABLE gi_cust_addr INTO gw_cust_addr</FPCLINE>
+      <FPCLINE>  WITH KEY nation = space.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    READ TABLE gt_t005t INTO gw_t005t</FPCLINE>
+      <FPCLINE>    WITH KEY spras = &apos;E&apos; land1 = gw_cust_addr-country.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    READ TABLE gt_t005u INTO gw_t005u</FPCLINE>
+      <FPCLINE>    WITH KEY spras = &apos;E&apos; land1 = gw_cust_addr-country bland = gw_cust_addr-region.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>lv_srv_ord_no = ts_header-serv_ord_num.</FPCLINE>
+      <FPCLINE>TRANSLATE lv_srv_ord_no USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE bstnk</FPCLINE>
+      <FPCLINE>INTO ( gv_po )</FPCLINE>
+      <FPCLINE> FROM  /dbe/vbak_db WHERE vbeln = lv_srv_ord_no.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*TRANSLATE GV_PO USING &apos;0٠1١2٢3٣4٤5٥6٦7٧8٨9٩&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF ts_header-pay_term_en IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  lv_zterm = ts_header-pay_term_en+0(4).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  TRANSLATE lv_zterm USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  SELECT SINGLE ztag1 FROM t052 INTO lv_days WHERE</FPCLINE>
+      <FPCLINE>  zterm = lv_zterm.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CONCATENATE ts_header-invoice_dat_tm+6(4) ts_header-invoice_dat_tm+3(2)</FPCLINE>
+      <FPCLINE>              ts_header-invoice_dat_tm+0(2) INTO gv_due_date.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  TRANSLATE gv_due_date USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  gv_due_date = gv_due_date + lv_days.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*TRANSLATE GV_DUE_DATE USING &apos;0٠1١2٢3٣4٤5٥6٦7٧8٨9٩&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>TRANSLATE ts_header-vin_no USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE immatdate</FPCLINE>
+      <FPCLINE>  INTO ( gv_reg_date )</FPCLINE>
+      <FPCLINE>  FROM  vlcvehicle WHERE vhvin = ts_header-vin_no.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CLEAR gv_model_year.</FPCLINE>
+      <FPCLINE>CONCATENATE ts_header-vehicl_descri</FPCLINE>
+      <FPCLINE>            &apos;/&apos;</FPCLINE>
+      <FPCLINE>            ts_header-modyear</FPCLINE>
+      <FPCLINE>            INTO gv_model_year.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: lv_seller    TYPE string,</FPCLINE>
+      <FPCLINE>      lv_vat_no    TYPE string,</FPCLINE>
+      <FPCLINE>      lv_timestm   TYPE string,</FPCLINE>
+      <FPCLINE>      lv_net       TYPE string,</FPCLINE>
+      <FPCLINE>      lv_vat       TYPE string,</FPCLINE>
+      <FPCLINE>      lv_ts        TYPE timestamp,</FPCLINE>
+      <FPCLINE>      lv_vbeln     TYPE vbrk-vbeln,</FPCLINE>
+      <FPCLINE>      lv_vbeln_str TYPE string.</FPCLINE>
+      <FPCLINE>lv_vbeln_str = ts_header-invoice_no.</FPCLINE>
+      <FPCLINE>TRANSLATE lv_vbeln_str USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE>lv_vbeln = lv_vbeln_str.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL FUNCTION &apos;CONVERSION_EXIT_ALPHA_INPUT&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    input  = lv_vbeln                 &quot; C field</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    output = lv_vbeln.                 &quot; Internal display of INPUT, any category</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL FUNCTION &apos;Z_AMT_IN_WORDS_INV&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    amount       = ts_header-total_nt</FPCLINE>
+      <FPCLINE>    currency     = ts_header-currency_en</FPCLINE>
+      <FPCLINE>    language     = &apos;E&apos;</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    amt_in_words = gv_amtwords.  &quot;   wf_amt_in_words.</FPCLINE>
+      <FPCLINE>* arabic</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;Z_AMT_IN_WORDS_INV&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    amount       = ts_header-total_nt</FPCLINE>
+      <FPCLINE>    currency     = ts_header-currency_en</FPCLINE>
+      <FPCLINE>    language     = &apos;A&apos;</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    amt_in_words = gv_amtwords_ar.  &quot;   wf_amt_in_words.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* break tech5.</FPCLINE>
+      <FPCLINE>SELECT SINGLE fkdat, erzet, bukrs FROM vbrk</FPCLINE>
+      <FPCLINE>  INTO @DATA(ls_vbrk)</FPCLINE>
+      <FPCLINE>  WHERE vbeln = @lv_vbeln.</FPCLINE>
+      <FPCLINE>IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>  CONVERT DATE ls_vbrk-fkdat TIME ls_vbrk-erzet INTO TIME STAMP lv_ts TIME ZONE sy-zonlo.</FPCLINE>
+      <FPCLINE>  lv_timestm = lv_ts.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  SELECT SINGLE adrnr, stceg FROM t001 INTO ( @DATA(lv_adrnr) ,</FPCLINE>
+      <FPCLINE>    @DATA(lv_stceg) )</FPCLINE>
+      <FPCLINE>    WHERE bukrs = @ls_vbrk-bukrs.</FPCLINE>
+      <FPCLINE>  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>    IF lv_adrnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>      SELECT SINGLE name1 FROM adrc INTO @DATA(lv_name1)</FPCLINE>
+      <FPCLINE>        WHERE addrnumber = @lv_adrnr AND nation EQ @space</FPCLINE>
+      <FPCLINE>        AND date_to GT @sy-datum.</FPCLINE>
+      <FPCLINE>      IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>        lv_seller = lv_name1.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>    lv_vat_no = lv_stceg.</FPCLINE>
+      <FPCLINE>    gv_jaco_vat = lv_vat_no.</FPCLINE>
+      <FPCLINE>    gv_jaco_vat_ar = lv_vat_no.</FPCLINE>
+      <FPCLINE>    TRANSLATE gv_jaco_vat_ar USING &apos;0٠1١2٢3٣4٤5٥6٦7٧8٨9٩&apos;.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>lv_net = ts_header-total.</FPCLINE>
+      <FPCLINE>lv_vat = ts_header-tax.</FPCLINE>
+      <FPCLINE>*--------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* changes for new footer jipco cd 172 | begin</FPCLINE>
+      <FPCLINE>DATA: gc_date TYPE datum VALUE &apos;20230301&apos;.</FPCLINE>
+      <FPCLINE>IF ts_header-date_in GE gc_date.</FPCLINE>
+      <FPCLINE>  gf_footer = &apos;N&apos;.   &quot; new footer</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  gf_footer = &apos;O&apos;.  &quot;old footer</FPCLINE>
+      <FPCLINE>  lv_vat_no = &apos;300185987400003&apos;.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*|end</FPCLINE>
+      <FPCLINE>*--------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;gv_note = &apos;هذه ليست فاتورة ضريبة القيمة المضافة ولا تؤهل حاملها للمطالبة بضريبة القيمة المضافة ، جبكو ليست مسؤولة عن أي مخالفة في ه</FPCLINE>
+      <FPCLINE>TRANSLATE lv_net USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE>TRANSLATE lv_vat USING &apos;٠0١1٢2٣3٤4٥5٦6٧7٨8٩9&apos;.</FPCLINE>
+      <FPCLINE>*CALL FUNCTION &apos;ZSD_GET_EINVOICE_TLV_FORMAT&apos;</FPCLINE>
+      <FPCLINE>*  EXPORTING</FPCLINE>
+      <FPCLINE>*    iv_seller     = lv_seller</FPCLINE>
+      <FPCLINE>*    iv_vatno      = lv_vat_no</FPCLINE>
+      <FPCLINE>*    iv_timestamp  = lv_timestm</FPCLINE>
+      <FPCLINE>*    iv_inv_amt    = lv_net</FPCLINE>
+      <FPCLINE>*    iv_vat_amt    = lv_vat</FPCLINE>
+      <FPCLINE>*  IMPORTING</FPCLINE>
+      <FPCLINE>*    ev_tlv_format = gv_qr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL FUNCTION &apos;ZSD_GETINV_QRDATA&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    l_vbeln   = lv_vbeln                 &quot; Sales and Distribution Document Number</FPCLINE>
+      <FPCLINE>    l_vat_amt = lv_vat                 &quot; Tax amount in document currency</FPCLINE>
+      <FPCLINE>    l_total   = lv_net                 &quot; Amount in local currency</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    ls_qr     = gv_qr.                &quot; QR Code String</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

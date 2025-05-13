@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPLZDBE_VEHI_MASS_PROCESSING</NAME>
+    <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
+    <SUBC>F</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Application Log</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>All Classes</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Display</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Not Purchase Order</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Vehicle Features</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Goods Receipt</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Incoming Invoice</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Select</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>Model Default</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Default</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>vehicles created</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>vehicle found</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>vehicle created</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>vehicles found</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Create Purchase Order</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Change Purchase Order</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>Delete Purchase Order</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>Create Incoming Invoice</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>019</KEY>
+     <ENTRY>No common actions found</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Purchase Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Sales Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>Category</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>039</KEY>
+     <ENTRY>Valid From Date/Time</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>040</KEY>
+     <ENTRY>Valid From Date/Time</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>041</KEY>
+     <ENTRY>Package Valid From Date/Time</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>042</KEY>
+     <ENTRY>Valid From</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>043</KEY>
+     <ENTRY>Valid From</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>044</KEY>
+     <ENTRY>Valid To Date/Time</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>045</KEY>
+     <ENTRY>Valid To Date/Time</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>046</KEY>
+     <ENTRY>Package Valid To Date/Time</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>047</KEY>
+     <ENTRY>Valid To</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>049</KEY>
+     <ENTRY>Valid To</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>060</KEY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>090</KEY>
+     <ENTRY>Internal Vehicle No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>091</KEY>
+     <ENTRY>Net Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>092</KEY>
+     <ENTRY>Currency</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>093</KEY>
+     <ENTRY>Gross Amount</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>094</KEY>
+     <ENTRY>Tax Amount</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>095</KEY>
+     <ENTRY>Tax Code</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>096</KEY>
+     <ENTRY>Gross Amount</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>097</KEY>
+     <ENTRY>Internal Vehicle No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>098</KEY>
+     <ENTRY>Posting Date</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>099</KEY>
+     <ENTRY>Reversal Reason</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>100</KEY>
+     <ENTRY>Cancel Incoming Invoice</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>102</KEY>
+     <ENTRY>Internal Vehicle No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>103</KEY>
+     <ENTRY>Model Sales Code</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>104</KEY>
+     <ENTRY>Net Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>105</KEY>
+     <ENTRY>Currency</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>106</KEY>
+     <ENTRY>Purchase Order</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>107</KEY>
+     <ENTRY>Purchasing Organization</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>108</KEY>
+     <ENTRY>Purchasing Group</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>109</KEY>
+     <ENTRY>Delivery Date</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>111</KEY>
+     <ENTRY>Internal Vehicle No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>112</KEY>
+     <ENTRY>Model Sales Code</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>113</KEY>
+     <ENTRY>Purchase Order</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>114</KEY>
+     <ENTRY>Purchasing Organization</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>115</KEY>
+     <ENTRY>Item</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>116</KEY>
+     <ENTRY>Purchasing Group</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>121</KEY>
+     <ENTRY>Vehicle</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>122</KEY>
+     <ENTRY>Model Sales Code</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>123</KEY>
+     <ENTRY>Net Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>124</KEY>
+     <ENTRY>Currency</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>125</KEY>
+     <ENTRY>Delivery Date</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>126</KEY>
+     <ENTRY>Option Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>127</KEY>
+     <ENTRY>Internal Vehicle No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>130</KEY>
+     <ENTRY>Possible Actions</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>132</KEY>
+     <ENTRY>Default Selection Variant for User</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>150</KEY>
+     <ENTRY>Cancel Goods Receipt</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>151</KEY>
+     <ENTRY>Cancel Incoming Invoice</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>152</KEY>
+     <ENTRY>Create Goods Receipt</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>153</KEY>
+     <ENTRY>Selected Vehicles</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>154</KEY>
+     <ENTRY>Create Goods Receipt for External Service</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>155</KEY>
+     <ENTRY>Create Incoming Invoice for External Service</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>156</KEY>
+     <ENTRY>Post Additional Costs</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>157</KEY>
+     <ENTRY>Create Purchase Order for External Service</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>160</KEY>
+     <ENTRY>Plant</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>161</KEY>
+     <ENTRY>Storage Location</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>162</KEY>
+     <ENTRY>Material Document</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>163</KEY>
+     <ENTRY>Material Document Year</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>164</KEY>
+     <ENTRY>Material Document Item</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>165</KEY>
+     <ENTRY>Delivery Note</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>166</KEY>
+     <ENTRY>Bill of Lading</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>167</KEY>
+     <ENTRY>GR Number</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>168</KEY>
+     <ENTRY>Incoming Invoice Year</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>169</KEY>
+     <ENTRY>Posting Date</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>170</KEY>
+     <ENTRY>Tax Amount</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>171</KEY>
+     <ENTRY>Tax Code</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>172</KEY>
+     <ENTRY>Purchase Order Status</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>173</KEY>
+     <ENTRY>GR Status</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>174</KEY>
+     <ENTRY>Incoming Invoice Status</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>175</KEY>
+     <ENTRY>Incoming Invoice No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>176</KEY>
+     <ENTRY>Purchase Order Year</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>177</KEY>
+     <ENTRY>GR Year</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>178</KEY>
+     <ENTRY>Status</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>401</KEY>
+     <ENTRY>Invoice Document</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>402</KEY>
+     <ENTRY>Fiscal Year</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>403</KEY>
+     <ENTRY>Reference Document Number</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>404</KEY>
+     <ENTRY>Delivery Date</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>405</KEY>
+     <ENTRY>Estimated Purchase Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>406</KEY>
+     <ENTRY>Aimed Purchase Price</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>407</KEY>
+     <ENTRY>No actions for vehicles of different BT type</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>408</KEY>
+     <ENTRY>Vehicle Model</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>409</KEY>
+     <ENTRY>Vendor</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>410</KEY>
+     <ENTRY>Order Number</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>411</KEY>
+     <ENTRY>Currency</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>412</KEY>
+     <ENTRY>Cost</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>413</KEY>
+     <ENTRY>Net Amount</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>414</KEY>
+     <ENTRY>Reference Cost</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>415</KEY>
+     <ENTRY>Cost Center</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>416</KEY>
+     <ENTRY> for</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>417</KEY>
+     <ENTRY>Error</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>510</KEY>
+     <ENTRY>The control could not be created</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>610</KEY>
+     <ENTRY>No</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>701</KEY>
+     <ENTRY>Date</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>702</KEY>
+     <ENTRY>Time</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>703</KEY>
+     <ENTRY>Serial No.</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>704</KEY>
+     <ENTRY>Job Description</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>705</KEY>
+     <ENTRY>Package</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>706</KEY>
+     <ENTRY>Job</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>707</KEY>
+     <ENTRY>Add</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>708</KEY>
+     <ENTRY>Package Description</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>710</KEY>
+     <ENTRY>Delete</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>711</KEY>
+     <ENTRY>Service Vendor</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>712</KEY>
+     <ENTRY>Price Limit</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>713</KEY>
+     <ENTRY>Limit Currency</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>714</KEY>
+     <ENTRY>Package ID</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>715</KEY>
+     <ENTRY>Gross/Net Limit</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>716</KEY>
+     <ENTRY>Last Service Date</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>717</KEY>
+     <ENTRY>Recall Status Description</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA1</KEY>
+     <ENTRY>Vehicle Attributes</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA2</KEY>
+     <ENTRY>Organizational Unit</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA3</KEY>
+     <ENTRY>Vehicle Identification</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA4</KEY>
+     <ENTRY>Vehicle Status</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA5</KEY>
+     <ENTRY>Vehicle Supply Chain</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA6</KEY>
+     <ENTRY>Supply Chain Documents</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA7</KEY>
+     <ENTRY>Service History</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA8</KEY>
+     <ENTRY>Warranties</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BA9</KEY>
+     <ENTRY>Created by/Action Executed by</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CRE</KEY>
+     <ENTRY>Create Variant</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DEL</KEY>
+     <ENTRY>Delete Variant</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DVA</KEY>
+     <ENTRY>Default Variant</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>FND</KEY>
+     <ENTRY>Find</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NDV</KEY>
+     <ENTRY>Not Default Variant</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>/DBE/BT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>9</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>AUDAT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>21</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>CDDATU</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>31</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>EBELN</KEY>
+     <ENTRY>Purchasing Document</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>ERNAM</KEY>
+     <ENTRY>Vehicle(s) Created by</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FRBNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>22</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>GERNAM</KEY>
+     <ENTRY>Goods Receipt Executed by</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>IERNAM</KEY>
+     <ENTRY>Incoming Invoice Executed by</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>LFSNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>21</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>LIFNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>14</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>L_AUDAT</KEY>
+     <ENTRY>Last Service Date</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MBLNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>25</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MCODESD</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>24</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MMSTAT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>22</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MODLINE</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>18</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PARTNR2</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>16</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PDDATU</KEY>
+     <ENTRY>Production Date</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PERNAM</KEY>
+     <ENTRY>Purchase Order Executed by</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PSDATU</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>29</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SDSTAT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>24</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SPART</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>16</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VCLASS</KEY>
+     <ENTRY>Vehicle Type</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VHCEX</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>31</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VHCLE</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>31</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>VHVIN</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>22</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>WERKS</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>13</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>WTYEND</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>25</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>WTYTYPE</KEY>
+     <ENTRY>Warranty Category</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>XBLNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>17</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

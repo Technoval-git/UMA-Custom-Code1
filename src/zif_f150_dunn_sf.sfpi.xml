@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>D</LANGUAGE>
+     <ID/>
+     <TEXT>Schnittstelle für Mahnschreiben (PDF-Ausgabe)</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Dunning Notice (PDF Output)</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>A</LANGUAGE>
+     <ID/>
+     <TEXT>(واجهة لأشعار المطالبة ( مخرج PDF</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-MAHNG</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>MHNK-SALHW</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-VVWRSB</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-VVWRHB</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-WRHAB</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-WRSOL</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-DMHAB</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>H_F150D-DMSOL</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>MHNK-FAMSM</VALUE>
+       <UNIT>MHNK-WAERS</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GV_LOGO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>T_SALTAB</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>FIN_F150_DUNN_T_SALTAB_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MHNK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MHNK</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PAYMO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PAYMO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T047</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T047</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SHOW_INTEREST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TDBOOL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TESTPRINT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BOOLE_D</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TH_MHND</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>FIN_F150_DUNN_SF_T_MHND_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T_SUMTAB</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>FIN_F150_DUNN_T_SUMTAB_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>H_F150D</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>F150D</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INCL_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BOOLE_D</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>WAERS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>WAERS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>RECS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BOOLE_D</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>UADRNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ADRNR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FIMSG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>FIMSG</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PAYMI</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PAYMI</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>F150D_ESR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>F150D_ESR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FSABE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>FSABE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ADRS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ADRS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>UADRS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ADRS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ADRNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ADRNR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T047I</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T047I</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T056Z</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T056Z</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>F150D</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>F150D</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>F150D2</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>F150D2</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>T001</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T001</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE/>
+      <FPCLINE>CALL METHOD cl_ssf_xsf_utilities=&gt;get_bds_graphic_as_bmp</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    p_object       = &apos;GRAPHICS&apos;      &quot; &apos;GRAPHICS&apos;</FPCLINE>
+      <FPCLINE>    p_name         = &apos;ALTAWKILAT_LOGO&apos;     &quot; Name of the SE78 logo inside Quotes</FPCLINE>
+      <FPCLINE>    p_id           = &apos;BMAP&apos;           &quot; &apos;BMAP&apos;</FPCLINE>
+      <FPCLINE>    p_btype        = &apos;BCOL&apos;     &quot; &apos;BCOL&apos; for color, &apos;BMON&apos; for Black &amp; White</FPCLINE>
+      <FPCLINE>  RECEIVING</FPCLINE>
+      <FPCLINE>    p_bmp          = gv_logo       &quot; v_field and g_logo must be typed xstring</FPCLINE>
+      <FPCLINE>  EXCEPTIONS</FPCLINE>
+      <FPCLINE>    not_found      = 1</FPCLINE>
+      <FPCLINE>    internal_error = 2</FPCLINE>
+      <FPCLINE>    OTHERS         = 3.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20240701.1.52_SAP" APIVersion="3.6.24183.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-07-31T10:19:43Z" uuid="078acf8f-3547-4904-bceb-9d28fe2e1ed9">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.0/">
+   <tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml"><value id="N122">HU Label</value><value id="N152">Print Repeat</value><value id="N155">Barcode</value><value id="N185">Bar code</value><value id="N211">HU:</value><value id="N268">Repeat Print</value><value id="N273">Handling Unit</value><value id="N358">Handling Unit</value></tags>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <?formServer defaultPDFRenderFormat acrobat9.0static?>
+   <subform layout="tb" locale="ambient" name="data" w="175mm">
+      <pageSet name="Master_Page">
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="20mm" name="Content_area" w="47.999mm" x="2mm"/>
+            <medium long="20mm" short="50mm" stock="custom"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="Body_page" w="50mm">
+         <subform layout="lr-tb" name="block" w="50mm">
+            <subform layout="lr-tb" name="Data" w="50mm">
+               <subform h="19.999mm" name="Label" w="50mm">
+                  <subform h="19.999mm" name="Barcode" w="49.999mm" y="0.001mm">
+                     <field access="readOnly" h="3mm" name="Barcode" presence="inactive" w="50mm" x="0.068mm" y="5mm">
+                        <ui>
+                           <barcode dataLength="10" textLocation="none" type="code3Of9" wideNarrowRatio="3.0"/>
+                        </ui>
+                        <font typeface="Arial New"/>
+                        <bind match="dataRef" ref="HUIDENT"/>
+                        <assist>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="toolTip" xft-xliff:id="N155" xliff:rid="N155">Barcode</speak>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N185" xliff:rid="N185">Bar code</toolTip>
+                        </assist>
+                        <?digestForSAP digest="9ce57727c6d152abe36e4795faa9282c"?></field>
+                     <draw h="4.9999mm" name="Barcode_text" presence="hidden" w="25mm" x="21.068mm" y="0.002mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N152" xliff:rid="N152">Print Repeat</text>
+                        </value>
+                        <font typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                     </draw>
+                     <event activity="ready" name="event__form_ready" ref="$form">
+                        <script>if ( $.REPEAT_PRT eq "X" ) then
+$.Barcode_text.presence = "visible"
+endif
+if ( $.SEL_ALL eq "F" ) then
+$.Handling_Unit.presence = "hidden"
+endif
+if ( $.SEL_ALL ne "F" ) then
+$.HU_GROUP.presence = "hidden"
+endif
+</script>
+                     </event>
+                     <bind match="none"/>
+                     <field access="readOnly" h="4.999mm" name="REPEAT_PRT" presence="hidden" w="9.0748mm" x="38.923mm" y="0.002mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="0in">
+                           <para vAlign="middle"/>
+                        </caption>
+                        <bind match="dataRef" ref="$record.PRINT_PARAM.REPEAT_PRT"/>
+                        <desc>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N268">Repeat Print</text>
+                        </desc>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="764df46074b6291f2605e86198b8387c"?></field>
+                     <field access="readOnly" minH="5mm" name="Handling_Unit" w="50mm" y="10.998mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para spaceBelow="0pt" vAlign="middle"/>
+                        <caption reserve="0mm">
+                           <para spaceBelow="0pt" vAlign="middle"/>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N211" xliff:rid="N211">HU:</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="HUIDENT"/>
+                        <assist>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="toolTip" xft-xliff:id="N273" xliff:rid="N273">Handling Unit</speak>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N358" xliff:rid="N358">Handling Unit</toolTip>
+                        </assist>
+                        <?digestForSAP digest="fb8d8a57bd38b7241fe5095d95fac67a"?></field>
+                     <field access="readOnly" minH="5mm" name="HU_GROUP" w="50mm" y="10.998mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para spaceBelow="0pt" vAlign="middle"/>
+                        <caption reserve="0mm">
+                           <para spaceBelow="0pt" vAlign="middle"/>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N211" xliff:rid="BA557209-2B1E-40C3-83F1-10DAF1179AD2">HU Group:</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="HUIDENT"/>
+                        <assist>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="toolTip" xft-xliff:id="N273" xliff:rid="32A07A11-B116-4A4F-855C-EB723CCE06FB">Handling Unit</speak>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N358" xliff:rid="11E507AE-5A42-4371-9AEC-7959CA412189">Handling Unit Group</toolTip>
+                        </assist>
+                        <?digestForSAP digest="b98665778c220187a1659bb863b31621"?></field>
+                     <field access="readOnly" h="10.926mm" name="SEL_ALL" presence="hidden" w="30mm" x="0.068mm" y="9.072mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para spaceBelow="0pt" vAlign="middle"/>
+                        <caption reserve="0mm">
+                           <para spaceBelow="0pt" vAlign="middle"/>
+                           <value>
+                              <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N211" xliff:rid="10C53893-698B-493D-9834-57979D530080">SE L_ AL L</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.SEL_ALL"/>
+                        <assist>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="toolTip" xft-xliff:id="N273" xliff:rid="13A383EC-7470-4EAB-BC65-958A30F21144">Handling Unit</speak>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N358" xliff:rid="24BF583B-F85C-487C-A0E9-16BF9A587AAF">SEL_ALL</toolTip>
+                        </assist>
+                        <value>
+                           <text maxChars="1"/>
+                        </value>
+                        <desc>
+                           <text name="Schema Annotation">komplette Hierarchie (A), nur übergeordnete(B), nur HU ( )</text>
+                        </desc>
+                        <?digestForSAP digest="84a2e05fa634f57f5dfd496277bcc521"?></field>
+                     <field h="10mm" name="HUIDENT" presence="inactive" w="51.328mm" y="4mm">
+                        <ui>
+                           <barcode checksum="auto" dataLength="10" textLocation="none" type="code128SSCC" wideNarrowRatio="fixed"/>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <value>
+                           <text xliff:rid="AF7668EB-E809-4BCC-A04A-9C9F078EF911">1234567890</text>
+                        </value>
+                        <bind match="dataRef" ref="$.HUIDENT"/>
+                        <desc>
+                           <text name="Schema Annotation">Handling Unit Identification</text>
+                        </desc>
+                     </field>
+                     <field h="7mm" name="HUIDENT" w="36.844mm" x="0.001mm" y="4mm">
+                        <ui>
+                           <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <value>
+                           <text xliff:rid="88B69B33-2F6D-4236-A2CC-089E4ED16CE2">1234567890</text>
+                        </value>
+                        <bind match="dataRef" ref="$.HUIDENT"/>
+                        <desc>
+                           <text name="Schema Annotation">Handling Unit Identification</text>
+                        </desc>
+                     </field>
+                     <?templateDesigner expand 1?></subform>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="dataRef" ref="DATA[*]"/>
+               <occur max="-1"/>
+               <?templateDesigner expand 1?></subform>
+            <bind match="dataRef" ref="$.HU_HEADER"/>
+            <?templateDesigner expand 1?></subform>
+         <bind match="none"/>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 56 14 0003001D00240028002A002B002F0036003800420052005300550058 :AEGHLSU_opru?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 32 8 0003002B002F0038004400450048004F HLUabel?>
+      <?renderCache.subset "Courier New" 0 0 ISO-8859-1 4 40 10 0013001400150016001700180019001A001B001C0123456789?>
+   </subform>
+   <?templateDesigner Grid show:1, snap:1, units:17, color:ff8080, origin:(0,0), interval:(25000,25000)?>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner XDPPreviewFormat 1?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.4/?>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 461?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <template>
+            <base>http://vhumgds4ci.sap.altawkilat.com:8000/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+      <cache>
+         <macroCache/>
+      </cache>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="Z_EWM_HU_LABEL">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.1/?></connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <PRINT_PARAM>
+            <REPEAT_PRT/>
+         </PRINT_PARAM>
+         <HU_HEADER dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <HUIDENT/>
+               <SEL_ALL/>
+            </DATA>
+         </HU_HEADER>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.1/?></localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" rdf:about="">
+         <xmp:MetadataDate>2024-07-31T10:19:43Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:078acf8f-3547-4904-bceb-9d28fe2e1ed9</xmpMM:DocumentID>
+         <pdfuaid:part>1</pdfuaid:part>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

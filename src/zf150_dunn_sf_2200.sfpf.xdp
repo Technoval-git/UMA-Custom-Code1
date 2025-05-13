@@ -1,0 +1,3059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.8.20180110.1.931507_SAP" APIVersion="3.6.17334.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-07-23T13:17:12Z" uuid="3fe5e724-b4a6-455d-9e42-f300711b35ed">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/"><value id="N1006">Our account with you</value><value id="N1111">Postings are included upto and including</value><value id="N1116"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4348.0"><p>Postings are included up to<span style="xfa-spacerun:yes">   </span></p><p>and including</p></body></value><value id="N169"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>
+                        <span style="xfa-spacerun:yes"> </span>
+                        <span xfa:embed="#floatingField009333" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        <span style="xfa-spacerun:yes">    </span>
+                        <span style="font-size:10pt">Dunning</span>
+                      </p>
+                    </body></value><value id="N2105">Street</value><value id="N2177">Pincode</value><value id="N2249">City</value><value id="N297">Text Field</value><value id="N3011">Text Field</value><value id="N3030">#</value><value id="N3039">Current Page</value><value id="N3094">Text Field</value><value id="N3113">##</value><value id="N3122">Total Number of pages</value><value id="N3143"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                  <p>
+                    Page
+                    <span style="xfa-spacerun:yes"> </span>
+                    <span xfa:embed="#floatingField027835" xfa:embedMode="raw" xfa:embedType="uri"/>
+                    of
+                    <span style="xfa-spacerun:yes"> </span>
+                    <span xfa:embed="#floatingField009033" xfa:embedMode="raw" xfa:embedType="uri"/>
+                  </p>
+                </body></value><value id="N3191">Page Number</value><value id="N334"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Sample Print out</p>
+                    </body></value><value id="N3413"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">The invoices listed below are due for payment. If you have paid the amounts due in the intervening period, please disregard this letter.</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                    </body></value><value id="N3510"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">We have already sent you a reminder about the due date of our invoices. We have, however, so far been unable to find any record of incoming payment for these invoices.</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">Please transfer these overdue amounts immediately. If this dunning notice once again fails to elicit any action on your part, we will unfortunately have no option but to calculate interest on arrears.</p>
+                    </body></value><value id="N3561">LOGO</value><value id="N363">Sample Print out</value><value id="N3641">Debit interest rate</value><value id="N3710">Date/Time Field</value><value id="N3720">Target date</value><value id="N3797">Currency</value><value id="N3870">Total due itemsin dunning currency from dunning level</value><value id="N3891"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        Since you have not reacted to our previous dunning notices, we have had to calculate interest on arrears to the amount of
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField003164" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        %.
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        For the items due, as well as for the interest on arrears, we are now giving you a final payment period up until
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField008488" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        . If you do not adhere to this payment deadline, we will unfortunately have to apply for a court order for our receivables to the amount of
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField005945" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField018521" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        .
+                        <span style="xfa-spacerun:yes">  </span>
+                      </p>
+                    </body></value><value id="N4066">Debit interest rate</value><value id="N4135">Date/Time Field</value><value id="N4145">Target date</value><value id="N4222">Currency</value><value id="N4295">Total due itemsin dunning currency from dunning level</value><value id="N4316"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        Since you have not reacted to our previous dunning notices, we have had to calculate interest on arrears to the amount of
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField022666" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        %.
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        For the items due, as well as for the interest on arrears, we are now giving you a final payment period up until
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField008926" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        .
+                        <span style="xfa-spacerun:yes">  </span>
+                        If you do not adhere to this payment deadline, we will unfortunately have to apply for a court order for our receivables to the amount of
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField011689" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        <span style="xfa-spacerun:yes">  </span>
+                        <span xfa:embed="#floatingField001892" xfa:embedMode="raw" xfa:embedType="uri"/>
+                        .
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                    </body></value><value id="N4512"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in;font-weight:bold">For internal purposes only</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">Since the last dunning run, there has been movement in the account of the business partner against whom a legal dunning procedure has</p>
+                      <p style="tab-interval:0.393in;tab-stops:left 1.377in">
+                        Date of legal dunning procedure:
+                        <span style="xfa-spacerun:yes"> </span>
+                        <span xfa:embed="#floatingField021504" xfa:embedMode="raw" xfa:embedType="uri"/>
+                      </p>
+                    </body></value><value id="N4638">Text Field</value><value id="N4754"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                  <p>
+                    <span style="xfa-spacerun:yes"> </span>
+                  </p>
+                  <p>
+                    <span style="xfa-spacerun:yes"> </span>
+                  </p>
+                </body></value><value id="N4825"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                  <p style="tab-interval:0.393in;tab-stops:left 1.377in">List of items</p>
+                </body></value><value id="N49">LOGO</value><value id="N492">Date</value><value id="N4951">Document</value><value id="N4973">Document</value><value id="N4994">Date</value><value id="N5016">Date</value><value id="N5051">Currency</value><value id="N5058">Currency</value><value id="N5085">Amount</value><value id="N5108">Amount</value><value id="N5129">Due</value><value id="N515">Date</value><value id="N5151">Due</value><value id="N5172">Arrears</value><value id="N5194">Arrears</value><value id="N5215">DL</value><value id="N5238">DL</value><value id="N5268">Interest</value><value id="N5291">Interest</value><value id="N5432">Long text</value><value id="N5511">Long Text</value><value id="N5574">Accounting Document Number</value><value id="N5654">Document Date</value><value id="N5725">Currency Key</value><value id="N577">Our Clerk</value><value id="N5805">Amount</value><value id="N5884">Due Date</value><value id="N5963">Days in Arrears by Net due date</value><value id="N598">Clerk First Name</value><value id="N6035">Dunning Level</value><value id="N6122">Interest Amount</value><value id="N6210">Text</value><value id="N6267"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                    <p style="font-size:10pt">
+                      Dunning Charge
+                      <span style="font-family:'Courier New'">
+                        <span style="xfa-spacerun:yes"> </span>
+                      </span>
+                      <span style="xfa-spacerun:yes"> </span>
+                      <span style="font-size:12pt">
+                        <span style="xfa-spacerun:yes">             </span>
+                      </span>
+                    </p>
+                  </body></value><value id="N6388">Currency </value><value id="N6465">Amount</value><value id="N6497">Line</value><value id="N6500">Line</value><value id="N664">Last Name</value><value id="N6853">Account balance</value><value id="N6943">Currency</value><value id="N7020">Amount</value><value id="N7073"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Account balance</p>
+                    </body></value><value id="N7161">Total of due items</value><value id="N7162">Currency</value><value id="N7239">Amount</value><value id="N726">Telephone</value><value id="N747">Telephone</value><value id="N809">Fax</value><value id="N830">Fax</value><value id="N923">Your Account with us</value><value id="N935"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.3.5062.0"><p style="font-family:Arial;font-size:8pt">Your Account with us</p></body></value><value id="N985">Our account with you</value></tags>
+   <?formServer defaultPDFRenderFormat acrobat9.0static?>
+   <subform layout="tb" locale="ambient" name="data">
+      <pageSet name="MasterPages">
+         <pageArea id="Page1" name="MP1">
+            <occur min="1"/>
+            <field access="nonInteractive" h="30mm" hAlign="center" name="COMP_LOGO" w="60mm" x="10.18mm" y="9.656mm">
+               <bind match="dataRef" ref="$.GRAPHIC"/>
+               <assist>
+                  <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N49" xliff:rid="N49">LOGO</toolTip>
+                  <speak priority="toolTip"/>
+               </assist>
+               <ui>
+                  <imageEdit data="embed"/>
+               </ui>
+               <?digestForSAP digest="7cab1f6196516da26ee65151e76efff7"?>
+               <value>
+                  <image aspect="none" contentType="application/octet-stream"/>
+               </value>
+               <desc>
+                  <exData name="Schema Annotation">Graphic Node GRAPHIC
+URL-FIELD = GV_LOGO</exData>
+                  <text name="embeddedHref">Unknown Embedded URI</text>
+               </desc>
+            </field>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <subform layout="tb" name="Info" w="65mm" x="130mm" y="50mm">
+               <subform layout="tb" name="Level" w="65mm" x="-0.0214mm" y="0.0212mm">
+                  <draw minH="4.0105mm" minW="65mm" name="Dunning" x="-0.0234mm" y="0.0127mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N169" xliff:rid="N169">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p><span style="xfa-spacerun:yes">  </span><span xfa:embed="#floatingField009333" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">      </span><span style="font-size:10pt">Dunning</span><span style="xfa-spacerun:yes"> </span></p></body>
+                        </exData>
+                     </value>
+                     <font size="8pt" typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0.5mm"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <fill>
+                           <color value="128,128,128"/>
+                        </fill>
+                     </border>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <field access="nonInteractive" h="7.5mm" id="floatingField009333" name="Mahns" presence="hidden" w="55mm" x="0mm" y="0mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="8pt" typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="20mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N297" xliff:rid="N297">Text Field</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.MHNK.MAHNS"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                     <?digestForSAP digest="4c15319eac181485eb072bc72f598190"?></field>
+                  <?templateDesigner expand 0?></subform>
+               <subform layout="tb" minW="88.9mm" name="True" x="0mm" y="4.6495mm">
+                  <draw minH="4.5mm" minW="65mm" name="Sample" x="-0.0474mm" y="7.9366mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N334" xliff:rid="N334">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Sample Print out</p>
+                    </body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="bottom"/>
+                     <assist>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N363" xliff:rid="N363">Sample Print out</speak>
+                     </assist>
+                  </draw>
+                  <?templateDesigner expand 0?></subform>
+               <subform layout="tb" name="False" w="65mm" x="-0.0236mm" y="4.2396mm">
+                  <draw minH="3.7011mm" minW="65mm" name="Blankspace">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font size="8pt" typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <?templateDesigner expand 0?></subform>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script>if ( $record.TESTPRINT == "X" ) then
+	$.True.presence = "visible"
+else
+	$.True.presence = "hidden"    
+endif
+</script>
+               </event>
+               <subform layout="lr-tb" name="DunningDetails" w="65mm" x="-0.0012mm" y="12.6474mm">
+                  <field access="nonInteractive" h="4.5mm" minW="65mm" name="AUSDT" x="0mm" y="0.0352mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <caption reserve="25.14mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para spaceAbove="1pt" vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N492" xliff:rid="N492">Date</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.MHNK.AUSDT">
+                        <picture>date{YYYY-MM-DD}</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">Dunning date</text>
+                     </desc>
+                     <format>
+                        <picture>DD.MM.YYYY</picture>
+                     </format>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N515" xliff:rid="N515">Date</speak>
+                     </assist>
+                     <para marginLeft="0.85pt" spaceAbove="0pt"/>
+                     <?digestForSAP digest="632349e4f60d878a05f1f3f0811af193"?></field>
+                  <field access="nonInteractive" h="4.5999mm" minW="36.0847mm" name="SALUT">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0.2mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="15.35mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N577" xliff:rid="N577">Our Clerk</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.FSABE.SALUT"/>
+                     <desc>
+                        <text name="Schema Annotation">Form of address text</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N598" xliff:rid="N598">Clerk First Name</speak>
+                     </assist>
+                     <?digestForSAP digest="587cb8666d322dbb26c767e06314a156"?></field>
+                  <field access="nonInteractive" minH="4.5999mm" minW="28.4663mm" name="LNAME" x="36.1051mm" y="4.5mm">
+                     <ui>
+                        <textEdit multiLine="1">
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <bind match="dataRef" ref="$record.FSABE.LNAME"/>
+                     <desc>
+                        <text name="Schema Annotation">Last name</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N664" xliff:rid="N664">Last Name</speak>
+                     </assist>
+                     <value>
+                        <text maxChars="25"/>
+                     </value>
+                     <?digestForSAP digest="83a15ac1d19cd538e936ca159143b882"?></field>
+                  <field access="nonInteractive" h="4.6mm" name="TELF1" w="65mm" x="-0.0239mm" y="12.182mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="14.02mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N726" xliff:rid="N726">Telephone</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.FSABE.TELF1"/>
+                     <desc>
+                        <text name="Schema Annotation">Addresses: telephone no.</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N747" xliff:rid="N747">Telephone</speak>
+                     </assist>
+                     <?digestForSAP digest="53ab28fca719f725fc722aff98ede5cc"?></field>
+                  <field access="nonInteractive" h="4.6mm" name="TELFX" w="65mm" x="0.1346mm" y="18.2139mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="13.49mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N809" xliff:rid="N809">Fax</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.FSABE.TELFX"/>
+                     <desc>
+                        <text name="Schema Annotation">Fax Number</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N830" xliff:rid="N830">Fax</speak>
+                     </assist>
+                     <?digestForSAP digest="94879105e94961b539bde03acc9a832b"?></field>
+                  <field access="nonInteractive" h="4.6mm" minW="65mm" name="KTONR" x="-0.0243mm" y="24.1993mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <bind match="dataRef" ref="$record.F150D.KTONR"/>
+                     <desc>
+                        <text name="Schema Annotation">Open item account number</text>
+                     </desc>
+                     <caption reserve="28.05mm">
+                        <value>
+                           <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N935" xliff:rid="N935">
+                              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:Arial;font-size:8pt">Your Account with us</p></body>
+                           </exData>
+                        </value>
+                        <para marginLeft="0pt" vAlign="middle"/>
+                     </caption>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N923" xliff:rid="N923">Your Account with us</speak>
+                     </assist>
+                     <para marginLeft="0.85pt"/>
+                     <?digestForSAP digest="34b729c6d2884bbc74b687feff00de12"?></field>
+                  <field access="nonInteractive" h="4.6mm" minW="65mm" name="EIKTO" x="-0.0239mm" y="30.1996mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0.2mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="28.31mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N985" xliff:rid="N985">Our account with you</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.F150D.EIKTO"/>
+                     <desc>
+                        <text name="Schema Annotation">Shipper's (Our) Account Number at the Customer or Vendor</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N1006" xliff:rid="N1006">Our account with you</speak>
+                     </assist>
+                     <?digestForSAP digest="2575f993b7fdc32b578d13965c5ca80c"?></field>
+                  <field access="nonInteractive" minH="9.2mm" minW="65mm" name="mhnk_grdat" x="0mm" y="36.2721mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <caption reserve="37.31mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para lineHeight="9pt" vAlign="middle"/>
+                        <value>
+                           <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N1116" xliff:rid="N1116">
+                              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p>Postings are included up to<span style="xfa-spacerun:yes">   </span></p><p>and including</p></body>
+                           </exData>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$record.MHNK.GRDAT"/>
+                     <format>
+                        <picture>DD.MM.YYYY</picture>
+                     </format>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" priority="caption" xft-xliff:id="N1111" xliff:rid="N1111">Postings are included upto and including</speak>
+                     </assist>
+                     <para marginLeft="0.85pt" spaceAbove="4pt"/>
+                     <?digestForSAP digest="b2680bd582061c31f98d84f9ad828b03"?></field>
+                  <margin topInset="0.8mm"/>
+                  <?templateDesigner expand 0?></subform>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="tb" name="Address" x="21.0002mm" y="50mm">
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script>if ( $record.ADRNR == " " ) then
+	data.#pageSet[*].Page1.Address.Adrslines.presence = "visible"
+else
+	data.#pageSet[*].Page1.Address.ADDRESS.presence = "visible"
+endif
+</script>
+               </event>
+               <assist>
+                  <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+               </assist>
+               <subform layout="tb" name="ALTERNATIVE">
+                  <margin bottomInset="0mm" leftInset="0.4mm" rightInset="0mm" topInset="1.7mm"/>
+                  <subformSet name="alternative" relation="choice">
+                     <subform layout="tb" name="TRUE">
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <subform layout="tb" name="ADRS">
+                           <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                           <field minW="80mm" name="LINE1">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE1"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="56f269c58b2e470ab6286cb93fdfc7e1"?></field>
+                           <field minW="80mm" name="LINE2">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE2"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="27a8f0d63945d4a68697e6bcab3262fa"?></field>
+                           <field minW="80mm" name="LINE3">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE3"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="3de8ab0164b18703850a088898a08b89"?></field>
+                           <field minW="80mm" name="LINE4">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE4"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="5040cd07cceedaae970d2212ef57abe2"?></field>
+                           <field minW="80mm" name="LINE5">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE5"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="50f068f760de017f6a23268b0d351ee5"?></field>
+                           <field minW="80mm" name="LINE6">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE6"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="84026419fcfaa56dfe1c51ef78ccb4f1"?></field>
+                           <field minW="80mm" name="LINE7">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE7"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="fb7a3bd34f633b4ccb05026b4e1f34b2"?></field>
+                           <field minW="80mm" name="LINE8">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="dataRef" ref="LINE8"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="7d76ab86d19340a62d123f9fa7faf285"?></field>
+                           <bind match="dataRef" ref="ADRS"/>
+                           <desc>
+                              <text name="Schema Annotation">Address Lines</text>
+                           </desc>
+                           <?templateDesigner expand 1?></subform>
+                        <bind match="dataRef" ref="TRUE"/>
+                        <?templateDesigner expand 1?></subform>
+                     <subform layout="tb" name="FALSE" y="32.0001mm">
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <field minH="3.3694mm" minW="80mm" name="ADDRESS">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Arial"/>
+                           <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="dataRef" ref="ADDRESS"/>
+                           <desc>
+                              <exData name="Schema Annotation">Address Node ADDRESS 
+ ADDRESS-NUMBER-FIELD = ADRNR</exData>
+                           </desc>
+                           <?digestForSAP digest="f9d3d187c9366c425c5a68fadddbd560"?></field>
+                        <bind match="dataRef" ref="FALSE"/>
+                        <?templateDesigner expand 1?></subform>
+                     <?templateDesigner expand 0?></subformSet>
+                  <bind match="dataRef" ref="$record.ALTERNATIVE"/>
+                  <desc>
+                     <text name="Schema Annotation">Alternative Node ALTERNATIVE</text>
+                  </desc>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="lr-tb" name="Info1" w="80mm" x="20.9866mm" y="87mm">
+               <field access="nonInteractive" h="4.6mm" minW="80mm" name="ANumber" x="-0.0005mm" y="0mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="12pt" typeface="Courier New"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$record.F150D.URKTO"/>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="b37253cabb88cfed8d6b0b41b5cf68e1"?></field>
+               <field access="nonInteractive" h="4.6mm" name="NAME1" w="35mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="40"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.UADRS.NAME1"/>
+                  <desc>
+                     <text name="Schema Annotation">Name 1 of an address</text>
+                  </desc>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="d018b3a4e9a78ad482160c99ccd8c966"?></field>
+               <field access="nonInteractive" h="4.6mm" name="NAME2" w="45mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="40"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.UADRS.NAME2"/>
+                  <desc>
+                     <text name="Schema Annotation">Name 2 of an address</text>
+                  </desc>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak disable="1"/>
+                  </assist>
+                  <?digestForSAP digest="fc5325fbe4273697d35725a01f6aa472"?></field>
+               <field access="nonInteractive" h="4.6mm" name="STRAS" w="80mm" x="-0.0003mm" y="11.9944mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="35"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.UADRS.STRAS"/>
+                  <desc>
+                     <text name="Schema Annotation">House number and street</text>
+                  </desc>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N2105" xliff:rid="N2105">Street</speak>
+                  </assist>
+                  <?digestForSAP digest="0202d28268d4e50ce929c57991b0bca4"?></field>
+               <field access="nonInteractive" h="4.6mm" minW="21.7282mm" name="PSTLZ" x="-0.0035mm" y="17.9917mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="10"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.UADRS.PSTLZ"/>
+                  <desc>
+                     <text name="Schema Annotation">Postal code</text>
+                  </desc>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N2177" xliff:rid="N2177">Pincode</speak>
+                  </assist>
+                  <?digestForSAP digest="e5e859f93ac13225e73d6a2f916c99d7"?></field>
+               <field access="nonInteractive" h="4.6mm" name="ORT01" w="58.1682mm" x="21.7292mm" y="17.9917mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="35"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.UADRS.ORT01"/>
+                  <desc>
+                     <text name="Schema Annotation">City</text>
+                  </desc>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N2249" xliff:rid="N2249">City</speak>
+                  </assist>
+                  <?digestForSAP digest="14f0af79ef03dbea6bdf08903efab03b"?></field>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script>if ( ( $record.KNB5.KNRMA &lt;&gt; " " &amp; $record.MHNK.KOART == "D" ) |
+     ( $record.LFB5.LFRMA &lt;&gt; " " &amp; $record.MHNK.KOART == "K" ) ) then
+	data.#pageSet[*].Page1.Info1.presence = "visible"
+endif
+</script>
+               </event>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <margin topInset="1mm"/>
+               <?templateDesigner expand 0?></subform>
+            <contentArea h="150mm" name="MAIN" w="175mm" x="21mm" y="110mm"/>
+            <subform h="52.029mm" name="Footer" w="181.175mm" x="19.825mm" y="244.971mm">
+               <bind match="none"/>
+               <draw h="=0mm" name="Line3" w="181mm" y="16.029mm">
+                  <value>
+                     <line>
+                        <edge thickness="0.3mm"/>
+                     </line>
+                  </value>
+               </draw>
+               <draw h="33mm" name="Footer_EN" w="90mm" x="1.175mm" y="17.029mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" xliff:rid="E09739DC-096B-46B2-BEF8-962D9E5A45C4">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="font-weight:bold;letter-spacing:0in">Seller Information<span style="xfa-spacerun:yes"> </span></p><p style="font-family:Calibri;font-size:11pt;text-decoration:none;letter-spacing:0in">ALTAWKILAT PREMIUM AUTO SPARE PARTS CO. L.L.C<span style="xfa-tab-count:1">         </span><br/>Address: Shaikh Zayed Road, Business Bay, Dubai<span style="xfa-tab-count:1">         </span><br/>CR:<span style="xfa-tab-count:1">         </span>1055341<span style="xfa-tab-count:1">         </span><br/>VAT:<span style="xfa-tab-count:1">         </span>104056707300003<span style="xfa-spacerun:yes">    </span><span style="xfa-tab-count:1">         </span><br/>TIN:<span style="xfa-tab-count:1">         </span>1234567890<span style="xfa-tab-count:1">         </span><br/><br/></p></body>
+                     </exData>
+                  </value>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               </draw>
+               <draw h="35.725mm" hAlign="right" name="Footer_AR" w="90mm" x="91.175mm" y="16.029mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" xliff:rid="514A159D-14C5-42AA-9700-5DA634AA5166">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-align:right;font-family:'Times New Roman';letter-spacing:0in"><span style="xfa-spacerun:yes"> </span><span style="xfa-tab-count:1">         </span><span style="xfa-spacerun:yes">                                                                  </span><span style="font-weight:bold"><span style="xfa-spacerun:yes">  </span></span><span style="font-family:'Myriad Pro';font-size:11pt;font-weight:bold">معلومات البائع</span><span style="font-family:Calibri;font-size:11pt;font-weight:bold"><span style="xfa-tab-count:1">         </span><br/><span style="xfa-spacerun:yes"> </span></span><span style="font-family:'Myriad Pro';font-size:11pt">شركة التوكلات الفاخرة لقطع غيار السيارات ذ.م.م <span style="xfa-spacerun:yes">        </span></span><span style="font-family:Calibri;font-size:11pt"><span style="xfa-tab-count:1">         </span><span style="xfa-spacerun:yes">                                           </span></span><span style="font-family:'Myriad Pro';font-size:11pt">العنوان<span style="xfa-spacerun:yes"> </span></span><span style="font-family:Calibri;font-size:11pt">:<span style="xfa-spacerun:yes"> </span></span><span style="font-family:'Myriad Pro';font-size:11pt">شارع الشيخ زايد، الخليج التجاري، دبي </span><span style="font-family:Calibri;font-size:11pt"><span style="xfa-spacerun:yes">  </span><span style="xfa-tab-count:1">         </span></span><span style="font-family:'Myriad Pro';font-size:11pt"><span style="xfa-spacerun:yes"> </span></span><span style="font-family:Calibri;font-size:11pt"><span style="xfa-spacerun:yes">          </span></span></p><p style="text-align:right;font-family:Calibri;font-size:11pt;letter-spacing:0in"><span style="xfa-spacerun:yes">                                              </span><span style="font-family:'Myriad Pro'">السجل التجاري</span> :<span style="xfa-spacerun:yes"> </span><span>1055341</span> <span style="xfa-tab-count:1">         </span><span style="xfa-spacerun:yes">       </span><br/><span style="font-family:'Myriad Pro'">الرقم الضريبي<span style="xfa-spacerun:yes"> </span></span>:<span style="xfa-spacerun:yes"> </span><span>104056707300003</span> <span style="xfa-tab-count:1">         </span><br/><span style="font-family:'Myriad Pro'">رقم التعريف الضريبي :<span style="xfa-spacerun:yes"> </span></span><span>1234567890</span> <span style="xfa-tab-count:1">         </span><br/><br/></p></body>
+                     </exData>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               </draw>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></pageArea>
+         <pageArea id="Page2" name="MP2">
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <contentArea h="150mm" name="MAIN" w="175mm" x="21mm" y="110mm"/>
+            <subform layout="tb" name="Address" w="80mm" x="21mm" y="50mm">
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script>if ( $record.ADRNR == " " ) then
+	data.#pageSet[*].Page2.Address.Adrslines.presence = "visible"
+else
+	data.#pageSet[*].Page2.Address.ADDRESS.presence = "visible"
+endif
+</script>
+               </event>
+               <subform layout="tb" name="ALTERNATIVE">
+                  <margin bottomInset="0mm" leftInset="0.4mm" rightInset="0mm" topInset="1.7mm"/>
+                  <subformSet name="Alternative" relation="choice">
+                     <subform layout="tb" name="TRUE">
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <subform layout="tb" name="ADRS">
+                           <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                           <field minW="80mm" name="LINE1">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE1"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="0b821b0f0513d18aad61fa78f09a53ee"?></field>
+                           <field minW="80mm" name="LINE2">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE2"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="ffa3da913290cb28879060c77b947823"?></field>
+                           <field minW="80mm" name="LINE3">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE3"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="6c4c1aea4dbd740ad68d8119908ce659"?></field>
+                           <field minW="80mm" name="LINE4">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE4"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="70364181fe4357623ddb6cf489d38472"?></field>
+                           <field minW="80mm" name="LINE5">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE5"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="d540b01633eca0f1f3ebc152ffa41c87"?></field>
+                           <field minW="80mm" name="LINE6">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE6"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="72da9a91cf499434972a639c0be9213d"?></field>
+                           <field minW="80mm" name="LINE7">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE7"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="18e9ceb56bfd6b6c85366d836a500f89"?></field>
+                           <field minW="80mm" name="LINE8">
+                              <ui>
+                                 <textEdit>
+                                    <border presence="hidden">
+                                       <?templateDesigner StyleID aped0?></border>
+                                    <margin/>
+                                 </textEdit>
+                              </ui>
+                              <font typeface="Myriad Pro"/>
+                              <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                              <para vAlign="middle"/>
+                              <value>
+                                 <text maxChars="80"/>
+                              </value>
+                              <bind match="none" ref="LINE8"/>
+                              <desc>
+                                 <text name="Schema Annotation">Address line</text>
+                              </desc>
+                              <?digestForSAP digest="53cfa12c1f378cbae6a193f2066e2e9b"?></field>
+                           <bind match="none" ref="ADRS"/>
+                           <desc>
+                              <text name="Schema Annotation">Address Lines</text>
+                           </desc>
+                           <?templateDesigner expand 1?></subform>
+                        <bind match="none" ref="TRUE"/>
+                        <?templateDesigner expand 1?></subform>
+                     <subform layout="tb" name="FALSE" y="32.0001mm">
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <field minH="3.3694mm" minW="80mm" name="ADDRESS">
+                           <ui>
+                              <textEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Myriad Pro"/>
+                           <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                           <para vAlign="middle"/>
+                           <bind match="none" ref="ADDRESS"/>
+                           <desc>
+                              <exData name="Schema Annotation">Address Node ADDRESS 
+ ADDRESS-NUMBER-FIELD = ADRNR</exData>
+                           </desc>
+                           <?digestForSAP digest="76acf95bdf396cef1c72c5e05a58ca5f"?></field>
+                        <bind match="none" ref="FALSE"/>
+                        <?templateDesigner expand 1?></subform>
+                     <?templateDesigner expand 1?></subformSet>
+                  <bind match="none" ref="$record.ALTERNATIVE"/>
+                  <desc>
+                     <text name="Schema Annotation">Alternative Node ALTERNATIVE</text>
+                  </desc>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <field access="nonInteractive" h="7.5mm" id="floatingField027835" name="CurrentPage" presence="hidden" w="55mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3011" xliff:rid="N3011">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this)
+</script>
+               </event>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3030" xliff:rid="N3030">#</text>
+               </value>
+               <assist>
+                  <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3039" xliff:rid="N3039">Current Page</speak>
+               </assist>
+               <?digestForSAP digest="f97c47dfef4a69a5fd2e0ee8d080556e"?></field>
+            <field access="nonInteractive" h="7.5mm" id="floatingField009033" name="PageCount" presence="hidden" w="55mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3094" xliff:rid="N3094">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount()
+</script>
+               </event>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3113" xliff:rid="N3113">##</text>
+               </value>
+               <assist>
+                  <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3122" xliff:rid="N3122">Total Number of pages</speak>
+               </assist>
+               <?digestForSAP digest="641954da576f1889787a13dd19af7c9b"?></field>
+            <draw minH="4.2302mm" minW="24.348mm" name="Page_Number" x="147.2442mm" y="67.73mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N3143" xliff:rid="N3143">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p>Page<span style="xfa-spacerun:yes">   </span><span xfa:embed="#floatingField027835" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes">   </span><span xfa:embed="#floatingField009033" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span></p></body>
+                  </exData>
+               </value>
+               <font size="8pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <assist>
+                  <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                  <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3191" xliff:rid="N3191">Page Number</speak>
+               </assist>
+            </draw>
+            <field access="nonInteractive" minH="15mm" minW="175mm" name="FOOTER" x="21mm" y="270mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="1mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <exData contentType="text/html" maxLength="0">
+                     <body xmlns="http://www.w3.org/1999/xhtml"/>
+                  </exData>
+               </value>
+               <bind match="dataRef" ref="$.FOOTER"/>
+               <desc>
+                  <text name="Schema Annotation">Footer
+SAPScript Include Text 
+ NAME-FIELD = T047I-TXTFU 
+ LANGUAGE = E 
+ OBJECT = TEXT 
+ ID-FIELD = T047I-TXTID</text>
+               </desc>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?digestForSAP digest="42ac0a290a6ce0b807a3f29fc9b71814"?></field>
+            <field access="nonInteractive" h="10mm" name="HEADER" w="175mm" x="21mm" y="10mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <exData contentType="text/html" maxLength="0">
+                     <body xmlns="http://www.w3.org/1999/xhtml"/>
+                  </exData>
+               </value>
+               <bind match="dataRef" ref="$.HEADER"/>
+               <desc>
+                  <text name="Schema Annotation">Header
+SAPScript Include Text 
+ NAME-FIELD = T047I-TXTKO 
+ OBJECT = TEXT 
+ ID-FIELD = T047I-TXTID</text>
+               </desc>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?digestForSAP digest="9df051ff52bac9ab8c5fbf7dfc762691"?></field>
+            <field access="nonInteractive" h="10.1333mm" name="Logo2" w="28mm" x="21mm" y="9.86mm">
+               <bind match="dataRef" ref="$.GRAPHIC"/>
+               <assist>
+                  <speak priority="toolTip"/>
+                  <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3561" xliff:rid="N3561">LOGO</toolTip>
+               </assist>
+               <ui>
+                  <imageEdit/>
+               </ui>
+               <?digestForSAP digest="18f9afd913bbf24efbd34d43e42b3def"?></field>
+            <?templateDesigner expand 0?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="FIRST" w="175mm">
+         <subform layout="tb" name="LetterBody" w="175mm" x="-0.0004mm" y="0.0001mm">
+            <subform name="Dunning_Texts" w="175mm">
+               <subform layout="lr-tb" name="Level1" presence="invisible" w="175mm" x="0mm" y="0mm">
+                  <draw name="Level1Text" w="175mm" x="0mm" y="0mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N3413" xliff:rid="N3413">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">The invoices listed below are due for payment. If you have paid the amounts due in the intervening period, please disregard this letter.</p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <?templateDesigner ScriptInitializers ready:form:runAt=server;?>
+                  <event activity="ready" name="event__form_ready" ref="$form">
+                     <script runAt="server">if ( $record.MHNK.MAHNS == "1" &amp; $record.MHNK.GMVDT.isNull ) then
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+                  </event>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="tb" name="Level2" presence="invisible" w="175mm" x="0.0002mm" y="0mm">
+                  <draw minH="32.2862mm" name="Level2Text" w="175mm" x="0mm" y="0.2686mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N3510" xliff:rid="N3510">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">We have already sent you a reminder about the due date of our invoices. We have, however, so far been unable to find any record of incoming payment for these invoices.</p><p style="tab-interval:0.393in;tab-stops:left 1.377in">Please transfer these overdue amounts immediately. If this dunning notice once again fails to elicit any action on your part, we will unfortunately have no option but to calculate interest on arrears.</p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <?templateDesigner ScriptInitializers ready:form:runAt=server;?>
+                  <event activity="ready" name="event__form_ready" ref="$form">
+                     <script runAt="server">if ( $record.MHNK.MAHNS == "2" &amp; $record.MHNK.GMVDT.isNull ) then
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+                  </event>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="tb" name="Level3" presence="invisible" w="175mm">
+                  <field access="nonInteractive" id="floatingField003164" minH="0mm" minW="0mm" name="t056z_zinso" presence="hidden">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="8"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.T056Z.ZINSO"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3641" xliff:rid="N3641">Debit interest rate</speak>
+                     </assist>
+                     <?digestForSAP digest="37d98e4144439761585f8ac128064a71"?></field>
+                  <field access="nonInteractive" id="floatingField008488" minH="0mm" minW="0mm" name="f150d_zield" presence="hidden">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <caption reserve="20mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N3710" xliff:rid="N3710">Date/Time Field</text>
+                        </value>
+                     </caption>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3720" xliff:rid="N3720">Target date</speak>
+                     </assist>
+                     <format>
+                        <picture>DD'.'MM'.'YYYY</picture>
+                     </format>
+                     <bind match="dataRef" ref="$record.F150D.ZIELD"/>
+                     <?digestForSAP digest="79ab9fe2ed5faf09e394508ee43c8c13"?></field>
+                  <field access="nonInteractive" id="floatingField005945" minH="0mm" minW="0mm" name="mhnk_waers" presence="hidden">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.MHNK.WAERS"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3797" xliff:rid="N3797">Currency</speak>
+                     </assist>
+                     <?digestForSAP digest="f2de500398d5f3508cb7ed2b69f0f8b5"?></field>
+                  <field access="nonInteractive" id="floatingField018521" minH="0mm" minW="0mm" name="mhnk_famsm" presence="hidden">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.MHNK.FAMSM"/>
+                     <format>
+                        <picture>9,999.99</picture>
+                     </format>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N3870" xliff:rid="N3870">Total due itemsin dunning currency from dunning level</speak>
+                     </assist>
+                     <?digestForSAP digest="3e822623f54585db213939c2d263113c"?></field>
+                  <draw h="42.07mm" name="Level3Text" w="175mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N3891" xliff:rid="N3891">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">Since you have not reacted to our previous dunning notices, we have had to calculate interest on arrears to the amount of<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField003164" xfa:embedMode="raw" xfa:embedType="uri"/> %.<span style="xfa-spacerun:yes">   </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">For the items due, as well as for the interest on arrears, we are now giving you a final payment period up until<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField008488" xfa:embedMode="raw" xfa:embedType="uri"/> . If you do not adhere to this payment deadline, we will unfortunately have to apply for a court order for our receivables to the amount of<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField005945" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField018521" xfa:embedMode="raw" xfa:embedType="uri"/> .<span style="xfa-spacerun:yes">    </span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <?templateDesigner ScriptInitializers ready:form:runAt=server;?>
+                  <event activity="ready" name="event__form_ready" ref="$form">
+                     <script runAt="server">if ( $record.MHNK.MAHNS == "3" &amp; $record.MHNK.GMVDT.isNull  ) then
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+                  </event>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="tb" name="Level4" presence="invisible" w="175mm" x="0mm" y="0mm">
+                  <field access="nonInteractive" id="floatingField022666" minH="0mm" minW="0mm" name="t056z_zinso" presence="hidden">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="8"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.T056Z.ZINSO"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N4066" xliff:rid="N4066">Debit interest rate</speak>
+                     </assist>
+                     <?digestForSAP digest="37d98e4144439761585f8ac128064a71"?></field>
+                  <field access="nonInteractive" id="floatingField008926" minH="0mm" minW="0mm" name="f150d_zield" presence="hidden">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <caption reserve="20mm">
+                        <font size="8pt" typeface="Arial"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N4135" xliff:rid="N4135">Date/Time Field</text>
+                        </value>
+                     </caption>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N4145" xliff:rid="N4145">Target date</speak>
+                     </assist>
+                     <format>
+                        <picture>DD'.'MM'.'YYYY</picture>
+                     </format>
+                     <bind match="dataRef" ref="$record.F150D.ZIELD"/>
+                     <?digestForSAP digest="79ab9fe2ed5faf09e394508ee43c8c13"?></field>
+                  <field access="nonInteractive" id="floatingField011689" minH="0mm" minW="0mm" name="mhnk_waers" presence="hidden">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.MHNK.WAERS"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N4222" xliff:rid="N4222">Currency</speak>
+                     </assist>
+                     <?digestForSAP digest="f2de500398d5f3508cb7ed2b69f0f8b5"?></field>
+                  <field access="nonInteractive" id="floatingField001892" minH="0mm" minW="0mm" name="mhnk_famsm" presence="hidden">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.MHNK.FAMSM"/>
+                     <format>
+                        <picture>9,999.99</picture>
+                     </format>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N4295" xliff:rid="N4295">Total due itemsin dunning currency from dunning level</speak>
+                     </assist>
+                     <?digestForSAP digest="3e822623f54585db213939c2d263113c"?></field>
+                  <draw h="42.07mm" name="Level4Text" w="175mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N4316" xliff:rid="N4316">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="tab-interval:0.393in;tab-stops:left 1.377in">Dear Sir/Madam,</p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">Since you have not reacted to our previous dunning notices, we have had to calculate interest on arrears to the amount of<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField022666" xfa:embedMode="raw" xfa:embedType="uri"/> %.<span style="xfa-spacerun:yes">   </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">For the items due, as well as for the interest on arrears, we are now giving you a final payment period up until<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField008926" xfa:embedMode="raw" xfa:embedType="uri"/> .<span style="xfa-spacerun:yes">    </span>If you do not adhere to this payment deadline, we will unfortunately have to apply for a court order for our receivables to the amount of<span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField011689" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField001892" xfa:embedMode="raw" xfa:embedType="uri"/> .<span style="xfa-spacerun:yes">   </span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <?templateDesigner ScriptInitializers ready:form:runAt=server;?>
+                  <event activity="ready" name="event__form_ready" ref="$form">
+                     <script runAt="server">if ( $record.MHNK.MAHNS == "4" &amp; $record.MHNK.GMVDT.isNull ) then
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+                  </event>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="lr-tb" name="Legal" presence="invisible" w="175mm" x="0mm" y="0mm">
+                  <field access="nonInteractive" id="floatingField021504" minH="0mm" minW="0mm" name="mhnk_gmvdt" presence="hidden">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <format>
+                        <picture>DD'.'MM'.'YYYY</picture>
+                     </format>
+                     <bind match="dataRef" ref="$record.MHNK.GMVDT"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                     <?digestForSAP digest="be59dc96f0c70c7d352426d869de1b55"?></field>
+                  <?templateDesigner ScriptInitializers ready:form:runAt=server;?>
+                  <draw h="20.4611mm" name="LegalText" w="175.32mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N4512" xliff:rid="N4512">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="tab-interval:0.393in;tab-stops:left 1.377in;font-weight:bold">For internal purposes only</p><p style="tab-interval:0.393in;tab-stops:left 1.377in"><span style="xfa-spacerun:yes">  </span></p><p style="tab-interval:0.393in;tab-stops:left 1.377in">Since the last dunning run, there has been movement in the account of the business partner against whom a legal dunning procedure has</p><p style="tab-interval:0.393in;tab-stops:left 1.377in">Date of legal dunning procedure:<span style="xfa-spacerun:yes">   </span><span xfa:embed="#floatingField021504" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span></p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <event activity="ready" name="event__form_ready" ref="$form">
+                     <script runAt="server">if ( $record.MHNK.GMVDT.isNull ) then
+	$.presence = "hidden"
+else
+	$.presence = "visible"
+endif
+</script>
+                  </event>
+                  <field h="7.5mm" name="Legal" presence="hidden" w="55mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="12pt" typeface="Courier New"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="20mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N4638" xliff:rid="N4638">Text Field</text>
+                        </value>
+                     </caption>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                     <?digestForSAP digest="a10a9bcd450087de1ce1f80b35f44883"?></field>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <?templateDesigner expand 1?></subform>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?templateDesigner expand 1?></subform>
+            <field access="readOnly" minH="1mm" name="Greetings_Signature" presence="invisible" w="175mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0.8mm"/>
+               <para spaceAbove="1pt" vAlign="middle"/>
+               <value>
+                  <exData contentType="text/html" maxLength="0">
+                     <body xmlns="http://www.w3.org/1999/xhtml"/>
+                  </exData>
+               </value>
+               <bind match="dataRef" ref="$record.INCLUDE_TEXT"/>
+               <desc>
+                  <text name="Schema Annotation">Greetings and Signature
+SAPScript Include Text 
+ NAME-FIELD = T047I-TXTUN 
+ OBJECT = TEXT 
+ ID-FIELD = T047I-TXTID</text>
+               </desc>
+               <?templateDesigner ScriptInitializers ready:form:runAt=server;?>
+               <event activity="ready" name="event__form_ready" ref="$form">
+                  <script runAt="server">if ( $record.MHNK.GMVDT.isNull ) then
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+               </event>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?digestForSAP digest="097a47a2ebce16c3d0d19968d2fbdb11"?></field>
+            <draw minH="17.6474mm" name="Empty_Lines" w="175mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N4754">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p><span style="xfa-spacerun:yes">  </span></p><p><span style="xfa-spacerun:yes">  </span></p></body>
+                  </exData>
+               </value>
+               <font size="12pt" typeface="Courier New"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+            </draw>
+            <breakBefore target="MP1" targetType="pageArea"/>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="tb" name="ListofItems" w="175mm" x="0.1368mm" y="53.752mm">
+            <draw minH="4.8684mm" name="List_of_items" w="174.4932mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N4825" xliff:rid="N4825">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="tab-interval:0.393in;tab-stops:left 1.377in">List of items</p></body>
+                  </exData>
+               </value>
+               <font typeface="Arial" weight="bold"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0.4mm"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="192,192,192"/>
+                  </fill>
+               </border>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <para vAlign="middle"/>
+            </draw>
+            <draw minH="2.5446mm" minW="175mm" name="Blankspaceforitems">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+            </draw>
+            <subform layout="table" name="TH_MHND" w="175mm">
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0.4mm"/>
+               <subform id="Heading" layout="row" name="Heading" w="175mm">
+                  <draw h="5.2331mm" minW="29.0116mm" name="Document">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N4951" xliff:rid="N4951">Document</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N4973" xliff:rid="N4973">Document</speak>
+                     </assist>
+                  </draw>
+                  <draw h="5.2331mm" minW="22.8676mm" name="Date">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N4994" xliff:rid="N4994">Date</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5016" xliff:rid="N5016">Date</speak>
+                     </assist>
+                  </draw>
+                  <draw h="5.582mm" name="Currency" w="17.0011mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5051" xliff:rid="N5051">Currency</speak>
+                     </assist>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N5058" xliff:rid="N5058">Currency</text>
+                     </value>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  </draw>
+                  <draw h="5.582mm" minW="22.9086mm" name="Amount">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N5085" xliff:rid="N5085">Amount</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="right" vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5108" xliff:rid="N5108">Amount</speak>
+                     </assist>
+                  </draw>
+                  <draw h="5.2331mm" minW="23.6783mm" name="Due">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N5129" xliff:rid="N5129">Due</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5151" xliff:rid="N5151">Due</speak>
+                     </assist>
+                  </draw>
+                  <draw h="5.1841mm" minW="18.5148mm" name="Arrears">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N5172" xliff:rid="N5172">Arrears</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5194" xliff:rid="N5194">Arrears</speak>
+                     </assist>
+                  </draw>
+                  <draw h="5.2331mm" minW="6.8552mm" name="DL">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N5215" xliff:rid="N5215">DL</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5238" xliff:rid="N5238">DL</speak>
+                     </assist>
+                  </draw>
+                  <draw h="5.2331mm" name="Interest" w="21.2218mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N5268" xliff:rid="N5268">Interest</text>
+                     </value>
+                     <font typeface="arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="right" vAlign="bottom"/>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5291" xliff:rid="N5291">Interest</speak>
+                     </assist>
+                  </draw>
+                  <border>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <corner/>
+                  </border>
+                  <assist role="TH">
+                     <speak disable="1"/>
+                  </assist>
+                  <keep intact="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="DATA" w="175mm">
+                  <occur max="-1"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <bind match="dataRef" ref="DATA[*]"/>
+                  <subform layout="tb" name="Text" presence="hidden" w="175mm">
+                     <field minH="0mm" name="TEXT_E" w="175mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge presence="hidden"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font size="12pt" typeface="Courier New"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text maxChars="60"/>
+                        </value>
+                        <bind match="dataRef" ref="$record.TH_MHND.DATA[*].TEXT_E"/>
+                        <desc>
+                           <text name="Schema Annotation">Text Field of Length 60</text>
+                        </desc>
+                        <event activity="ready" name="event__form_ready" ref="$form">
+                           <script>if ( $.value.isNull ) then
+   $.presence = "hidden"
+ else
+   $.presence = "visible"
+ endif
+</script>
+                        </event>
+                        <assist>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5432" xliff:rid="N5432">Long text</speak>
+                        </assist>
+                        <?digestForSAP digest="526ff53cd0641799ac3aedd039d7706a"?></field>
+                     <field minH="5.3552mm" name="TEXT_S" w="175mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge presence="hidden"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font size="12pt" typeface="Courier New"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text maxChars="60"/>
+                        </value>
+                        <bind match="dataRef" ref="$record.TH_MHND.DATA[*].TEXT_S"/>
+                        <desc>
+                           <text name="Schema Annotation">Text Field of Length 60</text>
+                        </desc>
+                        <event activity="ready" name="event__form_ready" ref="$form">
+                           <script>if ( $.value.isNull ) then
+    $.presence = "hidden"
+  else
+    $.presence = "visible"
+  endif
+</script>
+                        </event>
+                        <assist>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5511" xliff:rid="N5511">Long Text</speak>
+                        </assist>
+                        <?digestForSAP digest="eee3558836f073800938f72f18800a75"?></field>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                     <?templateDesigner expand 1?></subform>
+                  <field minH="5.9972mm" name="BELNR" w="29.0912mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <bind match="dataRef" ref="BELNR"/>
+                     <desc>
+                        <text name="Schema Annotation">Accounting Document Number</text>
+                     </desc>
+                     <assist>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5574" xliff:rid="N5574">Accounting Document Number</speak>
+                     </assist>
+                     <?digestForSAP digest="765ac2bff58b3ecf2ccb11720954d3d8"?></field>
+                  <field minH="5.9972mm" name="BLDAT" w="22.6766mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <bind match="dataRef" ref="BLDAT">
+                        <picture>DD.MM.YYYY</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">Document Date in Document</text>
+                     </desc>
+                     <format>
+                        <picture>DD.MM.YYYY</picture>
+                     </format>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5654" xliff:rid="N5654">Document Date</speak>
+                     </assist>
+                     <?digestForSAP digest="725405064783944e0860e27180bef698"?></field>
+                  <field minH="5.9972mm" name="WAERS" w="10.1988mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="WAERS"/>
+                     <desc>
+                        <text name="Schema Annotation">Currency Key</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5725" xliff:rid="N5725">Currency Key</speak>
+                     </assist>
+                     <?digestForSAP digest="15f4a1f979932f2e454d625b653dc9d1"?></field>
+                  <field minH="5.9972mm" name="WRSHB" w="31.003mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" marginRight="8.504pt" vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="-1"/>
+                     </value>
+                     <bind match="dataRef" ref="WRSHB"/>
+                     <desc>
+                        <text name="Schema Annotation">Foreign Currency Amount with Signs (+/-)</text>
+                     </desc>
+                     <validate>
+                        <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+{
+  var value = this.rawValue.toString();
+  var numDigits = value.length;
+   if (value.lastIndexOf(".") &gt;= 0)
+    numDigits -= 1;
+  return (numDigits &lt;= maxDigits);
+}
+ this.isNull || (testTotalDigits(13));
+</script>
+                     </validate>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5805" xliff:rid="N5805">Amount</speak>
+                     </assist>
+                     <?digestForSAP digest="42b0d6716e01e875e5a21cd414175733"?></field>
+                  <field minH="5.9972mm" name="FAEDT" w="23.6655mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <bind match="dataRef" ref="FAEDT">
+                        <picture>DD.MM.YYYY</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">Due Date for Net Payment</text>
+                     </desc>
+                     <format>
+                        <picture>DD.MM.YYYY</picture>
+                     </format>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5884" xliff:rid="N5884">Due Date</speak>
+                     </assist>
+                     <?digestForSAP digest="dad05f8723a1f25fa756ca6e54786393"?></field>
+                  <field minH="5.9972mm" name="VERZN" w="18.4836mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="-1"/>
+                     </value>
+                     <bind match="dataRef" ref="VERZN"/>
+                     <desc>
+                        <text name="Schema Annotation">Days in Arrears by Net Due Date</text>
+                     </desc>
+                     <validate>
+                        <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+{
+  var value = this.rawValue.toString();
+  var numDigits = value.length;
+  if (value.lastIndexOf(".") &gt;= 0)
+    numDigits -= 1;
+  return (numDigits &lt;= maxDigits);
+}
+this.isNull || (testTotalDigits(5));
+</script>
+                     </validate>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N5963" xliff:rid="N5963">Days in Arrears by Net due date</speak>
+                     </assist>
+                     <?digestForSAP digest="a0f4a858c55a7b6b8359677682627bd6"?></field>
+                  <field minH="5.9972mm" name="MAHNN" w="7.2434mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" vAlign="middle"/>
+                     <value>
+                        <text maxChars="1"/>
+                     </value>
+                     <bind match="dataRef" ref="MAHNN"/>
+                     <desc>
+                        <text name="Schema Annotation">Dunning level</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N6035" xliff:rid="N6035">Dunning Level</speak>
+                     </assist>
+                     <?digestForSAP digest="39170e1fdda88a308d98dc5f7920cd17"?></field>
+                  <field minH="5.9972mm" name="WZSBT" w="21.1603mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0.3mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="-1"/>
+                     </value>
+                     <bind match="dataRef" ref="WZSBT"/>
+                     <desc>
+                        <text name="Schema Annotation">Interest amount in foreign currency</text>
+                     </desc>
+                     <validate>
+                        <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+{
+  var value = this.rawValue.toString();
+  var numDigits = value.length;
+  if (value.lastIndexOf(".") &gt;= 0)
+    numDigits -= 1;
+  return (numDigits &lt;= maxDigits);
+}
+this.isNull || (testTotalDigits(13));
+</script>
+                     </validate>
+                     <event activity="ready" name="event__form_ready" ref="$form">
+                        <script>if ( $record.SHOW_INTEREST == "X" ) then
+   $.presence = "visible"
+else
+   $.presence = "hidden"
+endif
+</script>
+                     </event>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N6122" xliff:rid="N6122">Interest Amount</speak>
+                     </assist>
+                     <?digestForSAP digest="933d024864437e0fb82c0e76b942c594"?></field>
+                  <subform layout="tb" name="SGTEXT" presence="hidden" w="175mm">
+                     <field minH="0mm" name="SGTXT" w="175mm" x="0.4149mm" y="23.1758mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge presence="hidden"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font posture="italic" size="12pt" typeface="Times New Roman" weight="bold"/>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <text maxChars="50"/>
+                        </value>
+                        <bind match="dataRef" ref="SGTXT"/>
+                        <desc>
+                           <text name="Schema Annotation">Item Text</text>
+                        </desc>
+                        <event activity="ready" name="event__form_ready" ref="$form">
+                           <script>if ( $.value.isNull ) then
+   $.presence = "Hidden"
+ else
+   $.presence = "visible"
+ endif
+</script>
+                        </event>
+                        <assist>
+                           <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                           <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N6210" xliff:rid="N6210">Text</speak>
+                        </assist>
+                        <?digestForSAP digest="7d230b245fab41bcaa3111a6813b2a37"?></field>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                     <?templateDesigner expand 1?></subform>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <keep intact="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="dataRef" ref="$record.TH_MHND"/>
+               <desc>
+                  <text name="Schema Annotation">Tables of Dunning Items - PDF forms</text>
+               </desc>
+               <event activity="ready" name="event__form_ready" ref="$form">
+                  <script>if ( $record.INCL_ITEM == "X" ) then
+  $.presence = "visible"
+else
+  $.presence = "hidden"
+endif
+</script>
+               </event>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="lr-tb" name="DunningCharges" w="175mm">
+               <draw minH="5.997mm" minW="51.8954mm" name="DunningCharges">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N6267" xliff:rid="N6267">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="font-size:10pt">Dunning Charge<span style="xfa-spacerun:yes"> </span><span style="font-family:'Courier New'"><span style="xfa-spacerun:yes"> </span></span><span style="xfa-spacerun:yes">   </span><span style="font-size:12pt"><span style="xfa-spacerun:yes">             </span></span><span style="xfa-spacerun:yes"> </span></p></body>
+                     </exData>
+                  </value>
+                  <font size="12pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="bottom"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+               </draw>
+               <field minH="5.9972mm" name="WAERF" w="17.0646mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="courier New"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="5"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.F150D.WAERF"/>
+                  <desc>
+                     <text name="Schema Annotation">Currency for the totals in the dunning main text</text>
+                  </desc>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N6388" xliff:rid="N6388">Currency </speak>
+                  </assist>
+                  <?digestForSAP digest="95c078da78aa996bc0e2c10ea51e7ef2"?></field>
+               <field minH="5.9972mm" name="MHNGF" w="31.0943mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="courier New"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para hAlign="right" marginRight="8.504pt" vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="-1"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.F150D.MHNGF"/>
+                  <desc>
+                     <text name="Schema Annotation">Dunning charge in foreign currency</text>
+                  </desc>
+                  <validate>
+                     <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+{
+  var value = this.rawValue.toString();
+  var numDigits = value.length;
+  if (value.lastIndexOf(".") &gt;= 0)
+    numDigits -= 1;
+  return (numDigits &lt;= maxDigits);
+}
+this.isNull || (testTotalDigits(15));
+</script>
+                  </validate>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N6465" xliff:rid="N6465">Amount</speak>
+                  </assist>
+                  <?digestForSAP digest="23f212819b38b8b2dba2ecc5e69130bb"?></field>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script>if ( $record.F150D.MHNGF &lt;&gt; "0" &amp; $record.MHNK.GMVDT.isNull ) then
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+               </event>
+               <draw h="0mm" name="Line2" w="175mm">
+                  <value>
+                     <line slope="/"/>
+                  </value>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N6497" xliff:rid="N6497">Line</toolTip>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N6500" xliff:rid="N6500">Line</speak>
+                  </assist>
+               </draw>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <subform columnWidths="51.856mm 16.936mm 30.688mm 49.952mm 21.4934mm 3.8856mm" id="T_SUMTAB_ID_copy1_copy1" layout="table" name="T_SUMTAB">
+                  <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+                  <border>
+                     <edge presence="hidden"/>
+                     <corner presence="hidden"/>
+                  </border>
+                  <subform id="Row1_ID_copy1_copy1" layout="row" name="Row1">
+                     <assist role="TR"/>
+                     <draw h="5.916mm" name="Cell1" w="30mm">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N7161" xliff:rid="N7161">Total of due items</text>
+                        </value>
+                        <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="bottom"/>
+                     </draw>
+                     <field h="5.916mm" name="WAERS" w="30mm" x="0mm" y="0mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <value>
+                           <text maxChars="5"/>
+                        </value>
+                        <bind match="dataRef" ref="$record.T_SUMTAB.DATA[*].WAERS"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="7eed7b5e4a1f061c883524d1f6e388f4"?></field>
+                     <field h="5.916mm" name="FFSHB" w="30mm">
+                        <ui>
+                           <numericEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </numericEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" marginRight="8.504pt" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$record.T_SUMTAB.DATA[*].FFSHB"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="d17f03ebf75cbcf943ea7f388272fd04"?></field>
+                     <draw h="5.916mm" name="Cell4" w="30mm">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                     </draw>
+                     <field h="5.916mm" name="WZSBT" w="30mm">
+                        <ui>
+                           <numericEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </numericEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$record.T_SUMTAB.DATA[*].WZSBT"/>
+                        <assist>
+                           <speak disable="1"/>
+                        </assist>
+                        <?digestForSAP digest="35a01b8c4e160ae7e4573b2d774f9881"?></field>
+                     <draw h="5.916mm" name="Cell6" w="30mm">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="center" vAlign="middle"/>
+                     </draw>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <occur max="-1"/>
+                     <?templateDesigner expand 1?></subform>
+                  <bind match="dataRef" ref="$record.T_SUMTAB"/>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="lr-tb" name="Totalofdueitems" w="175mm">
+               <subform layout="lr-tb" name="Interest" w="71.2524mm">
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script>if ( $record.SHOW_INTEREST == "X" ) then    
+	$.presence = "visible"
+else
+	$.presence = "hidden"
+endif
+</script>
+                  </event>
+                  <?templateDesigner expand 1?></subform>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="tb" name="AccountBalance" w="175mm">
+               <subform layout="lr-tb" name="Accountbalance1" w="175mm">
+                  <draw minH="6.1052mm" minW="52.1251mm" name="Acbal1">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N6853" xliff:rid="N6853">Account balance</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <field minH="5.9972mm" name="WAERF" w="16.835mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.H_F150D.WAERF"/>
+                     <desc>
+                        <text name="Schema Annotation">Currency for the totals in the dunning main text</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N6943" xliff:rid="N6943">Currency</speak>
+                     </assist>
+                     <?digestForSAP digest="6e387695328609b0eed30053f6d7ade0"?></field>
+                  <field minH="5.9972mm" minW="30.8685mm" name="SALFW">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" marginRight="8.504pt" vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="-1"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.H_F150D.SALFW"/>
+                     <desc>
+                        <text name="Schema Annotation">Account balance in foreign currency</text>
+                     </desc>
+                     <validate>
+                        <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+{
+  var value = this.rawValue.toString();
+  var numDigits = value.length;
+  if (value.lastIndexOf(".") &gt;= 0)
+    numDigits -= 1;
+  return (numDigits &lt;= maxDigits);
+}
+ this.isNull || (testTotalDigits(15));
+</script>
+                     </validate>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N7020" xliff:rid="N7020">Amount</speak>
+                     </assist>
+                     <?digestForSAP digest="c8d5613c3b2eac42f665d18657c3ab7e"?></field>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script>if ( $record.RECS == "X" ) then
+ $.Acbal1.presence = "hidden"
+else
+ $.Acbal1.presence = "visible"
+endif
+</script>
+                  </event>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="lr-tb" name="Accountbalance2" w="175mm">
+                  <draw minH="5.965mm" minW="51.8971mm" name="Acbal2">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <value>
+                        <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N7073" xliff:rid="N7073">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Account balance</p>
+                    </body>
+                        </exData>
+                     </value>
+                     <para vAlign="middle"/>
+                     <assist>
+                        <speak disable="1"/>
+                     </assist>
+                  </draw>
+                  <field minH="5.9973mm" name="WAERS" w="17.0629mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.MHNK.WAERS"/>
+                     <desc>
+                        <text name="Schema Annotation">Currency Key</text>
+                     </desc>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N7162" xliff:rid="N7162">Currency</speak>
+                     </assist>
+                     <?digestForSAP digest="65541609918e5c85d5214c53a8e62c48"?></field>
+                  <field minH="5.9972mm" minW="30.6472mm" name="SALDO">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" marginRight="8.504pt" vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="-1"/>
+                     </value>
+                     <bind match="dataRef" ref="$record.MHNK.SALDO"/>
+                     <desc>
+                        <text name="Schema Annotation">Balance in dunning area in dunning currency</text>
+                     </desc>
+                     <validate>
+                        <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+{
+  var value = this.rawValue.toString();
+  var numDigits = value.length;
+  if (value.lastIndexOf(".") &gt;= 0)
+    numDigits -= 1;
+  return (numDigits &lt;= maxDigits);
+}
+this.isNull || (testTotalDigits(15));
+</script>
+                     </validate>
+                     <assist>
+                        <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/"/>
+                        <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="N7239" xliff:rid="N7239">Amount</speak>
+                     </assist>
+                     <?digestForSAP digest="62c849275cff68def6392b8917753c39"?></field>
+                  <?templateDesigner expand 1?></subform>
+               <event activity="ready" name="event__form_ready" ref="$form">
+                  <script>if ( $record.T047.XSTMV.isNull &amp; $record.MHNK.MGRUP == " " ) then
+   $.Accountbalance1.presence = "visible"
+   $.Accountbalance2.presence = "hidden"
+else
+   $.Accountbalance2.presence = "visible"
+   $.Accountbalance1.presence = "hidden"
+endif
+</script>
+               </event>
+               <assist>
+                  <speak disable="1"/>
+               </assist>
+               <?templateDesigner expand 1?></subform>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+            <margin topInset="0.3mm"/>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Adobe Arabic" 0 0 UTF-16 2 192 000F0010001300150016001700190021002200280029002A002B002C002D002F003000310035003800390045004B004D004E00500055005600580059005C006000610062006300670069006B007300780079007A007B026F0280028D02990345?>
+      <?renderCache.subset "Adobe Arabic" 1 0 UTF-16 2 44 000C000F001000130017004D004E0060006100650073?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 200 50 000300060008000F001100120013001400180019001D0024002600270029002C00300032003300360037003A003C0042004400450046004700480049004A004B004C004E004F005000510052005300550056005700580059005A005B005C005D005E0060 #%,./0156:ACDFIMOPSTWY_abcdefghiklmnoprstuvwxyz{}?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 112 28 00030024002600270029002C002F00360037004400450046004700480049004A004B004C004F00500051005200530055005600570058005C ACDFILSTabcdefghilmnoprstuy?>
+      <?renderCache.subset "Calibri" 0 0 ISO-8859-1 4 184 46 00030004001100120018001C002F003C003E00440045004B0057005A005E0064006800730074007F0102010F011A011E015A015D016C0176017D018C019001B501C703550357035803EC03ED03EE03EF03F003F103F203F303F403F5 ABCDEIKLMNOPRSTUVWZabdehiknorsuy,:.0123456789?>
+      <?renderCache.subset "Calibri" 1 0 ISO-8859-1 4 4 1 0003 ?>
+      <?renderCache.subset "Courier New" 0 0 ISO-8859-1 4 36 9 00030029003700470048004C004F0057005B FTdeiltx?>
+      <?renderCache.subset "Courier New" 1 0 ISO-8859-1 4 4 1 0003 ?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 12 3 0001000F001B .:?>
+      <?renderCache.subset "Myriad Pro" 0 0 UTF-16 2 4 0343?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 4 1 0001 ?>
+      <?renderCache.subset "Times New Roman" 0 0 ISO-8859-1 4 4 1 0003 ?>
+      <?renderCache.subset "Times New Roman" 1 0 ISO-8859-1 4 4 1 0003 ?>
+   </subform>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.2/?>
+   <?templateDesigner Grid show:1, snap:0, units:17, color:ff8080, origin:(0,0), interval:(158730,158730), objsnap:0, guidesnap:0, pagecentersnap:61725370?>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Zoom 109?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://vhumgds4ci.sap.altawkilat.com:44300/sap/bc/fp/form/layout/</base>
+         </template>
+         <log>
+            <to>memory</to>
+         </log>
+         <log>
+            <to>memory</to>
+         </log>
+         <log>
+            <to>memory</to>
+         </log>
+         <log>
+            <to>memory</to>
+         </log>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="Calibri-Bold" typeface="Calibri" weight="bold"/>
+      <font posture="normal" psName="Calibri" typeface="Calibri" weight="normal"/>
+   </psMap>
+</config>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <HEADER/>
+         <ADRS_INCL/>
+         <GREETINGS/>
+         <INCLUDE_TEXT/>
+         <FOOTER/>
+         <INCL_ITEM/>
+         <ADRNR/>
+         <RECS/>
+         <SHOW_INTEREST/>
+         <TESTPRINT/>
+         <ALTERNATIVE dd:model="choice">
+            <TRUE>
+               <ADRS>
+                  <LINE1/>
+                  <LINE2/>
+                  <LINE3/>
+                  <LINE4/>
+                  <LINE5/>
+                  <LINE6/>
+                  <LINE7/>
+                  <LINE8/>
+               </ADRS>
+            </TRUE>
+            <FALSE>
+               <ADDRESS/>
+            </FALSE>
+         </ALTERNATIVE>
+         <T047>
+            <XSTMV/>
+         </T047>
+         <F150D>
+            <KTONR/>
+            <URKTO/>
+            <EIKTO/>
+            <ZIELD/>
+            <WAERF/>
+            <MHNGF/>
+         </F150D>
+         <MHNK>
+            <AUSDT/>
+            <GRDAT/>
+            <GMVDT/>
+            <MAHNS/>
+            <FAMSM/>
+            <WAERS/>
+            <SALDO/>
+            <SALHW/>
+            <MGRUP/>
+         </MHNK>
+         <T047I>
+            <MABER/>
+            <TXTKO/>
+            <TXTFU/>
+            <TXTUN/>
+            <TXTAB/>
+            <TXTID/>
+         </T047I>
+         <T056Z>
+            <ZINSO/>
+         </T056Z>
+         <FSABE>
+            <SALUT/>
+            <LNAME/>
+            <TELF1/>
+            <TELFX/>
+         </FSABE>
+         <UADRS>
+            <ANRED/>
+            <NAME1/>
+            <NAME2/>
+            <NAME3/>
+            <NAME4/>
+            <STRAS/>
+            <PFACH/>
+            <PSTL2/>
+            <PFORT/>
+            <LAND1/>
+            <PSTLZ/>
+            <ORT01/>
+            <ORT02/>
+            <REGIO/>
+            <SPRAS/>
+            <INLND/>
+            <ANZZL/>
+            <PRIOR/>
+            <WAREN/>
+            <LINE0/>
+            <LINE1/>
+            <LINE2/>
+            <LINE3/>
+            <LINE4/>
+            <LINE5/>
+            <LINE6/>
+            <LINE7/>
+            <LINE8/>
+            <LINE9/>
+            <LINEK/>
+            <LINED/>
+            <LINED0/>
+         </UADRS>
+         <TH_MHND dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <TEXT_E/>
+               <TEXT_S/>
+               <BELNR/>
+               <BLDAT/>
+               <WAERS/>
+               <WRSHB/>
+               <FAEDT/>
+               <VERZN/>
+               <MAHNN/>
+               <WZSBT/>
+               <SGTXT/>
+               <MANDT/>
+               <LAUFD/>
+               <LAUFI/>
+               <KOART/>
+               <BUKRS/>
+               <KUNNR/>
+               <LIFNR/>
+               <CPDKY/>
+               <SKNRZE/>
+               <SMABER/>
+               <SMAHSK/>
+               <BBUKRS/>
+               <GJAHR/>
+               <BUZEI/>
+               <GSBER/>
+               <XBLNR/>
+               <ZUONR/>
+               <BUDAT/>
+               <CPUDT/>
+               <ZFBDT/>
+               <BLART/>
+               <BSCHL/>
+               <MSCHL/>
+               <SMSCHL/>
+               <MANSP/>
+               <MABER/>
+               <MADAT/>
+               <MAHNS/>
+               <ZLSPR/>
+               <XZALB/>
+               <XFAEL/>
+               <UMSKS/>
+               <UMSKZ/>
+               <SHKZG/>
+               <DMSHB/>
+               <ZINST/>
+               <ZINSS/>
+               <ZSBTR/>
+               <FILKD/>
+               <VKORG/>
+               <VTWEG/>
+               <SPART/>
+               <XZINS/>
+               <REBZG/>
+               <REBZJ/>
+               <REBZZ/>
+               <VERTN/>
+               <VERTT/>
+               <ZLSCH/>
+               <BKOART/>
+               <VNAME/>
+               <EGRUP/>
+               <BTYPE/>
+               <XREF1/>
+               <XREF2/>
+               <ZINKZ/>
+            </DATA>
+         </TH_MHND>
+         <H_F150D>
+            <MAHNG/>
+            <WAERH/>
+            <WAERF/>
+            <MHNGH/>
+            <MHNGF/>
+            <SUFPH/>
+            <SUFPF/>
+            <SUPOH/>
+            <SUPOF/>
+            <SUZSH/>
+            <SUZSF/>
+            <SUFZH/>
+            <SUFZF/>
+            <SUOZH/>
+            <SUOZF/>
+            <SALHW/>
+            <SALFW/>
+            <ZEILE/>
+            <KTONR/>
+            <URKTO/>
+            <EIKTO/>
+            <ZIELD/>
+            <SFPZH/>
+            <SFPZF/>
+            <SOPZF/>
+            <SALZF/>
+            <DMSOL/>
+            <DMHAB/>
+            <WRSOL/>
+            <WRHAB/>
+            <ZSABE/>
+            <VVWRSB/>
+            <VVWRHB/>
+         </H_F150D>
+         <T_SUMTAB dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <WAERS/>
+               <WRSHB/>
+               <DMSHB/>
+               <FFSHB/>
+               <FHSHB/>
+               <WZSBT/>
+               <ZSBTR/>
+            </DATA>
+         </T_SUMTAB>
+         <T_SALTAB dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <WAERS/>
+               <WRSHB/>
+               <DMSHB/>
+            </DATA>
+         </T_SALTAB>
+         <GV_LOGO/>
+         <GRAPHIC/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/2.8/">
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-source-set/1.0/?></sourceSet>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZF150_DUNN_SF_2200">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.1/?></connectionSet>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.1/?></localeSet>
+<PDFSecurity xmlns="http://ns.adobe.com/xtd/" accessibleContent="1" change="1" contentCopy="1" documentAssembly="1" formFieldFilling="1" metadata="1" modifyAnnots="1" print="1" printHighQuality="1"/>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c043 52.454262, 2011/01/31-17:27:06        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmp:MetadataDate>2024-07-23T13:17:12Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:3fe5e724-b4a6-455d-9e42-f300711b35ed</xmpMM:DocumentID>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
